@@ -1,0 +1,15 @@
+{
+	"category" : "ToDo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"todos",
+		"currentTodo" ],
+	"name" : "ToDoTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

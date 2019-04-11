@@ -1,0 +1,4 @@
+accessing
+currentTodo
+
+	^ currentTodo
