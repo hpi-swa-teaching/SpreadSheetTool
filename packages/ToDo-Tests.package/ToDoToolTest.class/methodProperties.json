@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "hpi 4/11/2019 09:28",
-		"tearDown" : "hpi 4/11/2019 09:30",
-		"testToDoToolAllowsCreatingTodos" : "hpi 4/11/2019 09:28" } }

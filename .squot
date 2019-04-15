@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'packages\/ToDo-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/ToDo-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/BaselineOfToDo.package' : #SquotCypressCodeSerializer
+	'packages\/SpreadSheetTool-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/SpreadSheetTool-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/BaselineOfSpreadSheetTool.package' : #SquotCypressCodeSerializer
 }
