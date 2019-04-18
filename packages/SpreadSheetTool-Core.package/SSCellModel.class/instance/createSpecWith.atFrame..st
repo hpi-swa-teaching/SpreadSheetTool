@@ -1,7 +1,7 @@
 as yet unclassified
 createSpecWith: aBuilder atFrame: aFrame
 
-	^ aBuilder pluggableInputFieldSpec new
+	^ aBuilder pluggableTextSpec new
 		model: self;
 		editText: #value:;
 		frame: aFrame;
