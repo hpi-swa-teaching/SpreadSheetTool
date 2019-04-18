@@ -1,4 +1,7 @@
-accessing
+as yet unclassified
 initializeWithWidth: aWidth height: aHeight
 
-	cells := Matrix rows: aHeight columns: aWidth
+	cells := Matrix
+		rows: aHeight
+		columns: aWidth
+		tabulate: [:row :column | SSCellModel new]
