@@ -1,0 +1,4 @@
+accessing
+width
+
+	^ cells columnCount
