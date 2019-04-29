@@ -1,8 +1,9 @@
-as yet unclassified
+toolbuilder
 createSpecWith: aBuilder atFrame: aFrame
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		editText: #value:;
+		setText: #contents:notifying:;
+		getText: #contents;
 		frame: aFrame;
 		yourself

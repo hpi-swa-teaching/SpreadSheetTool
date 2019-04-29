@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createSpecForCell: aCell with: aBuilder atColumn: aColumn atRow: aRow
 
 	|extent position|

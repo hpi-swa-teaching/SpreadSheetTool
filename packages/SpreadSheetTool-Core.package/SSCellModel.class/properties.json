@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"value" ],
+		 ],
 	"name" : "SSCellModel",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "StringHolder",
 	"type" : "normal" }

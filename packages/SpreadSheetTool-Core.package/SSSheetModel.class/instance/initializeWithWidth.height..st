@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeWithWidth: aWidth height: aHeight
 
 	cells := Matrix

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createPanelSpecForCells: aCollection with: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
