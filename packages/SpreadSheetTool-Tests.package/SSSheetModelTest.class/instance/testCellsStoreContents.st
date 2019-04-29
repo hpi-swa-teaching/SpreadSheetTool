@@ -5,7 +5,7 @@ testCellsStoreContents
 	
 	row := 2.
 	column := 3.
-	contents := Text theQuickBrownFox.
+	contents := 'Squeak forever! <3'.
 	
 	sheet gridAtRow: row atColumn: column put: contents.
 	

@@ -2,7 +2,7 @@ testing
 testCellShouldStoreValue
 
 	| constant |
-	constant := Text theQuickBrownFox.
+	constant := 'Smalltalk is infinity'.
 
 	cell contents: constant.
 	
