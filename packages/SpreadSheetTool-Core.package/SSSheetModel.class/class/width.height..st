@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 width: aWidth height: aHeight
 
 	^ self new

@@ -1,4 +1,4 @@
-as yet unclassified
+branding
 applicationName
 
 	^ 'SqueakSheet'
