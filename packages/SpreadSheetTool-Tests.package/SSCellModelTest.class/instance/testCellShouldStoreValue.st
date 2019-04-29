@@ -1,9 +1,9 @@
-as yet unclassified
+testing
 testCellShouldStoreValue
 
 	| constant |
-	constant := 42.
+	constant := Text theQuickBrownFox.
 
-	cell value: constant.
+	cell contents: constant.
 	
-	self assert: constant equals: cell value.
+	self assert: constant equals: cell contents.
