@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "CT 4/18/2019 19:37",
-		"testCellsStoreContents" : "CT 4/29/2019 18:09",
-		"testConstructedSheetHasSpecifiedDimensions" : "CT 4/18/2019 19:44" } }
+		"columnCount" : "CT 4/30/2019 12:03",
+		"rowCount" : "CT 4/30/2019 12:03",
+		"setUp" : "CT 4/30/2019 12:03",
+		"testCellsStoreContents" : "CT 4/30/2019 12:05",
+		"testConstructedSheetHasSpecifiedDimensions" : "CT 4/30/2019 12:04",
+		"testRowCountColumnCount" : "CT 4/30/2019 12:10" } }

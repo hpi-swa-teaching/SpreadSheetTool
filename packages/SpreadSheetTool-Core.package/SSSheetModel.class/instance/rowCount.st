@@ -1,4 +1,4 @@
 accessing
-height
+rowCount
 
 	^ cells rowCount

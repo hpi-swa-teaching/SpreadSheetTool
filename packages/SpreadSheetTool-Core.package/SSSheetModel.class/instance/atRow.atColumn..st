@@ -1,4 +1,4 @@
 accessing
-gridAtRow: rowIndex atColumn: columnIndex
+atRow: rowIndex atColumn: columnIndex
 	
 	^ (cells at: rowIndex at: columnIndex) contents

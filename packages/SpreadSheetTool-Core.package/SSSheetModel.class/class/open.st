@@ -1,4 +1,4 @@
 toolbuilder
 open
 
-	^ self openWithWidth: 5 height: 5
+	^ self openWithRowCount: 5 columnCount: 5

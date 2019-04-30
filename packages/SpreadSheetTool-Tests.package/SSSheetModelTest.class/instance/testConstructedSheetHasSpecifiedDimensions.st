@@ -1,9 +1,16 @@
 testing
 testConstructedSheetHasSpecifiedDimensions
 
-	| width height |
-	width := 5. height := 6.
-	sheet := SSSheetModel width: width height: height.
+	| rowCount columnCount |
+	rowCount := 6.
+	columnCount := 5.
+	sheet := SSSheetModel
+		rowCount: rowCount
+		columnCount: columnCount.
 	
-	self assert: width equals: sheet width.
-	self assert: height equals: sheet height
+	self
+		assert: rowCount
+		equals: sheet rowCount.
+	self
+		assert: columnCount
+		equals: sheet columnCount.

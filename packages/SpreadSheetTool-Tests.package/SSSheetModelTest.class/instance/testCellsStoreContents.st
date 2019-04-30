@@ -1,12 +1,14 @@
 testing
 testCellsStoreContents
 
-	|row column contents|
+	| row column contents |
 	
-	row := 2.
-	column := 3.
+	row := self rowCount - 1.
+	column := self columnCount - 1.
 	contents := 'Squeak forever! <3'.
 	
-	sheet gridAtRow: row atColumn: column put: contents.
+	sheet atRow: row atColumn: column put: contents.
 	
-	self assert: (sheet gridAtRow: row atColumn: column) equals: contents
+	self
+		assert: (sheet atRow: row atColumn: column)
+		equals: contents.

@@ -1,4 +1,4 @@
 accessing
 defaultExtent
 
-	^ 700@500
+	^ 700 @ 500
