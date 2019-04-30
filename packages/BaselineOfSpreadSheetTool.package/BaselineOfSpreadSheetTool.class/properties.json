@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSpreadSheetTool",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSpreadSheetTool",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

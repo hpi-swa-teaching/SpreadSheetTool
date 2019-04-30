@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'SpreadSheetTool',
+      #platforms : [ #squeak ],
+      #directory : 'packages',
+      #load : [ 'tests' ]
+    }
+  ]
+}
