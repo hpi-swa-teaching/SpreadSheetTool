@@ -1,4 +1,9 @@
-as yet unclassified
+running
 setUp
 
-	self wantsToTest: SSSheetModel createView.
+	| model |
+	model := SSSheetModel
+		rowCount: self rowCount
+		columnCount: self columnCount.
+	self wantsToTest: (model
+		buildWith: ToolBuilder default).
