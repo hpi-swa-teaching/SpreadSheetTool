@@ -7,5 +7,7 @@ testOpen
 	allInstances := SSSheetModel allInstances.
 	result := SSSheetModel open.
 	newInstances := SSSheetModel allInstances copyWithoutAll: allInstances.
+	"Clean up ---"
 	result abandon.
+	"---"
 	self assert: newInstances size equals: 1.
