@@ -1,4 +1,4 @@
 running
 setUp
 
-	cell := SSCellModel new
+	cell := SSTextField new

@@ -4,4 +4,4 @@ rowCount: aRowCount columnCount: aColumnCount
 	cells := cells
 		rows: aRowCount
 		columns: aColumnCount
-		tabulateNewContentsWith: [:row :column | SSCellModel new]
+		tabulateNewContentsWith: [:row :column | SSTextField new]
