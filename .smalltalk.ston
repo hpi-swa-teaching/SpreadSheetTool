@@ -4,7 +4,9 @@ SmalltalkCISpec {
       #baseline : 'SpreadSheetTool',
       #platforms : [ #squeak ],
       #directory : 'packages',
-      #load : [ 'tests' ]
+      #load : [ 'tests' ],
+      
+      #classes : [ #SSSheetModelAcceptanceTest ],
     }
   ]
 }
