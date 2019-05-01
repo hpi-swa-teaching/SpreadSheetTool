@@ -5,10 +5,10 @@
 		"columnCount" : "CT 4/30/2019 19:15",
 		"findCellAt:" : "CT 5/1/2019 22:52",
 		"findCellInUniformGridAtRow:atColumn:" : "CT 5/1/2019 22:54",
-		"findCells" : "CT 5/1/2019 22:33",
+		"findCells" : "CT 5/1/2019 23:43",
 		"rowCount" : "CT 4/30/2019 19:11",
 		"setUp" : "CT 4/30/2019 19:12",
 		"testEnterAndSaveTextInACell" : "CT 5/1/2019 22:35",
 		"testOpen" : "CT 5/1/2019 22:32",
 		"testResizeCellWidth" : "CT 5/1/2019 22:51",
-		"testWindowContainsCells" : "CT 5/1/2019 22:33" } }
+		"testWindowContainsCells" : "CT 5/1/2019 23:42" } }
