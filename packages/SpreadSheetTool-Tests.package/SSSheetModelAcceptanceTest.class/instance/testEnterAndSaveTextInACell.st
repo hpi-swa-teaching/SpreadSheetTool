@@ -11,8 +11,4 @@ testEnterAndSaveTextInACell
 	
 	self assert: cell text equals: someContent.
 	
-	"Cleanup: ---"
-	cell sendKeys: (someContent collect: [:c | Character backspace]).
-	"---"
-	
 	self deny: cell hasUnacceptedEdits.

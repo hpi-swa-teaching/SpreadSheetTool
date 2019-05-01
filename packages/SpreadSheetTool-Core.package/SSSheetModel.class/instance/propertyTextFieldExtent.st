@@ -1,4 +1,4 @@
 accessing
 propertyTextFieldExtent
 
-	^1/3@self frameFraction/2
+	^1 / 6 @ (self menuHeight / 2)

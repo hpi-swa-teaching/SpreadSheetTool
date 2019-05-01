@@ -3,9 +3,12 @@
 		 },
 	"instance" : {
 		"columnCount" : "CT 4/30/2019 19:15",
-		"findCellAt:" : "CT 4/30/2019 19:36",
+		"findCellAt:" : "CT 5/1/2019 22:52",
+		"findCellInUniformGridAtRow:atColumn:" : "CT 5/1/2019 22:54",
+		"findCells" : "CT 5/1/2019 22:33",
 		"rowCount" : "CT 4/30/2019 19:11",
 		"setUp" : "CT 4/30/2019 19:12",
-		"testEnterAndSaveTextInACell" : "CT 4/30/2019 21:25",
-		"testOpen" : "CT 4/30/2019 19:40",
-		"testWindowContainsCells" : "CT 4/30/2019 19:37" } }
+		"testEnterAndSaveTextInACell" : "CT 5/1/2019 22:35",
+		"testOpen" : "CT 5/1/2019 22:32",
+		"testResizeCellWidth" : "CT 5/1/2019 22:51",
+		"testWindowContainsCells" : "CT 5/1/2019 22:33" } }
