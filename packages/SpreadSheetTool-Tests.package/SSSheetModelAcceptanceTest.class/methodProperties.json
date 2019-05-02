@@ -10,5 +10,7 @@
 		"setUp" : "CT 4/30/2019 19:12",
 		"testEnterAndSaveTextInACell" : "CT 5/1/2019 22:35",
 		"testOpen" : "CT 5/1/2019 22:32",
-		"testResizeCellWidth" : "CT 5/2/2019 11:10",
+		"testResizeCellWidthIntoDirection:" : "CT 5/2/2019 22:31",
+		"testResizeCellWidthToLeft" : "CT 5/2/2019 22:21",
+		"testResizeCellWidthToRight" : "CT 5/2/2019 22:21",
 		"testWindowContainsCells" : "CT 5/1/2019 23:42" } }

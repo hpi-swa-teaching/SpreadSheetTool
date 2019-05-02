@@ -5,4 +5,5 @@ sendMouseEvent: aType button: aButton position: aPoint
 		self hand newMouseFocus: morph.
 		morph handleEvent: (self generateMouseEvent: aType 
 			button: aButton
-			position: aPoint)].
+			position: aPoint).
+		self wait].
