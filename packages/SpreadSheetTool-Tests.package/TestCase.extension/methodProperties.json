@@ -1,0 +1,6 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:equals:inTreshold:" : "CT 5/1/2019 19:24",
+		"comparingStringBetween:and:treshold:" : "CT 5/1/2019 19:25" } }
