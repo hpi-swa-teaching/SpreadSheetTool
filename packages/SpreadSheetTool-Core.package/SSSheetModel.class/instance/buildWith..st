@@ -5,6 +5,7 @@ buildWith: aBuilder
 		model: self;
 		label: self class applicationName;
 		extent: self defaultExtent;
+		minimumExtent: self minimumExtent;
 		children: {
 			self createSpecForDimensionFieldsWith: aBuilder.
 			self
