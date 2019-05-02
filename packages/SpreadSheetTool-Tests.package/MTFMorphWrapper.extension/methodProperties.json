@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"findByClass:andCriteria:" : "CT 5/2/2019 22:44",
 		"findByClass:andPosition:" : "CT 5/2/2019 22:24",
 		"findByPosition:andCriteria:" : "CT 5/1/2019 17:12",
 		"generateKeyboardEvent:with:buttons:on:" : "CT 4/30/2019 20:02",
