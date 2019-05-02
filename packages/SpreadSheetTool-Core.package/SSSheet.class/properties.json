@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sheet" ],
-	"name" : "SSSheetModel",
+		"cells" ],
+	"name" : "SSSheet",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

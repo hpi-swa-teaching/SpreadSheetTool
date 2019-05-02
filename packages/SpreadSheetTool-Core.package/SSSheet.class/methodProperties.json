@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"rowCount:columnCount:" : "CT 4/30/2019 11:56" },
+	"instance" : {
+		"asModel" : "CT 5/2/2019 15:05",
+		"atRow:atColumn:" : "CT 5/2/2019 14:51",
+		"atRow:atColumn:put:" : "CT 5/2/2019 14:51",
+		"cells" : "CT 5/2/2019 15:09",
+		"columnCount" : "CT 4/30/2019 11:59",
+		"initializeWithRowCount:columnCount:" : "CT 5/2/2019 14:51",
+		"rowCount" : "CT 4/30/2019 11:59",
+		"rowCount:columnCount:" : "CT 5/2/2019 14:52" } }

@@ -1,4 +1,4 @@
 accessing
 columnCount
 
-	^ sheet columnCount
+	^ cells columnCount

@@ -8,13 +8,5 @@ buildWith: aBuilder
 		minimumExtent: self minimumExtent;
 		children: {
 			self createSpecForDimensionFieldsWith: aBuilder.
-			self
-				createPanelSpecForCells: (
-					(cells withIndicesCollect: [:cell :row :column |
-						self
-							createSpecForCell: cell
-							with: aBuilder
-							atColumn: column
-							atRow: row]) asArray)
-				with: aBuilder };
+			self createSpecForMainPanelWith: aBuilder };
 		yourself)
