@@ -4,12 +4,12 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
-			spec baseline: 'Project10' with: [
+			spec baseline: 'Project12' with: [
 				spec
 					repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
 			spec
 				package: 'SpreadSheetTool-Core';
-				package: 'SpreadSheetTool-Tests' with: [spec requires: #('SpreadSheetTool-Core')];
+				package: 'SpreadSheetTool-Tests' with: [spec requires: #('SpreadSheetTool-Core' 'Project12')];
 				yourself.
 			spec
 				group: 'default' with: #('SpreadSheetTool-Core');
