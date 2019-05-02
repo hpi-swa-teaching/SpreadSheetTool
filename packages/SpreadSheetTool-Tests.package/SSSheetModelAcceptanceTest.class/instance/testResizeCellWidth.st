@@ -24,7 +24,7 @@ testResizeCellWidth
 	
 		(self subject findByPosition: oldPosition)
 			sendMouseEnterEventAtPosition: oldPosition;
-			sendMouseMoveEventWithButton: #leftButton
+			sendMouseDragEventWithButton: #leftButton
 			fromPosition: oldPosition
 			toPosition: newPosition.
 	
