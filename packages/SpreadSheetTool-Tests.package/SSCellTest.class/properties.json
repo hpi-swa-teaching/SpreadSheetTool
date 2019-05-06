@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"cell" ],
-	"name" : "SSCellModelTest",
+	"name" : "SSCellTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
