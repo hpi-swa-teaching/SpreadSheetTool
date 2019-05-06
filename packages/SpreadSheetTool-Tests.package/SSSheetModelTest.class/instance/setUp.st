@@ -1,6 +1,6 @@
 running
 setUp
 
-	sheet := SSSheetModel
+	sheet := SSSheet
 		rowCount: self rowCount
 		columnCount: self columnCount.
