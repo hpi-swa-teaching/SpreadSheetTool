@@ -11,5 +11,7 @@
 		"splitterThickness" : "CT 5/2/2019 22:54",
 		"testCellsAreResizable" : "CT 5/2/2019 22:54",
 		"testEnterAndSaveTextInACell" : "CT 5/1/2019 22:35",
-		"testOpen" : "CT 5/1/2019 22:32",
-		"testWindowContainsCells" : "CT 5/1/2019 23:42" } }
+		"testIsRegisteredInWorldMenu" : "CT 5/6/2019 15:50",
+		"testOpen" : "CT 5/6/2019 15:49",
+		"testWindowContainsCells" : "CT 5/1/2019 23:42",
+		"testWindowOpensWhile:" : "CT 5/6/2019 15:49" } }
