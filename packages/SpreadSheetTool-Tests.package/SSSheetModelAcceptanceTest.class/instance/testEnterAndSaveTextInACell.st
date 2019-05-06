@@ -9,6 +9,6 @@ testEnterAndSaveTextInACell
 	cell sendKeys: someContent.
 	cell sendKeyEvent: #keystroke character: $s buttons: cell class commandModifier.
 	
-	self assert: cell text equals: someContent.
+	self assert: someContent equals: cell text asString.
 	
 	self deny: cell hasUnacceptedEdits.

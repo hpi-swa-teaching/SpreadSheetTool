@@ -7,6 +7,6 @@ buildWith: aBuilder
 		extent: self defaultExtent;
 		minimumExtent: self minimumExtent;
 		children: {
-			self createSpecForDimensionFieldsWith: aBuilder.
+			self createSpecForDimensionPanelWith: aBuilder.
 			self createSpecForMainPanelWith: aBuilder };
 		yourself)

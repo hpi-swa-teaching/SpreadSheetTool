@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sheet" ],
+		"sheet",
+		"cellModels" ],
 	"name" : "SSSheetModel",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core
+*SpreadSheetTool-Core-copying
 rows: rows columns: columns tabulateNewContentsWith: aBlock
 	
 	^ self class

@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"rowCount:columnCount:" : "CT 4/30/2019 11:56" },
+		"rowCount:columnCount:" : "CT 5/6/2019 17:48" },
 	"instance" : {
 		"asModel" : "CT 5/2/2019 15:05",
-		"atRow:atColumn:" : "CT 5/2/2019 14:51",
-		"atRow:atColumn:put:" : "CT 5/2/2019 14:51",
+		"atRow:atColumn:" : "CT 5/6/2019 18:36",
+		"atRow:atColumn:put:" : "CT 5/6/2019 18:36",
+		"cellFactory" : "CT 5/6/2019 18:09",
+		"cellFactory:" : "CT 5/6/2019 18:10",
 		"cells" : "CT 5/2/2019 15:09",
 		"columnCount" : "CT 4/30/2019 11:59",
-		"initializeWithRowCount:columnCount:" : "CT 5/2/2019 14:51",
+		"initialize" : "CT 5/6/2019 18:51",
 		"rowCount" : "CT 4/30/2019 11:59",
-		"rowCount:columnCount:" : "CT 5/2/2019 15:24" } }
+		"rowCount:columnCount:" : "CT 5/6/2019 18:11",
+		"withIndicesCollect:" : "CT 5/6/2019 18:13" } }

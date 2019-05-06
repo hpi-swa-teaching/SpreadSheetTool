@@ -1,8 +1,8 @@
 accessing
 rowCount: aRowCount columnCount: aColumnCount
 
-	"TODO: Consider move extension method implementatino hither"
+	"TODO: Consider move extension method implementation hither"
 	cells := cells
 		rows: aRowCount
 		columns: aColumnCount
-		tabulateNewContentsWith: [:row :column | SSCell new]
+		tabulateNewContentsWith: [:row :column | self cellFactory value]

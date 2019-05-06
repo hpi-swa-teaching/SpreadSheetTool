@@ -1,9 +1,9 @@
 toolbuilder
 createSpecsForCellsWith: aBuilder
 
-	^ (self sheet cells withIndicesCollect: [:cell :row :column |
+	^ (cellModels withIndicesCollect: [:cellModel :row :column |
 		self
-			createSpecForCell: cell asModel
+			createSpecForCell: cellModel
 			with: aBuilder
 			atColumn: column
 			atRow: row]) asArray

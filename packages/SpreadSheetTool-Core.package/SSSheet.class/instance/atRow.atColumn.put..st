@@ -1,5 +1,7 @@
 accessing
-atRow: rowIndex atColumn: columnIndex put: aStringOrText
+atRow: rowIndex atColumn: columnIndex put: anObject
 	
-	^ (cells at: rowIndex at: columnIndex)
-		value: aStringOrText
+	^ cells
+		at: rowIndex
+		at: columnIndex
+		put: anObject

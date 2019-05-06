@@ -1,4 +1,4 @@
 accessing
 atRow: rowIndex atColumn: columnIndex
 	
-	^ (cells at: rowIndex at: columnIndex) value
+	^ cells at: rowIndex at: columnIndex

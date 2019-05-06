@@ -1,10 +1,9 @@
 toolbuilder
-createSpecWith: aBuilder atFrame: aFrame withMinimumExtent: aPoint
+createSpecWith: aBuilder minimumCellExtent: aPoint
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		setText: #contents:notifying:;
 		getText: #contents;
-		frame: aFrame;
+		setText: #contents:notifying:;
 		minimumExtent: aPoint;
 		yourself

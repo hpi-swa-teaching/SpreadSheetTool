@@ -2,5 +2,5 @@ instance creation
 rowCount: aRowCount columnCount: aColumnCount
 
 	^ self new
-		initializeWithRowCount: aRowCount
+		rowCount: aRowCount
 		columnCount: aColumnCount

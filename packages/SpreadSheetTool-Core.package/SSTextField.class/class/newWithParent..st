@@ -1,6 +1,6 @@
 instance creation
-newWithData: aSheet
+newWithParent: aModel
 
 	^ self new
-		sheet: aSheet;
+		parent: aModel;
 		yourself

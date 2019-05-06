@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"newWithParent:" : "CT 5/6/2019 17:17" },
 	"instance" : {
-		"contents:" : "JB 4/30/2019 18:07",
-		"createSpecWith:atFrame:withMinimumExtent:" : "AN 5/2/2019 14:25" } }
+		"contents:" : "CT 5/6/2019 16:59",
+		"createSpecWith:minimumCellExtent:" : "CT 5/6/2019 16:59",
+		"parent" : "CT 5/6/2019 17:11",
+		"parent:" : "CT 5/6/2019 17:12" } }
