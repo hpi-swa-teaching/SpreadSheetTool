@@ -14,4 +14,6 @@ baseline: spec
 			spec
 				group: 'default' with: #('SpreadSheetTool-Core');
 				group: 'tests' with: #('SpreadSheetTool-Tests')];
-				yourself
+				yourself.
+			spec
+				postLoadDoIt: #postLoad.
