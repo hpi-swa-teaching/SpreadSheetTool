@@ -10,5 +10,5 @@
 	"name" : "SSCellModel",
 	"pools" : [
 		 ],
-	"super" : "SSTextField",
+	"super" : "SSTextFieldModel",
 	"type" : "normal" }

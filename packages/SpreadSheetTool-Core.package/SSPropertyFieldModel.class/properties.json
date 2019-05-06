@@ -8,8 +8,8 @@
 	"instvars" : [
 		"getterSymbol",
 		"setterSymbol" ],
-	"name" : "SSPropertyField",
+	"name" : "SSPropertyFieldModel",
 	"pools" : [
 		 ],
-	"super" : "SSTextField",
+	"super" : "SSTextFieldModel",
 	"type" : "normal" }
