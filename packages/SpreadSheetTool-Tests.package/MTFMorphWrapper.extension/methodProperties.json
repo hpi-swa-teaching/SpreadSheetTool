@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"findByBalloon:" : "CT 5/7/2019 12:33",
 		"findByClass:andCriteria:" : "CT 5/2/2019 22:44",
 		"findByClass:andPosition:" : "CT 5/2/2019 22:24",
 		"findByPosition:andCriteria:" : "CT 5/1/2019 17:12",
@@ -10,6 +11,8 @@
 		"generateMouseEvent:button:modifiers:position:" : "CT 5/1/2019 16:35",
 		"generateMouseEvent:button:position:" : "CT 5/1/2019 16:34",
 		"generateMouseMoveEventWithButton:startPosition:endPosition:" : "CT 5/1/2019 18:13",
+		"sendClearTextField" : "CT 5/7/2019 12:44",
+		"sendControlSave" : "CT 5/7/2019 13:30",
 		"sendKeyEvent:character:buttons:" : "CT 4/30/2019 20:12",
 		"sendMouseDragEventWithButton:fromPosition:toPosition:" : "CT 5/2/2019 22:31",
 		"sendMouseEnterEventAtPosition:" : "CT 5/1/2019 19:18",

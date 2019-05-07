@@ -1,7 +1,6 @@
 running
 setUp
 
-	| model |
 	model := SSSheetModel
 		rowCount: self rowCount
 		columnCount: self columnCount.

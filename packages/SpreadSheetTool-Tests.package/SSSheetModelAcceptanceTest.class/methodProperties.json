@@ -4,14 +4,15 @@
 	"instance" : {
 		"columnCount" : "CT 4/30/2019 19:15",
 		"findCellAt:" : "CT 5/1/2019 22:52",
-		"findCellInUniformGridAtRow:atColumn:" : "CT 5/1/2019 22:54",
 		"findCells" : "CT 5/1/2019 23:43",
 		"rowCount" : "CT 4/30/2019 19:11",
-		"setUp" : "CT 4/30/2019 19:12",
+		"setUp" : "CT 5/7/2019 13:14",
 		"splitterThickness" : "CT 5/2/2019 22:54",
+		"subject" : "CT 5/7/2019 13:14",
 		"testCellsAreResizable" : "CT 5/2/2019 22:54",
-		"testEnterAndSaveTextInACell" : "CT 5/6/2019 17:04",
+		"testEnterAndSaveTextInACell" : "CT 5/7/2019 13:31",
 		"testIsRegisteredInWorldMenu" : "CT 5/6/2019 15:50",
 		"testOpen" : "CT 5/6/2019 15:49",
+		"testTableCanBeResized" : "CT 5/7/2019 13:34",
 		"testWindowContainsCells" : "CT 5/1/2019 23:42",
 		"testWindowOpensWhile:" : "CT 5/6/2019 15:49" } }

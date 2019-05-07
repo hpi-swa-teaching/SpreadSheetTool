@@ -6,9 +6,10 @@ testEnterAndSaveTextInACell
 	someContent := 'Carpe Squeak'.
 	
 	cell := self findCellAt: (self rowCount * self columnCount / 2) truncated.
-	cell sendKeys: someContent.
-	cell sendKeyEvent: #keystroke character: $s buttons: cell class commandModifier.
+	cell
+		sendKeys: someContent;
+		sendControlSave.
 	
-	self assert: someContent equals: cell text asString.
-	
-	self deny: cell hasUnacceptedEdits.
+	self
+		assert: someContent equals: cell text asString;
+		deny: cell hasUnacceptedEdits.
