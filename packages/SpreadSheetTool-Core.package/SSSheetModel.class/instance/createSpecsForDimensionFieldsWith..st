@@ -7,11 +7,11 @@ createSpecsForDimensionFieldsWith: aBuilder
 		getProperty: #rowCount;
 		setProperty: #rowCount:)
 			createSpecWith: aBuilder
-			minimumCellExtent: self minimumCellExtent).
+			helpText: 'Number of rows').
 	specs add: (((SSPropertyFieldModel newWithParent: self)
 		getProperty: #columnCount;
 		setProperty: #columnCount:)
 			createSpecWith: aBuilder
-			minimumCellExtent: self minimumCellExtent).
+			helpText: 'Number of columns').
 	self setLineByLineLayoutForSpecs: specs.
 	^ specs
