@@ -7,11 +7,11 @@ createSpecsForDimensionFieldsWith: aBuilder
 		getProperty: #rowCount;
 		setProperty: #rowCount:)
 			createSpecWith: aBuilder
-			helpText: 'Number of rows').
+			helpText: 'rows').
 	specs add: (((SSPropertyFieldModel newWithParent: self)
 		getProperty: #columnCount;
 		setProperty: #columnCount:)
 			createSpecWith: aBuilder
-			helpText: 'Number of columns').
+			helpText: 'columns').
 	self setLineByLineLayoutForSpecs: specs.
 	^ specs
