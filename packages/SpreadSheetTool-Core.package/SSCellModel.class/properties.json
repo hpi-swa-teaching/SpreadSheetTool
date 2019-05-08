@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"cell" ],
 	"name" : "SSCellModel",
 	"pools" : [
 		 ],
-	"super" : "StringHolder",
+	"super" : "SSTextFieldModel",
 	"type" : "normal" }

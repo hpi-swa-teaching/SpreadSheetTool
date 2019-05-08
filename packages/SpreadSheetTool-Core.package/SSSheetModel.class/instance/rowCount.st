@@ -1,0 +1,4 @@
+accessing
+rowCount
+
+	^ sheet rowCount

@@ -5,12 +5,8 @@ buildWith: aBuilder
 		model: self;
 		label: self class applicationName;
 		extent: self defaultExtent;
-		children: {self
-			createPanelSpecForCells: (cells
-				withIndicesCollect: [:cell :row :column | self
-					createSpecForCell: cell
-					with: aBuilder
-					atColumn: column
-					atRow: row]) asArray
-			with: aBuilder };
+		minimumExtent: self minimumExtent;
+		children: {
+			self createSpecForDimensionPanelWith: aBuilder.
+			self createSpecForMainPanelWith: aBuilder };
 		yourself)
