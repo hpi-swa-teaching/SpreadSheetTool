@@ -1,4 +1,4 @@
 branding
 applicationName
 
-	^ 'SqueakSheet'
+	^ 'SqueakSheet (alpha release)'
