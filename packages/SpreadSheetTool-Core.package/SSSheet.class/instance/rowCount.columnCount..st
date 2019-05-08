@@ -5,4 +5,6 @@ rowCount: aRowCount columnCount: aColumnCount
 	cells := cells
 		rows: aRowCount
 		columns: aColumnCount
-		tabulateNewContentsWith: [:row :column | self cellFactory value]
+		tabulateNewContentsWith: [:row :column |
+			self cellFactory
+				ifNotNil: [:f | f value: row value: column]]
