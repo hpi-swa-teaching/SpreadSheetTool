@@ -1,6 +1,6 @@
 accessing
 minimumExtent
 
-	^ (0 @ (self defaultExtent y  *  self menuHeight))
+	^ (0 @ self menuHeight)
 		+ ((self columnCount @ self rowCount)
 			*  (self minimumCellExtent + self minimumSplitterExtent))
