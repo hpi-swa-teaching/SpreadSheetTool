@@ -4,7 +4,7 @@ testConstructedSheetHasSpecifiedDimensions
 	| rowCount columnCount |
 	rowCount := 6.
 	columnCount := 5.
-	sheet := SSSheetModel
+	sheet := SSSheetTool
 		rowCount: rowCount
 		columnCount: columnCount.
 	
