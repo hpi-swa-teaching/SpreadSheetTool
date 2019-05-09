@@ -1,4 +1,4 @@
 baseline
 postLoad
 
-	SSSheetModel registerInWorldMenu
+	SSSheetTool initialize.

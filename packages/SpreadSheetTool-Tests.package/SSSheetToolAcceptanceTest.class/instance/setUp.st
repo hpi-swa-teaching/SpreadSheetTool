@@ -1,7 +1,7 @@
 running
 setUp
 
-	model := SSSheetModel
+	model := self toolUnderTest
 		rowCount: self rowCount
 		columnCount: self columnCount.
 	self wantsToTest: (model

@@ -1,5 +1,5 @@
 {
-	"category" : "SpreadSheetTool-Core",
+	"category" : "SpreadSheetTool-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"sheet",
-		"cellModels" ],
-	"name" : "SSSheetModel",
+		"model" ],
+	"name" : "SSSheetToolAcceptanceTest",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "MTFTestCase",
 	"type" : "normal" }

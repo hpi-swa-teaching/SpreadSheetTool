@@ -1,4 +1,0 @@
-accessing
-rowCount
-
-	^ sheet rowCount

@@ -1,15 +1,14 @@
 {
-	"category" : "SpreadSheetTool-Tests",
+	"category" : "SpreadSheetTool-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sheet",
-		"model" ],
-	"name" : "SSSheetModelAcceptanceTest",
+		"cellModels" ],
+	"name" : "SSSheetTool",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "Model",
 	"type" : "normal" }
