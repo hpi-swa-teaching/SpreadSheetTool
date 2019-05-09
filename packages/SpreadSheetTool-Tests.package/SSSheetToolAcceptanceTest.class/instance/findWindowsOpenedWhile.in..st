@@ -9,7 +9,7 @@ findWindowsOpenedWhile: anActionBlock in: aCollectBlock
 		copyWithoutAll: allWindows.
 	
 	"Cleanup"
-	newWindows do: [:window | window abandon].
+	newWindows do: #abandon.
 	
 	^ newWindows
 		
