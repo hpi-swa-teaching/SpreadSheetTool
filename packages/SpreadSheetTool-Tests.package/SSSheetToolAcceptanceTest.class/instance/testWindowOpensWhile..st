@@ -3,9 +3,9 @@ testWindowOpensWhile: aBlock
 	"We cannot use MFT here as we want to test the opening procedure itself"
 	
 	| allInstances result newInstances |
-	allInstances := SSSheetTool allInstances.
+	allInstances := self toolUnderTest allInstances.
 	result := aBlock value.
-	newInstances := SSSheetTool allInstances copyWithoutAll: allInstances.
+	newInstances := self toolUnderTest allInstances copyWithoutAll: allInstances.
 	
 	"Clean up"
 	result abandon.
