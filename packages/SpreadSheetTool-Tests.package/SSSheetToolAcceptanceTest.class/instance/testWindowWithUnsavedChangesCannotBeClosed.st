@@ -1,8 +1,8 @@
 testing
-testWindowWithChangesCannotBeClosed
+testWindowWithUnsavedChangesCannotBeClosed
 	"Test for #10 (Simple Menu)"
 
-	| someContent cell dialogs dialog|
+	| someContent cell dialogs dialog |
 	someContent := 'Carpe Squeak'.
 	
 	cell := self findCellAt: (self rowCount * self columnCount / 2) truncated.
@@ -13,8 +13,10 @@ testWindowWithChangesCannotBeClosed
 		in: [UserDialogBoxMorph allInstances].
 			
 	self
-		assert: 1 equals: dialogs size description: 'Expected a dialog but it wasn''t shown'; 
-		assert: self subject owner notNil.
+		assert: dialogs size = 1
+			description: 'Expected a dialog but it wasn''t shown'; 
+		assert: self subject owner notNil
+			description: 'The window should not have abandoned'.
 	
 	dialog := MTFMorphWrapper newWith: dialogs anyOne.
 	(dialog findByLabel: 'No (n)') click.	

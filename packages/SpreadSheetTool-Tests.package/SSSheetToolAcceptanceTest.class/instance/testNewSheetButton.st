@@ -2,9 +2,11 @@ testing
 testNewSheetButton
 	"Test for #10 (Simple Menu)"
 
-	|button|
+	| button |
 	button := self subject findByLabel: 'New sheet'.
-	self assert: 1 equals: button morphs size.
+	self
+		assert: button morphs size = 1
+		description: '''New sheet'' button not found'.
 	
 	self 
 		assertWindowOpensWhile: [button click]
