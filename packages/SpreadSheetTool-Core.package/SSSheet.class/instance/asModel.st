@@ -1,4 +1,4 @@
 model
 asModel
 
-	^ SSSheetModel newWithData: self
+	^ SSSheetTool newWithData: self
