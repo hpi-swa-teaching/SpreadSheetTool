@@ -3,10 +3,11 @@
 		 },
 	"instance" : {
 		"assertWindowClosesWhile:" : "JB 5/9/2019 11:21",
+		"assertWindowNotDeleted:" : "CT 5/10/2019 13:15",
 		"assertWindowOpensWhile:in:" : "CT 5/9/2019 12:36",
 		"columnCount" : "CT 4/30/2019 19:15",
 		"findAllToolWindows" : "CT 5/9/2019 12:37",
-		"findAnyCell" : "CT 5/10/2019 10:07",
+		"findAnyCell" : "CT 5/10/2019 10:11",
 		"findCellAt:" : "CT 5/1/2019 22:52",
 		"findCells" : "CT 5/1/2019 23:43",
 		"findWindowsOpenedWhile:in:" : "CT 5/9/2019 14:41",
@@ -21,7 +22,7 @@
 		"testNumberOfRowsCanBeChanged" : "CT 5/10/2019 10:09",
 		"testOpen" : "JB 5/9/2019 11:51",
 		"testWindowContainsCells" : "CT 5/1/2019 23:42",
-		"testWindowWithCellThatHasContentCannotBeClosed" : "GT 5/10/2019 12:51",
-		"testWindowWithCellThatHasUnsavedChangesCannotBeClosed" : "GT 5/10/2019 11:30",
+		"testWindowWithCellThatHasContentCannotBeClosed" : "CT 5/10/2019 13:15",
+		"testWindowWithCellThatHasUnsavedChangesCannotBeClosed" : "CT 5/10/2019 13:15",
 		"testWindowWithoutUnsavedChangesCloses" : "CT 5/9/2019 12:35",
 		"toolUnderTest" : "CT 5/9/2019 09:37" } }

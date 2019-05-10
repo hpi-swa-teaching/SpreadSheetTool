@@ -11,6 +11,5 @@ testWindowWithCellThatHasContentCannotBeClosed
 		sendControlSave.
 	uiManager nextAnswer: false.
 	self subject delete.
-	"problem: owner always nil"
-	self assert: self subject model notNil description: 'The window should not have abandoned'.
 	
+	self assertWindowNotDeleted: self subject.
