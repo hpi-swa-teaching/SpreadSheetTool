@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cellModels" ],
+		"cellModels",
+		"uiManager" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],
