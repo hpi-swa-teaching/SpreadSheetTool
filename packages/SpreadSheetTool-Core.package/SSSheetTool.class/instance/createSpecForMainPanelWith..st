@@ -3,7 +3,7 @@ createSpecForMainPanelWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		model: self;
-		children: "(nil ifNil: #buildCells ifNotNil: [(self createSpecsForCellsWith: aBuilder)]);"
+		children:
 			#buildCellsPanel;
 		frame: (LayoutFrame
 			fractions: (0 @ 0 corner: 1 @ 1)
