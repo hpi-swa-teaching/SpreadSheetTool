@@ -21,6 +21,7 @@
 		"testNumberOfRowsCanBeChanged" : "CT 5/10/2019 10:09",
 		"testOpen" : "JB 5/9/2019 11:51",
 		"testWindowContainsCells" : "CT 5/1/2019 23:42",
-		"testWindowWithUnsavedChangesCannotBeClosed" : "GT 5/10/2019 11:17",
+		"testWindowWithCellThatHasContentCannotBeClosed" : "GT 5/10/2019 11:34",
+		"testWindowWithCellThatHasUnsavedChangesCannotBeClosed" : "GT 5/10/2019 11:30",
 		"testWindowWithoutUnsavedChangesCloses" : "CT 5/9/2019 12:35",
 		"toolUnderTest" : "CT 5/9/2019 09:37" } }

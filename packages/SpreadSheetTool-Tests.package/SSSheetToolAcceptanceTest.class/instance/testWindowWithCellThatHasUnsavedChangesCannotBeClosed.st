@@ -1,5 +1,5 @@
 testing
-testWindowWithUnsavedChangesCannotBeClosed
+testWindowWithCellThatHasUnsavedChangesCannotBeClosed
 	"Test for #10 (Simple Menu)"
 
 	| someContent cell dialogs dialog |
