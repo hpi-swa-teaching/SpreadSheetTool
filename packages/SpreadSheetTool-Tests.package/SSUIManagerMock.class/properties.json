@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sheet",
-		"model",
-		"uiManager" ],
-	"name" : "SSSheetToolAcceptanceTest",
+		"nextAnswer" ],
+	"name" : "SSUIManagerMock",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "Object",
 	"type" : "normal" }
