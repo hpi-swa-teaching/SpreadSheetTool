@@ -16,11 +16,11 @@
 		"testCellsAreResizable" : "CT 5/2/2019 22:54",
 		"testEnterAndSaveTextInACell" : "CT 5/10/2019 10:10",
 		"testIsRegisteredInWorldMenu" : "JB 5/9/2019 11:50",
-		"testNewSheetButton" : "CT 5/9/2019 12:34",
+		"testNewSheetButton" : "GT 5/10/2019 11:07",
 		"testNumberOfColumnsCanBeChanged" : "CT 5/10/2019 10:09",
 		"testNumberOfRowsCanBeChanged" : "CT 5/10/2019 10:09",
 		"testOpen" : "JB 5/9/2019 11:51",
 		"testWindowContainsCells" : "CT 5/1/2019 23:42",
-		"testWindowWithUnsavedChangesCannotBeClosed" : "CT 5/10/2019 10:08",
+		"testWindowWithUnsavedChangesCannotBeClosed" : "GT 5/10/2019 11:17",
 		"testWindowWithoutUnsavedChangesCloses" : "CT 5/9/2019 12:35",
 		"toolUnderTest" : "CT 5/9/2019 09:37" } }
