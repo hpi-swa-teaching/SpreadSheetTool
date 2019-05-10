@@ -5,13 +5,11 @@ testNumberOfRowsCanBeChanged
 	| rowTextField rowCount cell someContent |
 	rowTextField := self subject findByBalloon: 'rows'.
 	self
-		assert: 1 equals: rowTextField morphs size.
-	
-	self
+		assert: 1 equals: rowTextField morphs size;
 		assert: model rowCount equals: rowTextField text asNumber.
 	
 	someContent := 'Carpe Squeak'.
-	cell := self findCellAt: (self rowCount * self columnCount / 2) truncated.
+	cell := self findAnyCell.
 	cell
 		sendKeys: someContent;
 		sendControlSave.

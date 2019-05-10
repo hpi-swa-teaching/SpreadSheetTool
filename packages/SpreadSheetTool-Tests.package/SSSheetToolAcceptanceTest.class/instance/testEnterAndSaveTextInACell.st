@@ -4,8 +4,8 @@ testEnterAndSaveTextInACell
 
 	| someContent cell |
 	someContent := 'Carpe Squeak'.
+	cell := self findAnyCell.
 	
-	cell := self findCellAt: (self rowCount * self columnCount / 2) truncated.
 	cell
 		sendKeys: someContent;
 		sendControlSave.

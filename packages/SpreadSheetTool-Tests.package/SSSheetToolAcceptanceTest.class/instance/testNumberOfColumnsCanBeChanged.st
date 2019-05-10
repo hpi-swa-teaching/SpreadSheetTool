@@ -5,13 +5,11 @@ testNumberOfColumnsCanBeChanged
 	| columnTextField columnCount cell someContent |
 	columnTextField := self subject findByBalloon: 'columns'.
 	self
-		assert: 1 equals: columnTextField morphs size.
-	
-	self
+		assert: 1 equals: columnTextField morphs size;
 		assert: model columnCount equals: columnTextField text asNumber.
 	
 	someContent := 'Carpe Squeak'.
-	cell := self findCellAt: (self rowCount * self columnCount / 2) truncated.
+	cell := self findAnyCell.
 	cell
 		sendKeys: someContent;
 		sendControlSave.
