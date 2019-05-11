@@ -12,7 +12,7 @@
 		"findCells" : "CT 5/1/2019 23:43",
 		"findWindowsOpenedWhile:in:" : "CT 5/9/2019 14:41",
 		"rowCount" : "CT 4/30/2019 19:11",
-		"setUp" : "GT 5/10/2019 12:54",
+		"setUp" : "CT 5/11/2019 14:48",
 		"splitterThickness" : "CT 5/2/2019 22:54",
 		"testCellsAreResizable" : "CT 5/2/2019 22:54",
 		"testEnterAndSaveTextInACell" : "CT 5/10/2019 10:10",
@@ -22,7 +22,7 @@
 		"testNumberOfRowsCanBeChanged" : "CT 5/10/2019 10:09",
 		"testOpen" : "JB 5/9/2019 11:51",
 		"testWindowContainsCells" : "CT 5/1/2019 23:42",
-		"testWindowWithCellThatHasContentCannotBeClosed" : "CT 5/10/2019 13:15",
-		"testWindowWithCellThatHasUnsavedChangesCannotBeClosed" : "CT 5/10/2019 13:15",
+		"testWindowWithCellThatHasContentCannotBeClosed" : "CT 5/11/2019 14:47",
+		"testWindowWithCellThatHasUnsavedChangesCannotBeClosed" : "CT 5/11/2019 14:46",
 		"testWindowWithoutUnsavedChangesCloses" : "CT 5/9/2019 12:35",
 		"toolUnderTest" : "CT 5/9/2019 09:37" } }

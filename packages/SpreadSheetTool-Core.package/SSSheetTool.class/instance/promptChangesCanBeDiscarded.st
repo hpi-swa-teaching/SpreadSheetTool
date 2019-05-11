@@ -1,7 +1,7 @@
 interaction
 promptChangesCanBeDiscarded
 
-	^ uiManager confirm:
+	^ UIManager default confirm:
 'Changes have not been saved.
 Is it OK to cancel those changes?'
 		translated

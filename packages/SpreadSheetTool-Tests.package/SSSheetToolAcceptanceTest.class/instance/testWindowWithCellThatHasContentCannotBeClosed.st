@@ -9,7 +9,8 @@ testWindowWithCellThatHasContentCannotBeClosed
 	cell 
 		sendKeys: someContent;
 		sendControlSave.
-	uiManager nextAnswer: false.
-	self subject delete.
+	[self subject delete]
+		on: ProvideAnswerNotification
+		do: [:notification | notification resume: false].
 	
 	self assertWindowNotDeleted: self subject.
