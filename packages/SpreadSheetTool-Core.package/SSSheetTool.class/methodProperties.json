@@ -6,7 +6,8 @@
 		"open" : "CT 4/30/2019 11:59",
 		"openWithRowCount:columnCount:" : "CT 4/30/2019 11:58",
 		"registerInWorldMenu" : "CT 5/6/2019 18:46",
-		"rowCount:columnCount:" : "CT 5/6/2019 17:51" },
+		"rowCount:columnCount:" : "CT 5/6/2019 17:51",
+		"unregisterFromWorldMenu" : "CT 5/11/2019 20:27" },
 	"instance" : {
 		"buildCellsPanel" : "CT 5/9/2019 10:34",
 		"buildWith:" : "CT 5/9/2019 10:34",
