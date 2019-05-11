@@ -9,8 +9,9 @@ testWindowWithCellThatHasContentCannotBeClosed
 	cell 
 		sendKeys: someContent;
 		sendControlSave.
-	[self subject delete]
-		on: ProvideAnswerNotification
-		do: [:notification | notification resume: false].
+	self
+		should: [self subject delete]
+		raise: ProvideAnswerNotification
+		butHandleException: [:notification | notification resume: false].
 	
 	self assertWindowNotDeleted: self subject.
