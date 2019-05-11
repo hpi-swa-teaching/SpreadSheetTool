@@ -2,13 +2,10 @@ testing
 testWindowWithCellThatHasContentCannotBeClosed
 	"Test for #10 (Simple Menu)"
 
-	| someContent cell |
-	someContent := 'Carpe Squeak'.
-	cell := self findAnyCell.
-	
-	cell 
-		sendKeys: someContent;
+	self findAnyCell
+		sendKeys: self someCellContent;
 		sendControlSave.
+	
 	self
 		should: [self subject delete]
 		raise: ProvideAnswerNotification

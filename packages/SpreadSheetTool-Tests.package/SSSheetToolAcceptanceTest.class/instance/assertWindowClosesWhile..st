@@ -8,8 +8,5 @@ assertWindowClosesWhile: aBlock
 	closedInstances := allInstances
 		copyWithoutAll: self findAllToolWindows.
 	self
-		assert: closedInstances size = 1
+		assert: closedInstances isSingleton
 		description: 'Expected window to close but id didn''t'.
-	
-	"Clean up"
-	result abandon
