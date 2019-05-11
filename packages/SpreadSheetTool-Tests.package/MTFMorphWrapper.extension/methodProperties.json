@@ -2,6 +2,7 @@
 	"class" : {
 		"classesWithLabel" : "GT 5/10/2019 11:14" },
 	"instance" : {
+		"deleteMorphs" : "CT 5/11/2019 14:46",
 		"findByBalloon:" : "CT 5/7/2019 12:33",
 		"findByClass:andCriteria:" : "CT 5/2/2019 22:44",
 		"findByClass:andPosition:" : "CT 5/2/2019 22:24",
