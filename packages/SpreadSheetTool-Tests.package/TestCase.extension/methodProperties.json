@@ -4,4 +4,5 @@
 	"instance" : {
 		"assert:equals:inTreshold:" : "CT 5/1/2019 19:24",
 		"comparingStringBetween:and:treshold:" : "CT 5/2/2019 21:46",
+		"runCase" : "CT 5/11/2019 19:09",
 		"should:raise:butHandleException:" : "CT 5/11/2019 18:18" } }
