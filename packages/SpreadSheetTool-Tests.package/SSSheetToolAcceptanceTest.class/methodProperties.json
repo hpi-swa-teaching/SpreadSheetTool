@@ -23,6 +23,8 @@
 		"testNumberOfColumnsCanBeChanged" : "CT 5/11/2019 20:10",
 		"testNumberOfRowsCanBeChanged" : "CT 5/11/2019 20:19",
 		"testOpen" : "JB 5/9/2019 11:51",
+		"testSheetHasColumnHeaders" : "CT 5/14/2019 17:57",
+		"testSheetHasRowHeaders" : "CT 5/14/2019 17:57",
 		"testWindowContainsCells" : "CT 5/1/2019 23:42",
 		"testWindowWithCellThatHasContentCannotBeClosed" : "CT 5/11/2019 20:21",
 		"testWindowWithCellThatHasUnsavedChangesCannotBeClosed" : "CT 5/11/2019 20:20",
