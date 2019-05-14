@@ -1,14 +1,16 @@
 {
 	"category" : "SpreadSheetTool-Tests",
 	"classinstvars" : [
-		 ],
+		"isLongStage" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"sheet",
 		"model",
-		"uiManager" ],
+		"uiManager",
+		"columnCount",
+		"rowCount" ],
 	"name" : "SSSheetToolAcceptanceTest",
 	"pools" : [
 		 ],
