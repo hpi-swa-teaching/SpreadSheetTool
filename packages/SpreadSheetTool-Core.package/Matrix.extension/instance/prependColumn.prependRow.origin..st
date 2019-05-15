@@ -1,0 +1,16 @@
+*SpreadSheetTool-Core-copying
+prependColumn: aColumnItemBlock prependRow: aRowItemBlock origin: anOriginBlock
+
+	| blocks |
+	blocks := {
+		(0 @ 0) -> [:row :column | anOriginBlock value].
+		(0 @ 1) -> [:row :column | aRowItemBlock value: column].
+		(1 @ 0) -> [:row :column | aColumnItemBlock value: row].
+		(1 @ 1) -> [:row :column | self at: row at: column]
+	} asDictionary.
+	^ self class
+		rows: nrows + 1
+		columns: ncols + 1
+		tabulate: [:row :column |
+			(blocks at: (row > 1) asInteger @ (column > 1) asInteger)
+				value: row - 1 value: column - 1]

@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label" ],
+	"name" : "SSColumnHeaderModel",
+	"pools" : [
+		 ],
+	"super" : "SSHeaderModel",
+	"type" : "normal" }
