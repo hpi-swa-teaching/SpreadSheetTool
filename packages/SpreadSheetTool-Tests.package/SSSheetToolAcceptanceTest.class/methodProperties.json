@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"ifShortStage:ifLongStage:" : "CT 5/14/2019 21:50",
-		"isLongStage" : "CT 5/14/2019 21:49" },
+		"isLongStage" : "CT 5/15/2019 18:38",
+		"isLongStage:" : "CT 5/15/2019 18:39" },
 	"instance" : {
 		"assertNumberOfCellsCanBeChangedForDimension:" : "CT 5/11/2019 20:19",
 		"assertWindowClosesWhile:" : "CT 5/11/2019 20:32",

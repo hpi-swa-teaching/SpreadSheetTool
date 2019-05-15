@@ -2,4 +2,4 @@ staging
 isLongStage
 
 	^ isLongStage ifNil: [isLongStage :=
-		Utilities authorNamePerSe isEmptyOrNil]
+		SmalltalkImage current platformName ~= 'Win32']
