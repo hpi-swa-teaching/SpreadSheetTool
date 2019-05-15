@@ -3,7 +3,7 @@ assertNumberOfCellsCanBeChangedForDimension: aDimensionString
 
 	| dimensionCountSymbol dimensionTextField cellCount cell someContent |
 	dimensionCountSymbol := ((aDimensionString withoutTrailing: 's'),
-		'count' withFirstCharacterUppercase) asSymbol.
+		'count' ssWithFirstCharacterUppercase) asSymbol.
 	
 	dimensionTextField := self subject findByBalloon: aDimensionString.
 	self
