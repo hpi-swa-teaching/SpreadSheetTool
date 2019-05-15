@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SSColumnHeaderModelTest",
+	"name" : "SSHeaderModelTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

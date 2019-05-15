@@ -1,5 +1,5 @@
 testing
-testLabel
+testColumnLabel
 
 	self theoriesForLabel do: [:aTheory | |model|
 		model := SSColumnHeaderModel index: aTheory first.
