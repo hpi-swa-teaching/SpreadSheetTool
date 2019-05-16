@@ -2,5 +2,5 @@ staging
 ifShortStage: aBlock ifLongStage: anotherBlock
 
 	^ self isLongStage
-		ifTrue: aBlock
-		ifFalse: anotherBlock
+		ifFalse: aBlock
+		ifTrue: anotherBlock
