@@ -1,0 +1,4 @@
+accessing
+foregroundColor
+
+	^ Color white

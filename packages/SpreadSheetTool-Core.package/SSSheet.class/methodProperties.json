@@ -2,7 +2,7 @@
 	"class" : {
 		"rowCount:columnCount:" : "CT 5/6/2019 17:48" },
 	"instance" : {
-		"asModel" : "CT 5/2/2019 15:05",
+		"anySatisfy:" : "GT 5/10/2019 12:07",
 		"atRow:atColumn:" : "CT 5/6/2019 18:36",
 		"atRow:atColumn:put:" : "CT 5/6/2019 18:36",
 		"cellFactory" : "CT 5/6/2019 18:09",

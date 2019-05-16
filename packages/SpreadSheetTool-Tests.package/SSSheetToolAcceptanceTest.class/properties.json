@@ -1,0 +1,18 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		"isLongStage" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sheet",
+		"model",
+		"uiManager",
+		"columnCount",
+		"rowCount" ],
+	"name" : "SSSheetToolAcceptanceTest",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

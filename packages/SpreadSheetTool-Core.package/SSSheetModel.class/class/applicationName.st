@@ -1,4 +1,0 @@
-branding
-applicationName
-
-	^ 'SqueakSheet'
