@@ -4,4 +4,4 @@ rowCount
 	^ rowCount
 		ifNil: [rowCount := self class
 			ifShortStage: [4]
-			ifLongStage: [42]]
+			ifLongStage: [7]]
