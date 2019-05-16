@@ -6,4 +6,5 @@ createSpecWith: aBuilder
 		getText: #label;
 		color: #backgroundColor;
 		textColor: #foregroundColor;
+		font: self font;
 		yourself
