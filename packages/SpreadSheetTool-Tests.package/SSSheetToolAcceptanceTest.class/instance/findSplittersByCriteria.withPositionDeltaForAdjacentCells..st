@@ -1,7 +1,7 @@
 testing
 findSplittersByCriteria: aBlock withPositionDeltaForAdjacentCells: aPoint
 
-	^ self subject
+	^ (self subject
 		findByClass: ProportionalSplitterMorph
 		andCriteria: [:splitter | (aBlock value: splitter) and: [
 			{ self subject
@@ -11,4 +11,5 @@ findSplittersByCriteria: aBlock withPositionDeltaForAdjacentCells: aPoint
 				findByPosition: splitter position + aPoint
 				andCriteria: [:m | m isTextView] }
 			allSatisfy: [:m | m morphs notEmpty and: [
-					m model inheritsFromAnyIn: {SSCellModel. SSHeaderModel}]]]]
+					m model inheritsFromAnyIn: {SSCellModel. SSHeaderModel}]]]])
+		morphs
