@@ -2,10 +2,10 @@ toolbuilder
 setLineByLineLayoutForSpecs: aCollection
 
 	| y height |
-	height := 1 / 2.
+	height := aCollection size raisedTo: -1.
 	y := 0.
-	aCollection do: [ :aSpec |
+	aCollection do: [:aSpec |
 		aSpec
 			frame: 0 @ y
 			extent: 1 @ height.
-		y := y + height ].
+		y := y + height].
