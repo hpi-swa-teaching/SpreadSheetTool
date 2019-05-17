@@ -1,10 +1,10 @@
 labeling
-generateLabel
+generateColumnLabelForIndex: anIndex
 
 	| number label |
 	label := OrderedCollection new.
-	number := self index.
+	number := anIndex.
 	[number > 0] whileTrue: [
 		label addFirst: (Character codePoint: $A codePoint + (number - 1 \\ 26)).
 		number := number - 1 // 26].
-	^ String withAll: label
+	self contents: (String withAll: label).

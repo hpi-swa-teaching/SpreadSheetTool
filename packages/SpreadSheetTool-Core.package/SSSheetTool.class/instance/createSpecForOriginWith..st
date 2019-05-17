@@ -1,6 +1,5 @@
 toolbuilder
 createSpecForOriginWith: aBuilder
 
-	^ ((SSOriginHeaderModel new)
-		createSpecWith: aBuilder)
-			frame: (self calculateFrameForItemAtColumn: 0 atRow: 0)
+	^ aBuilder pluggablePanelSpec new
+		frame: (self calculateFrameForItemAtColumn: 0 atRow: 0)
