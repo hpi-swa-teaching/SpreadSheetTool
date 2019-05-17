@@ -1,9 +1,7 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	^ aBuilder pluggableTextSpec new
-		model: self;
-		getText: #label;
+	^ (super createSpecWith: aBuilder)
 		readOnly: true;
 		color: #backgroundColor;
 		textColor: #foregroundColor;

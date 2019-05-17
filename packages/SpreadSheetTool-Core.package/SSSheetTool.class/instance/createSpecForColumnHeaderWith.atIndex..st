@@ -1,6 +1,6 @@
 toolbuilder
 createSpecForColumnHeaderWith: aBuilder atIndex: aColumnIndex
 
-	^ ((SSColumnHeaderModel index: aColumnIndex)
+	^ ((SSHeaderModel columnHeaderForIndex: aColumnIndex parent: self)
 		createSpecWith: aBuilder)
 			frame: (self calculateFrameForItemAtColumn: aColumnIndex atRow: 0)

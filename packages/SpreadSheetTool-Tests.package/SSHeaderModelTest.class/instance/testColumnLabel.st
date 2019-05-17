@@ -2,5 +2,7 @@ testing
 testColumnLabel
 
 	self theoriesForLabel do: [:aTheory | |model|
-		model := SSColumnHeaderModel index: aTheory first.
-		self assert: aTheory second equals: model label]
+		model := SSHeaderModel
+			columnHeaderForIndex: aTheory first 
+			parent: nil.
+		self assert: aTheory second equals: model contents]
