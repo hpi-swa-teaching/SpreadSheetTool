@@ -1,5 +1,6 @@
 testing
 testDistributeColumns0
+	"Test for #8 (Distribute rows/columns)"
 	"For @MrModder to review: Which degree of abstraction is better?"
 
 	| cells oldHeights |
