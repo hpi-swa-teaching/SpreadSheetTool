@@ -13,6 +13,7 @@ distributeCellsWithInvariantDimension: invariantDimensionSymbol splitterSelector
 		owner submorphs select: #isTextView)
 		groupByUniqueKey: #model.
 	cellPanel := (cellMorphs collect: #owner) asSet singleOne.
+	cellPanel hide.
 	splitters := (cellPanel splitters select: splitterSelector)
 		sortedBy: [:m | m position r].
 	splitters do: [:splitter |
@@ -20,3 +21,4 @@ distributeCellsWithInvariantDimension: invariantDimensionSymbol splitterSelector
 		splitter scalePredecessorsWhere: [:morph |
 			morph isTextView and: [morph model class = SSCellModel flag: #workaround]]
 		to: [:morph | morphScales at: morph model]].
+	cellPanel show.
