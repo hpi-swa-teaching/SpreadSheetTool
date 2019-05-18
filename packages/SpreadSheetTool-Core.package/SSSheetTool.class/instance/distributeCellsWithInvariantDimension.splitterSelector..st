@@ -2,18 +2,16 @@ interaction
 distributeCellsWithInvariantDimension: invariantDimensionSymbol splitterSelector: splitterSelector
 
 	| cellMorphs cellPanel morphScales splitters |
-	cellMorphs := ((cellModels anyOne containingMorphicModel
+	cellMorphs := (cellModels anyOne containingMorphicModel
 		owner submorphs select: #isTextView)
-		collect: [:morph | morph model -> morph])
-			as: Dictionary.
+		groupByUniqueKey: #model.
 	morphScales := (cellMorphs collect: invariantDimensionSymbol)
 		as: Dictionary.
 	self changed: #buildCellsPanel.
 	
-	cellMorphs := ((cellModels anyOne containingMorphicModel
+	cellMorphs := (cellModels anyOne containingMorphicModel
 		owner submorphs select: #isTextView)
-		collect: [:morph | morph model -> morph])
-			as: Dictionary.
+		groupByUniqueKey: #model.
 	cellPanel := (cellMorphs collect: #owner) asSet singleOne.
 	splitters := (cellPanel splitters select: splitterSelector)
 		sortedBy: [:m | m position r].
