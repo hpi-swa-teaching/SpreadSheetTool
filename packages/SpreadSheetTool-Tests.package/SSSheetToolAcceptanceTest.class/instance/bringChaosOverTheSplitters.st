@@ -11,6 +11,6 @@ bringChaosOverTheSplitters
 	
 	random := Random seed: 42.
 	verticalSplitters do: [:splitter |
-		splitter repositionBy: (0 @ ((-10 to: 10) atRandom: random))].
+		splitter repositionBy: (0 @ ((-30 to: 30) atRandom: random))].
 	horizontalSplitters do: [:splitter |
-		splitter repositionBy: ((-10 to: 10) atRandom: random) @ 0].
+		splitter repositionBy: ((-30 to: 30) atRandom: random) @ 0].

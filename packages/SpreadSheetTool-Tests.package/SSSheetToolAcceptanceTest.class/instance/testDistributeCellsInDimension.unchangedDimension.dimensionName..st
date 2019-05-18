@@ -1,7 +1,7 @@
 testing
 testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUnchangedDimension dimensionName: aDimensionName
 
-	| cells oldBounds oldScales |
+	| cells oldBounds oldScales newVaryingScales |
 	self bringChaosOverTheSplitters.
 	
 	cells := self findCells morphs.
@@ -10,8 +10,9 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 	
 	(self subject findByLabel: 'Distribute ', aDimensionName) click.
 	
+	newVaryingScales := (cells collect: aVaryingDimensionSymbol).
 	self
-		assert: (cells collect: aVaryingDimensionSymbol) asSet size = 1
+		assert: newVaryingScales range < 5
 		description: 'All ', aDimensionName, ' should be of equal size'.
 	self
 		assert: oldBounds equals: self subject bounds
