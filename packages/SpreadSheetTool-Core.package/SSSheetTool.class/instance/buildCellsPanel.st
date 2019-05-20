@@ -1,16 +1,15 @@
 toolbuilder
 buildCellsPanel
-
-	| builder spec |
+	| builder spec result |
 	builder := ToolBuilder default.
 	spec := builder pluggablePanelSpec new
-		children: ((self createSpecMatrixForCellsWith: builder)
-			prependColumn: [:rowIndex |
-				self createSpecForRowHeaderWith: builder atIndex: rowIndex]
-			prependRow: [:columnIndex |
-				self createSpecForColumnHeaderWith: builder atIndex: columnIndex]
-			origin: [self createSpecForOriginWith: builder]) asArray;
+		children: (self
+			createSpecMatrixForCells: self
+			collectHeaderModels with: builder);
 		frame: 0 @ 0 extent: 1 @ 1;
 		wantsResizeHandles: true;
 		yourself.
-	^ (builder build: spec) asOrderedCollection
+	result := (builder build: spec) asOrderedCollection.
+	self assert: [ (result first submorphs select: #isTextView) allSatisfy: [ :x | x width > 16 ] ].
+	"CTLogger log: (TimeStamp current asString), '   ', result first submorphs first width."
+	^ result

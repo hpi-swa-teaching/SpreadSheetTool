@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-copying
+enumerating
 prependColumn: aColumnItemBlock prependRow: aRowItemBlock origin: anOriginBlock
 
 	| blocks |
@@ -6,11 +6,11 @@ prependColumn: aColumnItemBlock prependRow: aRowItemBlock origin: anOriginBlock
 		(0 @ 0) -> [:row :column | anOriginBlock value].
 		(0 @ 1) -> [:row :column | aRowItemBlock value: column].
 		(1 @ 0) -> [:row :column | aColumnItemBlock value: row].
-		(1 @ 1) -> [:row :column | self at: row at: column]
+		(1 @ 1) -> [:row :column | self atRow: row atColumn: column]
 	}.
-	^ self class
-		rows: nrows + 1
-		columns: ncols + 1
+	^ Matrix
+		rows: self rowCount + 1
+		columns: self columnCount + 1
 		tabulate: [:row :column |
 			(blocks at: (row > 1) asBit @ (column > 1) asBit)
 				value: row - 1 value: column - 1]
