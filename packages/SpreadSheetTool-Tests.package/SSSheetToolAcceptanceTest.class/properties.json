@@ -8,7 +8,9 @@
 	"instvars" : [
 		"sheet",
 		"model",
-		"uiManager" ],
+		"uiManager",
+		"columnCount",
+		"rowCount" ],
 	"name" : "SSSheetToolAcceptanceTest",
 	"pools" : [
 		 ],
