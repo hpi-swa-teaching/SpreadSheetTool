@@ -9,6 +9,7 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 	oldScales := (cells collect: [:cell | cell -> (cell in: anUnchangedDimension)]) as: Dictionary.
 	
 	(self subject findByLabel: 'Distribute ', aDimensionName) click.
+	self subject redraw.
 	
 	newVaryingScales := (cells collect: aVaryingDimensionSymbol).
 	self
