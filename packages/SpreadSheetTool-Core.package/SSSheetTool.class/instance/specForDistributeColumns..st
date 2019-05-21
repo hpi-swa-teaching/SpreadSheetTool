@@ -1,5 +1,5 @@
 toolbuilder
-specForDistributeColumnsButton: aBuilder
+specForDistributeColumns: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		label: 'Distribute columns';

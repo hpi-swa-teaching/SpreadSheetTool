@@ -1,7 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "CT 5/21/2019 16:07",
-		"testZipDo" : "CT 5/21/2019 16:09",
-		"testZipDoOnDifferentSizes" : "CT 5/21/2019 16:11" } }

@@ -3,8 +3,7 @@ setLinearLayoutForSpecs: aCollection directionPoint: aDirectionPoint
 
 	| scale |
 	scale := aCollection size reciprocal.
-	aCollection zip: ((0 to: 1 by: scale) copyWithout: 1) do: [:aSpec :progress |
+	aCollection withIndexDo: [:aSpec :index |
 		aSpec
-			frame: aDirectionPoint * progress
-			extent: aDirectionPoint * scale + (1 @ 1 * (1 @ 1 - aDirectionPoint)).
-		Transcript showln: aSpec frame].
+			frame: aDirectionPoint * (index - 1 * scale)
+			extent: aDirectionPoint * scale + (1 @ 1) - aDirectionPoint].

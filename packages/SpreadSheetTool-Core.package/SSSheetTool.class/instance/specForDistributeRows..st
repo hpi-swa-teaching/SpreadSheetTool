@@ -1,5 +1,5 @@
 toolbuilder
-specForDistributeRowsButton: aBuilder
+specForDistributeRows: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		label: 'Distribute rows';

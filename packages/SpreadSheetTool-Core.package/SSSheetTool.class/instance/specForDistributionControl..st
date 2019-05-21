@@ -3,8 +3,8 @@ specForDistributionControl: aBuilder
 
 	| children |
 	children := {
-		self specForDistributeRowsButton: aBuilder.
-		self specForDistributeColumnsButton: aBuilder
+		self specForDistributeRows: aBuilder.
+		self specForDistributeColumns: aBuilder
 	}.
 	self setVerticalLayoutForSpecs: children.
 	^ aBuilder pluggablePanelSpec new
