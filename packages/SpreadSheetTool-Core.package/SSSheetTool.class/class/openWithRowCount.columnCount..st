@@ -1,7 +1,9 @@
 toolbuilder
 openWithRowCount: aRowCount columnCount: aColumnCount
 
-	^ ((self rowCount: aRowCount columnCount: aColumnCount)
-		buildWith: ToolBuilder default) 
-			openInWorld;
-			yourself
+	| builder model |
+	builder := ToolBuilder default.
+	model := self
+		rowCount: aRowCount
+		columnCount: aColumnCount.
+	^ builder open: model
