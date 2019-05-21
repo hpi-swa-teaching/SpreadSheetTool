@@ -2,6 +2,7 @@
 	"class" : {
 		"addToSuite:fromMethods:" : "CT 5/18/2019 14:24" },
 	"instance" : {
+		"assert:equals:description:" : "CT 5/21/2019 12:49",
 		"assert:equals:inTreshold:" : "CT 5/1/2019 19:24",
 		"comparingStringBetween:and:treshold:" : "CT 5/2/2019 21:46",
 		"runCase" : "CT 5/11/2019 19:09",

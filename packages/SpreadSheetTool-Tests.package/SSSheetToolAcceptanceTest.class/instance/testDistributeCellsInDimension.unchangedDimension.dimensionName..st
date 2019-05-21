@@ -1,22 +1,25 @@
 testing
 testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUnchangedDimension dimensionName: aDimensionName
 
-	| cells oldBounds oldScales newVaryingScales |
+	| oldBounds oldScales newVaryingScales |
 	self bringChaosOverTheSplitters.
 	
-	cells := self findCells morphs.
 	oldBounds := self subject bounds.
-	oldScales := (cells collect: [:cell | cell -> (cell in: anUnchangedDimension)]) as: Dictionary.
+	oldScales := self findCells morphs
+		asDictionaryByValue: anUnchangedDimension.
 	
 	(self subject findByLabel: 'Distribute ', aDimensionName) click.
 	self subject redraw.
 	
-	newVaryingScales := (cells collect: aVaryingDimensionSymbol).
+	newVaryingScales := self findCells morphs
+		collect: aVaryingDimensionSymbol.
 	self
-		assert: newVaryingScales range < 5
-		description: 'All ', aDimensionName, ' should be of equal size'.
-	self
+		assert: [newVaryingScales range < 5]
+			description: ['All ', aDimensionName, ' should be of equal size'];
 		assert: oldBounds equals: self subject bounds
-		description: 'The window size should not change while distributing cells'.
-	oldScales keysAndValuesDo: [:cell :oldScale |
-		self assert: oldScale equals: (cell in: anUnchangedDimension)].
+			description: 'The window size should not change while distributing cells'.
+	oldScales keysAndValuesDo: [:oldCell :oldScale | | cell |
+		cell := oldCell model containingMorphicModel.
+		self
+			assert: oldScale equals: (cell in: anUnchangedDimension)
+			description: ['The ', anUnchangedDimension, ' should not change']].

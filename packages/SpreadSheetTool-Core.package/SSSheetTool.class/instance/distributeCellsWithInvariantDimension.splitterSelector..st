@@ -1,7 +1,7 @@
 interaction
 distributeCellsWithInvariantDimension: invariantDimensionSymbol splitterSelector: splitterSelector
 
-	| cellMorphs cellPanel morphScales splitters |
+	| cellMorphs cellPanel morphScales |
 	cellMorphs := (cellModels anyOne containingMorphicModel
 		owner submorphs select: #isTextView)
 		groupByUniqueKey: #model.
@@ -13,10 +13,8 @@ distributeCellsWithInvariantDimension: invariantDimensionSymbol splitterSelector
 		owner submorphs select: #isTextView)
 		groupByUniqueKey: #model.
 	cellPanel := (cellMorphs collect: #owner) asSet singleOne.
-	splitters := (cellPanel splitters select: splitterSelector)
-		sortedBy: [:m | m position r].
-	splitters do: [:splitter | 
-		cellPanel owner fullBounds.
-		splitter
-			scalePredecessorsWhere: #isTextView
-			to: [:morph | morphScales at: morph model]].
+	cellPanel owner fullBounds.
+	cellPanel
+		resizeHandlesWhereSplitter: splitterSelector
+		to: morphScales.
+	cellPanel owner fullBounds.
