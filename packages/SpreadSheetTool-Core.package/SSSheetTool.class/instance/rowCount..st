@@ -1,4 +1,4 @@
-accessing
+interaction
 rowCount: aNumber
 
 	self
