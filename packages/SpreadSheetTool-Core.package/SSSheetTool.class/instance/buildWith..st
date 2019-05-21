@@ -7,6 +7,7 @@ buildWith: aBuilder
 		extent: self defaultExtent;
 		minimumExtent: self minimumExtent;
 		children: {
-			self createSpecForMenuBarWith: aBuilder.
-			self createSpecForMainPanelWith: aBuilder };
+			self specForMenuBar: aBuilder.
+			self specForMainPanel: aBuilder };
+		wantsResizeHandles: true;
 		yourself)

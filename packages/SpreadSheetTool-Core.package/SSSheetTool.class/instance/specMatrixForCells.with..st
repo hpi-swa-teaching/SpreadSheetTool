@@ -1,9 +1,9 @@
 toolbuilder
-createSpecMatrixForCells: aMatrix with: aBuilder
+specMatrixForCells: aMatrix with: aBuilder
 
 	^ aMatrix withIndicesCollect: [:cellModel :row :column |
 		self
-			createSpecForCell: cellModel
+			specForCell: cellModel
 				with: aBuilder
 			atColumn: column
 			atRow: row]

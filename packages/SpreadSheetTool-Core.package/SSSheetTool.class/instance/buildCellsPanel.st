@@ -4,7 +4,7 @@ buildCellsPanel
 	builder := ToolBuilder default.
 	spec := builder pluggablePanelSpec new
 		children: (self
-			createSpecMatrixForCells: self
+			specMatrixForCells: self
 			collectHeaderModels with: builder);
 		frame: 0 @ 0 extent: 1 @ 1;
 		wantsResizeHandles: true;

@@ -1,5 +1,5 @@
 toolbuilder
-createSpecsForDimensionFieldsWith: aBuilder
+specForDimensionControl: aBuilder
 
 	| specs |
 	specs := {
@@ -13,5 +13,8 @@ createSpecsForDimensionFieldsWith: aBuilder
 			setProperty: #columnCount:)
 				createSpecWith: aBuilder
 				helpText: 'columns' }.
-	self setLineByLineLayoutForSpecs: specs.
-	^ specs
+	self setVerticalLayoutForSpecs: specs.
+	
+	^ aBuilder pluggablePanelSpec new
+		children: specs;
+		yourself

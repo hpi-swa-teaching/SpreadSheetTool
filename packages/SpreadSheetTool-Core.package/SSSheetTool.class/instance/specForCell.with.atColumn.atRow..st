@@ -1,5 +1,5 @@
 toolbuilder
-createSpecForCell: aCell with: aBuilder atColumn: aColumn atRow: aRow
+specForCell: aCell with: aBuilder atColumn: aColumn atRow: aRow
 	
 	^ (aCell createSpecWith: aBuilder)
 		frame: (self
