@@ -13,8 +13,7 @@ specForDimensionControl: aBuilder
 			setProperty: #columnCount:)
 				createSpecWith: aBuilder
 				helpText: 'columns' }.
-	self setVerticalLayoutForSpecs: specs.
-	
 	^ aBuilder pluggablePanelSpec new
 		children: specs;
+		layout: #vertical;
 		yourself

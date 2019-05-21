@@ -6,7 +6,7 @@ specForDistributionControl: aBuilder
 		self specForDistributeRows: aBuilder.
 		self specForDistributeColumns: aBuilder
 	}.
-	self setVerticalLayoutForSpecs: children.
 	^ aBuilder pluggablePanelSpec new
 		children: children;
+		layout: #vertical;
 		yourself.

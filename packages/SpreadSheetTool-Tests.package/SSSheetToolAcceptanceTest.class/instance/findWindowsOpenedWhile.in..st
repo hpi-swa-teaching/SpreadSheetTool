@@ -14,4 +14,3 @@ findWindowsOpenedWhile: anActionBlock in: aCollectBlock
 			newWindows do: #abandon].
 	
 	^ newWindows
-		

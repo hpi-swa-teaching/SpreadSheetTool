@@ -6,8 +6,8 @@ specForSheetManagement: aBuilder
 		self specForNewSheetButton: aBuilder.
 		self specForOpenSheetButton: aBuilder.
 		self specForSaveSheetButton: aBuilder }.
-	self setVerticalLayoutForSpecs: children.	
 	^ aBuilder pluggablePanelSpec new
 		children: children;
+		layout: #vertical;
 		yourself
 	

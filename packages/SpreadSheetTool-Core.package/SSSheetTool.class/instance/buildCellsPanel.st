@@ -11,5 +11,4 @@ buildCellsPanel
 		yourself.
 	result := (builder build: spec) asOrderedCollection.
 	self assert: [ (result first submorphs select: #isTextView) allSatisfy: [ :x | x width > 16 ] ].
-	"CTLogger log: (TimeStamp current asString), '   ', result first submorphs first width."
 	^ result
