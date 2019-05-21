@@ -4,7 +4,10 @@ findWindowsOpenedWhile: anActionBlock in: aCollectBlock
 
 	| allWindows newWindows|
 	[allWindows := aCollectBlock value.
-		anActionBlock value.
+		[anActionBlock value]
+			on: ProvideAnswerNotification
+			do: [:notification | (notification messageText asSymbol = #openAsTool)
+				ifTrue: [notification resume: false]].
 		newWindows := aCollectBlock value
 			copyWithoutAll: allWindows]
 		ensure: ["Cleanup"
