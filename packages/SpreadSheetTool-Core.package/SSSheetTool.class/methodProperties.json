@@ -15,7 +15,7 @@
 		"unregisterFromWorldMenu" : "CT 5/11/2019 20:27" },
 	"instance" : {
 		"buildCellsPanel" : "CT 5/22/2019 19:02",
-		"buildWith:" : "CT 5/21/2019 16:30",
+		"buildWith:" : "CT 5/22/2019 19:30",
 		"calculateFrameForItemAtColumn:atRow:" : "CT 5/20/2019 16:29",
 		"collectHeaderModels" : "CT 5/20/2019 20:08",
 		"columnCount" : "CT 5/8/2019 15:46",
@@ -35,7 +35,7 @@
 		"minimumExtent" : "CT 5/9/2019 09:19",
 		"minimumSplitterExtent" : "AN 5/2/2019 14:38",
 		"okToClose" : "CT 5/22/2019 19:00",
-		"open" : "CT 5/22/2019 19:04",
+		"open" : "CT 5/22/2019 19:28",
 		"openNewSheet" : "JB 5/22/2019 13:44",
 		"openSheetFromImage" : "CT 5/22/2019 15:41",
 		"promptChangesCanBeDiscarded" : "CT 5/11/2019 14:48",
