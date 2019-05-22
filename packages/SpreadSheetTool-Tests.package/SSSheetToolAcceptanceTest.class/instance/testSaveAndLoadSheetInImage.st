@@ -17,12 +17,12 @@ testSaveAndLoadSheetInImage
 		butHandleException: [:notification | notification resume: sheetName].
 	
 	newWindow := MTFMorphWrapper newWith:
-		(self assertWindowOpensWhile: [self
+		(self findWindowOpenedWhile: [self
 			should: [openButton click]
 			raise: ProvideAnswerNotification
 			butHandleException: [:notification |
 				notification messageText isEmptyOrNil ifTrue:
-					[notification resume: sheetName]]]).
+					[notification resume: sheetName]]]) asOrderedCollection.
 	self
 		assert: self someCellContent
 		equals: (self findCellAt: someIndex in: newWindow) text asString.
