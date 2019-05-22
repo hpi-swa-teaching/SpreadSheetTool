@@ -11,6 +11,6 @@ findWindowsOpenedWhile: anActionBlock in: aCollectBlock
 		newWindows := aCollectBlock value
 			copyWithoutAll: allWindows]
 		ensure: ["Cleanup"
-			newWindows do: #abandon].
+			newWindows do: #hide].
 	
 	^ newWindows
