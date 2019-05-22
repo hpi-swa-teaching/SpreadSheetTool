@@ -46,7 +46,6 @@
 		"testSaveSheetInImage" : "CT 5/21/2019 15:17",
 		"testSheetHasColumnHeaders" : "CT 5/14/2019 21:14",
 		"testSheetHasRowHeaders" : "CT 5/17/2019 17:03",
-		"testUnsavedChangesAreNotSavedInImage" : "CT 5/22/2019 19:33",
 		"testWindowContainsCells" : "CT 5/1/2019 23:42",
 		"testWindowWithCellThatHasContentCannotBeClosed" : "CT 5/22/2019 17:50",
 		"testWindowWithCellThatHasUnacceptedChangesCannotBeClosed" : "CT 5/22/2019 19:31",
