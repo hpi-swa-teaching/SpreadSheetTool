@@ -1,15 +1,14 @@
 testing
-testUnsavedChangesAreNotSavedInImage
+testChangesAfterSaveDoNotAffectSavedSheet
 	"Acceptance test for #14"
 
-	| firstWindow secondWindow |
+	| secondWindow |
 	(self findCellAt: self someCellIndex)
 		sendKeys: self someContent;
 		sendControlSave.
 	self saveSheetAs: sheetName.
 	
-	firstWindow := self openSheetByName: sheetName.
-	(self findCellAt: self someCellIndex in: firstWindow)
+	(self findCellAt: self someCellIndex)
 		sendKeys: self someOtherContent;
 		sendControlSave.
 	

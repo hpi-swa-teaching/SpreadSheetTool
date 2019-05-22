@@ -1,21 +1,21 @@
 testing
-testUnsavedChangesAreNotSavedInImage
+testChangesAfterReopenDoNotAffectSavedSheet
 	"Acceptance test for #14"
 
-	| firstWindow secondWindow |
+	| secondWindow thirdWindow |
 	(self findCellAt: self someCellIndex)
 		sendKeys: self someContent;
 		sendControlSave.
 	self saveSheetAs: sheetName.
 	
-	firstWindow := self openSheetByName: sheetName.
-	(self findCellAt: self someCellIndex in: firstWindow)
+	secondWindow := self openSheetByName: sheetName.
+	(self findCellAt: self someCellIndex in: secondWindow)
 		sendKeys: self someOtherContent;
 		sendControlSave.
 	
-	secondWindow := self openSheetByName: sheetName.
+	thirdWindow := self openSheetByName: sheetName.
 	self
 		assert: self someContent
-		equals: (self findCellAt: self someCellIndex in: secondWindow)
+		equals: (self findCellAt: self someCellIndex in: thirdWindow)
 			text asString
 		description: 'Unsaved changes should not affect saved sheet'.

@@ -4,7 +4,7 @@ setUp
 	model := self toolUnderTest
 		rowCount: self rowCount
 		columnCount: self columnCount.
-	self wantsToTest: model open.
+	self wantsToTest: (model buildWith: ToolBuilder default).
 	
 	sheetName := '_Test'.
 	[(self toolUnderTest sheetNamed: sheetName) notNil] 

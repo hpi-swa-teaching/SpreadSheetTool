@@ -1,5 +1,5 @@
 testing
-testWindowWithCellThatHasUnsavedChangesCannotBeClosed
+testWindowWithCellThatHasUnacceptedChangesCannotBeClosed
 	"Test for #10 (Simple Menu)"
 
 	self findAnyCell
