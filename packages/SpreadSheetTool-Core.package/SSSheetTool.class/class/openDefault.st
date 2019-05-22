@@ -1,4 +1,4 @@
 toolbuilder
-open
+openDefault
 
 	^ self openWithRowCount: 5 columnCount: 5

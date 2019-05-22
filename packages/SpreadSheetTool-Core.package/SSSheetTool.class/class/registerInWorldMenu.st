@@ -1,4 +1,4 @@
 setup
 registerInWorldMenu
 
-	TheWorldMenu registerOpenCommand: {self applicationName. {self. #open}}
+	TheWorldMenu registerOpenCommand: {self applicationName. {self. #openDefault}}
