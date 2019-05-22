@@ -1,4 +1,4 @@
 accessing
-hasUnsavedChanges
+hasUnacceptedChanges
 
 	^ self containingMorphicModels anySatisfy: #hasUnacceptedEdits

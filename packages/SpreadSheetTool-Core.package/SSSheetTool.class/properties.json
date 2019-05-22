@@ -8,7 +8,8 @@
 	"instvars" : [
 		"cellModels",
 		"columnHeaders",
-		"rowHeaders" ],
+		"rowHeaders",
+		"hasUnsavedChanges" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],

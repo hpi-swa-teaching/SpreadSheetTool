@@ -1,4 +1,5 @@
 accessing
 contents: aTextOrString
 
-	cell value: aTextOrString asString
+	cell value: aTextOrString asString.
+	self contentsChanged.

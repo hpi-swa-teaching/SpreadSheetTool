@@ -1,5 +1,6 @@
 toolbuilder
 buildCellsPanel
+
 	| builder spec result |
 	builder := ToolBuilder default.
 	spec := builder pluggablePanelSpec new
