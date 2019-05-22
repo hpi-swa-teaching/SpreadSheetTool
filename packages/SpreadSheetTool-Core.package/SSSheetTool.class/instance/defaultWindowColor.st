@@ -1,5 +1,5 @@
 toolbuilder
 defaultWindowColor
 
-	"light hpi red"
-	^ Color fromString: '#fdc0d2'
+	"light hpi yellow"
+	^ Color fromString: '#ffeeca'

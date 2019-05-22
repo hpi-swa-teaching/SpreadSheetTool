@@ -4,4 +4,5 @@ saveSheetToImage
 	| name |	
 	name := UIManager default request: 'Sheet name'.
 	name ifEmpty: [^ self].
-	self class saveSheet: self as: name.
+	self flag: #todo "Quick and dirty. Better change the whole design.".
+	self class saveSheet: self veryDeepCopy as: name.
