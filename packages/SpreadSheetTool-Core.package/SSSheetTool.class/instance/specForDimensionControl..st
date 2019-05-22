@@ -3,17 +3,10 @@ specForDimensionControl: aBuilder
 
 	| specs |
 	specs := {
-		((SSPropertyFieldModel newWithParent: self)
-			getProperty: #rowCount;
-			setProperty: #rowCount:)
-				createSpecWith: aBuilder
-				helpText: 'rows'.
-		((SSPropertyFieldModel newWithParent: self)
-			getProperty: #columnCount;
-			setProperty: #columnCount:)
-				createSpecWith: aBuilder
-				helpText: 'columns' }.
+		self specForDimensionControlInDimension: 'row' with: aBuilder.
+		self specForDimensionControlInDimension: 'column' with: aBuilder
+	}.
 	^ aBuilder pluggablePanelSpec new
-		children: specs;
 		layout: #vertical;
+		children: specs;
 		yourself
