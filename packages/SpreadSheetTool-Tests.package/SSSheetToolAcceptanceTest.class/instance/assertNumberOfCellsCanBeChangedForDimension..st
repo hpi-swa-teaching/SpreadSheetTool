@@ -1,7 +1,7 @@
 testing
 assertNumberOfCellsCanBeChangedForDimension: aDimensionString
 
-	| dimensionCountSymbol dimensionTextField cellCount cell someContent |
+	| dimensionCountSymbol dimensionTextField cellCount cell |
 	dimensionCountSymbol := ((aDimensionString withoutTrailing: 's'),
 		'count' ssWithFirstCharacterUppercase) asSymbol.
 	
@@ -10,9 +10,8 @@ assertNumberOfCellsCanBeChangedForDimension: aDimensionString
 		assert: 1 equals: dimensionTextField morphs size;
 		assert: (dimensionCountSymbol value: self) equals: dimensionTextField text asNumber.
 	
-	someContent := 'Carpe Squeak'.
 	(cell := self findAnyCell)
-		sendKeys: someContent;
+		sendKeys: self someContent;
 		sendControlSave.
 	
 	cellCount := (dimensionCountSymbol value: self) - 1.
@@ -24,4 +23,4 @@ assertNumberOfCellsCanBeChangedForDimension: aDimensionString
 	self
 		assert: dimensionTextField text asNumber equals: cellCount;
 		assert: cellCount equals: (dimensionCountSymbol value: model);
-		assert: someContent equals: cell text asString.
+		assert: self someContent equals: cell text asString.

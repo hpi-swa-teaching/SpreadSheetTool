@@ -1,4 +1,4 @@
-testing
+tools
 findCellAt: anIndex in: aWindow
 
 	| count |

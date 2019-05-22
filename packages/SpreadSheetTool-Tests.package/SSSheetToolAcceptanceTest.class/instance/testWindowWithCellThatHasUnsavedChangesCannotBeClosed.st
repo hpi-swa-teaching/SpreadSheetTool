@@ -3,7 +3,7 @@ testWindowWithCellThatHasUnsavedChangesCannotBeClosed
 	"Test for #10 (Simple Menu)"
 
 	self findAnyCell
-		sendKeys: self someCellContent.
+		sendKeys: self someContent.
 	
 	self
 		should: [self subject delete]

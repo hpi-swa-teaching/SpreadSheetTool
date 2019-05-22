@@ -6,9 +6,9 @@ testEnterAndSaveTextInACell
 	cell := self findAnyCell.
 	
 	cell
-		sendKeys: self someCellContent;
+		sendKeys: self someContent;
 		sendControlSave.
 	
 	self
-		assert: self someCellContent equals: cell text asString;
+		assert: self someContent equals: cell text asString;
 		deny: cell hasUnacceptedEdits.

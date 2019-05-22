@@ -1,4 +1,4 @@
 testing data
-someCellContent
+someContent
 
 	^ 'Carpe Squeak'

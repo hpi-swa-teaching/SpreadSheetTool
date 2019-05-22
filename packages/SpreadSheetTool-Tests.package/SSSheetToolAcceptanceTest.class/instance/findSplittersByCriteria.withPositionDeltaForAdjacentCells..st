@@ -1,4 +1,4 @@
-testing
+tools
 findSplittersByCriteria: aBlock withPositionDeltaForAdjacentCells: aPoint
 
 	^ (self subject
