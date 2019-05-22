@@ -15,9 +15,10 @@
 		"findSplittersByCriteria:withPositionDeltaForAdjacentCells:" : "CT 5/17/2019 17:27",
 		"findWindowsOpenedWhile:in:" : "CT 5/21/2019 18:12",
 		"rowCount" : "CT 5/20/2019 20:15",
-		"setUp" : "CT 5/11/2019 14:48",
+		"setUp" : "JB 5/22/2019 14:37",
 		"someCellContent" : "CT 5/11/2019 20:20",
 		"splitterThickness" : "CT 5/2/2019 22:54",
+		"tearDown" : "JB 5/22/2019 15:11",
 		"testCellsAreResizable" : "CT 5/17/2019 17:28",
 		"testDistributeCellsInDimension:unchangedDimension:dimensionName:" : "CT 5/21/2019 12:44",
 		"testDistributeColumns" : "CT 5/17/2019 21:20",
@@ -30,8 +31,8 @@
 		"testNewSheetButton" : "CT 5/21/2019 17:42",
 		"testNumberOfColumnsCanBeChanged" : "CT 5/11/2019 20:10",
 		"testNumberOfRowsCanBeChanged" : "CT 5/11/2019 20:19",
-		"testOpen" : "CT 5/21/2019 17:10",
-		"testSaveAndLoadSheetInImage" : "CT 5/21/2019 18:10",
+		"testOpen" : "JB 5/22/2019 14:12",
+		"testSaveAndLoadSheetInImage" : "JB 5/22/2019 15:02",
 		"testSaveSheetInImage" : "CT 5/21/2019 15:17",
 		"testSheetHasColumnHeaders" : "CT 5/14/2019 21:14",
 		"testSheetHasRowHeaders" : "CT 5/17/2019 17:03",
@@ -39,4 +40,4 @@
 		"testWindowWithCellThatHasContentCannotBeClosed" : "CT 5/11/2019 20:21",
 		"testWindowWithCellThatHasUnsavedChangesCannotBeClosed" : "CT 5/11/2019 20:20",
 		"testWindowWithoutUnsavedChangesCloses" : "CT 5/11/2019 19:08",
-		"toolUnderTest" : "CT 5/21/2019 18:08" } }
+		"toolUnderTest" : "JB 5/22/2019 15:07" } }

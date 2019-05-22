@@ -1,8 +1,7 @@
 testing
 testSaveAndLoadSheetInImage
 
-	| sheetName someIndex openButton saveButton newWindow |
-	sheetName := 'My cool sheet'.
+	| someIndex openButton saveButton newWindow |
 	someIndex := (self rowCount * self columnCount) sqrt ceiling.
 	
 	(self findCellAt: someIndex)
@@ -17,6 +16,7 @@ testSaveAndLoadSheetInImage
 		raise: ProvideAnswerNotification
 		butHandleException: [:notification | notification resume: sheetName].
 	
+	self halt.
 	newWindow := MTFMorphWrapper newWith:
 		(self assertWindowOpensWhile: [self
 			should: [openButton click]

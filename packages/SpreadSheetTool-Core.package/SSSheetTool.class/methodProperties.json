@@ -8,6 +8,7 @@
 		"openWithRowCount:columnCount:" : "CT 5/21/2019 12:10",
 		"registerInWorldMenu" : "JB 5/22/2019 13:41",
 		"removeSheetNamed:" : "JB 5/22/2019 14:39",
+		"removeSheetNamed:ifAbsent:" : "JB 5/22/2019 15:11",
 		"rowCount:columnCount:" : "CT 5/6/2019 17:51",
 		"saveSheet:as:" : "JB 5/22/2019 13:29",
 		"sheetNamed:" : "JB 5/22/2019 14:42",

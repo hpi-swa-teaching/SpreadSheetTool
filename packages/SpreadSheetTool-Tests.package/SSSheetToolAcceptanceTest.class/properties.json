@@ -11,7 +11,8 @@
 		"uiManager",
 		"columnCount",
 		"rowCount",
-		"toolUnderTest" ],
+		"toolUnderTest",
+		"sheetName" ],
 	"name" : "SSSheetToolAcceptanceTest",
 	"pools" : [
 		 ],
