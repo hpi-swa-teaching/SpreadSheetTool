@@ -10,5 +10,5 @@
 	"name" : "SSOriginHeaderModel",
 	"pools" : [
 		 ],
-	"super" : "SSTextFieldModel",
+	"super" : "SSHeaderModel",
 	"type" : "normal" }
