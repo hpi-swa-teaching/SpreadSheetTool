@@ -1,4 +1,4 @@
-as yet unclassified
+interaction
 contentsChanged
 
 	super contentsChanged.

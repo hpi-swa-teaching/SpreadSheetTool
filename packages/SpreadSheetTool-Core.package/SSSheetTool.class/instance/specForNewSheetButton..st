@@ -5,4 +5,4 @@ specForNewSheetButton: aBuilder
 		label: 'New sheet';
 		model: self;
 		action: #openNewSheet;
-		yourself.
+		yourself

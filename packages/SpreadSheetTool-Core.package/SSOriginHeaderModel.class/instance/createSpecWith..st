@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createSpecWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new

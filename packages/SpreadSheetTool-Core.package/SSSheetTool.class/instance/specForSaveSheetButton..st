@@ -5,4 +5,4 @@ specForSaveSheetButton: aBuilder
 		label: 'Save sheet';
 		model: self;
 		action: #saveSheetToImage;
-		yourself.
+		yourself

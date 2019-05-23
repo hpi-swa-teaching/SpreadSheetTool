@@ -9,4 +9,4 @@ specForDistributionControl: aBuilder
 	^ aBuilder pluggablePanelSpec new
 		children: children;
 		layout: #vertical;
-		yourself.
+		yourself

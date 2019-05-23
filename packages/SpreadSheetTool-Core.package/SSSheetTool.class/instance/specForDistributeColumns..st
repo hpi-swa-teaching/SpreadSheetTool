@@ -5,4 +5,4 @@ specForDistributeColumns: aBuilder
 		label: 'Distribute columns';
 		model: self;
 		action: #distributeColumns;
-		yourself.
+		yourself

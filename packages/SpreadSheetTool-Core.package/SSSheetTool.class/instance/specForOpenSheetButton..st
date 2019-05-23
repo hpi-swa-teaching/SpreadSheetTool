@@ -5,4 +5,4 @@ specForOpenSheetButton: aBuilder
 		label: 'Open sheet';
 		model: self;
 		action: #openSheetFromImage;
-		yourself.
+		yourself

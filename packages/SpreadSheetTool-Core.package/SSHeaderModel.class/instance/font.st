@@ -1,5 +1,5 @@
 accessing
 font
 
-	^ Preferences standardDefaultTextFont
-		emphasized: 1
+	^ Preferences standardDefaultTextFont emphasized:
+		(TextEmphasis emphasisCodeFor: #bold)

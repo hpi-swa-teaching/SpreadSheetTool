@@ -5,4 +5,4 @@ specForDistributeRows: aBuilder
 		label: 'Distribute rows';
 		model: self;
 		action: #distributeRows;
-		yourself.
+		yourself

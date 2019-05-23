@@ -1,7 +1,7 @@
 interaction
 distributeCellsWithInvariantDimension: invariantDimensionSymbol splitterSelector: splitterSelector
 
-	| cellMorphs cellPanel morphScales |
+	| cellMorphs morphScales cellPanel |
 	cellMorphs := (cellModels anyOne containingMorphicModel
 		owner submorphs select: #isTextView)
 		groupByUniqueKey: #model.
