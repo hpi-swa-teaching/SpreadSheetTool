@@ -9,4 +9,4 @@ openSheetByName: aName
 			notification messageText isEmptyOrNil ifTrue:
 				[notification resume: sheetName]]].
 	^ MTFMorphWrapper newWith:
-		window asOrderedCollection.
+		window asOrderedCollection

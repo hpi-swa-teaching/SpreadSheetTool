@@ -3,4 +3,4 @@ assertWindowDeleted: aWindow
 
 	self
 		deny: aWindow model notNil
-		description: 'The window should have abandoned'.
+		description: 'The window should have abandoned'

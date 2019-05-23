@@ -1,5 +1,7 @@
 running
 tearDown
 
-	self toolUnderTest removeSheetNamed: sheetName ifAbsent: [].
+	self toolUnderTest
+		removeSheetNamed: sheetName
+		ifAbsent: [].
 	super tearDown.

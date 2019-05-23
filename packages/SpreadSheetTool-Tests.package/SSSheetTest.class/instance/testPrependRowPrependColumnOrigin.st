@@ -5,6 +5,7 @@ testPrependRowPrependColumnOrigin
 	columnBlock := [:r | 'My c', r].
 	rowBlock := [:c | 'My r', c].
 	originConstant := #origin.
+	
 	matrix := sheet
 		prependColumn: columnBlock
 		prependRow: rowBlock
@@ -12,8 +13,8 @@ testPrependRowPrependColumnOrigin
 	
 	self
 		assert: sheet rowCount + 1 equals: matrix rowCount;
-		assert: sheet columnCount + 1 equals: matrix columnCount.
-	self assert: (matrix at: 1 at: 1) equals: originConstant.
+		assert: sheet columnCount + 1 equals: matrix columnCount;
+		assert: (matrix at: 1 at: 1) equals: originConstant.
 	1 to: sheet rowCount do: [:aRow |
 		self
 			assert: (columnBlock value: aRow)
@@ -26,4 +27,4 @@ testPrependRowPrependColumnOrigin
 		1 to: sheet columnCount do: [:aColumn |
 			self
 				assert: (sheet atRow: aRow atColumn: aColumn)
-				equals: (matrix at: aRow + 1 at: aColumn + 1)]]
+				equals: (matrix at: aRow + 1 at: aColumn + 1)]].

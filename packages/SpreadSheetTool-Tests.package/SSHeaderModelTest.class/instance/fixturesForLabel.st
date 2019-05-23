@@ -1,5 +1,5 @@
 testing data
-theoriesForLabel
+fixturesForLabel
 
 	^ {
 		{ 1. 'A' }.

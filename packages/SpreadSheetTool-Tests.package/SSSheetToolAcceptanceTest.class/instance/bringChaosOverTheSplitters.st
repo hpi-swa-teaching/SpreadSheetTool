@@ -1,4 +1,4 @@
-running
+tools
 bringChaosOverTheSplitters
 
 	| horizontalSplitters random verticalSplitters |
@@ -9,7 +9,7 @@ bringChaosOverTheSplitters
 		findSplittersByCriteria: #splitsLeftAndRight
 		withPositionDeltaForAdjacentCells: self splitterThickness @ 0.
 	
-	random := Random seed: 42.
+	random := self random.
 	verticalSplitters do: [:splitter |
 		splitter repositionBy: (0 @ ((-30 to: 30) atRandom: random))].
 	horizontalSplitters do: [:splitter |

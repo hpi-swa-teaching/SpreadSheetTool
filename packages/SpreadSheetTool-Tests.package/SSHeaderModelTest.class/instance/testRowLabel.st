@@ -1,7 +1,7 @@
 testing
 testRowLabel
 
-	self theoriesForLabel do: [:aTheory | |model|
+	self fixturesForLabel do: [:aTheory | | model |
 		model := SSHeaderModel
 			rowHeaderForIndex: aTheory first 
 			parent: nil.

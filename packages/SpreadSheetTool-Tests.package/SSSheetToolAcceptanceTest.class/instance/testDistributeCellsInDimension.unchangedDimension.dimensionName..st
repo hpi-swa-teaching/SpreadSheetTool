@@ -1,5 +1,6 @@
 testing
 testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUnchangedDimension dimensionName: aDimensionName
+	"Test for #8 (Distribute rows/columns)"
 
 	| oldBounds oldScales newVaryingScales |
 	self bringChaosOverTheSplitters.

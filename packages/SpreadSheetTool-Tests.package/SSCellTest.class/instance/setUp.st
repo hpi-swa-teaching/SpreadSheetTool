@@ -1,4 +1,4 @@
 running
 setUp
 
-	cell := SSCell new.
+	cell := SSCell new
