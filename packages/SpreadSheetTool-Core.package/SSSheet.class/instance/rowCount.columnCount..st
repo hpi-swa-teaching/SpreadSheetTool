@@ -1,10 +1,11 @@
 accessing
 rowCount: aRowCount columnCount: aColumnCount
 
-	"TODO: Consider move extension method implementation hither"
-	cells := cells
+	cells := Matrix
 		rows: aRowCount
 		columns: aColumnCount
-		tabulateNewContentsWith: [:row :column |
-			self cellFactory
-				ifNotNil: [:f | f value: row value: column]]
+		tabulate: [:row :column |
+			(row @ column) <= (self rowCount @ self columnCount)
+				ifTrue: [self atRow: row atColumn: column]
+				ifFalse: [self cellFactory
+					ifNotNil: [:f | f value: row value: column]]]

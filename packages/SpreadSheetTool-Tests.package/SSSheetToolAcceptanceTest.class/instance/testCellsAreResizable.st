@@ -13,6 +13,6 @@ testCellsAreResizable
 	
 	self
 		assert: self subject model rowCount - 1
-			equals: verticalSplitters morphs size;
+			equals: verticalSplitters size;
 		assert: self subject model columnCount - 1
-			equals: horizontalSplitters morphs size.
+			equals: horizontalSplitters size.

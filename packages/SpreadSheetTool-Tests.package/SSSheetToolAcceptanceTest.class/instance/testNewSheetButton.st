@@ -9,6 +9,4 @@ testNewSheetButton
 		assert: button morphs isSingleton
 		description: '''New sheet'' button not found'.
 	
-	self 
-		assertWindowOpensWhile: [button click]
-		in: [self findAllToolWindows].
+	self assertWindowOpensWhile: [button click].

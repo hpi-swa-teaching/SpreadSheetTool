@@ -1,12 +1,15 @@
 {
 	"category" : "SpreadSheetTool-Core",
 	"classinstvars" : [
-		 ],
+		"savedSheets" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cellModels" ],
+		"cellModels",
+		"columnHeaders",
+		"rowHeaders",
+		"hasUnsavedChanges" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],

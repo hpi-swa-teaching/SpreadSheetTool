@@ -10,5 +10,4 @@ testIsRegisteredInWorldMenu
 	
 	self 
 		assertWindowOpensWhile: [
-			menuEntry first perform: menuEntry second] 
-		in: [self findAllToolWindows]
+			menuEntry first perform: menuEntry second]

@@ -3,4 +3,4 @@ setUp
 
 	sheet := SSSheet
 		rowCount: self rowCount
-		columnCount: self columnCount.
+		columnCount: self columnCount

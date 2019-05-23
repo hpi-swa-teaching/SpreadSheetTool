@@ -1,9 +1,6 @@
 testing
 testCellShouldStoreValue
 
-	| constant |
-	constant := 'Smalltalk is infinity'.
-
-	cell contents: constant.
+	cell contents: self someContent.
 	
-	self assert: constant equals: cell contents.
+	self assert: self someContent equals: cell contents.

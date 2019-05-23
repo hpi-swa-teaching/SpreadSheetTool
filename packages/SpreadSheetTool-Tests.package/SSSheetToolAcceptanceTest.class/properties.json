@@ -10,7 +10,8 @@
 		"model",
 		"uiManager",
 		"columnCount",
-		"rowCount" ],
+		"rowCount",
+		"sheetName" ],
 	"name" : "SSSheetToolAcceptanceTest",
 	"pools" : [
 		 ],

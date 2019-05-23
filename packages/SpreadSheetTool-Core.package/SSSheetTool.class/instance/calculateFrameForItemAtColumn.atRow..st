@@ -1,5 +1,5 @@
 toolbuilder
 calculateFrameForItemAtColumn: aColumn atRow: aRow
 	
-	^ (aColumn @ aRow * self defaultCellExtent)
+	^ ((aColumn @ aRow) - (1 @ 1) * self defaultCellExtent)
 		extent: self defaultCellExtent

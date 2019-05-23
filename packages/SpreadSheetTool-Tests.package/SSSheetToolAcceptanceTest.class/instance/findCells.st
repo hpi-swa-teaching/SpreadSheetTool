@@ -1,4 +1,4 @@
-testing
+tools
 findCells
 
 	^ self subject findByCriteria: [:morph | morph isTextView

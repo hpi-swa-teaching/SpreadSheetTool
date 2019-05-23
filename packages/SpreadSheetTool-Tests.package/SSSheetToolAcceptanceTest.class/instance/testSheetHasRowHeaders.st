@@ -12,4 +12,3 @@ testSheetHasRowHeaders
 		self
 			assert: header morphs notEmpty;
 			assert: column asString equals: header text asString]
-	
