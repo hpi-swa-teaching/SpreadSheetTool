@@ -1,4 +1,4 @@
-as yet unclassified
+open and save
 removeSheetNamed: aString	
 	
 	^ savedSheets removeKey: aString

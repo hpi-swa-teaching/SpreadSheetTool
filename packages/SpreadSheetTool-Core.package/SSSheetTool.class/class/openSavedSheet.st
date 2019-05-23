@@ -1,4 +1,4 @@
-as yet unclassified
+open and save
 openSavedSheet
 	
 	savedSheets ifEmpty: [
