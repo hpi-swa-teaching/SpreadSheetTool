@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cell" ],
+		 ],
 	"name" : "SSCellTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TheoryTestCase",
 	"type" : "normal" }
