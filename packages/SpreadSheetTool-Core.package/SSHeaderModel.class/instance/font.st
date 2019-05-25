@@ -2,4 +2,4 @@ accessing
 font
 
 	^ Preferences standardDefaultTextFont emphasized:
-		(TextEmphasis emphasisCodeFor: #bold)
+		TextEmphasis bold emphasisCode

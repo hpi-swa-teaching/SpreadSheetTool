@@ -6,7 +6,7 @@ testNewSheetButton
 	button := self subject findByLabel: 'New sheet'.
 	
 	self
-		assert: button morphs isSingleton
+		assert: button morphs hasSingle
 		description: '''New sheet'' button not found'.
 	
 	self assertWindowOpensWhile: [button click].

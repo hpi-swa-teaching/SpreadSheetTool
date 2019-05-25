@@ -4,4 +4,4 @@ testOpenSheetInImageButton
 
 	| openButton |
 	openButton := self subject findByLabel: 'Open sheet'.
-	self assert: openButton morphs isSingleton.
+	self assert: openButton morphs hasSingle.

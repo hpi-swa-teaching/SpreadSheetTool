@@ -1,5 +1,5 @@
 *SpreadSheetTool-Core-accessing
 singleOne
 
-	self assert: self isSingleton.
+	self assert: self hasSingle.
 	self do: [:each | ^ each].

@@ -11,5 +11,4 @@ buildCellsPanel
 		wantsResizeHandles: true;
 		yourself.
 	result := (builder build: spec) asOrderedCollection.
-	self assert: [ (result first submorphs select: #isTextView) allSatisfy: [ :x | x width > 16 ] ].
 	^ result

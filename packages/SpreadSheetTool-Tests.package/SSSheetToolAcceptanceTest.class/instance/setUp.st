@@ -1,6 +1,7 @@
 running
 setUp
 
+	| model |
 	model := self toolUnderTest
 		rowCount: self rowCount
 		columnCount: self columnCount.
@@ -9,3 +10,5 @@ setUp
 	sheetName := '___', self name.
 	[(self toolUnderTest sheetNamed: sheetName) notNil] 
 		whileTrue: [sheetName := sheetName , 'z'].
+	
+	windowHeap := Set new.

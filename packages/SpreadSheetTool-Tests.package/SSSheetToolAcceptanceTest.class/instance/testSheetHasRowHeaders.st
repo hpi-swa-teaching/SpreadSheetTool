@@ -11,4 +11,4 @@ testSheetHasRowHeaders
 			andCriteria: [:morph | morph position y = y and: [morph position x < minX]].
 		self
 			assert: header morphs notEmpty;
-			assert: column asString equals: header text asString]
+			assert: column asString equals: header text asString].

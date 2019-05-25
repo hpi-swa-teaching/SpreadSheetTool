@@ -16,11 +16,11 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 		collect: aVaryingDimensionSymbol.
 	self
 		assert: [newVaryingScales range < 5]
-			description: ['All ', aDimensionName, ' should be of equal size'];
+			description: 'All ', aDimensionName, ' should be of equal size';
 		assert: oldBounds equals: self subject bounds
 			description: 'The window size should not change while distributing cells'.
 	oldScales keysAndValuesDo: [:oldCell :oldScale | | cell |
 		cell := oldCell model containingMorphicModel.
 		self
 			assert: oldScale equals: (cell in: anUnchangedDimension)
-			description: ['The ', anUnchangedDimension, ' should not change']].
+			description: 'The ', anUnchangedDimension, ' should not change'].
