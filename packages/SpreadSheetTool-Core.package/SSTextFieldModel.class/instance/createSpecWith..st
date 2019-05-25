@@ -5,5 +5,6 @@ createSpecWith: aBuilder
 		model: self;
 		getText: #contents;
 		setText: #contents:notifying:;
+		softLineWrap: true;
 		minimumExtent: self parent minimumCellExtent;
 		yourself
