@@ -11,5 +11,5 @@ findSplittersByCriteria: aBlock withPositionDeltaForAdjacentCells: aPoint
 				findByPosition: splitter position + aPoint
 				andCriteria: [:m | m isTextView] }
 			allSatisfy: [:m | m morphs notEmpty and: [
-					m model inheritsFromAnyIn: {SSCellModel. SSHeaderModel}]]]])
+					m model isKindOf: SSCellModel orOf: SSHeaderModel]]]])
 		morphs

@@ -1,5 +1,5 @@
 testing
-testWindowWithCellThatHasUnacceptedChangesCannotBeClosed
+testWindowWithCellThatHasContentCannotBeClosed
 	"Test for #10 (Simple Menu)"
 
 	self findAnyCell

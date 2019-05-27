@@ -4,8 +4,7 @@ testSaveAndLoadSheetInImage
 
 	| newWindow |
 	(self findCellAt: self someCellIndex)
-		sendKeys: self someContent;
-		sendControlSave.
+		sendKeys: self someContent.
 	self saveSheetAs: sheetName.
 	
 	newWindow := self openSheetByName: sheetName.

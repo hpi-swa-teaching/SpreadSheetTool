@@ -8,7 +8,7 @@
 	"instvars" : [
 		"sheetName",
 		"windowHeap" ],
-	"name" : "SSSheetToolAcceptanceTest",
+	"name" : "SSAcceptanceTest",
 	"pools" : [
 		 ],
 	"super" : "MTFTestCase",

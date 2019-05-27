@@ -4,14 +4,12 @@ testChangesAfterReopenDoNotAffectSavedSheet
 
 	| secondWindow thirdWindow |
 	(self findCellAt: self someCellIndex)
-		sendKeys: self someContent;
-		sendControlSave.
+		sendKeys: self someContent.
 	self saveSheetAs: sheetName.
 	
 	secondWindow := self openSheetByName: sheetName.
 	(self findCellAt: self someCellIndex in: secondWindow)
-		sendKeys: self someOtherContent;
-		sendControlSave.
+		sendKeys: self someOtherContent.
 	
 	thirdWindow := self openSheetByName: sheetName.
 	self

@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"openSheetByName:" : "CT 5/27/2019 16:16",
+		"saveSheetAs:" : "CT 5/27/2019 16:14",
+		"testChangesAfterReopenDoNotAffectSavedSheet" : "CT 5/27/2019 16:15",
+		"testChangesAfterSaveDoNotAffectSavedSheet" : "CT 5/27/2019 16:15",
+		"testOpenSheetInImageButton" : "CT 5/27/2019 16:16",
+		"testSaveAndLoadSheetInImage" : "CT 5/27/2019 16:15",
+		"testSaveSheetInImageButton" : "CT 5/27/2019 16:15",
+		"testWindowWithCellThatHasContentCannotBeClosed" : "CT 5/27/2019 16:19",
+		"testWindowWithDimensionFieldThatHasUnacceptedChangesCannotBeClosed" : "CT 5/27/2019 16:19",
+		"testWindowWithDimensionFieldThatWasChangedCannotBeClosed" : "CT 5/27/2019 16:18",
+		"testWindowWithHeaderThatHasContentCannotBeClosed" : "CT 5/27/2019 16:21",
+		"testWindowWithSavedChangesCanBeClosed" : "CT 5/27/2019 16:16",
+		"testWindowWithoutUnsavedChangesCloses" : "CT 5/27/2019 16:16" } }

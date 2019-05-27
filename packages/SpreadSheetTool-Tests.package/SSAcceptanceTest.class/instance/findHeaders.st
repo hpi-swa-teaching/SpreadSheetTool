@@ -1,5 +1,5 @@
 tools
-findCells
+findHeaders
 
 	^ self subject findByCriteria: [:morph | morph isTextView
-		and: [morph model class = SSCellModel]]
+		and: [morph model isKindOf: SSHeaderModel]]

@@ -18,6 +18,6 @@ assertSheetRangeCanBeChangedFor: aDimensionString rangeSelector: aRangeSelector
 		sendControlSave.
 	
 	self
-		assert: dimensionTextField text asNumber equals: cellCount;
+		assert: cellCount equals: dimensionTextField text asNumber;
 		assert: cellCount equals: ((aRangeSelector, 'For:') asSymbol value: self value: self subject);
 		assert: self someContent equals: cell text asString.

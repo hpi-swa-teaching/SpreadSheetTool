@@ -3,8 +3,7 @@ testWindowWithSavedChangesCanBeClosed
 	"Test for #10 (Simple Menu)"
 
 	(self findCellAt: self someCellIndex)
-		sendKeys: self someContent;
-		sendControlSave.
+		sendKeys: self someContent.
 	
 	self saveSheetAs: sheetName.
 	
