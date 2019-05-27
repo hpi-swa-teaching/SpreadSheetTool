@@ -8,16 +8,16 @@ assertSheetRangeCanBeChangedFor: aDimensionString rangeSelector: aRangeSelector
 		assert: (self in: aRangeSelector) equals: dimensionTextField text asNumber.
 	
 	(cell := self findAnyCell)
-		sendKeys: self someContent;
-		sendControlSave.
+		sendKeys: self someContent.
 	
 	cellCount := (self in: aRangeSelector) - 1.
 	dimensionTextField
 		sendClearTextField;
 		sendKeys: cellCount asString;
 		sendControlSave.
+	self subject redraw.
 	
 	self
 		assert: cellCount equals: dimensionTextField text asNumber;
-		assert: cellCount equals: ((aRangeSelector, 'For:') asSymbol value: self value: self subject);
+		assert: cellCount equals: (self find: aRangeSelector);
 		assert: self someContent equals: cell text asString.

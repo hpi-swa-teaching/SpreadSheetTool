@@ -12,7 +12,7 @@ testCellsAreResizable
 		withPositionDeltaForAdjacentCells: self splitterThickness @ 0.
 	
 	self
-		assert: (self rowCountFor: self subject) - 1
+		assert: self findRowCount - 1
 			equals: verticalSplitters size;
-		assert: (self columnCountFor: self subject) - 1
+		assert: self findColumnCount - 1
 			equals: horizontalSplitters size.
