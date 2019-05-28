@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertSheetRangeCanBeChangedFor:rangeSelector:" : "GT 5/27/2019 18:56",
+		"assertSheetRangeCanBeChangedFor:rangeSelector:" : "CT 5/28/2019 11:09",
 		"assertWindowClosesWhile:" : "CT 5/25/2019 19:14",
 		"assertWindowDeleted:" : "CT 5/23/2019 09:05",
 		"assertWindowNotDeleted:" : "CT 5/23/2019 09:05",
@@ -23,6 +23,7 @@
 		"findSplittersByCriteria:withPositionDeltaForAdjacentCells:" : "CT 5/27/2019 14:11",
 		"findWindowOpenedWhile:" : "AN 5/22/2019 17:05",
 		"findWindowsOpenedWhile:" : "CT 5/25/2019 19:29",
+		"fixturesForInvalidDimensionValues" : "CT 5/28/2019 11:19",
 		"random" : "CT 5/23/2019 09:21",
 		"rowCount" : "CT 5/20/2019 20:15",
 		"setUp" : "GT 5/27/2019 18:42",
@@ -40,9 +41,12 @@
 		"testIsRegisteredInWorldMenu" : "CT 5/21/2019 17:09",
 		"testNewSheetButton" : "CT 5/25/2019 18:59",
 		"testNumberOfColumnsCanBeChanged" : "CT 5/25/2019 19:50",
+		"testNumberOfColumnsDoesNotAcceptNonInteger" : "CT 5/28/2019 11:34",
 		"testNumberOfRowsCanBeChanged" : "CT 5/25/2019 19:50",
+		"testNumberOfRowsDoesNotAcceptNonInteger" : "CT 5/28/2019 11:38",
 		"testOpenDefault" : "CT 5/23/2019 09:16",
 		"testSheetHasColumnHeaders" : "CT 5/14/2019 21:14",
 		"testSheetHasRowHeaders" : "CT 5/25/2019 19:17",
+		"testSheetRangeDoesNotAcceptNonIntegerForDimension:withSelector:" : "CT 5/28/2019 11:38",
 		"testWindowContainsCells" : "CT 5/1/2019 23:42",
 		"toolUnderTest" : "CT 5/25/2019 19:16" } }

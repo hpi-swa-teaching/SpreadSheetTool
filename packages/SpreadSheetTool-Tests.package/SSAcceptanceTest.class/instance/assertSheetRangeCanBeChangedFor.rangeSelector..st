@@ -15,8 +15,8 @@ assertSheetRangeCanBeChangedFor: aDimensionString rangeSelector: aRangeSelector
 		sendClearTextField;
 		sendKeys: cellCount asString;
 		sendControlSave.
-	self subject redraw.
 	
+	self subject redraw.
 	self
 		assert: cellCount equals: dimensionTextField text asNumber;
 		assert: cellCount equals: (self find: aRangeSelector);
