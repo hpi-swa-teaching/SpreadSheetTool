@@ -10,7 +10,8 @@
 		"rowHeaders",
 		"columnHeaders",
 		"cellFactory",
-		"headerFactory" ],
+		"rowHeaderFactory",
+		"columnHeaderFactory" ],
 	"name" : "SSSheetTemplate",
 	"pools" : [
 		 ],

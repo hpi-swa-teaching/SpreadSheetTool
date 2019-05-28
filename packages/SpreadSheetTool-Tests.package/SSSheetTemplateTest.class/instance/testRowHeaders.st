@@ -1,6 +1,5 @@
 testing
 testRowHeaders
 
-	self shouldBeUniqueValues: (
-		1 to: self rowCount
-		collect: [:row | template rowHeaderAt: row])
+	1 to: self rowCount do: [:row |
+		self assert: (self rowHeaderFor: row) equals: (template rowHeaderAt: row)]

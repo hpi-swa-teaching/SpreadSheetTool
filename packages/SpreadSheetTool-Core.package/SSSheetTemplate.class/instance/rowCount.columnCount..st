@@ -7,8 +7,8 @@ rowCount: aRowCount columnCount: aColumnCount
 		tabulate: [ :row :column | 
 			row @ column <= (self rowCount @ self columnCount)
 				ifTrue: [self atRow: row atColumn: column]
-				ifFalse: [self cellFactory value]].
+				ifFalse: [self cellFactory value: row value: column]].
 	
 	self
-		scale: columnHeaders to: aColumnCount;
-		scale: rowHeaders to: aRowCount.
+		scale: columnHeaders to: aColumnCount factory: self columnHeaderFactory;
+		scale: rowHeaders to: aRowCount factory: self rowHeaderFactory.

@@ -1,12 +1,8 @@
 testing
 testCells
 
-	| uniqueValues |
-	uniqueValues := Set new.
 	1 to: self rowCount do: [:row |
-		1 to: self columnCount do: [:column | | value |
-			value := template atRow: row atColumn: column.
+		1 to: self columnCount do: [:column | 
 			self
-				assert: value isInteger;
-				deny: (uniqueValues includes: value).
-			uniqueValues add: value]]
+				assert: (self cellValueForRow: row forColumn: column)
+				equals: (template atRow: row atColumn: column)]]

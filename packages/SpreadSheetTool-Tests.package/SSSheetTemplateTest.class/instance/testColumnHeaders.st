@@ -1,6 +1,5 @@
 testing
 testColumnHeaders
 
-	self shouldBeUniqueValues: (
-		1 to: self columnCount
-		collect: [:column | template columnHeaderAt: column])
+	1 to: self columnCount do: [:column |
+		self assert: (self columnHeaderFor: column) equals: (template columnHeaderAt: column)]
