@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cell" ],
-	"name" : "SSCellTest",
+		"header" ],
+	"name" : "SSHeaderTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

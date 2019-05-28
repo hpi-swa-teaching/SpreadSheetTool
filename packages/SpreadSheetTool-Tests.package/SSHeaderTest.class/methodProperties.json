@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "CT 5/28/2019 17:06",
+		"setUp" : "CT 5/28/2019 17:08",
 		"someValue" : "CT 5/28/2019 17:07",
-		"testValue" : "CT 5/28/2019 17:09" } }
+		"testLabel" : "CT 5/28/2019 17:08" } }

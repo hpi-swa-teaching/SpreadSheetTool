@@ -1,14 +1,14 @@
 {
-	"category" : "SpreadSheetTool-Tests",
+	"category" : "SpreadSheetTool-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cell" ],
-	"name" : "SSCellTest",
+		"label" ],
+	"name" : "SSHeader",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
