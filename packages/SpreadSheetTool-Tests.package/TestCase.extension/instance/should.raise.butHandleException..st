@@ -8,4 +8,4 @@ should: aBlock raise: anException butHandleException: anotherBlock
 		do: [:exception |
 			hasRaised := true.
 			anotherBlock value: exception].
-	self assert: hasRaised.
+	self assert: hasRaised description: 'aBlock should raise ', anException asString.
