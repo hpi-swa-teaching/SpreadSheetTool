@@ -1,7 +1,7 @@
 accessing
-contents: aTextOrString
+contents: anInteger
 
 	self parent
 		perform: self setProperty
-		with: aTextOrString asNumber.
+		with: anInteger.
 	self contentsChanged.
