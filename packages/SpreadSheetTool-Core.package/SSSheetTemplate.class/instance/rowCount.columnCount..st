@@ -10,5 +10,5 @@ rowCount: aRowCount columnCount: aColumnCount
 				ifFalse: [self cellFactory value: row value: column]].
 	
 	self
-		scale: columnHeaders to: aColumnCount factory: self columnHeaderFactory;
-		scale: rowHeaders to: aRowCount factory: self rowHeaderFactory.
+		scale: rowHeaders to: aRowCount factory: self rowHeaderFactory;
+		scale: columnHeaders to: aColumnCount factory: self columnHeaderFactory.
