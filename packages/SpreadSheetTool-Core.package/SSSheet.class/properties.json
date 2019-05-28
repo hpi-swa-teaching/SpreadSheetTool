@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cells",
-		"cellFactory" ],
+		"template" ],
 	"name" : "SSSheet",
 	"pools" : [
 		 ],

@@ -1,4 +1,0 @@
-enumerating
-anyOne
-
-	^ cells anyOne

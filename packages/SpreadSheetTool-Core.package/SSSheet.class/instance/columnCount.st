@@ -1,4 +1,4 @@
 accessing
 columnCount
 
-	^ cells columnCount
+	^ template columnCount

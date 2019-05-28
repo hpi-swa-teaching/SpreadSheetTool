@@ -1,4 +1,4 @@
 accessing
 rowCount
 
-	^ cells rowCount
+	^ template rowCount
