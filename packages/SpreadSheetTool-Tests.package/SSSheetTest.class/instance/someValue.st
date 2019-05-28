@@ -1,4 +1,4 @@
 testing data
-someContent
+someValue
 
 	^ 'Squeak forever <3'
