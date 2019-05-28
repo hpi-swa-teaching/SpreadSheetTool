@@ -1,5 +1,5 @@
 testing data
-someCellFactory
+someUniqueValueFactory
 
 	| calls |
 	calls := 0.
