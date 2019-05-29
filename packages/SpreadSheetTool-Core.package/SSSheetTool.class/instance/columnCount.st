@@ -1,4 +1,4 @@
 accessing
 columnCount
 
-	^ cellModels columnCount
+	^ contentModels columnCount

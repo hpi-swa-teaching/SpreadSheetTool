@@ -1,9 +1,12 @@
 initialize-release
 initialize
 
-	cellModels := SSSheet new
+	sheet := SSSheet new.
+	contentModels := SSSheetTemplate
 		cellFactory: [:row :column | SSCellModel
-			newWithData: SSCell new
-			parent: self].
-	columnHeaders := OrderedCollection new.
-	rowHeaders := OrderedCollection new.
+			newWithData: (sheet atRow: row atColumn: column)
+			parent: self]
+		rowHeaderFactory: [:row | SSHeaderModel
+			newWithData: (sheet rowHeaderAt: row) parent: self]
+		columnHeaderFactory: [:column | SSHeaderModel
+			newWithData: (sheet columnHeaderAt: column) parent: self].

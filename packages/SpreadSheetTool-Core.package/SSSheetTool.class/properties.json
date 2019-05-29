@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cellModels",
-		"columnHeaders",
-		"rowHeaders",
+		"sheet",
+		"contentModels",
 		"hasUnsavedChanges" ],
 	"name" : "SSSheetTool",
 	"pools" : [

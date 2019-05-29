@@ -4,4 +4,5 @@ initialize
 	super initialize.
 	template := SSSheetTemplate
 		cellFactory: [:r :c | SSCell new]
-		headerFactory: [:i | SSHeader new].
+		rowHeaderFactory: [:row | SSHeader rowHeaderFor: row]
+		columnHeaderFactory: [:column | SSHeader columnHeaderFor: column].
