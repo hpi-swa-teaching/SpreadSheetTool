@@ -4,7 +4,7 @@ tearDown
 	self toolUnderTest
 		removeSheetNamed: sheetName
 		ifAbsent: [].
-	[windowHeap do: #abandon]
+	[windowHeap ifNotNil: [windowHeap do: #abandon]]
 		on: ProvideAnswerNotification
 		do: [:notification | notification resume: true].
 	super tearDown.
