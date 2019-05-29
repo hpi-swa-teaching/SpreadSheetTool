@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"classUnderTest" : "CT 5/29/2019 16:21",
+		"setUp" : "CT 5/29/2019 16:34",
+		"someGetterSymbol" : "CT 5/29/2019 16:26",
+		"someSetterSymbol" : "CT 5/29/2019 16:26",
+		"someString" : "CT 5/29/2019 16:37",
+		"someText" : "CT 5/29/2019 16:39",
+		"testGetContentsString" : "CT 5/29/2019 16:37",
+		"testGetContentsText" : "CT 5/29/2019 16:37",
+		"testGetProperty" : "CT 5/29/2019 16:26",
+		"testSetContentsString" : "CT 5/29/2019 16:37",
+		"testSetContentsText" : "CT 5/29/2019 16:37",
+		"testSetProperty" : "CT 5/29/2019 16:27" } }

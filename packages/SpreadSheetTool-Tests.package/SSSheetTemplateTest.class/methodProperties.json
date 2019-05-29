@@ -16,9 +16,12 @@
 		"someRowIndexIn:" : "CT 5/28/2019 16:45",
 		"someUniqueValueFactory" : "CT 5/28/2019 17:23",
 		"someValue" : "CT 5/29/2019 14:07",
-		"testAsMatrixWithOrigin" : "CT 5/29/2019 14:11",
+		"testAsMatrixWithOrigin" : "CT 5/29/2019 16:04",
+		"testCellFactory" : "CT 5/29/2019 16:02",
 		"testCells" : "CT 5/28/2019 19:07",
-		"testColumnHeaders" : "CT 5/28/2019 18:12",
+		"testColumnHeaderFactory" : "CT 5/29/2019 16:03",
+		"testColumnHeaders" : "CT 5/29/2019 15:59",
 		"testRowCount:columnCount:" : "CT 5/29/2019 15:07",
-		"testRowCountColumnCount" : "CT 5/29/2019 15:10",
-		"testRowHeaders" : "CT 5/28/2019 18:12" } }
+		"testRowCountColumnCount" : "CT 5/29/2019 15:59",
+		"testRowHeaderFactory" : "CT 5/29/2019 16:02",
+		"testRowHeaders" : "CT 5/29/2019 15:59" } }

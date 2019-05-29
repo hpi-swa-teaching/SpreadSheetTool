@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "CT 5/23/2019 09:25",
+		"setUp" : "CT 5/29/2019 16:24",
 		"someContent" : "CT 5/23/2019 09:26",
-		"testCellShouldStoreValue" : "CT 5/23/2019 09:26" } }
+		"testContents" : "CT 5/29/2019 16:21",
+		"testContentsNotifiesObservers" : "CT 5/29/2019 16:49" } }

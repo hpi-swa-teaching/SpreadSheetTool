@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "CT 5/29/2019 16:44",
+		"someString" : "CT 5/29/2019 17:03",
+		"someText" : "CT 5/29/2019 16:50",
+		"testGetContents" : "CT 5/29/2019 16:51",
+		"testSetContents" : "CT 5/29/2019 16:51",
+		"testSetContentsNotifiesObservers" : "CT 5/29/2019 16:52" } }

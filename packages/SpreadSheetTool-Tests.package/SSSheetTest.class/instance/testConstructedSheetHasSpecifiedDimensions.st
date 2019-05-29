@@ -1,7 +1,7 @@
 testing
 testConstructedSheetHasSpecifiedDimensions
 
-	sheet := SSSheet
+	sheet := self classUnderTest
 		rowCount: self rowCount
 		columnCount: self columnCount.
 	

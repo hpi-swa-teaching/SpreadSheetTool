@@ -1,4 +1,4 @@
 testing data
 someValue
 
-	^ 'World spreadSheets maxByValue = SqueakSheet'
+	^ 'World spreadSheets maxByBeautiness = SqueakSheet'

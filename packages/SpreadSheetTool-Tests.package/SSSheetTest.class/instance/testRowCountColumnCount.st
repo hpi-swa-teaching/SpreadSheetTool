@@ -1,20 +1,21 @@
 testing
 testRowCountColumnCount
 
-	| row column newRowCount newColumnCount |
-	newRowCount := self someRowIndex.
-	newColumnCount := self someColumnIndex.
-	row := self someRowIndexIn: newRowCount.
-	column := self someColumnIndexIn: newColumnCount.
+	| row column |
+	self
+		rowCount: self someRowIndex;
+		columnCount: self someColumnIndex.
+	row := self someRowIndex.
+	column := self someColumnIndex.
 	
 	(sheet atRow: row atColumn: column)
 		value: self someValue.
 	sheet
-		rowCount: newRowCount
-		columnCount: newColumnCount.
+		rowCount: self rowCount
+		columnCount: self columnCount.
 	
 	self
-		assert: newRowCount equals: sheet rowCount;
-		assert: newColumnCount equals: sheet columnCount;
+		assert: self rowCount equals: sheet rowCount;
+		assert: self columnCount equals: sheet columnCount;
 		assert: self someValue
 			equals: (sheet atRow: row atColumn: column) value.
