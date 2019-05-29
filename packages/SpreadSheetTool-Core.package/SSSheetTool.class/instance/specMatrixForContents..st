@@ -1,7 +1,7 @@
 toolbuilder
 specMatrixForContents: aBuilder
 
-	^ (contentModels asMatrixWithOrigin: SSOriginHeaderModel new)
+	^ (contentModels asMatrixWithOrigin: nil)
 		withIndicesCollect: [:cellModel :row :column | self
 			specForCell: cellModel
 			with: aBuilder
