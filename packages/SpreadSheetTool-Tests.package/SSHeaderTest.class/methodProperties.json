@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"fixturesForLabel" : "CT 5/29/2019 14:26",
 		"setUp" : "CT 5/28/2019 17:08",
 		"someValue" : "CT 5/28/2019 17:07",
+		"testGenerateColumnLabel" : "CT 5/29/2019 14:27",
+		"testGenerateRowLabel" : "CT 5/29/2019 14:30",
 		"testLabel" : "CT 5/28/2019 17:08" } }
