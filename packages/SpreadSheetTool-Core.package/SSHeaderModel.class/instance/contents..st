@@ -1,5 +1,5 @@
 accessing
 contents: aTextOrString
 
-	self cell value: aTextOrString asString.
+	self header label: aTextOrString asString.
 	self contentsChanged.

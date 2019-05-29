@@ -1,4 +1,4 @@
 accessing
 contents
 
-	^ self cell value
+	^ self header label
