@@ -1,5 +1,5 @@
 testing
-testGenerateRowLabel
+testGenerateRowLabelFor
 
 	self fixturesForLabel do: [:aFixture |
 		header generateRowLabelFor: aFixture first.

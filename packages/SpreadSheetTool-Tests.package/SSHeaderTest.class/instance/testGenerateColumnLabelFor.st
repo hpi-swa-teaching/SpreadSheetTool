@@ -1,5 +1,5 @@
 testing
-testGenerateColumnLabel
+testGenerateColumnLabelFor
 
 	self fixturesForLabel do: [:aFixture |
 		header generateColumnLabelFor: aFixture first.

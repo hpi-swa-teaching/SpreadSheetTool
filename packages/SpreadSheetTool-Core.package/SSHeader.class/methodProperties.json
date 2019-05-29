@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"columnHeaderFor:" : "CT 5/29/2019 15:26",
+		"rowHeaderFor:" : "CT 5/29/2019 15:26" },
 	"instance" : {
 		"generateColumnLabelFor:" : "CT 5/29/2019 14:29",
 		"generateRowLabelFor:" : "CT 5/29/2019 14:30",

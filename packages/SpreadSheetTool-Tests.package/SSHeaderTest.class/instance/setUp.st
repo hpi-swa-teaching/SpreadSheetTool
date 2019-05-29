@@ -1,4 +1,4 @@
 running
 setUp
 
-	header := SSHeader new
+	header := self classUnderTest new
