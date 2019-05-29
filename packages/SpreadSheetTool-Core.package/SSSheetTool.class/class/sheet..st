@@ -1,5 +1,5 @@
 instance creation
-newWithData: aSheet
+sheet: aSheet
 
 	^ self new
 		sheet: aSheet;

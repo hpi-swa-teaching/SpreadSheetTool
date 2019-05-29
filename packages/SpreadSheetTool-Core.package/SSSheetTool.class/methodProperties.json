@@ -3,7 +3,6 @@
 		"applicationName" : "CT 4/18/2019 20:16",
 		"initialize" : "JB 5/22/2019 13:54",
 		"longApplicationName" : "CT 5/23/2019 09:46",
-		"newWithData:" : "CT 5/2/2019 15:06",
 		"openDefault" : "JB 5/22/2019 13:41",
 		"openSavedSheet" : "AN 5/22/2019 17:50",
 		"openWithRowCount:columnCount:" : "CT 5/22/2019 19:11",
@@ -12,6 +11,7 @@
 		"removeSheetNamed:ifAbsent:" : "JB 5/22/2019 15:11",
 		"rowCount:columnCount:" : "CT 5/6/2019 17:51",
 		"saveSheet:as:" : "JB 5/22/2019 13:29",
+		"sheet:" : "CT 5/29/2019 17:21",
 		"sheetNamed:" : "JB 5/22/2019 14:42",
 		"unregisterFromWorldMenu" : "CT 5/11/2019 20:27" },
 	"instance" : {

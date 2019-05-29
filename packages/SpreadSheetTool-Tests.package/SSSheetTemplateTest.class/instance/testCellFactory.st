@@ -2,7 +2,7 @@ testing
 testCellFactory
 
 	| factory |
-	factory := [:r :c | self someUniqueValueFactory].
+	factory := [:r :c | self fail: 'this should be never run'].
 	
 	template cellFactory: factory.
 	

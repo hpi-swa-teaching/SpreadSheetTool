@@ -7,4 +7,3 @@ testColumnCount
 	tool columnCount: newColumnCount.
 	
 	self assert: newColumnCount equals: tool columnCount.
-	

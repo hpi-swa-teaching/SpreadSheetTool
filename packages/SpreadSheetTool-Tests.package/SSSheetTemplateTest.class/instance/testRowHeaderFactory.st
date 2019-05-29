@@ -2,7 +2,7 @@ testing
 testRowHeaderFactory
 
 	| factory |
-	factory := [:r | self someUniqueValueFactory].
+	factory := [:r | self fail: 'this should be never run'].
 	
 	template rowHeaderFactory: factory.
 	
