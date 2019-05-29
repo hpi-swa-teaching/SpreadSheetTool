@@ -1,7 +1,6 @@
 instance creation
-newWithData: aHeader parent: aModel
+parent: aModel
 
 	^ self new
-		header: aHeader;
 		parent: aModel;
 		yourself

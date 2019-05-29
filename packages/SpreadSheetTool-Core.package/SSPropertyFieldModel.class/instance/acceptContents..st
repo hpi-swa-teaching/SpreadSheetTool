@@ -4,14 +4,13 @@ acceptContents: aTextOrString
 	| integer |
 	[integer := aTextOrString asNumber]
 		on: NumberParserError
-		do: [
-			UIManager default
+		do: [UIManager default
 				inform: 'You must enter a valid number.'
 				title: 'Invalid number'.
 			^ false].
 	(integer isInteger and: integer positive) ifFalse: [
 		UIManager default
-			inform: 'You must enter a natural number. N := Z \cap {n | n > 0}'
+			inform: 'You must enter a natural number. (Hint: N := Z \cap {n | n > 0}.)'
 			title: 'Invalid number'.
 		^ false].
 	integer isZero ifTrue: [

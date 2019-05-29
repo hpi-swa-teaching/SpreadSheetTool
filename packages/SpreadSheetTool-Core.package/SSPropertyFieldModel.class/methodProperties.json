@@ -1,8 +1,8 @@
 {
 	"class" : {
-		 },
+		"parent:getProperty:setProperty:" : "CT 5/29/2019 16:33" },
 	"instance" : {
-		"acceptContents:" : "CT 5/28/2019 13:10",
+		"acceptContents:" : "CT 5/29/2019 16:22",
 		"contents" : "CT 5/7/2019 11:24",
 		"contents:" : "CT 5/28/2019 13:01",
 		"createSpecWith:helpText:" : "CT 5/27/2019 16:11",

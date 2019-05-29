@@ -7,8 +7,9 @@ specForDimensionControlInDimension: aDimensionName selector: aSelector with: aBu
 			(aBuilder pluggableButtonSpec new
 				label: aDimensionName;
 				enabled: false).
-			((SSPropertyFieldModel newWithParent: self)
-				getProperty: aSelector;
+			(SSPropertyFieldModel
+				parent: self
+				getProperty: aSelector
 				setProperty: (aSelector, ':') asSymbol)
 					createSpecWith: aBuilder
 					helpText: aDimensionName }

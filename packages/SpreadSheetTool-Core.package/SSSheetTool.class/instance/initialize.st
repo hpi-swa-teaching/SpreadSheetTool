@@ -4,9 +4,9 @@ initialize
 	sheet := SSSheet new.
 	contentModels := SSSheetTemplate
 		cellFactory: [:row :column | SSCellModel
-			newWithData: (sheet atRow: row atColumn: column)
+			cell: (sheet atRow: row atColumn: column)
 			parent: self]
 		rowHeaderFactory: [:row | SSHeaderModel
-			newWithData: (sheet rowHeaderAt: row) parent: self]
+			header: (sheet rowHeaderAt: row) parent: self]
 		columnHeaderFactory: [:column | SSHeaderModel
-			newWithData: (sheet columnHeaderAt: column) parent: self].
+			header: (sheet columnHeaderAt: column) parent: self].

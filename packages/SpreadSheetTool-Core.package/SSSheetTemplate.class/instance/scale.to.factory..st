@@ -1,4 +1,4 @@
-accessing
+private
 scale: aList to: aSize factory: aFactory
 
 	aSize < aList size
