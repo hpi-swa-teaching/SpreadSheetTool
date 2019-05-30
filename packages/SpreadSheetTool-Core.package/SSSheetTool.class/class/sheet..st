@@ -1,6 +1,6 @@
 instance creation
 sheet: aSheet
 
-	^ self new
-		sheet: aSheet;
+	^ self basicNew
+		initializeWithSheet: aSheet;
 		yourself
