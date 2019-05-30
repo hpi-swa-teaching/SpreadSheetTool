@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"runCase" : "CT 5/11/2019 19:09",
-		"should:raise:butHandleException:" : "CT 5/28/2019 12:09",
-		"should:raise:butHandleExceptionOnce:" : "CT 5/30/2019 16:45",
-		"should:raise:that:" : "CT 5/30/2019 19:50",
+		"should:raise:butHandleException:" : "CT 5/30/2019 20:15",
+		"should:raise:butHandleExceptionOnce:" : "CT 5/30/2019 20:13",
+		"should:raise:that:" : "CT 5/30/2019 20:17",
+		"should:raise:that:butHandleException:" : "CT 5/30/2019 20:14",
+		"should:raiseExactly:butHandleException:" : "CT 5/30/2019 20:12",
 		"shouldnt:raise:beyond:" : "CT 5/28/2019 13:26",
 		"shouldnt:raise:that:" : "CT 5/28/2019 13:26" } }

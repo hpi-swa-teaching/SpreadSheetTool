@@ -6,7 +6,6 @@ should: aBlock raise: anException butHandleExceptionOnce: anotherBlock
 	aBlock
 		on: anException
 		do: [:exception |
-			"self halt."
 			hasRaised ifTrue: [exception pass].
 			hasRaised := true.
 			anotherBlock value: exception].

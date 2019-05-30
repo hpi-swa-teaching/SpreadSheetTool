@@ -10,7 +10,7 @@ testChangesAfterSaveDoNotAffectSavedSheet
 	(self findCellAt: self someCellIndex)
 		sendKeys: self someOtherContent.
 	
-	secondWindow := self openSheetByName: sheetName.
+	secondWindow := self openSheetByName.
 	self
 		assert: self someContent
 		equals: (self findCellAt: self someCellIndex in: secondWindow)

@@ -7,7 +7,7 @@ testSaveAndLoadSheetInImage
 		sendKeys: self someContent.
 	self saveSheetAs: sheetName.
 	
-	newWindow := self openSheetByName: sheetName.
+	newWindow := self openSheetByName.
 	
 	self
 		assert: self someContent

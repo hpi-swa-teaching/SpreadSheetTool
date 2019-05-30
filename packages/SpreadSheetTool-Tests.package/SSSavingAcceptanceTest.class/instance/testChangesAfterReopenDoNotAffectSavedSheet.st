@@ -7,11 +7,11 @@ testChangesAfterReopenDoNotAffectSavedSheet
 		sendKeys: self someContent.
 	self saveSheetAs: sheetName.
 	
-	secondWindow := self openSheetByName: sheetName.
+	secondWindow := self openSheetByName.
 	(self findCellAt: self someCellIndex in: secondWindow)
 		sendKeys: self someOtherContent.
 	
-	thirdWindow := self openSheetByName: sheetName.
+	thirdWindow := self openSheetByName.
 	self
 		assert: self someContent
 		equals: (self findCellAt: self someCellIndex in: thirdWindow)

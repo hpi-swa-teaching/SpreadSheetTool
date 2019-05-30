@@ -1,4 +1,4 @@
-*SpreadSheetTool-Tests-accessing
+*SpreadSheetTool-Tests-extensions
 shouldnt: aBlock raise: anExceptionalEvent that: aSelectorBlock
 	^ [ aBlock value ]
 		on: anExceptionalEvent
