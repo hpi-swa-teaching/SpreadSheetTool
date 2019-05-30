@@ -6,5 +6,5 @@ openSheet: aSheet
 		on: Error
 		do: [^ UIManager inform:
 'The sheet cannot be loaded. Maybe it is corrupted
-or has been created using an earlier version of Squeak?'].
+or has been created using an earlier version of SqueakSheet?'].
 	^ tool open
