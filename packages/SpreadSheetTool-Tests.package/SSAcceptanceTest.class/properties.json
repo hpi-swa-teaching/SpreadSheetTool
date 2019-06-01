@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"sheetName",
-		"windowHeap" ],
+		"windowHeap",
+		"isLongStage" ],
 	"name" : "SSAcceptanceTest",
 	"pools" : [
 		 ],

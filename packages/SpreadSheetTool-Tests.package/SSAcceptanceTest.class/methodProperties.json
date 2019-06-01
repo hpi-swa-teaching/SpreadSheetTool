@@ -1,6 +1,9 @@
 {
 	"class" : {
-		 },
+		"isLongStage" : "CT 6/1/2019 12:33",
+		"isLongStage:" : "CT 6/1/2019 12:33",
+		"requiresLongStage:" : "CT 6/1/2019 12:40",
+		"wantsToTest:" : "CT 6/1/2019 12:40" },
 	"instance" : {
 		"assertSheetRangeCanBeChangedFor:rangeSelector:" : "CT 5/28/2019 11:09",
 		"assertWindowClosesWhile:" : "CT 5/25/2019 19:14",
@@ -50,8 +53,8 @@
 		"testSheetHasColumnHeaders" : "CT 5/14/2019 21:14",
 		"testSheetHasRowHeaders" : "CT 5/25/2019 19:17",
 		"testSheetRangeDoesNotAcceptNonIntegerForDimension:withSelector:" : "CT 5/28/2019 13:26",
-		"testWarningForLargeColumnNumbersCanBeSkipped" : "CT 5/28/2019 13:47",
-		"testWarningForLargeRowNumbersCanBeSkipped" : "CT 5/28/2019 13:47",
+		"testWarningForLargeColumnNumbersCanBeSkipped" : "CT 6/1/2019 12:20",
+		"testWarningForLargeRowNumbersCanBeSkipped" : "CT 6/1/2019 12:20",
 		"testWarningForLargeSheetRangesAppears" : "CT 5/28/2019 12:19",
 		"testWarningForLargeSheetRangesAppearsForDimension:withSelector:" : "CT 5/28/2019 12:12",
 		"testWarningForLargeSheetRangesCanBeCancelled" : "CT 5/28/2019 12:19",
