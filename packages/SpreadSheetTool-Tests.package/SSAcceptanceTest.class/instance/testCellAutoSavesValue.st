@@ -8,5 +8,5 @@ testCellAutoSavesValue
 	cell sendKeys: self someContent.
 	
 	self
-		assert: self someContent equals: cell text asString;
+		assert: self someContent equals: cell focusAndRead;
 		deny: cell hasUnacceptedEdits.

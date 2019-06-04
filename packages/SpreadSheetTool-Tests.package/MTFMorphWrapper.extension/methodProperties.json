@@ -8,6 +8,7 @@
 		"findByClass:andCriteria:" : "CT 5/2/2019 22:44",
 		"findByClass:andPosition:" : "CT 5/2/2019 22:24",
 		"findByPosition:andCriteria:" : "CT 5/1/2019 17:12",
+		"focusAndRead" : "CT 6/4/2019 17:26",
 		"generateKeyboardEvent:with:buttons:on:" : "CT 4/30/2019 20:02",
 		"generateMouseEnterEventAtPosition:" : "CT 5/1/2019 19:18",
 		"generateMouseEvent:button:modifiers:position:" : "CT 5/1/2019 16:35",

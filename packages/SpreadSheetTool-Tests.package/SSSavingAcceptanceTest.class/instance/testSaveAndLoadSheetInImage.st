@@ -11,5 +11,4 @@ testSaveAndLoadSheetInImage
 	
 	self
 		assert: self someContent
-		equals: (self findCellAt: self someCellIndex in: newWindow)
-			text asString.
+		equals: (self findCellAt: self someCellIndex in: newWindow) focusAndRead.

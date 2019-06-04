@@ -13,6 +13,5 @@ testChangesAfterSaveDoNotAffectSavedSheet
 	secondWindow := self openSheetByName.
 	self
 		assert: self someContent
-		equals: (self findCellAt: self someCellIndex in: secondWindow)
-			text asString
+		equals: (self findCellAt: self someCellIndex in: secondWindow) focusAndRead
 		description: 'Unsaved changes should not affect saved sheet'.

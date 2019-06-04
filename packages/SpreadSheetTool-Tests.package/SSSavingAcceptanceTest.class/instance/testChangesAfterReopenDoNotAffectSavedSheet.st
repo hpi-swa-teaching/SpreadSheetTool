@@ -14,6 +14,5 @@ testChangesAfterReopenDoNotAffectSavedSheet
 	thirdWindow := self openSheetByName.
 	self
 		assert: self someContent
-		equals: (self findCellAt: self someCellIndex in: thirdWindow)
-			text asString
+		equals: (self findCellAt: self someCellIndex in: thirdWindow) focusAndRead
 		description: 'Unsaved changes should not affect saved sheet'.

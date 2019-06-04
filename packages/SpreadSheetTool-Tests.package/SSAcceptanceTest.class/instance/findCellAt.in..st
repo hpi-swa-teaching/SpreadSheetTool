@@ -7,5 +7,5 @@ findCellAt: aPoint in: aWindow
 		doWithIndex: [:row :rowIndex |
 			((row groupByUniqueKey: [:aCell | aCell position x]) as: OrderedDictionary) sort
 				doWithIndex: [:cell :columnIndex |
-					(rowIndex @ columnIndex = aPoint) ifTrue: [position := cell position]]].
+					rowIndex @ columnIndex = aPoint ifTrue: [position := cell position]]].
 	^ aWindow findByCriteria: [:cell | (cell model isKindOf: SSCellModel) and: [cell position = position]]
