@@ -16,7 +16,7 @@
 		"sheetNamed:" : "JB 5/22/2019 14:42",
 		"unregisterFromWorldMenu" : "CT 5/11/2019 20:27" },
 	"instance" : {
-		"buildCellsPanel" : "CT 5/29/2019 15:23",
+		"buildCellsPanel" : "CT 6/4/2019 12:53",
 		"buildWith:" : "CT 5/23/2019 09:45",
 		"calculateFrameForItemAtColumn:atRow:" : "CT 5/20/2019 16:29",
 		"columnCount" : "CT 5/29/2019 15:37",
@@ -25,7 +25,7 @@
 		"defaultCellExtent" : "CT 5/20/2019 19:00",
 		"defaultExtent" : "CT 4/30/2019 12:16",
 		"defaultWindowColor" : "AN 5/22/2019 17:54",
-		"distributeCellsWithInvariantDimension:splitterSelector:" : "CT 5/29/2019 15:37",
+		"distributeCellsWithInvariantDimension:splitterSelector:" : "CT 6/4/2019 12:51",
 		"distributeColumns" : "CT 5/17/2019 21:08",
 		"distributeRows" : "CT 5/21/2019 11:12",
 		"hasUnacceptedChanges" : "CT 5/29/2019 15:37",

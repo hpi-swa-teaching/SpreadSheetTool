@@ -8,7 +8,8 @@
 	"instvars" : [
 		"sheet",
 		"contentModels",
-		"hasUnsavedChanges" ],
+		"hasUnsavedChanges",
+		"cellMorphs" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],
