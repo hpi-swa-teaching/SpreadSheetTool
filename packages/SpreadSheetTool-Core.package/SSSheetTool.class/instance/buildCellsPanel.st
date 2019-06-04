@@ -11,4 +11,5 @@ buildCellsPanel
 	result := builder build: spec.
 	cellMorphs := (result submorphs select: #isTextView)
 		groupByUniqueKey: #model.
+	cellMorphs keysAndValuesDo: [:model :morph | morph addDependent: model].
 	^ result asOrderedCollection
