@@ -1,4 +1,7 @@
 accessing
 contents
 
-	^ self cell value
+	^ self editMode
+		ifFalse: [self cell value ifNotNil: [:v |
+			'^', (v surroundedBySingleQuotes)]]
+		ifTrue: [self cell value]

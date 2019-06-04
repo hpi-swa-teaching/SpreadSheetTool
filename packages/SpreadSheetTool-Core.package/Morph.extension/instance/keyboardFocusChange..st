@@ -6,4 +6,4 @@ keyboardFocusChange: aBoolean
 		ifNotNil: [:h | h keyboardFocusChange: aBoolean fromMorph: self].
 
 	self indicateKeyboardFocus
-		ifTrue: [self changed; changed: #keyboardFocus].
+		ifTrue: [self changed; changed: #keyboardFocus with: aBoolean].
