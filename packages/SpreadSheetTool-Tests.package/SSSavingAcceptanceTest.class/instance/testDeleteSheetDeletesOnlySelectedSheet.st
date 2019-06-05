@@ -7,10 +7,12 @@ testDeleteSheetDeletesOnlySelectedSheet
 	
 	self deleteSheetByName: sheetName.
 	
+	self flag: #todo "Check that one sheet name appears in the list, the other doesn't. Fix this...".
+	
 	self
 		shouldnt: [self openSheetByName: self anotherSheetName]
 		raise: Error.
 	
 	self
 		should: [self openSheetByName: sheetName]
-		raise: Error.
+		raise: ProvideAnswerNotification.

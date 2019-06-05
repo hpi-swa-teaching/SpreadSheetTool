@@ -5,4 +5,6 @@ deleteSheet
 		UIManager inform: 'There are no sheets to delete'.
 		^ self].
 	(UIManager default chooseFromDictionaryKeys: savedSheets)
-		ifNotNil: [:sheetName | self removeSheetNamed: sheetName].
+		ifNotNil: [:sheetName | 
+			(UIManager default confirm: 'Do you really want to delete ', sheetName, '?') 
+			 	ifTrue: [self removeSheetNamed: sheetName]].

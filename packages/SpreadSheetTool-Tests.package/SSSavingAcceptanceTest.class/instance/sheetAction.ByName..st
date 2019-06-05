@@ -1,6 +1,9 @@
 tools
 sheetAction: anActionLabel ByName: aName
 
-	| window |
-	window := self findWindowOpenedWhile: [self trySheetAction: anActionLabel ByName: aName].
-	^ MTFMorphWrapper newWith: window asOrderedCollection
+	^ self
+		should: [ (self subject findByLabel: anActionLabel) click ]
+		raise: ProvideAnswerNotification
+		butHandleExceptionOnce: [ :notification | 
+			notification messageText isEmptyOrNil
+				ifTrue: [ notification resume: aName ] ]

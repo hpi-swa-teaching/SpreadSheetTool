@@ -8,4 +8,4 @@ testDeletedSheetCannotBeOpened
 	
 	self
 		should: [self openSheetByName: sheetName]
-		raise: Error.
+		raise: ProvideAnswerNotification.

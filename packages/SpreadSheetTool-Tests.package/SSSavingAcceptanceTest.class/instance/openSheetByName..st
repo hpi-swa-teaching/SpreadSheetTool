@@ -1,4 +1,6 @@
 tools
 openSheetByName: aName
 
-	^ self sheetAction: self openSheetLabel ByName: aName
+	| window |
+	window := self findWindowOpenedWhile: [self tryOpenSheetByName: aName].
+	^ MTFMorphWrapper newWith: window asOrderedCollection
