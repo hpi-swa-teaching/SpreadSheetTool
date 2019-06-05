@@ -1,8 +1,10 @@
 running
 setUp
 
+	super setUp.
+	
 	mock := SSMockingModel new.
-	propertyField := self classUnderTest
+	model := self classUnderTest
 		parent: mock
 		getProperty: #value
 		setProperty: #value:.

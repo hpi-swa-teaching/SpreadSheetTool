@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cell",
-		"model" ],
+		"cell" ],
 	"name" : "SSCellModelTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "SSTextFieldModelTest",
 	"type" : "normal" }

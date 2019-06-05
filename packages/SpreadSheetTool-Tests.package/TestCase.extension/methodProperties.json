@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"addToSuite:fromMethods:" : "CT 6/1/2019 12:30",
-		"wantsToTest:" : "CT 6/1/2019 12:55" },
+		"wantsToTest:" : "CT 6/6/2019 01:46" },
 	"instance" : {
 		"runCase" : "CT 5/11/2019 19:09",
 		"should:raise:butHandleException:" : "CT 5/30/2019 20:15",

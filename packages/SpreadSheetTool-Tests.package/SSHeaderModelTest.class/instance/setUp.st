@@ -1,6 +1,6 @@
 running
 setUp
 
+	super setUp.
 	header := SSHeader new.
-	model := SSHeaderModel new
-		header: header.
+	model header: header.

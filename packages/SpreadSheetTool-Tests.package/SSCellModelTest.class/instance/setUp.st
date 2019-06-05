@@ -1,6 +1,6 @@
 running
 setUp
 
+	super setUp.
 	cell := SSCell new.
-	model := SSCellModel new
-		cell: cell.
+	model cell: cell.

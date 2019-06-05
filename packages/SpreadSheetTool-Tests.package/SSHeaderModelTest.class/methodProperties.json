@@ -2,9 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "CT 5/29/2019 16:56",
-		"someString" : "CT 5/29/2019 17:04",
-		"someText" : "CT 5/29/2019 17:05",
-		"testGetContents" : "CT 5/29/2019 16:57",
-		"testSetContents" : "CT 5/29/2019 16:57",
-		"testSetContentsNotifiesObservers" : "CT 5/29/2019 16:52" } }
+		"classUnderTest" : "CT 6/6/2019 01:33",
+		"holdedContent" : "CT 6/6/2019 01:47",
+		"setUp" : "CT 6/6/2019 01:39",
+		"testGetContents" : "CT 5/29/2019 16:57" } }

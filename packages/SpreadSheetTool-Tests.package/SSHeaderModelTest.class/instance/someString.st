@@ -1,4 +1,0 @@
-testing data
-someString
-
-	^ 'foo'

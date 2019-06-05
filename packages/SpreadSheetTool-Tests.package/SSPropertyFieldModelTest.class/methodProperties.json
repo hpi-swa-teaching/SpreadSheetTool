@@ -3,14 +3,11 @@
 		 },
 	"instance" : {
 		"classUnderTest" : "CT 5/29/2019 16:21",
-		"setUp" : "CT 5/29/2019 16:34",
+		"holdedContent" : "CT 6/6/2019 01:50",
+		"setUp" : "CT 6/6/2019 01:50",
+		"someContent" : "CT 6/6/2019 01:55",
 		"someGetterSymbol" : "CT 5/29/2019 16:26",
 		"someSetterSymbol" : "CT 5/29/2019 16:26",
-		"someString" : "CT 5/29/2019 16:37",
-		"someText" : "CT 5/29/2019 16:39",
-		"testGetContentsString" : "CT 5/29/2019 16:37",
-		"testGetContentsText" : "CT 5/29/2019 16:37",
-		"testGetProperty" : "CT 5/29/2019 16:26",
-		"testSetContentsString" : "CT 5/29/2019 16:37",
-		"testSetContentsText" : "CT 5/29/2019 16:37",
-		"testSetProperty" : "CT 5/29/2019 16:27" } }
+		"testGetProperty" : "CT 6/6/2019 01:49",
+		"testSetContents" : "CT 6/6/2019 01:55",
+		"testSetProperty" : "CT 6/6/2019 01:49" } }

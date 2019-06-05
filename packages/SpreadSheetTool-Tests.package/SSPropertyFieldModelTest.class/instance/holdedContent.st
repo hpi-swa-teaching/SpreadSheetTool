@@ -1,0 +1,4 @@
+accessing
+holdedContent
+
+	^ mock value
