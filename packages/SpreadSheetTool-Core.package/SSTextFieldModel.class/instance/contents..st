@@ -1,5 +1,4 @@
 accessing
 contents: aTextOrString
 
-	super contents: aTextOrString.
-	self contentsChanged.
+	^ self subclassResponsibility

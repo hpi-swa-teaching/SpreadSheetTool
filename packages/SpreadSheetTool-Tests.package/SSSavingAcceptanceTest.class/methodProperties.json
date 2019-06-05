@@ -31,5 +31,6 @@
 		"testWindowWithDimensionFieldThatWasChangedCannotBeClosed" : "CT 5/27/2019 16:18",
 		"testWindowWithHeaderThatHasContentCannotBeClosed" : "CT 5/27/2019 16:21",
 		"testWindowWithSavedChangesCanBeClosed" : "CT 6/6/2019 00:07",
+		"testWindowWithoutUnsavedChangesButFocusedCellCloses" : "CT 6/6/2019 01:10",
 		"testWindowWithoutUnsavedChangesCloses" : "CT 5/27/2019 16:16",
 		"tryOpenSheetByName:" : "CT 6/5/2019 18:15" } }
