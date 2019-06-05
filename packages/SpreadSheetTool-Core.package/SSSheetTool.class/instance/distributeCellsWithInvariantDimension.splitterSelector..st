@@ -2,13 +2,10 @@ interaction
 distributeCellsWithInvariantDimension: invariantDimensionSymbol splitterSelector: splitterSelector
 
 	| morphScales cellPanel |
-	morphScales := (cellMorphs collect: invariantDimensionSymbol)
-		as: Dictionary.
+	morphScales := cellMorphs collect: invariantDimensionSymbol.
 	self changed: #buildCellsPanel.
 	
-	cellPanel := (cellMorphs collect: #owner) asSet singleOne.
+	cellPanel := (cellMorphs collect: #owner as: Set) singleOne.
 	cellPanel owner fullBounds.
-	cellPanel
-		resizeHandlesWhereSplitter: splitterSelector
-		to: morphScales.
+	cellPanel resizeHandlesWhereSplitter: splitterSelector to: morphScales.
 	cellPanel owner fullBounds.
