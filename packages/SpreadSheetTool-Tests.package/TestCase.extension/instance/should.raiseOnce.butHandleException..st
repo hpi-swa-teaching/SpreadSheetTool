@@ -1,5 +1,5 @@
 *SpreadSheetTool-Tests-extensions
-should: aBlock raise: anException butHandleExceptionOnce: anotherBlock 
+should: aBlock raiseOnce: anException butHandleException: anotherBlock 
 
 	| hasRaised |
 	hasRaised := false.

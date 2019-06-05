@@ -2,10 +2,10 @@ testing
 testDeletedSheetCannotBeOpened
 	"Acceptance test for #27"
 	
-	self saveSheetAs: sheetName.
-	
-	self deleteSheetByName: sheetName.
+	self
+		saveSheetAs: self someSheetName;
+		deleteSheetByName: self someSheetName.
 	
 	self
-		should: [self openSheetByName: sheetName]
-		raise: ProvideAnswerNotification.
+		should: [self openSheetByName: self someSheetName]
+		raise: Exception.

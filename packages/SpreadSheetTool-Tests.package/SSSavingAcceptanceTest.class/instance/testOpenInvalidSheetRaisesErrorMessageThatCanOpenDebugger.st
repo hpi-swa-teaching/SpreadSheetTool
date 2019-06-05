@@ -1,10 +1,10 @@
 testing
 testOpenInvalidSheetRaisesErrorMessageThatCanOpenDebugger
 
-	self toolUnderTest saveSheet: self someInvalidSheet as: sheetName.
+	self toolUnderTest saveSheet: self someInvalidSheet as: self someSheetName.
 	self
 		should: [self
-			should: [self tryOpenSheetByName: sheetName ]
+			should: [self tryOpenSheetByName: self someSheetName]
 			raise: ProvideAnswerNotification
 			butHandleException: [:exception |
 				self assert: (exception messageText includesSubstring: 'cannot').

@@ -2,17 +2,13 @@ testing
 testDeleteSheetDeletesOnlySelectedSheet
 	"Acceptance test for #27"
 	
-	self saveSheetAs: sheetName.
-	self saveSheetAs: self anotherSheetName.
-	
-	self deleteSheetByName: sheetName.
-	
-	self flag: #todo "Check that one sheet name appears in the list, the other doesn't. Fix this...".
+	self
+		saveSheetAs: self someSheetName;
+		saveSheetAs: self someOtherSheetName;
+		deleteSheetByName: self someSheetName.
 	
 	self
-		shouldnt: [self openSheetByName: self anotherSheetName]
-		raise: Error.
-	
-	self
-		should: [self openSheetByName: sheetName]
-		raise: ProvideAnswerNotification.
+		shouldnt: [self openSheetByName: self someOtherSheetName]
+			raise: Exception;
+		should: [self openSheetByName: self someSheetName]
+			raise: Exception.

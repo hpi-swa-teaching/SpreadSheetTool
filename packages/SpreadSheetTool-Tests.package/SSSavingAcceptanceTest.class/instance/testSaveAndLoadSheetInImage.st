@@ -5,9 +5,9 @@ testSaveAndLoadSheetInImage
 	| newWindow |
 	(self findCellAt: self someCellIndex)
 		sendKeys: self someContent.
-	self saveSheetAs: sheetName.
+	self saveSheetAs: self someSheetName.
 	
-	newWindow := self openSheetByName: sheetName.
+	newWindow := self openSheetByName: self someSheetName.
 	
 	self
 		assert: self someContent
