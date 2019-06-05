@@ -1,9 +1,9 @@
 tools
-tryOpenSheetByName
+deleteSheetByName: aName
 
 	^ self
-		should: [ (self subject findByLabel: 'Open sheet') click ]
+		should: [self sheetAction: self deleteSheetLabel ByName: aName]
 		raise: ProvideAnswerNotification
 		butHandleExceptionOnce: [ :notification | 
 			notification messageText isEmptyOrNil
-				ifTrue: [ notification resume: sheetName ] ]
+				ifTrue: [ notification resume: true ] ]

@@ -5,6 +5,7 @@
 		"requiresLongStage:" : "CT 6/1/2019 12:40",
 		"wantsToTest:" : "CT 6/1/2019 12:40" },
 	"instance" : {
+		"anotherSheetName" : "AN 6/5/2019 15:57",
 		"assertSheetRangeCanBeChangedFor:rangeSelector:" : "CT 5/28/2019 11:09",
 		"assertWindowClosesWhile:" : "CT 5/25/2019 19:14",
 		"assertWindowDeleted:" : "CT 5/23/2019 09:05",
