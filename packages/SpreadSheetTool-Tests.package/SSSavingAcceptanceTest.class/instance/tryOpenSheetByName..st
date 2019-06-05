@@ -1,4 +1,4 @@
 tools
 tryOpenSheetByName: aName
 
-	^ self sheetAction: self openSheetLabel ByName: aName
+	^ self performSheetAction: self openSheetLabel byName: aName

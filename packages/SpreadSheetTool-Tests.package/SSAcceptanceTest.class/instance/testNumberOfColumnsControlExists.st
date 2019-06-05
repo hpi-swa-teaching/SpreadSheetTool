@@ -1,7 +1,7 @@
 testing
-testNumberOfColumnsCanBeChanged
+testNumberOfColumnsControlExists
 	"Test for #5 (Resizable tables)"
 
 	self
-		testSheetRangeCanBeChangedFor: 'columns'
+		testSheetRangeControlExistsFor: 'columns'
 		rangeSelector: #columnCount

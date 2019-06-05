@@ -4,4 +4,4 @@ testOpenSheetInImageButton
 
 	| openButton |
 	openButton := self subject findByLabel: self openSheetLabel.
-	self assert: openButton morphs hasSingle.
+	self assert: openButton isUnique.

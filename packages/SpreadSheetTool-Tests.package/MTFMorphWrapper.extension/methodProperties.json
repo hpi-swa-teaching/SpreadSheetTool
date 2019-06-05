@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"classesWithLabel" : "GT 5/10/2019 11:14" },
+		"classesWithLabel" : "GT 5/10/2019 11:14",
+		"newWith:withDelay:" : "CT 6/5/2019 21:31" },
 	"instance" : {
 		"anyOne" : "CT 5/27/2019 17:17",
 		"deleteMorphs" : "CT 5/11/2019 14:46",
@@ -8,16 +9,19 @@
 		"findByClass:andCriteria:" : "CT 5/2/2019 22:44",
 		"findByClass:andPosition:" : "CT 5/2/2019 22:24",
 		"findByPosition:andCriteria:" : "CT 5/1/2019 17:12",
+		"findUniqueByLabel:" : "CT 6/5/2019 18:33",
 		"focusAndRead" : "CT 6/4/2019 17:26",
 		"generateKeyboardEvent:with:buttons:on:" : "CT 4/30/2019 20:02",
 		"generateMouseEnterEventAtPosition:" : "CT 5/1/2019 19:18",
 		"generateMouseEvent:button:modifiers:position:" : "CT 5/1/2019 16:35",
 		"generateMouseEvent:button:position:" : "CT 5/1/2019 16:34",
 		"generateMouseMoveEventWithButton:startPosition:endPosition:" : "CT 5/1/2019 18:13",
+		"isUnique" : "CT 6/5/2019 18:27",
 		"sendClearTextField" : "CT 5/7/2019 12:44",
 		"sendControlSave" : "CT 5/25/2019 19:51",
 		"sendKeyEvent:character:buttons:" : "CT 4/30/2019 20:12",
 		"sendMouseDragEventWithButton:fromPosition:toPosition:" : "CT 5/2/2019 22:31",
 		"sendMouseEnterEventAtPosition:" : "CT 5/1/2019 19:18",
 		"sendMouseEnterEventWithButton:position:" : "CT 5/1/2019 19:05",
-		"sendMouseEvent:button:position:" : "CT 5/2/2019 15:35" } }
+		"sendMouseEvent:button:position:" : "CT 5/2/2019 15:35",
+		"singleOne" : "CT 6/5/2019 18:22" } }

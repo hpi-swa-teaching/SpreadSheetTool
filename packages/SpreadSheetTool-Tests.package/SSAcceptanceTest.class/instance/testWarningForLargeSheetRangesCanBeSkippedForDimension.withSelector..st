@@ -8,4 +8,4 @@ testWarningForLargeSheetRangesCanBeSkippedForDimension: aDimension withSelector:
 		butHandleException: [:notification |
 			notification resume: true].
 	self subject redraw.
-	self assert: self someVeryLargeNumber equals: (self find: aSheetRangeSelector).
+	self assert: self someVeryLargeNumber equals: (self measureRangeFor: aSheetRangeSelector).

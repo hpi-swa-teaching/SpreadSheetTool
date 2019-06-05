@@ -2,8 +2,8 @@ tools
 deleteSheetByName: aName
 
 	^ self
-		should: [self sheetAction: self deleteSheetLabel ByName: aName]
+		should: [self performSheetAction: self deleteSheetLabel byName: aName]
 		raise: ProvideAnswerNotification
-		butHandleExceptionOnce: [ :notification | 
+		butHandleExceptionOnce: [:notification | 
 			notification messageText isEmptyOrNil
-				ifTrue: [ notification resume: true ] ]
+				ifTrue: [notification resume: true]]

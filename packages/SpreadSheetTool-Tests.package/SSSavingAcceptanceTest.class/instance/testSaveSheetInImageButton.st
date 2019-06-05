@@ -4,4 +4,4 @@ testSaveSheetInImageButton
 
 	| saveButton |
 	saveButton := self subject findByLabel: self saveSheetLabel.
-	self assert: saveButton morphs hasSingle.
+	self assert: saveButton isUnique.

@@ -1,5 +1,5 @@
 tools
-findRowCount
+measureRowCount
 
 	^ (self findCells morphs 
 		groupBy: [:aCell | aCell position y]) size

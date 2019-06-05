@@ -1,14 +1,11 @@
 testing
-assertSheetRangeCanBeChangedFor: aDimensionString rangeSelector: aRangeSelector
+testSheetRangeCanBeChangedFor: aDimensionString rangeSelector: aRangeSelector
 
 	| dimensionTextField cellCount cell |
 	dimensionTextField := self subject findByBalloon: aDimensionString.
-	self
-		assert: dimensionTextField morphs hasSingle;
-		assert: (self in: aRangeSelector) equals: dimensionTextField text asNumber.
+	cell := self findAnyCell.
 	
-	(cell := self findAnyCell)
-		sendKeys: self someContent.
+	cell sendKeys: self someContent.
 	
 	cellCount := (self in: aRangeSelector) - 1.
 	dimensionTextField
@@ -19,5 +16,5 @@ assertSheetRangeCanBeChangedFor: aDimensionString rangeSelector: aRangeSelector
 	self subject redraw.
 	self
 		assert: cellCount equals: dimensionTextField text asNumber;
-		assert: cellCount equals: (self find: aRangeSelector);
+		assert: cellCount equals: (self measureRangeFor: aRangeSelector);
 		assert: self someContent equals: cell text asString.

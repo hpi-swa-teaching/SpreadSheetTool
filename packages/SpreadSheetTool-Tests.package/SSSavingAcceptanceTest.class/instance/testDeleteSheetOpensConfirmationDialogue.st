@@ -5,7 +5,7 @@ testDeleteSheetOpensConfirmationDialogue
 	self saveSheetAs: sheetName.
 	
 	self
-		should: [self sheetAction: self deleteSheetLabel ByName: sheetName]
+		should: [self performSheetAction: self deleteSheetLabel byName: sheetName]
 		raise: ProvideAnswerNotification
 		butHandleExceptionOnce: [ :notification | 
 			self assert: (notification messageText includesSubString: sheetName)].
