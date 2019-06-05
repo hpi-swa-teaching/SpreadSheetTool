@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"applicationName" : "CT 4/18/2019 20:16",
+		"deleteSheet" : "AN 6/5/2019 16:35",
 		"initialize" : "JB 5/22/2019 13:54",
 		"longApplicationName" : "CT 5/23/2019 09:46",
 		"openDefault" : "JB 5/22/2019 13:41",
-		"openSavedSheet" : "CT 5/30/2019 15:56",
+		"openSavedSheet" : "AN 6/5/2019 16:30",
 		"openSheet:" : "CT 5/30/2019 20:20",
 		"openWithRowCount:columnCount:" : "CT 5/22/2019 19:11",
 		"registerInWorldMenu" : "JB 5/22/2019 13:41",
@@ -25,6 +26,7 @@
 		"defaultCellExtent" : "CT 5/20/2019 19:00",
 		"defaultExtent" : "CT 4/30/2019 12:16",
 		"defaultWindowColor" : "AN 5/22/2019 17:54",
+		"deleteSheetFromImage" : "AN 6/5/2019 16:18",
 		"distributeCellsWithInvariantDimension:splitterSelector:" : "CT 6/4/2019 12:51",
 		"distributeColumns" : "CT 5/17/2019 21:08",
 		"distributeRows" : "CT 5/21/2019 11:12",
@@ -47,6 +49,7 @@
 		"rowCount:columnCount:" : "CT 5/29/2019 15:37",
 		"saveSheetToImage" : "CT 5/30/2019 15:49",
 		"specForCell:with:atColumn:atRow:" : "CT 5/29/2019 15:47",
+		"specForDeleteSheetButton:" : "AN 6/5/2019 16:17",
 		"specForDimensionControl:" : "CT 5/28/2019 12:32",
 		"specForDimensionControlInDimension:selector:with:" : "CT 5/29/2019 16:41",
 		"specForDistributeColumns:" : "CT 5/23/2019 08:48",
@@ -57,5 +60,5 @@
 		"specForNewSheetButton:" : "CT 5/23/2019 08:49",
 		"specForOpenSheetButton:" : "CT 5/23/2019 08:49",
 		"specForSaveSheetButton:" : "CT 5/23/2019 08:49",
-		"specForSheetManagement:" : "CT 5/21/2019 18:21",
+		"specForSheetManagement:" : "AN 6/5/2019 16:16",
 		"specMatrixForContents:" : "CT 5/29/2019 15:44" } }

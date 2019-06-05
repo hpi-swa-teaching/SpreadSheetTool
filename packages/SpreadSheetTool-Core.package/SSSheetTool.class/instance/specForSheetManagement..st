@@ -5,7 +5,8 @@ specForSheetManagement: aBuilder
 	children := { 
 		self specForNewSheetButton: aBuilder.
 		self specForOpenSheetButton: aBuilder.
-		self specForSaveSheetButton: aBuilder }.
+		self specForSaveSheetButton: aBuilder.
+		self specForDeleteSheetButton: aBuilder }.
 	^ aBuilder pluggablePanelSpec new
 		children: children;
 		layout: #vertical;
