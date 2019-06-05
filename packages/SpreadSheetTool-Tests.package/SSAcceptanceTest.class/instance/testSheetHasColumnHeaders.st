@@ -2,26 +2,14 @@ testing
 testSheetHasColumnHeaders
 	"Test for #7 (Row and column header)"
 
-	| cells minY diff columnHeader |
+	| cells minY headers |
 	cells := self findCells morphs.
 	minY := (cells collect: [:cell | cell position y]) min.
-	columnHeader := 'A'.
-	
-	(cells groupBy: [:cell | cell position x]) keys sorted doWithIndex: [:x :column | | header |
-		header := self subject
+	headers := (cells groupBy: [:cell | cell position x]) keys sorted
+		collect: [:x | self subject
 			findByClass: PluggableTextMorphPlus
-			andCriteria: [:morph | morph position x = x and: [morph position y < minY]].
-		self
-			assert: header morphs notEmpty;
-			assert: columnHeader equals: header text asString.
-		
-		diff := true.
-		columnHeader := String withAll: (columnHeader reverse collect: [:char |
-			diff
-				ifFalse: [char]
-				ifTrue: [(char = $Z)
-					ifFalse: [
-						diff := false.
-						Character codePoint: char codePoint + 1]
-					ifTrue: [$A]]]) reverse.
-		diff ifTrue: [columnHeader := 'A', columnHeader]]
+			andCriteria: [:morph | morph position x = x and: [morph position y < minY]]].
+	
+	headers do: [:header |
+		self assert: header morphs notEmpty].
+	self assert: (headers collect: [:header | Number readFrom: header text asString base: 36]) isSorted.
