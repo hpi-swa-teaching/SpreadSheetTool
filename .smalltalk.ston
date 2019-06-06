@@ -12,7 +12,7 @@ SmalltalkCISpec {
       #packages : [ 'SpreadSheetTool*' ],
       #categories : [ '*SpreadSheetTool-*' ],
       #exclude : {
-        #classes : [ #*AcceptanceTest ]
+        #classes : [ '*AcceptanceTest' ]
       }
     }
   }
