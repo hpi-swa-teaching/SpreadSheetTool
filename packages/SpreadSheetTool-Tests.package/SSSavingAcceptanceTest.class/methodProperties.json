@@ -19,7 +19,7 @@
 		"testDeleteSheetDeletesOnlySelectedSheet" : "CT 6/6/2019 00:07",
 		"testDeleteSheetInImageButton" : "CT 6/5/2019 18:34",
 		"testDeleteSheetOpensConfirmationDialogue" : "CT 6/6/2019 00:28",
-		"testDeletedSheetCannotBeDeletedAgain" : "CT 6/6/2019 00:05",
+		"testDeletedSheetCannotBeDeletedAgain" : "AN 6/6/2019 12:26",
 		"testDeletedSheetCannotBeOpened" : "CT 6/6/2019 00:06",
 		"testOpenInvalidSheetRaisesErrorMessageThatCanBeCancelled" : "CT 6/6/2019 00:06",
 		"testOpenInvalidSheetRaisesErrorMessageThatCanOpenDebugger" : "CT 6/6/2019 00:06",
