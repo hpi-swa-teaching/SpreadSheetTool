@@ -1,0 +1,16 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		"isLongStage" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sheetName",
+		"windowHeap",
+		"isLongStage" ],
+	"name" : "SSAcceptanceTest",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

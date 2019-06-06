@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cell" ],
+	"name" : "SSCellModelTest",
+	"pools" : [
+		 ],
+	"super" : "SSTextFieldModelTest",
+	"type" : "normal" }

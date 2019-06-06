@@ -1,4 +1,4 @@
 accessing
 hasUnacceptedChanges
 
-	^ cellModels anySatisfy: #hasUnacceptedChanges
+	^ contentModels anySatisfy: #hasUnacceptedChanges

@@ -1,4 +1,5 @@
 running
 setUp
 
-	cell := SSTextFieldModel new
+	super setUp.
+	model := self classUnderTest new.

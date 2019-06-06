@@ -3,8 +3,14 @@ specForDimensionControl: aBuilder
 
 	| specs |
 	specs := {
-		self specForDimensionControlInDimension: 'row' with: aBuilder.
-		self specForDimensionControlInDimension: 'column' with: aBuilder
+		self
+			specForDimensionControlInDimension: 'rows'
+			selector: #rowCount
+			with: aBuilder.
+		self
+			specForDimensionControlInDimension: 'columns'
+			selector: #columnCount
+			with: aBuilder
 	}.
 	^ aBuilder pluggablePanelSpec new
 		layout: #vertical;

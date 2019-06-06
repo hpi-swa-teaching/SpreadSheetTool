@@ -1,0 +1,15 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sheetHeap",
+		"anotherSheetName" ],
+	"name" : "SSSavingAcceptanceTest",
+	"pools" : [
+		 ],
+	"super" : "SSAcceptanceTest",
+	"type" : "normal" }

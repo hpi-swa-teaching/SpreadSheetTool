@@ -2,4 +2,7 @@ initialize-release
 initialize
 
 	super initialize.
-	cells := Matrix empty.
+	template := SSSheetTemplate
+		cellFactory: [:r :c | SSCell new]
+		rowHeaderFactory: [:row | SSHeader rowHeaderFor: row]
+		columnHeaderFactory: [:column | SSHeader columnHeaderFor: column].

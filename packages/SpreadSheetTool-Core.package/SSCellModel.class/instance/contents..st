@@ -1,5 +1,5 @@
 accessing
 contents: aTextOrString
 
-	cell value: aTextOrString asString.
-	self contentsChanged.
+	self cell value: aTextOrString asString.
+	self modelContentsChanged.

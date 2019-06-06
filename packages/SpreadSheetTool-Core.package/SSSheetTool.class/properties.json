@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cellModels",
-		"columnHeaders",
-		"rowHeaders",
-		"hasUnsavedChanges" ],
+		"sheet",
+		"contentModels",
+		"hasUnsavedChanges",
+		"cellMorphs" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],

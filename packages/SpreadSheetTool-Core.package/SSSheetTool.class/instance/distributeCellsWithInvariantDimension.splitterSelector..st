@@ -1,20 +1,11 @@
 interaction
 distributeCellsWithInvariantDimension: invariantDimensionSymbol splitterSelector: splitterSelector
 
-	| cellMorphs morphScales cellPanel |
-	cellMorphs := (cellModels anyOne containingMorphicModel
-		owner submorphs select: #isTextView)
-		groupByUniqueKey: #model.
-	morphScales := (cellMorphs collect: invariantDimensionSymbol)
-		as: Dictionary.
+	| morphScales cellPanel |
+	morphScales := cellMorphs collect: invariantDimensionSymbol.
 	self changed: #buildCellsPanel.
 	
-	cellMorphs := (cellModels anyOne containingMorphicModel
-		owner submorphs select: #isTextView)
-		groupByUniqueKey: #model.
-	cellPanel := (cellMorphs collect: #owner) asSet singleOne.
+	cellPanel := (cellMorphs collect: #owner as: Set) singleOne.
 	cellPanel owner fullBounds.
-	cellPanel
-		resizeHandlesWhereSplitter: splitterSelector
-		to: morphScales.
+	cellPanel resizeHandlesWhereSplitter: splitterSelector to: morphScales.
 	cellPanel owner fullBounds.

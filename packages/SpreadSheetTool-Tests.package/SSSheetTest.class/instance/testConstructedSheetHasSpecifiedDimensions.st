@@ -1,16 +1,12 @@
 testing
 testConstructedSheetHasSpecifiedDimensions
 
-	| rowCount columnCount |
-	rowCount := 6.
-	columnCount := 5.
-	
-	sheet := SSSheetTool
-		rowCount: rowCount
-		columnCount: columnCount.
+	sheet := self classUnderTest
+		rowCount: self rowCount
+		columnCount: self columnCount.
 	
 	self
-		assert: rowCount
+		assert: self rowCount
 			equals: sheet rowCount;
-		assert: columnCount
+		assert: self columnCount
 			equals: sheet columnCount.
