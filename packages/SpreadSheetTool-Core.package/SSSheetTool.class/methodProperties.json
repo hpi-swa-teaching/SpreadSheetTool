@@ -17,6 +17,7 @@
 		"sheetNamed:" : "JB 5/22/2019 14:42",
 		"unregisterFromWorldMenu" : "CT 5/11/2019 20:27" },
 	"instance" : {
+		"align:inColumns:" : "CT 6/6/2019 09:58",
 		"buildCellsPanel" : "CT 6/4/2019 12:58",
 		"buildWith:" : "CT 5/23/2019 09:45",
 		"calculateFrameForItemAtColumn:atRow:" : "CT 5/20/2019 16:29",
@@ -60,5 +61,5 @@
 		"specForNewSheetButton:" : "CT 5/23/2019 08:49",
 		"specForOpenSheetButton:" : "CT 5/23/2019 08:49",
 		"specForSaveSheetButton:" : "CT 5/23/2019 08:49",
-		"specForSheetManagement:" : "AN 6/5/2019 16:16",
+		"specForSheetManagement:" : "CT 6/6/2019 09:59",
 		"specMatrixForContents:" : "CT 5/29/2019 15:44" } }
