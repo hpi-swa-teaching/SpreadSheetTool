@@ -4,12 +4,11 @@ specForDimensionControlInDimension: aDimensionName selector: aSelector with: aBu
 	^ aBuilder pluggablePanelSpec new
 		layout: #horizontal;
 		children: {
-			(aBuilder pluggableButtonSpec new
-				label: aDimensionName;
-				enabled: false).
-			(SSPropertyFieldModel
+			(self specForLabel: aDimensionName ssWithFirstCharacterUppercase, $: with: aBuilder).
+			((SSPropertyFieldModel
 				parent: self
 				getProperty: aSelector
-				setProperty: (aSelector, ':') asSymbol)
+				setProperty: (aSelector , ':') asSymbol)
 					createSpecWith: aBuilder
-					helpText: aDimensionName }
+					helpText: 'Number of ', aDimensionName)
+		}
