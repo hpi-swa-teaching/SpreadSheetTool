@@ -10,7 +10,10 @@ SmalltalkCISpec {
   #testing : {
     #coverage : {
       #packages : [ 'SpreadSheetTool*' ],
-      #categories : [ '*SpreadSheetTool-*' ]
+      #categories : [ '*SpreadSheetTool-*' ],
+      #exclude : {
+        #classes : [ #*AcceptanceTest ]
+      }
     }
   }
 }
