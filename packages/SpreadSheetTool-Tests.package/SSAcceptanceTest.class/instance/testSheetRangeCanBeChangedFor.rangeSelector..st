@@ -2,7 +2,7 @@ testing
 testSheetRangeCanBeChangedFor: aDimensionString rangeSelector: aRangeSelector
 
 	| dimensionTextField cellCount cell |
-	dimensionTextField := self subject findByBalloon: aDimensionString.
+	dimensionTextField := self findDimensionFieldFor: aDimensionString.
 	cell := self findAnyCell.
 	
 	cell sendKeys: self someContent.
