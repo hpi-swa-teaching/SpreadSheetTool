@@ -4,6 +4,6 @@ testColumnHeaderFactory
 	| factory |
 	factory := [:c | self fail: 'this should be never run'].
 	
-	template columnHeaderFactory: factory.
+	sheet columnHeaderFactory: factory.
 	
-	self assert: factory equals: template columnHeaderFactory.
+	self assert: factory equals: sheet columnHeaderFactory.

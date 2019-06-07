@@ -1,4 +1,4 @@
 testing data
 rowCount
 
-	^ 5
+	^ rowCount ifNil: [5]

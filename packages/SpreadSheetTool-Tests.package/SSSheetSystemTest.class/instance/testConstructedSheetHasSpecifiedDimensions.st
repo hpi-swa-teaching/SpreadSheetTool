@@ -1,9 +1,10 @@
 testing
 testConstructedSheetHasSpecifiedDimensions
 
-	sheet := self classUnderTest
+	sheet := self classUnderTest newSheet
 		rowCount: self rowCount
-		columnCount: self columnCount.
+		columnCount: self columnCount;
+		yourself.
 	
 	self
 		assert: self rowCount

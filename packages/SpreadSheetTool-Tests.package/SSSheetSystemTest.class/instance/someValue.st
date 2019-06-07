@@ -1,4 +1,4 @@
 testing data
 someValue
 
-	^ 1337
+	^ 'Squeak forever <3'

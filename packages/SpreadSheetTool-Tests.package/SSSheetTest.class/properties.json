@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sheet",
-		"rowCount",
-		"columnCount" ],
+		"sheet" ],
 	"name" : "SSSheetTest",
 	"pools" : [
 		 ],

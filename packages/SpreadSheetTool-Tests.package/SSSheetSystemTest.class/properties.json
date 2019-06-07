@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"template" ],
-	"name" : "SSSheetTemplateTest",
+		"sheet",
+		"rowCount",
+		"columnCount" ],
+	"name" : "SSSheetSystemTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

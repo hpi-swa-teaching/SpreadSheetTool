@@ -1,4 +1,4 @@
 accessing
-rowHeaderAt: aRowIndex
+rowHeaderAt: anIndex
 
-	^ template rowHeaderAt: aRowIndex
+	^ rowHeaders at: anIndex

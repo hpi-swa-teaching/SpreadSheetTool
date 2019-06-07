@@ -1,4 +1,4 @@
 testing data
 columnCount
 
-	^ 6
+	^ columnCount ifNil: [3]

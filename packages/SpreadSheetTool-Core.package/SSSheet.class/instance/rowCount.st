@@ -1,4 +1,4 @@
 accessing
 rowCount
 
-	^ template rowCount
+	^ rowHeaders size

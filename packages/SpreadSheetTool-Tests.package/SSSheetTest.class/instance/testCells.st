@@ -5,4 +5,4 @@ testCells
 		1 to: self columnCount do: [:column | 
 			self
 				assert: (self cellValueForRow: row forColumn: column)
-				equals: (template atRow: row atColumn: column)]]
+				equals: (sheet atRow: row atColumn: column)]]

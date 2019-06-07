@@ -4,6 +4,6 @@ testCellFactory
 	| factory |
 	factory := [:r :c | self fail: 'this should be never run'].
 	
-	template cellFactory: factory.
+	sheet cellFactory: factory.
 	
-	self assert: factory equals: template cellFactory.
+	self assert: factory equals: sheet cellFactory.
