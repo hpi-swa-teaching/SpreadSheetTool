@@ -7,5 +7,5 @@ testDeletedSheetCannotBeDeletedAgain
 		deleteSheetByName: self someSheetName.
 	
 	self
-		should: [self deleteSheetByName]
+		should: [self deleteSheetByName: self someSheetName]
 		raise: Exception.
