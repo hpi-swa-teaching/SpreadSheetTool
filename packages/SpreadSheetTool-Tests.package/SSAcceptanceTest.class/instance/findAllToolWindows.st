@@ -1,4 +1,4 @@
-assertions
+tools
 findAllToolWindows
 
 	^ PluggableSystemWindow allInstances select: [:window |

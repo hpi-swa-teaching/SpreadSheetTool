@@ -2,6 +2,6 @@ testing
 testNumberOfColumnsCanBeChanged
 	"Test for #5 (Resizable tables)"
 
-	self
+	^ self
 		testSheetRangeCanBeChangedFor: 'columns'
 		rangeSelector: #columnCount

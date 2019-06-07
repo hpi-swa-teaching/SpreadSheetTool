@@ -2,7 +2,7 @@ testing
 testDistributeRows
 	"Test for #8 (Distribute rows/columns)"
 
-	self
+	^ self
 		testDistributeCellsInDimension: #height
 		unchangedDimension: #width
 		dimensionName: 'rows'

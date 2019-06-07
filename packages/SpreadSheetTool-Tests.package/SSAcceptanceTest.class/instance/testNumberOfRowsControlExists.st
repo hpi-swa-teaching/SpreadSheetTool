@@ -2,6 +2,6 @@ testing
 testNumberOfRowsControlExists
 	"Test for #5 (Resizable tables)"
 
-	self
+	^ self
 		testSheetRangeControlExistsFor: 'rows'
 		rangeSelector: #rowCount

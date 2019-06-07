@@ -16,4 +16,4 @@ testSheetRangeDoesNotAcceptNonIntegerForDimension: aDimension withSelector: aShe
 					description: 'The error message should be user-friendly! I have to know that, I am a computer.'].
 		self
 			assert: oldSheetRange equals: (self measureRangeFor: aSheetRangeSelector);
-			assert: value equals: (self findDimensionFieldFor: aDimension) text asString]
+			assert: value equals: (self findDimensionFieldFor: aDimension) text asString].

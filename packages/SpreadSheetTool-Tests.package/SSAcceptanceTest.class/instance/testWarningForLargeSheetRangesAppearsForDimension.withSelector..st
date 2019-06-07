@@ -8,4 +8,4 @@ testWarningForLargeSheetRangesAppearsForDimension: aDimension withSelector: aShe
 		butHandleException: [:notification |
 			self
 				assert: (notification messageText asLowercase includesSubstring: 'long time')
-				description: 'The error message should be user-friendly! I have to know that, I am a computer.']
+				description: 'The error message should be user-friendly! I have to know that, I am a computer.'].

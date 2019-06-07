@@ -2,6 +2,6 @@ testing
 testNumberOfRowsCanBeChanged
 	"Test for #5 (Resizable tables)"
 
-	self
+	^ self
 		testSheetRangeCanBeChangedFor: 'rows'
 		rangeSelector: #rowCount
