@@ -3,4 +3,4 @@ columnCount: aNumber
 
 	self
 		rowCount: self rowCount
-		columnCount: aNumber
+		columnCount: aNumber.

@@ -1,4 +1,4 @@
 initialize-release
 initialize
 
-	editMode := false
+	editMode := false.
