@@ -1,7 +1,8 @@
 {
 	"category" : "SpreadSheetTool-Tests",
 	"classinstvars" : [
-		"isLongStage" ],
+		"isLongStage",
+		"sideEffect" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

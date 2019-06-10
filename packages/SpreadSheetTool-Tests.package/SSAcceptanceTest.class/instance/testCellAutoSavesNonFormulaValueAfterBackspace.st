@@ -1,5 +1,5 @@
 testing
-testCellAutoSavesValueAfterBackspace
+testCellAutoSavesNonFormulaValueAfterBackspace
 	"Test for #17"
 
 	| cell |

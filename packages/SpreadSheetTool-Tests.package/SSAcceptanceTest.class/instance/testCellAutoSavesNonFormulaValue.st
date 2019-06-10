@@ -1,5 +1,5 @@
 testing
-testCellAutoSavesValue
+testCellAutoSavesNonFormulaValue
 	"Test for #17"
 
 	| cell |
