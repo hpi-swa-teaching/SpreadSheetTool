@@ -18,7 +18,7 @@ acceptContents: aTextOrString
 			inform: 'You must enter a natural number, and as this is Squeak, zero does not count!'
 			title: 'Invalid number'.
 		^ false].
-	aTextOrString hasPositiveIntegerFormat ifFalse: [
+	aTextOrString asString hasPositiveIntegerFormat ifFalse: [
 		UIManager default
 			inform: 'You must enter a natural number and nothing else!'
 			title: 'Invalid number'.

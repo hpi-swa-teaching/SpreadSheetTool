@@ -11,4 +11,3 @@ specForSheetManagement: aBuilder
 	^ aBuilder pluggablePanelSpec new
 		children: children;
 		yourself
-	

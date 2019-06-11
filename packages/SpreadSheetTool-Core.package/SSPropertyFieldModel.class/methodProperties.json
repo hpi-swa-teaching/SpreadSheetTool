@@ -2,7 +2,7 @@
 	"class" : {
 		"parent:getProperty:setProperty:" : "CT 5/29/2019 16:33" },
 	"instance" : {
-		"acceptContents:" : "CT 6/11/2019 15:14",
+		"acceptContents:" : "CT 6/11/2019 15:42",
 		"contents" : "CT 5/7/2019 11:24",
 		"contents:" : "CT 6/6/2019 01:23",
 		"createSpecWith:helpText:" : "CT 5/27/2019 16:11",

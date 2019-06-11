@@ -19,7 +19,7 @@
 	"instance" : {
 		"align:inColumns:" : "CT 6/6/2019 09:58",
 		"buildCellsPanel" : "CT 6/4/2019 12:58",
-		"buildWith:" : "CT 5/23/2019 09:45",
+		"buildWith:" : "CT 6/11/2019 14:13",
 		"calculateFrameForItemAtColumn:atRow:" : "CT 6/7/2019 13:39",
 		"columnCount" : "CT 5/29/2019 15:37",
 		"columnCount:" : "CT 6/7/2019 13:40",
@@ -62,5 +62,5 @@
 		"specForNewSheetButton:" : "CT 5/23/2019 08:49",
 		"specForOpenSheetButton:" : "CT 5/23/2019 08:49",
 		"specForSaveSheetButton:" : "CT 5/23/2019 08:49",
-		"specForSheetManagement:" : "CT 6/6/2019 09:59",
+		"specForSheetManagement:" : "CT 6/11/2019 14:38",
 		"specMatrixForContents:" : "CT 5/29/2019 15:44" } }
