@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"fixturesWithPositiveIntegerFormat" : "CT 6/11/2019 15:29",
+		"fixturesWithoutPositiveIntegerFormat" : "CT 6/11/2019 15:36",
+		"testHasPositiveIntegerFormatFalse" : "CT 6/11/2019 15:28",
+		"testHasPositiveIntegerFormatTrue" : "CT 6/11/2019 15:28" } }
