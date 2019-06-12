@@ -2,4 +2,4 @@ accessing
 isFormula
 
 	unacceptedContents ifNil: [^ false].
-	^ unacceptedContents startsWith: '^'
+	^ unacceptedContents beginsWith: '^'

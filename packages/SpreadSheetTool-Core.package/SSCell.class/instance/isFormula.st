@@ -1,4 +1,4 @@
 accessing
 isFormula
 
-	^ self rawValue startsWith: '^'
+	^ self rawValue beginsWith: '^'
