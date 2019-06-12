@@ -1,4 +1,0 @@
-accessing
-holdedContent
-
-	^ cell value
