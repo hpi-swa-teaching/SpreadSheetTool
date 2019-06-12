@@ -1,4 +1,4 @@
 testing data
-someFormulaContent
+someFormula
 
 	^ '^ 1 + 2 + SSAcceptanceTest sideEffect'

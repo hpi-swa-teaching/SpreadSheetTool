@@ -6,7 +6,7 @@ testFormulaEvaluation
 	cell := self findAnyCell.
 	
 	cell
-		sendKeys: self someFormulaContent;
+		sendKeys: self someFormula;
 		sendControlSave;
 		keyboardFocusChange: false.
 	

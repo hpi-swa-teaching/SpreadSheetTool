@@ -6,7 +6,7 @@ testFormulaDisplaysLastComputedValueAfterLooseFocusWithoutChanges
 	cell := self findAnyCell.
 	
 	cell
-		sendKeys: self someFormulaContent;
+		sendKeys: self someFormula;
 		sendControlSave.
 		
 	cell keyboardFocusChange: false.

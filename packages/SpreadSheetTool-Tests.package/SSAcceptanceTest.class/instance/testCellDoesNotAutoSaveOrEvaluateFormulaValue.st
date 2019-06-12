@@ -6,9 +6,9 @@ testCellDoesNotAutoSaveOrEvaluateFormulaValue
 	cell := self findAnyCell.
 	
 	cell
-		sendKeys: self someFormulaContent;
+		sendKeys: self someFormula;
 		keyboardFocusChange: false.
 	
 	self
-		assert: self someFormulaContent equals: cell text asString;
+		assert: self someFormula equals: cell text asString;
 		assert: cell hasUnacceptedEdits.

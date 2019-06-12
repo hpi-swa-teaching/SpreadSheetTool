@@ -7,7 +7,7 @@ testFormulaReevaluation
 	sideEffect := 1.
 	
 	cell
-		sendKeys: self someFormulaContent;
+		sendKeys: self someFormula;
 		sendControlSave.
 		
 	self class sideEffect: sideEffect.
