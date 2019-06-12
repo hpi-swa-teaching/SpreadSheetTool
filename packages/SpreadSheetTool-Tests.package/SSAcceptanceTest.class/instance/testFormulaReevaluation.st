@@ -8,12 +8,12 @@ testFormulaReevaluation
 	
 	cell
 		sendKeys: self someFormulaContent;
-		sendControlSave;
-		keyboardFocusChange: false.
+		sendControlSave.
 		
 	self class sideEffect: sideEffect.
 	
 	cell
+		keyboardFocusChange: true;
 		sendControlSave;
 		keyboardFocusChange: false.
 	
