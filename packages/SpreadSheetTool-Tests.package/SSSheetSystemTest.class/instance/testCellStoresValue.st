@@ -2,7 +2,7 @@ testing
 testCellStoresValue
 
 	(sheet atRow: self someRowIndex atColumn: self someColumnIndex)
-		value: self someValue.
+		rawValue: self someValue.
 	
 	self
 		assert: self someValue
