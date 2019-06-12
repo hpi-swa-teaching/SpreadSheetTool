@@ -1,4 +1,4 @@
-accessing
+interaction
 respondsTo: aSymbol
 
 	(aSymbol = #completionController)

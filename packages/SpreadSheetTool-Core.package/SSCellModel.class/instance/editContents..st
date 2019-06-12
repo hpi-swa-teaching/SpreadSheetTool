@@ -1,4 +1,4 @@
-accessing
+interaction
 editContents: aTextOrString
 
 	unacceptedContents := aTextOrString asString.

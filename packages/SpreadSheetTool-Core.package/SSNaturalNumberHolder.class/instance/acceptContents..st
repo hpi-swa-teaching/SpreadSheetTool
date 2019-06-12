@@ -1,4 +1,4 @@
-accessing
+interaction
 acceptContents: aTextOrString
 
 	| integer |

@@ -1,4 +1,4 @@
-accessing
+evaluation
 isFormula
 
 	unacceptedContents ifNil: [^ false].

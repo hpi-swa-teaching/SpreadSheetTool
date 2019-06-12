@@ -1,4 +1,4 @@
-accessing
+interaction
 editContents: aTextOrString
 
 	self contents: aTextOrString.

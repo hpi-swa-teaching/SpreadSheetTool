@@ -1,4 +1,4 @@
-accessing
+interaction
 contents: anInteger
 
 	self parent
