@@ -1,4 +1,0 @@
-accessing
-holdedContent
-
-	^ mock value

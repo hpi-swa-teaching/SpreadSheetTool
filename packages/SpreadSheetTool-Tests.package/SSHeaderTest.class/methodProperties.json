@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"classUnderTest" : "CT 5/29/2019 15:28",
-		"fixturesForLabel" : "CT 5/29/2019 14:26",
-		"setUp" : "CT 5/29/2019 15:28",
+		"fixturesForLabel" : "CT 6/6/2019 10:45",
+		"setUp" : "CT 6/7/2019 14:00",
 		"someValue" : "CT 5/29/2019 15:52",
 		"testColumnHeaderFor" : "CT 5/29/2019 15:29",
 		"testGenerateColumnLabelFor" : "CT 5/29/2019 15:28",

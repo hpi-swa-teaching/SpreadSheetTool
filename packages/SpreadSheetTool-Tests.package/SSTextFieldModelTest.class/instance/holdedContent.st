@@ -1,4 +1,0 @@
-accessing
-holdedContent
-
-	^ self subclassResponsibility

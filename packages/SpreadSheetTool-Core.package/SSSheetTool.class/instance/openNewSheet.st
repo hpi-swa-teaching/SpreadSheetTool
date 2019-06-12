@@ -1,4 +1,4 @@
 interaction
 openNewSheet
 
-	self class openDefault
+	self class openDefault.

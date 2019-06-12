@@ -1,0 +1,16 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sheet",
+		"rowCount",
+		"columnCount" ],
+	"name" : "SSSheetSystemTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,4 +1,5 @@
 initialize-release
 initialize
 
-	editMode := false
+	self editMode: false.
+	isBusy := false.

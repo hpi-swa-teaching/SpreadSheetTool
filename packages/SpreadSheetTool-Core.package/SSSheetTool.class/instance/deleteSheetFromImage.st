@@ -1,4 +1,4 @@
 interaction
 deleteSheetFromImage
 	
-	self class deleteSheet
+	self class deleteSheet.

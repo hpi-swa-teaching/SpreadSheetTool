@@ -1,4 +1,4 @@
 interaction
 openSheetFromImage
 	
-	self class openSavedSheet
+	self class openSavedSheet.

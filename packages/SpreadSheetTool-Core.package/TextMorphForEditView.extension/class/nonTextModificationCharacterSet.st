@@ -1,0 +1,4 @@
+*SpreadSheetTool-Core-compatibility-constants
+nonTextModificationCharacterSet
+
+	^ NonTextModificationCharacterSet

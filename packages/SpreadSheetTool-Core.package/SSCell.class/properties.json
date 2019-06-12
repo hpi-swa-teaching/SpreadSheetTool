@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"value" ],
+		"value",
+		"rawValue",
+		"isValueInvalid" ],
 	"name" : "SSCell",
 	"pools" : [
 		 ],

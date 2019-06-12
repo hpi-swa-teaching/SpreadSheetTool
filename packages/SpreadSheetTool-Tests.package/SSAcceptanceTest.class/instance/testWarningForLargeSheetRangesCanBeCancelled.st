@@ -4,4 +4,4 @@ testWarningForLargeSheetRangesCanBeCancelled
 
 	self 
 		testWarningForLargeSheetRangesCanBeCancelledForDimension: 'columns' withSelector: #columnCount;
-		testWarningForLargeSheetRangesCanBeCancelledForDimension: 'rows' withSelector: #rowCount
+		testWarningForLargeSheetRangesCanBeCancelledForDimension: 'rows' withSelector: #rowCount.

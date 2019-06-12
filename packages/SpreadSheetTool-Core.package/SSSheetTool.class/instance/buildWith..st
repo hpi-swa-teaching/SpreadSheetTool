@@ -10,7 +10,6 @@ buildWith: aBuilder
 		children: {
 			self specForMenuBar: aBuilder.
 			self specForMainPanel: aBuilder };
-		wantsResizeHandles: true;
 		yourself.
 	window := aBuilder build: spec.
 	hasUnsavedChanges := false.

@@ -3,6 +3,7 @@ setUp
 
 	| model |
 	super setUp.
+	self class sideEffect: 0.
 	model := self toolUnderTest
 		rowCount: self rowCount
 		columnCount: self columnCount.

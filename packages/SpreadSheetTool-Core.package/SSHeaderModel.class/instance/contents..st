@@ -1,4 +1,4 @@
-accessing
+interaction
 contents: aTextOrString
 
 	self header label: aTextOrString asString.

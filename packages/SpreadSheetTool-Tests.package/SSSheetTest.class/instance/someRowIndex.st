@@ -1,4 +1,4 @@
 testing data
 someRowIndex
 
-	^ self rowCount sqrt floor
+	^ self someRowIndexIn: self rowCount

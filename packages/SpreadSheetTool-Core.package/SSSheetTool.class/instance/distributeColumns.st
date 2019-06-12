@@ -3,4 +3,4 @@ distributeColumns
 
 	self
 		distributeCellsWithInvariantDimension: #height
-		splitterSelector: #splitsTopAndBottom
+		splitterSelector: #splitsTopAndBottom.

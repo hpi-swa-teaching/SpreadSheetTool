@@ -1,4 +1,4 @@
 initialize-release
 initialize
 
-	self initializeWithSheet: SSSheet new
+	self initializeWithSheet: SSSheet newSheet.

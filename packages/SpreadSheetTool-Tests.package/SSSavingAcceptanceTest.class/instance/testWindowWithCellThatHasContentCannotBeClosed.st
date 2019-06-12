@@ -8,6 +8,6 @@ testWindowWithCellThatHasContentCannotBeClosed
 	self
 		should: [self subject delete]
 		raise: ProvideAnswerNotification
-		butHandleException: [:notification | notification resume: false].
+		butHandle: [:notification | notification resume: false].
 	
 	self assertWindowNotDeleted: self subject.

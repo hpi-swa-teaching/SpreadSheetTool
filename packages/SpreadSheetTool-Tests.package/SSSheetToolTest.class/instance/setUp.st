@@ -1,4 +1,4 @@
 running
 setUp
 
-	tool := self classUnderTest new
+	tool := self classUnderTest new.

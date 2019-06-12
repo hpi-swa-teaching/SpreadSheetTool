@@ -1,11 +1,23 @@
 {
 	"class" : {
-		"rowCount:columnCount:" : "CT 5/6/2019 17:48" },
+		"cellFactory:rowHeaderFactory:columnHeaderFactory:" : "CT 5/28/2019 18:09",
+		"newSheet" : "CT 6/7/2019 12:41" },
 	"instance" : {
-		"atRow:atColumn:" : "CT 5/28/2019 15:45",
-		"columnCount" : "CT 5/28/2019 15:45",
-		"columnHeaderAt:" : "CT 5/28/2019 17:37",
-		"initialize" : "CT 5/29/2019 15:25",
-		"rowCount" : "CT 5/28/2019 15:45",
-		"rowCount:columnCount:" : "CT 5/28/2019 15:46",
-		"rowHeaderAt:" : "CT 5/28/2019 17:37" } }
+		"allContents" : "CT 6/7/2019 13:32",
+		"anyOne" : "CT 5/29/2019 14:59",
+		"anySatisfy:" : "CT 5/29/2019 14:56",
+		"asMatrixWithOrigin:" : "CT 5/29/2019 14:09",
+		"atRow:atColumn:" : "CT 5/6/2019 18:36",
+		"cellFactory" : "CT 5/6/2019 18:09",
+		"cellFactory:" : "CT 5/6/2019 18:10",
+		"columnCount" : "CT 5/28/2019 16:28",
+		"columnHeaderAt:" : "CT 5/28/2019 16:19",
+		"columnHeaderFactory" : "CT 5/28/2019 18:08",
+		"columnHeaderFactory:" : "CT 5/28/2019 18:08",
+		"initialize" : "CT 5/28/2019 16:21",
+		"rowCount" : "CT 5/28/2019 16:28",
+		"rowCount:columnCount:" : "CT 5/28/2019 19:17",
+		"rowHeaderAt:" : "CT 5/28/2019 16:20",
+		"rowHeaderFactory" : "CT 5/28/2019 18:07",
+		"rowHeaderFactory:" : "CT 5/28/2019 18:07",
+		"scale:to:factory:" : "CT 6/7/2019 13:36" } }

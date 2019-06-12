@@ -2,11 +2,17 @@
 	"class" : {
 		"cell:parent:" : "CT 5/29/2019 16:28" },
 	"instance" : {
+		"acceptContents:" : "CT 6/12/2019 19:36",
+		"basicEditMode:" : "CT 6/12/2019 12:25",
+		"beBusy" : "CT 6/12/2019 19:35",
+		"beReady" : "CT 6/12/2019 19:35",
 		"cell" : "CT 5/2/2019 15:07",
 		"cell:" : "CT 5/2/2019 15:07",
-		"contents" : "CT 6/4/2019 16:56",
-		"contents:" : "CT 6/6/2019 01:23",
+		"contents" : "CT 6/12/2019 19:37",
+		"editContents:" : "CT 6/12/2019 17:48",
 		"editMode" : "CT 6/4/2019 17:14",
-		"editMode:" : "CT 6/4/2019 17:18",
-		"initialize" : "CT 6/4/2019 16:51",
-		"update:with:" : "CT 6/6/2019 01:20" } }
+		"editMode:" : "CT 6/12/2019 14:35",
+		"evaluate" : "CT 6/12/2019 19:39",
+		"initialize" : "CT 6/12/2019 19:35",
+		"isFormula" : "CT 6/12/2019 16:09",
+		"update:with:" : "CT 6/12/2019 19:34" } }

@@ -6,7 +6,7 @@ testOpenInvalidSheetRaisesErrorMessageThatCanBeCancelled
 		should: [self
 			should: [self openSheetByName: self someSheetName]
 			raise: ProvideAnswerNotification
-			butHandleException: [:exception |
+			butHandle: [:exception |
 				self assert: (exception messageText includesSubstring: 'cannot').
 				exception resume: false]]
 		raise: AssertionFailure

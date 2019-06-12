@@ -1,4 +1,4 @@
 accessing
 columnCount
 
-	^ template columnCount
+	^ columnHeaders size

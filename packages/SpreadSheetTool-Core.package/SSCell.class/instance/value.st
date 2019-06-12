@@ -1,4 +1,6 @@
 accessing
 value
 
-	^ value
+	^ self isFormula
+		ifFalse: [self rawValue]
+		ifTrue: [self formulaValue]

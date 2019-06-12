@@ -2,7 +2,7 @@ initialize-release
 initializeWithSheet: aSheet
 
 	sheet := aSheet.
-	contentModels := SSSheetTemplate
+	contentModels := SSSheet
 		cellFactory: [:row :column | SSCellModel
 			cell: (sheet atRow: row atColumn: column)
 			parent: self]

@@ -1,4 +1,4 @@
 testing
 testHasUnacceptedChangesIsFalseForVirginTool
 
-	self deny: tool hasUnacceptedChanges
+	self deny: tool hasUnacceptedChanges.
