@@ -12,6 +12,8 @@ testFormulaReevaluation
 		
 	self class sideEffect: sideEffect.
 	
-	cell sendControlSave.
+	cell
+		sendControlSave;
+		keyboardFocusChange: false.
 	
 	self assert: ((self someFormulaResult asInteger) + sideEffect) asString equals: cell text asString.

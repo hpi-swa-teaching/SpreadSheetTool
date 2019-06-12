@@ -2,12 +2,12 @@ testing
 testCellDoesNotAutoSaveOrEvaluateFormulaValue
 	"Test for #25"
 
-	| cell header |
+	| cell |
 	cell := self findAnyCell.
-	header := self findAnyHeader.
 	
-	cell sendKeys: self someFormulaContent.
-	header click.
+	cell
+		sendKeys: self someFormulaContent;
+		keyboardFocusChange: false.
 	
 	self
 		assert: self someFormulaContent equals: cell text asString;

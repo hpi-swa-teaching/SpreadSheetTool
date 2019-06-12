@@ -2,17 +2,13 @@ testing
 testFormulaDisplaysLastComputedValueAfterLooseFocusWithoutChanges
 	"Test for #25"
 
-	| cell header |
-
+	| cell |
 	cell := self findAnyCell.
-	header := self findAnyHeader.
 	
 	cell
 		sendKeys: self someFormulaContent;
 		sendControlSave.
 		
-	header click.
-	cell click.
-	header click.
+	cell keyboardFocusChange: false.
 	
 	self assert: self someFormulaResult equals: cell text asString.
