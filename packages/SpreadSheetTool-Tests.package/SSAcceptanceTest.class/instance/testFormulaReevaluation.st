@@ -8,7 +8,8 @@ testFormulaReevaluation
 	
 	cell
 		sendKeys: self someFormulaContent;
-		sendControlSave.
+		sendControlSave;
+		keyboardFocusChange: false.
 		
 	self class sideEffect: sideEffect.
 	
@@ -16,4 +17,4 @@ testFormulaReevaluation
 		sendControlSave;
 		keyboardFocusChange: false.
 	
-	self assert: ((self someFormulaResult asInteger) + sideEffect) asString equals: cell text asString.
+	self assert: (self someFormulaResult asInteger + sideEffect) asString equals: cell text asString.
