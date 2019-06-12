@@ -1,4 +1,4 @@
 *SpreadSheetTool-Core-compatibility-class initialization
 initialize
 
-	TextModificationCharacterSet := self defaultTextModificationCharacterSet
+	NonTextModificationCharacterSet := self defaultNonTextModificationCharacterSet

@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"defaultTextModificationCharacterSet" : "CT 6/12/2019 16:06",
-		"initialize" : "pre 4/29/2019 20:09",
-		"textModificationCharacterSet" : "pre 4/29/2019 20:09" },
+		"defaultNonTextModificationCharacterSet" : "CT 6/12/2019 16:38",
+		"initialize" : "CT 6/12/2019 16:38",
+		"nonTextModificationCharacterSet" : "CT 6/12/2019 16:37" },
 	"instance" : {
-		"eventCharacterModifiesText:" : "pre 4/29/2019 20:12",
+		"eventCharacterModifiesText:" : "CT 6/12/2019 16:40",
 		"keyStroke:" : "CT 6/12/2019 15:32" } }
