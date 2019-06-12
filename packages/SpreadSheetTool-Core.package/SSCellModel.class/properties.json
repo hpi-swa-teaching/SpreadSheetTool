@@ -9,7 +9,8 @@
 		"cell",
 		"editMode",
 		"unacceptedContents",
-		"hasUnacceptedEdits" ],
+		"hasUnacceptedEdits",
+		"isBusy" ],
 	"name" : "SSCellModel",
 	"pools" : [
 		 ],

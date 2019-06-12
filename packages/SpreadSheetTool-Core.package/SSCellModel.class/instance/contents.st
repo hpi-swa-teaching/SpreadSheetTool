@@ -2,5 +2,5 @@ accessing
 contents
 
 	^ self editMode
-		ifFalse: [self cell value asString]
+		ifFalse: [self evaluate]
 		ifTrue: [self cell rawValue]
