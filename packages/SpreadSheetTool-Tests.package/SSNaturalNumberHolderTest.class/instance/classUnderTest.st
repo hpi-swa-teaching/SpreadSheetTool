@@ -1,4 +1,4 @@
 accessing
 classUnderTest
 
-	^ SSPropertyFieldModel
+	^ SSNaturalNumberHolder
