@@ -8,5 +8,5 @@ testCellAutoSavesNonFormulaValueAfterBackspace
 	cell sendKey: Character backspace.
 	
 	self
-		assert: '' equals: cell focusAndRead;
-		deny: cell hasUnacceptedEdits.
+		deny: cell hasUnacceptedEdits;
+		assert: '' equals: cell focusAndRead.

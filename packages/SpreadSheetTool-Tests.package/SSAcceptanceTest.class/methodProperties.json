@@ -41,7 +41,7 @@
 		"splitterThickness" : "CT 5/2/2019 22:54",
 		"tearDown" : "CT 6/5/2019 23:59",
 		"testCellAutoSavesNonFormulaValue" : "JB 6/10/2019 16:39",
-		"testCellAutoSavesNonFormulaValueAfterBackspace" : "CT 6/12/2019 15:44",
+		"testCellAutoSavesNonFormulaValueAfterBackspace" : "CT 6/12/2019 15:55",
 		"testCellDoesNotAutoSaveOrEvaluateFormulaValue" : "CT 6/12/2019 12:35",
 		"testCellsAreResizable" : "CT 6/5/2019 18:30",
 		"testDistributeCellsInDimension:unchangedDimension:dimensionName:" : "CT 5/25/2019 19:03",
