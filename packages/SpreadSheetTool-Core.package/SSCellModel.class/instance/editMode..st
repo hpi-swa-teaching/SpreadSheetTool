@@ -1,4 +1,6 @@
 accessing
 editMode: aBoolean
 
-	editMode := aBoolean
+	self
+		basicEditMode: aBoolean;
+		contentsChanged.

@@ -1,0 +1,4 @@
+accessing
+rawValue
+
+	^ rawValue

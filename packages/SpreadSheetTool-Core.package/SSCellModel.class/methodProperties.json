@@ -2,11 +2,14 @@
 	"class" : {
 		"cell:parent:" : "CT 5/29/2019 16:28" },
 	"instance" : {
+		"basicEditMode:" : "CT 6/12/2019 12:25",
 		"cell" : "CT 5/2/2019 15:07",
 		"cell:" : "CT 5/2/2019 15:07",
-		"contents" : "JB 6/10/2019 16:21",
-		"contents:" : "CT 6/6/2019 01:23",
+		"contents" : "CT 6/12/2019 11:57",
+		"contents:" : "CT 6/12/2019 12:34",
+		"contents:notifying:" : "CT 6/12/2019 12:23",
+		"createSpecWith:" : "CT 6/12/2019 12:14",
 		"editMode" : "CT 6/4/2019 17:14",
-		"editMode:" : "CT 6/4/2019 17:18",
+		"editMode:" : "CT 6/12/2019 12:28",
 		"initialize" : "CT 6/7/2019 13:43",
-		"update:with:" : "CT 6/6/2019 01:20" } }
+		"update:with:" : "CT 6/12/2019 12:29" } }
