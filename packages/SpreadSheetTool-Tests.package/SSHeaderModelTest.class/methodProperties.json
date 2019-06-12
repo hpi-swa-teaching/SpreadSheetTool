@@ -3,6 +3,9 @@
 		 },
 	"instance" : {
 		"classUnderTest" : "CT 6/6/2019 01:33",
-		"holdedContent" : "CT 6/6/2019 01:47",
-		"setUp" : "CT 6/6/2019 01:39",
-		"testGetContents" : "CT 5/29/2019 16:57" } }
+		"setUp" : "CT 6/12/2019 13:28",
+		"testContentsEdited" : "CT 6/12/2019 13:28",
+		"testGetContents" : "CT 5/29/2019 16:57",
+		"testHeader" : "CT 6/12/2019 13:28",
+		"testSetContents" : "CT 6/12/2019 13:27",
+		"testSetContentsNotifiesObservers" : "CT 6/12/2019 13:18" } }

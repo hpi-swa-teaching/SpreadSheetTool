@@ -1,4 +1,4 @@
 testing data
-someContent
+someValue
 
 	^ 42

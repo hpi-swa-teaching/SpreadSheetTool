@@ -8,7 +8,7 @@
 	"instvars" : [
 		"getterSymbol",
 		"setterSymbol" ],
-	"name" : "SSPropertyFieldModel",
+	"name" : "SSNaturalNumberHolder",
 	"pools" : [
 		 ],
 	"super" : "SSTextFieldModel",

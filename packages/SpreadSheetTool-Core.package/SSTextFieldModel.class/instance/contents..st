@@ -1,4 +1,4 @@
 accessing
 contents: aTextOrString
 
-	^ self subclassResponsibility
+	^ self shouldNotImplement

@@ -1,5 +1,5 @@
 *SpreadSheetTool-Tests-extensions
-should: aBlock raise: anExceptionalEvent that: aSelectorBlock butHandleException: anotherBlock
+should: aBlock raise: anExceptionalEvent that: aSelectorBlock butHandle: anotherBlock
 	
 	| raised result |
 	raised := false.

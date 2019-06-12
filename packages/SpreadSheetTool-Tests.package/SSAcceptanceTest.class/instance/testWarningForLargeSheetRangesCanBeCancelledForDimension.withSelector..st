@@ -7,6 +7,6 @@ testWarningForLargeSheetRangesCanBeCancelledForDimension: aDimension withSelecto
 	self
 		should: [self enter: self someVeryLargeNumber forDimension: aDimension]
 		raise: ProvideAnswerNotification
-		butHandleException: [:notification |
+		butHandle: [:notification |
 			notification resume: false].
 	self assert: oldSheetRange equals: (self measureRangeFor: aSheetRangeSelector).

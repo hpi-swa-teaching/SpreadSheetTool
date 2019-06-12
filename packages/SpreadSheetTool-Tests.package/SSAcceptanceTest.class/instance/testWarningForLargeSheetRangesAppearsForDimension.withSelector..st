@@ -5,7 +5,7 @@ testWarningForLargeSheetRangesAppearsForDimension: aDimension withSelector: aShe
 	self
 		should: [self enter: self someVeryLargeNumber forDimension: aDimension]
 		raise: ProvideAnswerNotification
-		butHandleException: [:notification |
+		butHandle: [:notification |
 			self
 				assert: (notification messageText asLowercase includesSubstring: 'long time')
 				description: 'The error message should be user-friendly! I have to know that, I am a computer.'].

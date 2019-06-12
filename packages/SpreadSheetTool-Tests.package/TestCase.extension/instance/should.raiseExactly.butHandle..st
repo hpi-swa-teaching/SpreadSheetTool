@@ -1,8 +1,8 @@
 *SpreadSheetTool-Tests-extensions
-should: aBlock raiseExactly: anException butHandleException: anotherBlock 
+should: aBlock raiseExactly: anException butHandle: anotherBlock 
 
 	self
 		should: aBlock
 		raise: anException
 		that: [:exception | exception class = anException]
-		butHandleException: anotherBlock
+		butHandle: anotherBlock

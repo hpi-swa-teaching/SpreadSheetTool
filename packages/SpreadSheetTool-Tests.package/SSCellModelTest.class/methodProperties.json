@@ -4,5 +4,15 @@
 	"instance" : {
 		"classUnderTest" : "CT 6/6/2019 01:33",
 		"holdedContent" : "CT 6/6/2019 01:31",
-		"setUp" : "CT 6/6/2019 01:39",
-		"testGetContentsInEditMode" : "CT 6/4/2019 16:57" } }
+		"setUp" : "CT 6/12/2019 13:10",
+		"someFormula" : "CT 6/12/2019 13:14",
+		"someFormulaResult" : "CT 6/12/2019 13:12",
+		"testBasicEditMode" : "CT 6/12/2019 13:08",
+		"testCell" : "CT 6/12/2019 13:10",
+		"testContentsAcceptedChangesCellRawValue" : "CT 6/12/2019 13:24",
+		"testContentsAcceptedDisablesEditMode" : "CT 6/12/2019 13:23",
+		"testContentsAcceptedNotifiesObservers" : "CT 6/12/2019 13:19",
+		"testContentsEditModeOff" : "CT 6/12/2019 13:14",
+		"testContentsEditModeOn" : "CT 6/12/2019 13:13",
+		"testContentsEditedWithFormulaChangesCellRawValue" : "CT 6/12/2019 13:26",
+		"testContentsEditedWithNonFormulaChangesCellRawValue" : "CT 6/12/2019 13:25" } }

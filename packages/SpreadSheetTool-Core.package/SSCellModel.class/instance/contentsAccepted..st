@@ -1,6 +1,6 @@
 accessing
-contents: aTextOrString notifying: aController
+contentsAccepted: aTextOrString
 
 	self cell rawValue: aTextOrString asString.
-	self modelContentsChanged.
+	self parent contentsChanged.
 	self editMode: false.

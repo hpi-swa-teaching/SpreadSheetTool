@@ -1,4 +1,4 @@
 accessing
-holdedContent
+contentsEdited: aTextOrString
 
 	^ self subclassResponsibility

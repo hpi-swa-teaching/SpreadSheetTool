@@ -4,6 +4,6 @@ performSheetAction: anActionLabel byName: aName
 	^ self
 		should: [(self subject findByLabel: anActionLabel) click]
 		raiseOnce: ProvideAnswerNotification
-		butHandleException: [:notification | 
+		butHandle: [:notification | 
 			notification messageText isEmptyOrNil
 				ifTrue: [notification resume: aName]]

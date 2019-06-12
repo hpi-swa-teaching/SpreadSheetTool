@@ -1,5 +1,5 @@
 testing
 testValue
 	
-	cell value: self someValue.
-	self assert: self someValue equals: cell value.
+	cell rawValue: self someFormula.
+	self assert: self someFormulaResult equals: cell value.

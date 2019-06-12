@@ -6,7 +6,7 @@ testOpenInvalidSheetRaisesErrorMessageThatCanOpenDebugger
 		should: [self
 			should: [self tryOpenSheetByName: self someSheetName]
 			raise: ProvideAnswerNotification
-			butHandleException: [:exception |
+			butHandle: [:exception |
 				self assert: (exception messageText includesSubstring: 'cannot').
 				exception resume: true]]
 		raise: Error.

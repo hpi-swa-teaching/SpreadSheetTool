@@ -3,10 +3,7 @@
 		"isAbstract" : "CT 6/6/2019 01:41" },
 	"instance" : {
 		"classUnderTest" : "CT 6/6/2019 01:32",
-		"holdedContent" : "CT 6/6/2019 01:31",
 		"setUp" : "CT 6/6/2019 01:34",
 		"someContent" : "CT 5/23/2019 09:26",
 		"someString" : "CT 6/6/2019 01:37",
-		"someText" : "CT 6/6/2019 01:36",
-		"testSetContents" : "CT 6/6/2019 01:31",
-		"testSetContentsNotifiesObservers" : "CT 6/6/2019 01:35" } }
+		"someText" : "CT 6/6/2019 01:36" } }

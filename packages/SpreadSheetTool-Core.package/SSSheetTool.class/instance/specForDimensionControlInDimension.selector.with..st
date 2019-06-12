@@ -5,7 +5,7 @@ specForDimensionControlInDimension: aDimensionName selector: aSelector with: aBu
 		layout: #horizontal;
 		children: {
 			(self specForLabel: aDimensionName ssWithFirstCharacterUppercase, $: with: aBuilder).
-			((SSPropertyFieldModel
+			((SSNaturalNumberHolder
 				parent: self
 				getProperty: aSelector
 				setProperty: (aSelector , ':') asSymbol)
