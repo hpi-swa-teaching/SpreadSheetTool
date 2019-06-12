@@ -2,7 +2,7 @@ class initialization
 initialize
 
 	super initialize.
-	savedSheets := Dictionary new.
+	savedSheets := savedSheets ifNil: [Dictionary new].
 	self registerInWorldMenu.
 	
 	TextMorphForEditView initialize.
