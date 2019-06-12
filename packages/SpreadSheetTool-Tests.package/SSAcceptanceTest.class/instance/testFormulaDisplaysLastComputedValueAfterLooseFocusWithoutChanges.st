@@ -1,5 +1,5 @@
 testing
-testFormulaEvaluationOnLosingFocusWithoutUnsavedChanges
+testFormulaDisplaysLastComputedValueAfterLooseFocusWithoutChanges
 	"Test for #25"
 
 	| cell header |

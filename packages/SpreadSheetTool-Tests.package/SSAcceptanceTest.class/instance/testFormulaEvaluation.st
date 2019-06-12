@@ -3,7 +3,6 @@ testFormulaEvaluation
 	"Test for #25"
 
 	| cell |
-
 	cell := self findAnyCell.
 	
 	cell

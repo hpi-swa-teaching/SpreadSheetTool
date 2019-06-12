@@ -7,7 +7,6 @@ testCellDoesNotAutoSaveOrEvaluateFormulaValue
 	header := self findAnyHeader.
 	
 	cell sendKeys: self someFormulaContent.
-	
 	header click.
 	
 	self

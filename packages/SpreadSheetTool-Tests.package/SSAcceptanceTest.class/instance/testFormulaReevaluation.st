@@ -2,16 +2,16 @@ testing
 testFormulaReevaluation
 	"Test for #25"
 
-	| cell |
-
+	| cell sideEffect |
 	cell := self findAnyCell.
+	sideEffect := 1.
 	
 	cell
 		sendKeys: self someFormulaContent;
 		sendControlSave.
 		
-	self class sideEffect: 1.
+	self class sideEffect: sideEffect.
 	
 	cell sendControlSave.
 	
-	self assert: ((self someFormulaResult asInteger) + 1) asString equals: cell text asString.
+	self assert: ((self someFormulaResult asInteger) + sideEffect) asString equals: cell text asString.
