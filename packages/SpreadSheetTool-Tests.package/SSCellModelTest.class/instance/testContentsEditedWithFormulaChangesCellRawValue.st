@@ -1,8 +1,8 @@
 testing
 testContentsEditedWithFormulaChangesCellRawValue
 
-	model contentsEdited: self someText.
+	model editContents: self someText.
 	
-	model contentsEdited: self someFormula.
+	model editContents: self someFormula.
 	
 	self assert: self someText asString equals: cell rawValue.

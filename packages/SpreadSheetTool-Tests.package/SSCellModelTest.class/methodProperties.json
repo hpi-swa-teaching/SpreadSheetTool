@@ -7,12 +7,12 @@
 		"setUp" : "CT 6/12/2019 13:10",
 		"someFormula" : "CT 6/12/2019 13:14",
 		"someFormulaResult" : "CT 6/12/2019 13:12",
+		"testAcceptContentsChangesCellRawValue" : "CT 6/12/2019 17:48",
+		"testAcceptContentsDisablesEditMode" : "CT 6/12/2019 17:48",
+		"testAcceptContentsNotifiesObservers" : "CT 6/12/2019 17:49",
 		"testBasicEditMode" : "CT 6/12/2019 13:08",
 		"testCell" : "CT 6/12/2019 13:10",
-		"testContentsAcceptedChangesCellRawValue" : "CT 6/12/2019 13:24",
-		"testContentsAcceptedDisablesEditMode" : "CT 6/12/2019 13:23",
-		"testContentsAcceptedNotifiesObservers" : "CT 6/12/2019 13:19",
 		"testContentsEditModeOff" : "CT 6/12/2019 13:14",
 		"testContentsEditModeOn" : "CT 6/12/2019 13:13",
-		"testContentsEditedWithFormulaChangesCellRawValue" : "CT 6/12/2019 13:26",
-		"testContentsEditedWithNonFormulaChangesCellRawValue" : "CT 6/12/2019 13:25" } }
+		"testContentsEditedWithFormulaChangesCellRawValue" : "CT 6/12/2019 17:47",
+		"testContentsEditedWithNonFormulaChangesCellRawValue" : "CT 6/12/2019 17:47" } }

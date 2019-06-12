@@ -4,8 +4,8 @@ createSpecWith: aBuilder
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		getText: #contents;
-		editText: #contentsEdited:;
-		setText: #contentsAccepted:;
+		editText: #editContents:;
+		setText: #acceptContents:;
 		softLineWrap: true;
 		minimumExtent: self parent minimumCellExtent;
 		yourself

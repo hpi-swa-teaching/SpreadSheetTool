@@ -1,4 +1,4 @@
 accessing
-contentsEdited: aTextOrString
+editContents: aTextOrString
 
 	self contents: aTextOrString.

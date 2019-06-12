@@ -1,7 +1,7 @@
 accessing
-contentsEdited: aTextOrString
+editContents: aTextOrString
 
 	unacceptedContents := aTextOrString asString.
 	hasUnacceptedEdits := true.
 	self isFormula ifTrue: [^ self].
-	self contentsAccepted: unacceptedContents.
+	self acceptContents: unacceptedContents.

@@ -2,12 +2,12 @@
 	"class" : {
 		"cell:parent:" : "CT 5/29/2019 16:28" },
 	"instance" : {
+		"acceptContents:" : "CT 6/12/2019 17:47",
 		"basicEditMode:" : "CT 6/12/2019 12:25",
 		"cell" : "CT 5/2/2019 15:07",
 		"cell:" : "CT 5/2/2019 15:07",
 		"contents" : "CT 6/12/2019 11:57",
-		"contentsAccepted:" : "CT 6/12/2019 15:04",
-		"contentsEdited:" : "CT 6/12/2019 15:46",
+		"editContents:" : "CT 6/12/2019 17:48",
 		"editMode" : "CT 6/4/2019 17:14",
 		"editMode:" : "CT 6/12/2019 14:35",
 		"initialize" : "CT 6/12/2019 14:28",

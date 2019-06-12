@@ -1,4 +1,4 @@
 accessing
-contentsAccepted: aTextOrString
+editContents: aTextOrString
 
 	^ self subclassResponsibility
