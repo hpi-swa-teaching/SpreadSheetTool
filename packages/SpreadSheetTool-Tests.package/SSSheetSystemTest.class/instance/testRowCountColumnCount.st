@@ -9,7 +9,7 @@ testRowCountColumnCount
 	column := self someColumnIndex.
 	
 	(sheet atRow: row atColumn: column)
-		value: self someValue.
+		rawValue: self someValue.
 	sheet
 		rowCount: self rowCount
 		columnCount: self columnCount.
