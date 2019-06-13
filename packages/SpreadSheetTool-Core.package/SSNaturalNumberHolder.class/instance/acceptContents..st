@@ -8,7 +8,7 @@ acceptContents: aTextOrString
 				inform: 'You must enter a valid number.'
 				title: 'Invalid number'.
 			^ false].
-	(integer isInteger and: integer positive) ifFalse: [
+	(integer isInteger and: [integer positive]) ifFalse: [
 		UIManager default
 			inform: 'You must enter a natural number. (Hint: N := Z \cap {n | n > 0}.)'
 			title: 'Invalid number'.

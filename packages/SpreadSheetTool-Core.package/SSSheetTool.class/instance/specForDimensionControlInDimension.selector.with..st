@@ -11,4 +11,5 @@ specForDimensionControlInDimension: aDimensionName selector: aSelector with: aBu
 				setProperty: (aSelector , ':') asSymbol)
 					createSpecWith: aBuilder
 					helpText: 'Number of ', aDimensionName)
-		}
+		};
+		yourself

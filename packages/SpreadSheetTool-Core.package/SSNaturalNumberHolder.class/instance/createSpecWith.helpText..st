@@ -1,7 +1,7 @@
 toolbuilder
 createSpecWith: aBuilder helpText: aText
 
-	^ (super createSpecWith: aBuilder)
+	^ (self createSpecWith: aBuilder)
 		editText: nil;
 		setText: #contents:notifying:;
 		help: aText;

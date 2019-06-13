@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testHasPositiveIntegerFormatTrue
 
 	self fixturesWithPositiveIntegerFormat do: [:fixture |
