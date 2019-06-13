@@ -1,5 +1,6 @@
 instance creation
 newSheet
+	<deprecated>
 
 	^ self
 		cellFactory: [:r :c | SSCell new]

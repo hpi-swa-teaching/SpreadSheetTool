@@ -1,4 +1,4 @@
 testing data
 someInvalidSheet
 
-	^ SSSheet basicNew
+	^ SSSheetTool basicNew

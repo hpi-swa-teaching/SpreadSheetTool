@@ -10,5 +10,5 @@ saveSheetToImage
 Overwrite it?')])
 		ifFalse: [^ self].
 	
-	self class saveSheet: sheet veryDeepCopy as: name.
+	self class saveSheet: self veryDeepCopy as: name.
 	hasUnsavedChanges := false.

@@ -1,4 +1,4 @@
 initialize-release
 initialize
 
-	self initializeWithSheet: SSSheet newSheet.
+	contentModels := SSSheet newSheetOfModelsFor: self.
