@@ -3,6 +3,6 @@ someSheetName
 
 	^ sheetName ifNil: [| name |
 		name := '___', self name.
-		[(self toolUnderTest sheetNamed: name) notNil] 
+		[self toolUnderTest hasSheetNamed: name]
 			whileTrue: [name := name , 'z'].
 		sheetHeap add: (sheetName := name)]
