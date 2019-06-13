@@ -24,6 +24,8 @@
 		"testOpenInvalidSheetRaisesErrorMessageThatCanBeCancelled" : "CT 6/13/2019 08:53",
 		"testOpenInvalidSheetRaisesErrorMessageThatCanOpenDebugger" : "CT 6/13/2019 09:51",
 		"testOpenSheetInImageButton" : "CT 6/5/2019 18:35",
+		"testOverwriteSheetMustAndCanBeConfirmed" : "CT 6/13/2019 10:07",
+		"testOverwriteSheetMustBeConfirmedAndCanBeCancelled" : "CT 6/13/2019 10:07",
 		"testSaveAndLoadSheetInImage" : "CT 6/6/2019 00:07",
 		"testSaveSheetInImageButton" : "CT 6/5/2019 18:35",
 		"testWindowWithCellThatHasContentCannotBeClosed" : "CT 6/13/2019 08:54",
