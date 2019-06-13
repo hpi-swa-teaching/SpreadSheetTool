@@ -1,8 +1,8 @@
-open and save
+interaction
 openSheet: aSheet
 
 	| tool |
-	[tool := (self sheet: aSheet).]
+	[tool := (self class sheet: aSheet).]
 		on: Error
 		do: [:error | ^ (UIManager confirm:
 'The sheet cannot be loaded. Maybe it is corrupted
