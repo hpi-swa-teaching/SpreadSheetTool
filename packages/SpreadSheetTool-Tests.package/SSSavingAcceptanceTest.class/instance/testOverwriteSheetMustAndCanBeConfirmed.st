@@ -3,9 +3,12 @@ testOverwriteSheetMustAndCanBeConfirmed
 	"Acceptance test for #27"
 	
 	| saved |
-	self findAnyCell sendKeys: self someContent.
+	self findAnyCell
+		sendKeys: self someContent.
 	self saveSheetAs: self someSheetName.
-	self findAnyCell sendKeys: self someOtherContent.
+	self findAnyCell
+		sendClearTextField;
+		sendKeys: self someOtherContent.
 	
 	self
 		should: [self saveSheetAs: self someSheetName]
