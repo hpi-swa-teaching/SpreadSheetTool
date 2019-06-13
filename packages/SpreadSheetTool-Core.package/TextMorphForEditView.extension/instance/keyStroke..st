@@ -1,7 +1,8 @@
 *SpreadSheetTool-Core-event handling
 keyStroke: evt
-	| view |
+	| view oldText |
 	
+	oldText := self text copy.
 	editView deleteBalloon.
 	self editor model: editView model.  "For evaluateSelection"
 	view := editView.  "Copy into temp for case of a self-mutating doit"
@@ -11,5 +12,5 @@ keyStroke: evt
 	view scrollSelectionIntoView.
 	
 	"Make a cheap check and guess editing. (Alternative would be to copy the old contents and then compare them against the new ones. Maybe add a better hook in the TextEditor."
-	(self readOnly not and: [evt anyModifierKeyPressed not] and: [self eventCharacterModifiesText: evt keyCharacter])
+	(self readOnly not and: [self text ~= oldText])
 		ifTrue: [view textEdited: self contents]

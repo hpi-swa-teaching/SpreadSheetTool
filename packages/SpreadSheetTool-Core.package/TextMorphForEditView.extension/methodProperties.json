@@ -1,8 +1,5 @@
 {
 	"class" : {
-		"defaultNonTextModificationCharacterSet" : "CT 6/12/2019 16:38",
-		"initialize" : "CT 6/12/2019 16:38",
-		"nonTextModificationCharacterSet" : "CT 6/12/2019 16:37" },
+		"initialize" : "CT 6/13/2019 13:43" },
 	"instance" : {
-		"eventCharacterModifiesText:" : "CT 6/12/2019 16:40",
-		"keyStroke:" : "CT 6/12/2019 15:32" } }
+		"keyStroke:" : "CT 6/13/2019 13:37" } }

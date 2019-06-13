@@ -1,4 +1,4 @@
 *SpreadSheetTool-Core-compatibility-class initialization
 initialize
 
-	NonTextModificationCharacterSet := self defaultNonTextModificationCharacterSet
+	self flag: #todo "insert old code before SqueakSheet -ct"
