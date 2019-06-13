@@ -5,15 +5,8 @@ testSheetRangeDoesNotAcceptNonIntegerForDimension: aDimension withSelector: aShe
 		| oldSheetRange |
 		oldSheetRange := self measureRangeFor: aSheetRangeSelector.
 		self
-			should: [self
-				shouldnt: [self enter: value forDimension: aDimension]
-				raise: Exception
-				beyond: ProvideAnswerNotification]
-			raise: ProvideAnswerNotification
-			butHandle: [:notification |
-				self
-					assert: (notification messageText asLowercase includesSubstring: 'invalid')
-					description: 'The error message should be user-friendly! I have to know that, I am a computer.'].
+			should: [self enter: value forDimension: aDimension]
+			notify: 'invalid'.
 		self
 			assert: oldSheetRange equals: (self measureRangeFor: aSheetRangeSelector);
 			assert: value equals: (self findDimensionFieldFor: aDimension) text asString].

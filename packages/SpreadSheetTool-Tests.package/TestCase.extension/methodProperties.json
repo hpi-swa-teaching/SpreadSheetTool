@@ -10,5 +10,7 @@
 		"should:raiseExactly:butHandle:" : "CT 6/12/2019 13:42",
 		"should:raiseOnce:" : "CT 6/12/2019 13:41",
 		"should:raiseOnce:butHandle:" : "CT 6/12/2019 13:42",
+		"should:raiseOnce:that:" : "CT 6/13/2019 09:11",
+		"should:raiseOnce:that:butHandle:" : "CT 6/13/2019 09:11",
 		"shouldnt:raise:beyond:" : "CT 5/28/2019 13:26",
 		"shouldnt:raise:that:" : "CT 5/28/2019 13:26" } }
