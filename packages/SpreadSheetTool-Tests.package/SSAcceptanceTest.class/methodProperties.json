@@ -51,6 +51,8 @@
 		"testCellAutoSavesNonFormulaValueAfterPrintIt" : "CT 6/13/2019 13:51",
 		"testCellDoesNotAutoSaveOrEvaluateFormulaValue" : "CT 6/12/2019 19:10",
 		"testCellsAreResizable" : "CT 6/5/2019 18:30",
+		"testChangingSheetRangeDoesDeleteContentsWhenWarningIsProceeded" : "CT 6/15/2019 19:37",
+		"testChangingSheetRangeDoesNotDeleteContentsButShowsWarningMessage" : "CT 6/15/2019 19:26",
 		"testDistributeCellsInDimension:unchangedDimension:dimensionName:" : "CT 5/25/2019 19:03",
 		"testDistributeColumns" : "CT 6/7/2019 13:57",
 		"testDistributeRows" : "CT 6/7/2019 13:57",
