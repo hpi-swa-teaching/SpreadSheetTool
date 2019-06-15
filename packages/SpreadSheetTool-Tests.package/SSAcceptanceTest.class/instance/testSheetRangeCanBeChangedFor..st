@@ -1,13 +1,13 @@
 testing
-testSheetRangeCanBeChangedFor: aDimensionString rangeSelector: aRangeSelector
+testSheetRangeCanBeChangedFor: aDimension
 
 	| dimensionTextField newRange cell |
-	dimensionTextField := self findDimensionFieldFor: aDimensionString.
+	dimensionTextField := self findDimensionFieldFor: aDimension.
 	cell := self findAnyCell.
 	
 	cell sendKeys: self someContent.
 	
-	newRange := (self in: aRangeSelector) - 1.
+	newRange := (self measureRangeFor: aDimension) - 1.
 	dimensionTextField
 		sendClearTextField;
 		sendKeys: newRange asString;
@@ -16,5 +16,5 @@ testSheetRangeCanBeChangedFor: aDimensionString rangeSelector: aRangeSelector
 	self subject redraw.
 	self
 		assert: newRange equals: dimensionTextField text asNumber;
-		assert: newRange equals: (self measureRangeFor: aRangeSelector);
+		assert: newRange equals: (self measureRangeFor: aDimension);
 		assert: self someContent equals: cell text asString.

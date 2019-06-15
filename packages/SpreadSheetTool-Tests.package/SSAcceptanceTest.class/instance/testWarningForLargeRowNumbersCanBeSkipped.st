@@ -4,4 +4,4 @@ testWarningForLargeRowNumbersCanBeSkipped
 	<timeout: 42 "seconds">
 	<longStage>
 
-	self testWarningForLargeSheetRangesCanBeSkippedForDimension: 'rows' withSelector: #rowCount.
+	self testWarningForLargeSheetRangesCanBeSkippedForDimension: 'rows'

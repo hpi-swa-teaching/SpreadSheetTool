@@ -1,4 +1,6 @@
 tools
-measureRangeFor: aRangeSelector
+measureRangeFor: aDimension
 
-	^ self in: (#measure, aRangeSelector asString ssWithFirstCharacterUppercase) asSymbol
+	| selector |
+	selector := ((aDimension withoutTrailing: 's'), #count ssWithFirstCharacterUppercase) asSymbol.
+	^ self in: (#measure, selector asString ssWithFirstCharacterUppercase) asSymbol

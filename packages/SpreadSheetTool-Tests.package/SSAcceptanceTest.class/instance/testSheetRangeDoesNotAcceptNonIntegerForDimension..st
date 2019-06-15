@@ -1,12 +1,12 @@
 testing
-testSheetRangeDoesNotAcceptNonIntegerForDimension: aDimension withSelector: aSheetRangeSelector
+testSheetRangeDoesNotAcceptNonIntegerForDimension: aDimension
 
 	self fixturesForInvalidDimensionValues do: [:value |
 		| oldSheetRange |
-		oldSheetRange := self measureRangeFor: aSheetRangeSelector.
+		oldSheetRange := self measureRangeFor: aDimension.
 		self
 			should: [self enter: value forDimension: aDimension]
 			notify: 'invalid'.
 		self
-			assert: oldSheetRange equals: (self measureRangeFor: aSheetRangeSelector);
+			assert: oldSheetRange equals: (self measureRangeFor: aDimension);
 			assert: value equals: (self findDimensionFieldFor: aDimension) text asString].
