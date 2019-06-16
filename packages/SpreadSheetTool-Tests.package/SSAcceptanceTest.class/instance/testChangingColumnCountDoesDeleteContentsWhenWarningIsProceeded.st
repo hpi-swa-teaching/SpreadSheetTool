@@ -1,0 +1,4 @@
+testing
+testChangingColumnCountDoesDeleteContentsWhenWarningIsProceeded
+
+	self testChangingSheetRangeDoesDeleteContentsWhenWarningIsProceededForDimension: 'columns'
