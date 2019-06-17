@@ -1,11 +1,11 @@
 testing
-testInvalidFormulaOpensSyntaxErrorThatCanBeCorrected
-	"Test for #25"
+testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected
+	"Test for #25 (Simple formulas)"
 
 	| cell |
 	cell := self findAnyCell.
 	
-	cell sendKeys: self someInvalidFormula.
+	cell sendKeys: self someFormulaWithSyntaxError.
 	self
 		should: [cell sendControlSave]
 		raiseOnce: SyntaxErrorNotification
