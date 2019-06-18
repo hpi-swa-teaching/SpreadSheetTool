@@ -1,4 +1,4 @@
-as yet unclassified
+accessing sheet
 left
 
-	^ (sheet atRow: rowIndex atColumn: columnIndex - 1) value
+	^ self leftBy: 1
