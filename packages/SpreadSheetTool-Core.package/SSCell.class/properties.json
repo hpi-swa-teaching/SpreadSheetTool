@@ -8,7 +8,10 @@
 	"instvars" : [
 		"value",
 		"rawValue",
-		"isValueInvalid" ],
+		"isValueInvalid",
+		"sheet",
+		"rowIndex",
+		"columnIndex" ],
 	"name" : "SSCell",
 	"pools" : [
 		 ],
