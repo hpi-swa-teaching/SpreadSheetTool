@@ -5,4 +5,4 @@ testFormulaAboveBySelfReference
 	self
 		shouldFormula: '^ self aboveBy: 0'
 		in: 3 @ 3
-		notify: 'self'.
+		openDebuggerNotifying: 'self'.

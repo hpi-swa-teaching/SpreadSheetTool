@@ -5,4 +5,4 @@ testFormulaAtColumnAtRowSelfReference
 	self
 		shouldFormula: '^ self atColumn: 3 atRow: 3'
 		in: 3 @ 3
-		notify: 'self'.
+		openDebuggerNotifying: 'self'.

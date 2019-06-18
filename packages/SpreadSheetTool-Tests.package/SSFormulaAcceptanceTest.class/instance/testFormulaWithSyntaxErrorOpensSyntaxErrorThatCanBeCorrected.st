@@ -5,7 +5,9 @@ testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected
 	| cell |
 	cell := self findAnyCell.
 	
-	cell sendKeys: self someFormulaWithSyntaxError.
+	cell
+		sendClearTextField;
+		sendKeys: self someFormulaWithSyntaxError.
 	self
 		should: [cell sendControlSave]
 		raiseOnce: SyntaxErrorNotification
