@@ -1,4 +1,4 @@
-as yet unclassified
+enumerating
 selectElementsBeyondRow: aRow beyondColumn: aColumn
 
 	^ (cells fromIndicesReject: [:row :column |

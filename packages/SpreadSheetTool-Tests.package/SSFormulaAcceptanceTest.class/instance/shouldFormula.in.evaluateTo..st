@@ -8,4 +8,4 @@ shouldFormula: aFormula in: aCellIndex evaluateTo: aResult
 		sendKeys: aFormula;
 		sendControlSave.
 	
-	self assert: aResult equals: cell text asString.
+	self assert: aResult asString equals: cell text asString.
