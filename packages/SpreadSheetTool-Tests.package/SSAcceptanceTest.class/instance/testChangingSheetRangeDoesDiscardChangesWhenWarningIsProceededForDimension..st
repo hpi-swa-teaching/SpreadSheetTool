@@ -8,7 +8,7 @@ testChangingSheetRangeDoesDiscardChangesWhenWarningIsProceededForDimension: aDim
 	newRange := oldRange + 1.
 	self
 		should: [self enter: newRange forDimension: aDimension]
-		notify: 'discard'
+		notify: 'changes'
 		thenAnswer: true.
 	self subject redraw.
 	

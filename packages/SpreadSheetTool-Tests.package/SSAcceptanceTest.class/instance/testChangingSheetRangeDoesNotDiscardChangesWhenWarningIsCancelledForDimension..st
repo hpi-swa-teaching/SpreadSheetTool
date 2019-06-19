@@ -5,7 +5,7 @@ testChangingSheetRangeDoesNotDiscardChangesWhenWarningIsCancelledForDimension: a
 
 	self
 		should: [self tryIncrementSheetInDimension: aDimension]
-		notify: 'discard'
+		notify: 'changes'
 		thenAnswer: false.
 	self subject redraw.
 	
