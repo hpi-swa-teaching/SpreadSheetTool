@@ -10,7 +10,4 @@ fixturesForRowCountColumnCount
 		self someColumnIndex.
 		self columnCount.
 		self columnCount + self someColumnIndex }.
-	^ (rows collect: [:row |
-		columns collect: [:column |
-			{ row. column }]])
-		reduce: #,
+	^ rows cross: columns collect: [:row :column | {row. column}]
