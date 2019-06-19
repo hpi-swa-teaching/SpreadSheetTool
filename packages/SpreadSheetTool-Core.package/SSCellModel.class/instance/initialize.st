@@ -2,5 +2,5 @@ initialize-release
 initialize
 
 	super initialize.
-	self editMode: false.
+	self basicEditMode: false.
 	isBusy := false.
