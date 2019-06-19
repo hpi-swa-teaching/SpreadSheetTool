@@ -1,6 +1,5 @@
 testing data
 someOtherSheetName
 
-	^ anotherSheetName ifNil: [| name |
-		name := self someSheetName, '2'.
-		sheetHeap add: (anotherSheetName := name)]
+	^ anotherSheetName ifNil: [
+		anotherSheetName := self generateSheetName: self name, '2']

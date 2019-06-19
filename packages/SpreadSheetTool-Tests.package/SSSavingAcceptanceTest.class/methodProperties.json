@@ -4,6 +4,7 @@
 	"instance" : {
 		"deleteSheetByName:" : "CT 6/13/2019 08:50",
 		"deleteSheetLabel" : "AN 6/5/2019 15:02",
+		"generateSheetName:" : "AN 6/19/2019 16:22",
 		"openSheetByName:" : "CT 6/5/2019 18:21",
 		"openSheetLabel" : "AN 6/5/2019 15:02",
 		"performSheetAction:byName:" : "CT 6/13/2019 09:32",
@@ -11,8 +12,8 @@
 		"saveSheetLabel" : "AN 6/5/2019 15:09",
 		"setUp" : "CT 6/6/2019 00:01",
 		"someInvalidSheet" : "CT 6/13/2019 13:01",
-		"someOtherSheetName" : "CT 6/6/2019 00:25",
-		"someSheetName" : "CT 6/13/2019 10:20",
+		"someOtherSheetName" : "AN 6/19/2019 16:24",
+		"someSheetName" : "AN 6/19/2019 16:23",
 		"tearDown" : "CT 6/6/2019 00:20",
 		"testChangesAfterReopenDoNotAffectSavedSheet" : "CT 6/6/2019 00:04",
 		"testChangesAfterSaveDoNotAffectSavedSheet" : "CT 6/6/2019 00:04",
