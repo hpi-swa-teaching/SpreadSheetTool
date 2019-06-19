@@ -95,6 +95,7 @@
 		"testHeaderAutoSavesValue" : "CT 6/19/2019 20:00",
 		"testIncreaseNumberOfColumns" : "CT 6/19/2019 12:05",
 		"testIncreaseNumberOfRows" : "CT 6/19/2019 12:05",
+		"testInfinityLoopDoesNotOccur" : "CT 6/20/2019 01:39",
 		"testIsRegisteredInWorldMenu" : "CT 6/7/2019 13:57",
 		"testNewSheetButton" : "CT 6/5/2019 18:33",
 		"testNumberOfColumnsControlExists" : "CT 6/7/2019 13:57",
