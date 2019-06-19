@@ -2,6 +2,7 @@
 sendMouseDragEventWithButton: aButtonSymbol fromPosition: startPosition toPosition: endPosition
 	
 	| aButton |
+	self flag: #todo. "No senders"
 	aButton := (self class perform: aButtonSymbol).
 	self mouseDown.
 	self morphs do: [:morph |
