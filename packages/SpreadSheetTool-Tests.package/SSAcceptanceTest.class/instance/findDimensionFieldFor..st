@@ -1,4 +1,4 @@
 tools
-findDimensionFieldFor: aDimensionName
+findDimensionFieldFor: aDimension
 
-	^ self subject findByBalloon: 'Number of ', aDimensionName
+	^ self subject findByBalloon: 'Number of ', aDimension asString

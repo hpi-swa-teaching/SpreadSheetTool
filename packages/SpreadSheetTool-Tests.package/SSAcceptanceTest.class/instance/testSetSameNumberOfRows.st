@@ -2,4 +2,7 @@ testing
 testSetSameNumberOfRows
 	"Test for #5 (Resizable tables)"
 
-	^ self testChangeSheetRangeWithoutDeletedContentFor: 'rows' to: self rowCount
+	^ self
+		testChangeSheetRangeWithoutDeletedContentFor: #rows
+		to: self rowCount
+		notChanging: #columns

@@ -1,6 +1,7 @@
 tools
 measureRangeFor: aDimension
 
-	| selector |
-	selector := ((aDimension withoutTrailing: 's'), #count ssWithFirstCharacterUppercase) asSymbol.
-	^ self in: (#measure, selector asString ssWithFirstCharacterUppercase) asSymbol
+	| coordinate |
+	coordinate := aDimension = #rows ifTrue: [#y] ifFalse: [#x].
+	^ (self findCells morphs 
+		groupBy: [:aCell | aCell position in: coordinate]) size

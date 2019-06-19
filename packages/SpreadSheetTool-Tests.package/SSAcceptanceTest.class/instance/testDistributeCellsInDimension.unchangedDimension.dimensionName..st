@@ -20,7 +20,7 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 		assert: oldBounds equals: self subject bounds
 			description: 'The window size should not change while distributing cells'.
 	oldScales keysAndValuesDo: [:oldCell :oldScale | | cell |
-		cell := oldCell model containingMorphicModel.
+		cell := oldCell model containingMorphicModels last.
 		self
 			assert: oldScale equals: (cell in: anUnchangedDimension)
 			description: 'The ', anUnchangedDimension, ' should not change'].

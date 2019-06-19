@@ -22,8 +22,5 @@
 		"sendControl:" : "CT 6/13/2019 13:51",
 		"sendControlSave" : "CT 6/13/2019 13:52",
 		"sendKeyEvent:character:buttons:" : "CT 4/30/2019 20:12",
-		"sendMouseDragEventWithButton:fromPosition:toPosition:" : "CT 6/18/2019 20:01",
-		"sendMouseEnterEventAtPosition:" : "CT 6/18/2019 20:05",
 		"sendMouseEnterEventWithButton:position:" : "CT 5/1/2019 19:05",
-		"sendMouseEvent:button:position:" : "CT 6/18/2019 20:02",
 		"singleOne" : "CT 6/5/2019 18:22" } }
