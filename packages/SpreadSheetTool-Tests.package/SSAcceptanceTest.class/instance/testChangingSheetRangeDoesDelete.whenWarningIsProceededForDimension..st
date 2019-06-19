@@ -1,8 +1,9 @@
 testing
-testChangingSheetRangeDoesDeleteContentsWhenWarningIsProceededForDimension: aDimension
+testChangingSheetRangeDoesDelete: aMorph whenWarningIsProceededForDimension: aDimension
 
 	| newRange oldRange |
-	(self findCellAt: (self columnCount @ self rowCount))
+	aMorph
+		sendClearTextField;
 		sendKeys: self someContent.
 		
 	oldRange := self measureRangeFor: aDimension.
@@ -12,4 +13,4 @@ testChangingSheetRangeDoesDeleteContentsWhenWarningIsProceededForDimension: aDim
 		notify: 'delete'
 		thenAnswer: true.
 	self subject redraw.
-	self assert: newRange equals: (self measureRangeFor: aDimension)
+	self assert: newRange equals: (self measureRangeFor: aDimension).

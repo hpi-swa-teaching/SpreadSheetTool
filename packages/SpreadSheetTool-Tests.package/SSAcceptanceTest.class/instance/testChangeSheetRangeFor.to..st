@@ -11,7 +11,7 @@ testChangeSheetRangeFor: dimension to: newRange
 	oldContents := Matrix
 		rows: self rowCount
 		columns: self columnCount
-		tabulate: [:row :column | (self findCellAt: column @ row) focusAndRead].
+		tabulate: [:row :column | (self findCellAtRow: row atColumn: column) focusAndRead].
 	
 	dimensionTextField
 		sendClearTextField;
@@ -24,7 +24,7 @@ testChangeSheetRangeFor: dimension to: newRange
 		assert: newRange equals: (self measureRangeFor: dimension).
 	
 	oldContents withIndicesDo: [:content :row :column |
-		self assert: content equals: (self findCellAt: column @ row) focusAndRead].
+		self assert: content equals: (self findCellAtRow: row atColumn: column) focusAndRead].
 	self
 		assert: otherRange equals: (self measureRangeFor: otherDimension);
 		assertRowHeadersRegularWithoutFirst: oldContents rowCount;

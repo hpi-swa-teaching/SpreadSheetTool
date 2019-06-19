@@ -1,4 +1,6 @@
 testing
 testChangingColumnCountDoesDeleteContentsWhenWarningIsProceeded
 
-	self testChangingSheetRangeDoesDeleteContentsWhenWarningIsProceededForDimension: 'columns'
+	^ self
+		testChangingSheetRangeDoesDelete: (self findCellAtRow: self rowCount atColumn: self columnCount)
+		whenWarningIsProceededForDimension: 'columns'

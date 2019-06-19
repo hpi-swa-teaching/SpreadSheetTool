@@ -7,5 +7,5 @@ setUp
 		columns: self columnCount
 		contents: (self fixtureForCellContents reduce: #,).
 	cellContents withIndicesDo: [:value :rowIndex :columnIndex |
-		(self findCellAt: columnIndex @ rowIndex)
+		(self findCellAtRow: rowIndex atColumn: columnIndex)
 			sendKeys: value asString].
