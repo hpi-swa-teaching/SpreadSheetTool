@@ -13,4 +13,5 @@ testChangingSheetRangeDoesDelete: aMorph whenWarningIsProceededForDimension: aDi
 		notify: 'delete'
 		thenAnswer: true.
 	self subject redraw.
+	
 	self assert: newRange equals: (self measureRangeFor: aDimension).

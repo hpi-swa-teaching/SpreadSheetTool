@@ -9,6 +9,7 @@ testChangingSheetRangeDoesNotDelete: aMorph whenWarningIsCancelledForDimension: 
 		should: [self tryDecrementSheetInDimension: aDimension]
 		notify: 'delete'
 		thenAnswer: false.
+	self subject redraw.
 	
 	self
 		assert: self rowCount @ self columnCount
