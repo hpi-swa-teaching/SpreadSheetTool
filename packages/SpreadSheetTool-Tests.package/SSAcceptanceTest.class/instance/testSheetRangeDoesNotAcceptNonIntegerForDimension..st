@@ -9,4 +9,4 @@ testSheetRangeDoesNotAcceptNonIntegerForDimension: aDimension
 			notify: 'invalid'.
 		self
 			assert: oldSheetRange equals: (self measureRangeFor: aDimension);
-			assert: value equals: (self findDimensionFieldFor: aDimension) text asString].
+			assert: value equals: (self findDimensionFieldFor: aDimension) read].

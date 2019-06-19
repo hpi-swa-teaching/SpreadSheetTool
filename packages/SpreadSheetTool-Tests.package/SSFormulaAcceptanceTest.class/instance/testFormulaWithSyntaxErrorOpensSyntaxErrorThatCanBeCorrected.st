@@ -15,4 +15,4 @@ testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected
 			resumeWithSource: self someFormula].
 	cell keyboardFocusChange: true.
 	
-	self assert: self someFormula equals: cell text asString.
+	self assert: self someFormula equals: cell read.

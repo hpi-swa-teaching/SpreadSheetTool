@@ -2,4 +2,4 @@
 focusAndRead
 
 	self click.
-	^ self text asString
+	^ self read

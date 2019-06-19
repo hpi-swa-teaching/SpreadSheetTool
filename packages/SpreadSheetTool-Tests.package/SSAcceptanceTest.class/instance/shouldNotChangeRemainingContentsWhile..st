@@ -5,7 +5,7 @@ shouldNotChangeRemainingContentsWhile: aBlock
 	oldContents := Matrix
 		rows: (self measureRangeFor: #rows)
 		columns: (self measureRangeFor: #columns)
-		tabulate: [:row :column | (self findCellAtRow: row atColumn: column) focusAndRead].
+		tabulate: [:row :column | (self findCellAtRow: row atColumn: column) read].
 	oldRowHeaders := (self findHeadersFor: #rows) collect: [:header | header text asString].
 	oldColumnHeaders := (self findHeadersFor: #columns) collect: [:header | header text asString].
 	

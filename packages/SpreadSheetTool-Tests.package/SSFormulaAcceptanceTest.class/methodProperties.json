@@ -8,7 +8,7 @@
 		"fixturesForCompositeReferencingFormulas" : "CT 6/18/2019 12:35",
 		"rowCount" : "GT 6/17/2019 17:37",
 		"setUp" : "AN 6/19/2019 17:44",
-		"shouldFormula:in:evaluateTo:" : "CT 6/18/2019 09:57",
+		"shouldFormula:in:evaluateTo:" : "CT 6/19/2019 20:00",
 		"shouldFormula:in:notify:" : "GT 6/17/2019 19:05",
 		"shouldFormula:in:openDebuggerNotifying:" : "CT 6/18/2019 12:19",
 		"someFormulaWithRuntimeError" : "GT 6/17/2019 19:41",
@@ -40,4 +40,4 @@
 		"testFormulaRightBySelfReference" : "CT 6/18/2019 12:21",
 		"testFormulaRowHeader" : "GT 6/17/2019 19:53",
 		"testFormulaWithRuntimeErrorOpensDebugger" : "CT 6/18/2019 12:31",
-		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "CT 6/18/2019 12:30" } }
+		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "CT 6/19/2019 20:00" } }

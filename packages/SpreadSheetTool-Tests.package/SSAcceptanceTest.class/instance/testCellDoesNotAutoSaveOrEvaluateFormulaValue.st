@@ -10,5 +10,5 @@ testCellDoesNotAutoSaveOrEvaluateFormulaValue
 		keyboardFocusChange: false.
 	
 	self
-		assert: self someFormula equals: cell text asString;
+		assert: self someFormula equals: cell read;
 		assert: cell hasUnacceptedEdits.

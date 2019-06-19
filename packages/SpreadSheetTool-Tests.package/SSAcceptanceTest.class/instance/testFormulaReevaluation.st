@@ -17,4 +17,4 @@ testFormulaReevaluation
 		sendControlSave;
 		keyboardFocusChange: false.
 	
-	self assert: (self someFormulaResult asInteger + sideEffect) asString equals: cell text asString.
+	self assert: (self someFormulaResult asInteger + sideEffect) asString equals: cell read.
