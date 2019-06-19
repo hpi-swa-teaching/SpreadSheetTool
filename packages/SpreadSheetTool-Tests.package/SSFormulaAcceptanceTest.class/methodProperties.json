@@ -40,4 +40,5 @@
 		"testFormulaRightBySelfReference" : "CT 6/18/2019 12:21",
 		"testFormulaRowHeader" : "GT 6/17/2019 19:53",
 		"testFormulaWithRuntimeErrorOpensDebugger" : "CT 6/18/2019 12:31",
-		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "CT 6/19/2019 20:00" } }
+		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "CT 6/19/2019 20:00",
+		"testSyntaxErrorDoesNotReopenWithoutAccept" : "CT 6/20/2019 01:46" } }
