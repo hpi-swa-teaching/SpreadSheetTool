@@ -85,7 +85,7 @@
 		"testChangingSheetRangeDoesNotDiscardChangesWhenWarningIsCancelledForDimension:" : "AN 6/19/2019 18:42",
 		"testDecreaseNumberOfColumnsWithoutDeletedContent" : "CT 6/19/2019 12:06",
 		"testDecreaseNumberOfRowsWithoutDeletedContent" : "CT 6/19/2019 12:05",
-		"testDistributeCellsInDimension:unchangedDimension:dimensionName:" : "CT 6/20/2019 09:57",
+		"testDistributeCellsInDimension:unchangedDimension:dimensionName:" : "CT 6/20/2019 02:40",
 		"testDistributeColumns" : "CT 6/7/2019 13:57",
 		"testDistributeRows" : "CT 6/7/2019 13:57",
 		"testDistributeRowsDoesNotDeleteUnacceptedFormula" : "CT 6/20/2019 00:32",
