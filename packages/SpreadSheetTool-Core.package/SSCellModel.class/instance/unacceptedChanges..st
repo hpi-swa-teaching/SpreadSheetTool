@@ -1,6 +1,6 @@
 accessing
 unacceptedChanges: aText
 
-	self containingMorphicModels singleOne
+	self containingMorphicModels last
 		setText: aText;
 		hasUnacceptedEdits: true.
