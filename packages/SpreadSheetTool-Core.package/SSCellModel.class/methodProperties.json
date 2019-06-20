@@ -1,18 +1,23 @@
 {
 	"class" : {
-		"cell:parent:" : "CT 5/29/2019 16:28" },
+		"parent:" : "CT 6/13/2019 13:11",
+		"parent:sheet:rowIndex:columnIndex:" : "CT 6/18/2019 10:58" },
 	"instance" : {
-		"acceptContents:" : "CT 6/12/2019 19:36",
+		"acceptContents:" : "CT 6/20/2019 00:21",
 		"basicEditMode:" : "CT 6/12/2019 12:25",
 		"beBusy" : "CT 6/12/2019 19:35",
 		"beReady" : "CT 6/12/2019 19:35",
 		"cell" : "CT 5/2/2019 15:07",
 		"cell:" : "CT 5/2/2019 15:07",
 		"contents" : "CT 6/12/2019 19:37",
-		"editContents:" : "CT 6/12/2019 17:48",
+		"editContents:" : "CT 6/20/2019 02:32",
 		"editMode" : "CT 6/4/2019 17:14",
-		"editMode:" : "CT 6/12/2019 14:35",
-		"evaluate" : "CT 6/12/2019 19:39",
-		"initialize" : "CT 6/12/2019 19:35",
+		"editMode:" : "CT 6/20/2019 02:07",
+		"evaluate" : "CT 6/20/2019 02:19",
+		"initialize" : "CT 6/20/2019 01:04",
 		"isFormula" : "CT 6/12/2019 16:09",
-		"update:with:" : "CT 6/12/2019 19:34" } }
+		"saveContents:" : "CT 6/20/2019 02:25",
+		"unacceptedChanges:" : "CT 6/20/2019 10:25",
+		"unacceptedChangesOrNil" : "CT 6/20/2019 10:25",
+		"update:with:" : "CT 6/20/2019 00:15",
+		"value" : "CT 6/20/2019 02:18" } }

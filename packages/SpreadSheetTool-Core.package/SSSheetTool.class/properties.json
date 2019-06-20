@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sheet",
 		"contentModels",
 		"hasUnsavedChanges",
 		"cellMorphs" ],

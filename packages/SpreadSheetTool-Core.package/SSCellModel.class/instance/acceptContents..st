@@ -1,7 +1,6 @@
 interaction
 acceptContents: aTextOrString
 
-	self cell rawValue: aTextOrString asString.
-	self parent contentsChanged.
+	self saveContents: aTextOrString.
 	self editMode: false.
 	^ false

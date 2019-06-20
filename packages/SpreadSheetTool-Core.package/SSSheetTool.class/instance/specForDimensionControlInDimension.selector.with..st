@@ -1,14 +1,14 @@
 toolbuilder
-specForDimensionControlInDimension: aDimensionName selector: aSelector with: aBuilder
+specForDimensionControlInDimension: aDimension selector: aSelector with: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		layout: #horizontal;
 		children: {
-			(self specForLabel: aDimensionName ssWithFirstCharacterUppercase, $: with: aBuilder).
-			((SSNaturalNumberHolder
+			(self specForLabel: aDimension ssWithFirstCharacterUppercase, $: with: aBuilder).
+			((SSNumericPropertyFieldModel
 				parent: self
 				getProperty: aSelector
 				setProperty: (aSelector , ':') asSymbol)
 					createSpecWith: aBuilder
-					helpText: 'Number of ', aDimensionName)
-		}
+					helpText: 'Number of ', aDimension) };
+		yourself

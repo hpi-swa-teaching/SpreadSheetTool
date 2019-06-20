@@ -10,5 +10,5 @@ testHeaderAutoSavesValue
 		sendKeys: self someContent.
 	
 	self
-		assert: self someContent equals: header text asString;
+		assert: self someContent equals: header read;
 		deny: header hasUnacceptedEdits.

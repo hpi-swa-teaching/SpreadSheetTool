@@ -4,4 +4,4 @@ testWarningForLargeColumnNumbersCanBeSkipped
 	<timeout: 42 "seconds">
 	<longStage>
 
-	self testWarningForLargeSheetRangesCanBeSkippedForDimension: 'columns' withSelector: #columnCount.
+	self testWarningForLargeSheetRangesCanBeSkippedForDimension: 'columns'

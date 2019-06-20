@@ -1,0 +1,4 @@
+testing
+testChangingRowCountDoesNotDiscardChangesWhenWarningIsCancelled
+	
+	^ self testChangingSheetRangeDoesNotDiscardChangesWhenWarningIsCancelledForDimension: 'rows'

@@ -10,7 +10,8 @@
 		"editMode",
 		"unacceptedContents",
 		"hasUnacceptedEdits",
-		"isBusy" ],
+		"isBusy",
+		"latestValue" ],
 	"name" : "SSCellModel",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 accessing
 maxReasonableNumberOfCells
 
-	^ 2 << 6
+	^ 2 << 7

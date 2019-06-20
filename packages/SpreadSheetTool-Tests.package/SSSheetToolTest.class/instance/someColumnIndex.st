@@ -1,4 +1,4 @@
 testing data
 someColumnIndex
 
-	^ self columnCount sqrt floor
+	^ self columnCount sqrtFloor

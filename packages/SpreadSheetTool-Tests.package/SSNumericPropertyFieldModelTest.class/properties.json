@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mock" ],
+	"name" : "SSNumericPropertyFieldModelTest",
+	"pools" : [
+		 ],
+	"super" : "SSTextFieldModelTest",
+	"type" : "normal" }

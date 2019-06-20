@@ -1,0 +1,4 @@
+testing
+testChangingRowCountDoesDiscardChangesWhenWarningIsProceeded
+	
+	^ self testChangingSheetRangeDoesDiscardChangesWhenWarningIsProceededForDimension: 'rows'

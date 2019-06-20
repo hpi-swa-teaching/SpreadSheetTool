@@ -8,6 +8,5 @@ testWindowWithSavedChangesCanBeClosed
 	self saveSheetAs: self someSheetName.
 	
 	self
-		shouldnt: [self subject delete]
-		raise: ProvideAnswerNotification.
-	self assertWindowDeleted: self subject.
+		shouldntNotify: [self subject delete];
+		assertWindowDeleted: self subject.

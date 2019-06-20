@@ -1,4 +1,7 @@
 tools
-measureRangeFor: aRangeSelector
+measureRangeFor: aDimension
 
-	^ self in: (#measure, aRangeSelector asString ssWithFirstCharacterUppercase) asSymbol
+	| coordinate |
+	coordinate := aDimension = #rows ifTrue: [#y] ifFalse: [#x].
+	^ (self findCells morphs 
+		groupBy: [:aCell | aCell position in: coordinate]) size

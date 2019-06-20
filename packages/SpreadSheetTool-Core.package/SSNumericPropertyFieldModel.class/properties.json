@@ -1,0 +1,15 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 6/13/2019 22:05",
+	"instvars" : [
+		"getterSymbol",
+		"setterSymbol" ],
+	"name" : "SSNumericPropertyFieldModel",
+	"pools" : [
+		 ],
+	"super" : "SSTextFieldModel",
+	"type" : "normal" }

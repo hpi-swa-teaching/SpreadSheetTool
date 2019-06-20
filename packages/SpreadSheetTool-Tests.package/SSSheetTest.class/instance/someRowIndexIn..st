@@ -1,4 +1,4 @@
 testing data
 someRowIndexIn: rowCount
 
-	^ rowCount sqrt floor
+	^ rowCount sqrtFloor

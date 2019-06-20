@@ -6,6 +6,4 @@ testDeleteSheetOpensConfirmationDialogue
 	
 	self
 		should: [self performSheetAction: self deleteSheetLabel byName: self someSheetName]
-		raiseOnce: ProvideAnswerNotification
-		butHandle: [:notification | 
-			self assert: (notification messageText includesSubString: self someSheetName)].
+		notify: 'delete*', self someSheetName.

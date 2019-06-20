@@ -7,7 +7,7 @@ testWindowWithDimensionFieldThatHasUnacceptedChangesCannotBeClosed
 	
 	self
 		should: [self subject delete]
-		raise: ProvideAnswerNotification
-		butHandle: [:notification | notification resume: false].
+		notify: 'changes'
+		thenAnswer: false.
 	
 	self assertWindowNotDeleted: self subject.

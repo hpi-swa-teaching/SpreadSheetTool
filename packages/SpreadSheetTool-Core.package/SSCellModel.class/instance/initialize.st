@@ -1,5 +1,7 @@
 initialize-release
 initialize
 
-	self editMode: false.
+	super initialize.
+	self basicEditMode: false.
+	hasUnacceptedEdits := false.
 	isBusy := false.
