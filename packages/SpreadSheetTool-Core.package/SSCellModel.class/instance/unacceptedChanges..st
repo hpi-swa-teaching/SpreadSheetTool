@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 unacceptedChanges: aText
 
 	self containingMorphicModels singleOne
