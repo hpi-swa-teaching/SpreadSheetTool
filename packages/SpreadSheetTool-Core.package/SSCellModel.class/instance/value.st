@@ -1,4 +1,4 @@
 evaluation
 value
 
-	^ self cell value
+	^ latestValue
