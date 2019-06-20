@@ -7,7 +7,10 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 	
 	oldBounds := self subject bounds.
 	oldScales := self findCells morphs
-		collect: [:morph | morph model -> (morph in: anUnchangedDimension)] as: Dictionary.
+		collect: [:morph |
+			morph model isInteger ifTrue: [self error: 'What is this for a model? >>>', morph model, '<<<'].
+			morph model -> (morph in: anUnchangedDimension)]
+		as: Dictionary.
 	
 	(self subject findByLabel: 'Distribute ', aDimensionName) click.
 	self subject redraw.
@@ -20,6 +23,7 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 		assert: oldBounds equals: self subject bounds
 			description: 'The window size should not change while distributing cells'.
 	oldScales keysAndValuesDo: [:model :oldScale | | cell |
+		model isInteger ifTrue: [self error: 'What is that for a model? >>>', model, '<<<'].
 		cell := model containingMorphicModels singleOne.
 		self
 			assert: oldScale equals: (cell in: anUnchangedDimension)
