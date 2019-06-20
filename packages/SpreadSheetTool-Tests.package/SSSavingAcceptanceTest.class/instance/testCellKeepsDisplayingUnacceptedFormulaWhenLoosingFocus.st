@@ -1,4 +1,4 @@
-testing
+testing-autosave
 testCellKeepsDisplayingUnacceptedFormulaWhenLoosingFocus
 	"Regression test for #50"
 

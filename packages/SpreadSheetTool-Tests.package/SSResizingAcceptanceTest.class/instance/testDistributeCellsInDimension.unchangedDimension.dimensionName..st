@@ -1,4 +1,4 @@
-testing
+testing-distributing
 testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUnchangedDimension dimensionName: aDimensionName
 	"Test for #8 (Distribute rows/columns)"
 

@@ -4,9 +4,7 @@ testSyntaxErrorDoesNotReopenWithoutAccept
 	
 	| cell |
 	cell := self findAnyCell.
-	cell
-		sendClearTextField;
-		sendKeys: self someFormulaWithRuntimeError.
+	cell sendKeys: self someFormulaWithRuntimeError.
 	self shouldOpenDebugger: [
 		cell sendControlSave; releaseFocus].
 	self shouldnt: [cell click; releaseFocus] raise: Exception.

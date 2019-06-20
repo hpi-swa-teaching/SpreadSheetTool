@@ -1,4 +1,4 @@
-testing
+testing-autosave
 testCellDoesNotAutoSaveOrEvaluateFormulaValue
 	"Test for #25"
 

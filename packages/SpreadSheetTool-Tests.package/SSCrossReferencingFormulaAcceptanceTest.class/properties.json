@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SSFormulaAcceptanceTest",
+		"cellContents" ],
+	"name" : "SSCrossReferencingFormulaAcceptanceTest",
 	"pools" : [
 		 ],
-	"super" : "SSAcceptanceTest",
+	"super" : "SSFormulaAcceptanceTest",
 	"type" : "normal" }
