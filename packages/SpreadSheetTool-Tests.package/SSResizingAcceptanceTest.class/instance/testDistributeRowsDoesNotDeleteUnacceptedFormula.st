@@ -1,4 +1,4 @@
-testing
+testing-distributing
 testDistributeRowsDoesNotDeleteUnacceptedFormula
 	"Regression test for #49 (Bug: Distributing a cell deletes unaccepted formulas)"
 

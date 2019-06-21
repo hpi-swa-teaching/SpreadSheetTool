@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testIsRegisteredInWorldMenu" : "CT 6/7/2019 13:57",
+		"testNewSheetButton" : "CT 6/5/2019 18:33",
+		"testOpenDefault" : "CT 6/7/2019 13:58",
+		"testSheetHasColumnHeaders" : "CT 6/15/2019 21:29",
+		"testSheetHasRowHeaders" : "CT 6/15/2019 21:28",
+		"testWindowContainsCells" : "CT 5/1/2019 23:42" } }

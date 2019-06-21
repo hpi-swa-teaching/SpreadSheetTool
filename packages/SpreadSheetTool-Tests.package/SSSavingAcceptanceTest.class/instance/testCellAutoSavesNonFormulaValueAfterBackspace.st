@@ -1,4 +1,4 @@
-testing
+testing-autosave
 testCellAutoSavesNonFormulaValueAfterBackspace
 	"Test for #17"
 

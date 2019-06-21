@@ -5,8 +5,6 @@ testFormulaWithRuntimeErrorOpensDebugger
 	| cell |
 	cell := self findAnyCell.
 	
-	cell
-		sendClearTextField;
-		sendKeys: self someFormulaWithRuntimeError.
+	cell sendKeys: self someFormulaWithRuntimeError.
 	
 	self shouldOpenDebugger: [cell sendControlSave].
