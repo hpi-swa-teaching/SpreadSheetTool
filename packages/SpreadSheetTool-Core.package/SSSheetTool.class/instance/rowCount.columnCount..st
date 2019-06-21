@@ -1,7 +1,7 @@
 interaction
 rowCount: aRowCount columnCount: aColumnCount
 
-	(self okToRowCount: aRowCount columnCount: aColumnCount)
+	(self okToChangeRowCount: aRowCount columnCount: aColumnCount)
 		ifFalse: [^ self].
 	
 	contentModels

@@ -1,5 +1,5 @@
 interaction
-okToRowCount: aRowCount columnCount: aColumnCount
+okToChangeRowCount: aRowCount columnCount: aColumnCount
 
 	(self hasUnacceptedChanges ==> [self promptChangesCanBeDiscarded])
 		ifFalse: [^ false].
