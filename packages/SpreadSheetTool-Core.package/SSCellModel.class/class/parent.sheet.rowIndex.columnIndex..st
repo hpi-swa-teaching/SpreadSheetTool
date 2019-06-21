@@ -1,7 +1,7 @@
 instance creation
 parent: aModel sheet: aSheet rowIndex: aRow columnIndex: aColumn
 
-	^ (super parent: aModel)
+	^ (self parent: aModel)
 		cell: (SSCell
 			sheet: aSheet
 			rowIndex: aRow
