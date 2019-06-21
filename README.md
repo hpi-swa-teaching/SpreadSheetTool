@@ -19,7 +19,7 @@ Metacello new
   ```
 If you are interested in getting an insight into our current sprint's dirty implementation, replace `alpha-release` above with `master`. Alternatively, you can use [Squot](https://github.com/hpi-swa/Squot) to clone the repository. 
 
- If you would like to join our project, please feel free to fork and pull-request.
+ If you would like to join our project, please feel free to fork and pull-request, and create issues.
 
 
 
