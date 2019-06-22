@@ -2,6 +2,8 @@ toolbuilder
 buildCellsPanel
 
 	| builder spec result |
+	cellMorphs ifNotNil: [cellMorphs do: [:m | m model: nil; abandon]].
+	
 	builder := ToolBuilder default.
 	spec := builder pluggablePanelSpec new
 		children: (self specMatrixForContents: builder);

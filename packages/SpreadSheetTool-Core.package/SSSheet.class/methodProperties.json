@@ -6,6 +6,7 @@
 		"anySatisfy:" : "CT 5/29/2019 14:56",
 		"asMatrixWithOrigin:" : "CT 5/29/2019 14:09",
 		"atRow:atColumn:" : "CT 5/6/2019 18:36",
+		"atRow:atColumn:ifPresent:" : "CT 6/21/2019 21:54",
 		"cellFactory" : "CT 5/6/2019 18:09",
 		"cellFactory:" : "CT 5/6/2019 18:10",
 		"cellFactory:rowHeaderFactory:columnHeaderFactory:" : "CT 6/18/2019 11:04",
