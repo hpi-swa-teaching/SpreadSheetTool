@@ -1,0 +1,4 @@
+testing
+testChangingColumnCountDoesNotDiscardChanges
+	
+	^ self testChangingSheetRangeDoesNotDiscardChangesForDimension: 'columns'

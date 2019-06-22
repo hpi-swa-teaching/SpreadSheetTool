@@ -1,17 +1,14 @@
 testing
-testChangingSheetRangeDoesDiscardChangesWhenWarningIsProceededForDimension: aDimension
+testChangingSheetRangeDoesNotDiscardChangesForDimension: aDimension
 
 	| newRange oldRange |
 	self findAnyCell sendKeys: self someFormula.
 		
 	oldRange := self measureRangeFor: aDimension.
 	newRange := oldRange + 1.
-	self
-		should: [self enter: newRange forDimension: aDimension]
-		notify: 'changes'
-		thenAnswer: true.
+	self enter: newRange forDimension: aDimension.
 	self subject redraw.
 	
 	self
 		assert: newRange equals: (self measureRangeFor: aDimension);
-		assert: self findAnyCell text isEmpty.
+		assert: self someFormula equals: self findAnyCell read.
