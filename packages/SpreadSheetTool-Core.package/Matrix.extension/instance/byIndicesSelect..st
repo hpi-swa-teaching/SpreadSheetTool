@@ -1,5 +1,5 @@
 *SpreadSheetTool-Core
-fromIndicesSelect: aBlock
+byIndicesSelect: aBlock
 
 	| selected |
 	selected := Set new.

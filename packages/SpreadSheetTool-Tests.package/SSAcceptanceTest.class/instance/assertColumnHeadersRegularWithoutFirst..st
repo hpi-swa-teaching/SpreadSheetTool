@@ -5,6 +5,6 @@ assertColumnHeadersRegularWithoutFirst: numberToSkip
 	headers := self findHeadersFor: #columns.
 	
 	self assert: [(headers
-		rejectByIndex: [:index | index <= numberToSkip]
+		byIndexReject: [:index | index <= numberToSkip]
 		thenCollect: [:header | Number readFrom: header text asString base: 36])
 			isSorted].
