@@ -1,8 +1,10 @@
 toolbuilder
 buildCellsPanel
 
-	| builder spec result |
-	cellMorphs ifNotNil: [cellMorphs do: [:m | m model: nil; abandon]].
+	| builder spec panel |
+	oldCellMorphs := cellMorphs.
+	oldCellMorphs do: #delete.
+	cellMorphs := Dictionary new.
 	
 	builder := ToolBuilder default.
 	spec := builder pluggablePanelSpec new
@@ -10,8 +12,5 @@ buildCellsPanel
 		frame: 0 @ 0 extent: 1 @ 1;
 		wantsResizeHandles: true;
 		yourself.
-	result := builder build: spec.
-	cellMorphs := (result submorphs select: #isTextView)
-		groupByUniqueKey: #model.
-	cellMorphs keysAndValuesDo: [:model :morph | morph addDependent: model].
-	^ result asOrderedCollection
+	panel := builder build: spec.
+	^ panel asOrderedCollection
