@@ -10,5 +10,5 @@
 	"name" : "SSCrossReferencingFormulaAcceptanceTest",
 	"pools" : [
 		 ],
-	"super" : "SSFormulaAcceptanceTest",
+	"super" : "SSAcceptanceTest",
 	"type" : "normal" }
