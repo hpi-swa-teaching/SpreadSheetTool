@@ -6,7 +6,7 @@
 		"someFormulaWithSyntaxError" : "GT 6/17/2019 19:31",
 		"testFormulaDisplaysLastComputedValueAfterLooseFocusWithoutChanges" : "CT 6/19/2019 19:59",
 		"testFormulaEvaluation" : "CT 6/19/2019 19:59",
-		"testFormulaReevaluation" : "JB 6/20/2019 18:45",
+		"testFormulaReevaluation" : "CT 6/24/2019 16:23",
 		"testFormulaWithRuntimeErrorOpensDebugger" : "JB 6/20/2019 18:17",
 		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "JB 6/20/2019 18:19",
 		"testInfinityLoopDoesNotOccur" : "CT 6/20/2019 01:39",

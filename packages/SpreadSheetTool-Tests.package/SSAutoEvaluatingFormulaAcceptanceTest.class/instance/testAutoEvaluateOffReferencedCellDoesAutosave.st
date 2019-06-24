@@ -5,4 +5,4 @@ testAutoEvaluateOffReferencedCellDoesAutosave
 	
 	referencedCell sendKeys: self someContent.
 	
-	self deny: referencedCell hasUnacceptedChanges.
+	self deny: referencedCell hasUnacceptedEdits.

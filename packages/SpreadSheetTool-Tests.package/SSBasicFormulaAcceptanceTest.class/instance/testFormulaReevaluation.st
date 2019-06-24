@@ -10,7 +10,7 @@ testFormulaReevaluation
 		sendKeys: self someFormula;
 		sendControlSave.
 		
-	SSAcceptanceTest sideEffect: sideEffect.
+	self class sideEffect: sideEffect.
 	
 	cell
 		keyboardFocusChange: true;

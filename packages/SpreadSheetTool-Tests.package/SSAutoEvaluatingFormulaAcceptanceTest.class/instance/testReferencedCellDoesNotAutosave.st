@@ -3,4 +3,4 @@ testReferencedCellDoesNotAutosave
 
 	referencedCell sendKeys: self someContent.
 	
-	self assert: referencedCell hasUnacceptedChanges.
+	self assert: referencedCell hasUnacceptedEdits.

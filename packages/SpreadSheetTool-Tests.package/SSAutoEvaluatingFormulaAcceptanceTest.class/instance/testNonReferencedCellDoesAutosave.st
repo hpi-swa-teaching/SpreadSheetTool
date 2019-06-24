@@ -8,4 +8,4 @@ testNonReferencedCellDoesAutosave
 	
 	self
 		assert: self someContent equals: cell read;
-		deny: cell hasUnacceptedChanges.
+		deny: cell hasUnacceptedEdits.

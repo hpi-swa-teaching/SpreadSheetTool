@@ -1,4 +1,4 @@
 *SpreadSheetTool-Tests-accessing
 isChecked
 
-	^ (self findByClass: ThreePhaseButtonMorph) isOn
+	^ (self findByKind: ThreePhaseButtonMorph) isOn
