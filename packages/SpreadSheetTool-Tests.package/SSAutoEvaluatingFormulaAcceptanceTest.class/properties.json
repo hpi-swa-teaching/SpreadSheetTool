@@ -1,0 +1,16 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"referencedCell",
+		"referencingCell",
+		"indirectlyReferencingCell" ],
+	"name" : "SSAutoEvaluatingFormulaAcceptanceTest",
+	"pools" : [
+		 ],
+	"super" : "SSAcceptanceTest",
+	"type" : "normal" }
