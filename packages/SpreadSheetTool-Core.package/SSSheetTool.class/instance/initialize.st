@@ -11,3 +11,5 @@ initialize
 		rowHeaderFactory: [:row | SSHeaderModel row: row parent: self]
 		columnHeaderFactory: [:column | SSHeaderModel column: column parent: self].
 	cellMorphs := Dictionary new.
+	
+	autoEvaluateActivated := true.

@@ -9,7 +9,8 @@
 		"contentModels",
 		"hasUnsavedChanges",
 		"cellMorphs",
-		"oldCellMorphs" ],
+		"oldCellMorphs",
+		"autoEvaluateActivated" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],
