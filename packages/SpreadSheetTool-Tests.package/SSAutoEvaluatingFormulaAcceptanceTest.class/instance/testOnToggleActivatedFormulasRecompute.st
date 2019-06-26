@@ -1,6 +1,7 @@
 testing
 testOnToggleActivatedFormulasRecompute
-
+	"acceptance test for #48 (Automatic formula evaluation)"
+	
 	self disableAutoEvaluate.
 	
 	referencedCell

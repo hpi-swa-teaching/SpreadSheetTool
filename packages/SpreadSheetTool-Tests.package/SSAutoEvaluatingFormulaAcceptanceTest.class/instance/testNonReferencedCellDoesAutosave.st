@@ -1,6 +1,7 @@
 testing
 testNonReferencedCellDoesAutosave
-
+	"acceptance test for #48 (Automatic formula evaluation)"
+	
 	| cell |
 	cell := self findAnyCell.
 	

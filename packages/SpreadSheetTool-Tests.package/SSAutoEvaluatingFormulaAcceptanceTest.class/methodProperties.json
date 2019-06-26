@@ -6,10 +6,10 @@
 		"enableAutoEvaluate" : "CT 6/24/2019 16:41",
 		"findAutoEvaluateToggle" : "CT 6/24/2019 15:27",
 		"setUp" : "CT 6/24/2019 16:43",
-		"testAutoEvaluateOffReferencedCellDoesAutosave" : "CT 6/24/2019 16:44",
-		"testAutoEvaluateToggleExists" : "CT 6/24/2019 15:27",
-		"testFormulaAutoUpdate" : "CT 6/24/2019 16:00",
-		"testFormulaAutoUpdateChainReaction" : "CT 6/24/2019 15:57",
-		"testNonReferencedCellDoesAutosave" : "CT 6/24/2019 16:44",
-		"testOnToggleActivatedFormulasRecompute" : "CT 6/24/2019 16:01",
-		"testReferencedCellDoesNotAutosave" : "CT 6/24/2019 16:44" } }
+		"testAutoEvaluateOffReferencedCellDoesAutosave" : "GT 6/26/2019 14:30",
+		"testAutoEvaluateToggleExists" : "GT 6/26/2019 14:30",
+		"testFormulaAutoUpdate" : "GT 6/26/2019 14:30",
+		"testFormulaAutoUpdateChainReaction" : "GT 6/26/2019 14:30",
+		"testNonReferencedCellDoesAutosave" : "GT 6/26/2019 14:30",
+		"testOnToggleActivatedFormulasRecompute" : "GT 6/26/2019 14:30",
+		"testReferencedCellDoesNotAutosave" : "GT 6/26/2019 14:31" } }
