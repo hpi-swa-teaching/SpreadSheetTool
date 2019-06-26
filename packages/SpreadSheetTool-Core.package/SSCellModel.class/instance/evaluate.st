@@ -1,13 +1,18 @@
 evaluation
 evaluate
 
-	| result success |
+	| success oldValue |
+	success := false.
+	isBusy ifTrue: [self error: 'Cycling cell reference detected'].
 	[self beBusy.
-		result := self cell value.
+		oldValue := latestValue.
+		latestValue := self cell value.
+		self parent autoEvaluateActivated ifTrue: [
+			clients do: #serverChanged].
 		success := true]
-		ensure: [
-			success = true ifFalse: [
-				self editMode: true.
-				hasUnacceptedEdits := true].
-			self beReady].
-	latestValue := result
+	ensure: [
+		success ifFalse: [
+			latestValue := oldValue.
+			self editMode: true.
+			hasUnacceptedEdits := true].
+		self beReady].
