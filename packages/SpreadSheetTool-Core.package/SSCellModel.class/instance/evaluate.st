@@ -10,5 +10,4 @@ evaluate
 				self editMode: true.
 				hasUnacceptedEdits := true].
 			self beReady].
-	latestValue := result.
-	^ result asString
+	latestValue := result

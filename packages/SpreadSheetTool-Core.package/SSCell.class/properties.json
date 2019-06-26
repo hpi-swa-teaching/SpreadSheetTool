@@ -10,7 +10,8 @@
 		"rawValue",
 		"sheet",
 		"rowIndex",
-		"columnIndex" ],
+		"columnIndex",
+		"servers" ],
 	"name" : "SSCell",
 	"pools" : [
 		 ],

@@ -4,14 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "CT 6/12/2019 15:01",
+	"commentStamp" : "",
 	"instvars" : [
 		"cell",
 		"editMode",
 		"unacceptedContents",
 		"hasUnacceptedEdits",
 		"isBusy",
-		"latestValue" ],
+		"latestValue",
+		"clients" ],
 	"name" : "SSCellModel",
 	"pools" : [
 		 ],

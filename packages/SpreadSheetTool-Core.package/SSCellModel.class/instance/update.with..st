@@ -1,4 +1,4 @@
-updating
+dependencies
 update: anAspect with: anObject
 
 	anAspect = #keyboardFocus ifTrue: [

@@ -1,6 +1,7 @@
 interaction
 acceptContents: aTextOrString
 
-	self saveContents: aTextOrString.
-	self editMode: false.
+	self
+		saveContents: aTextOrString;
+		editMode: false.
 	^ false
