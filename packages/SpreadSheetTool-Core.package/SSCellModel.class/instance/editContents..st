@@ -5,4 +5,3 @@ editContents: aTextOrString
 	hasUnacceptedEdits := true.
 	self shouldAutoSave ifFalse: [^ self].
 	self saveContents: aTextOrString.
-	self contentsChanged.

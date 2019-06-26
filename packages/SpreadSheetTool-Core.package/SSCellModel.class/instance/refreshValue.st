@@ -6,3 +6,4 @@ refreshValue
 		ifFalse: [latestValue := self cell rawValue].
 	self parent autoEvaluateActivated ifTrue: [
 		clients do: #serverChanged].
+	self contentsChanged.
