@@ -1,4 +1,4 @@
 interaction
 toggleAutoEvaluate
 
-	autoEvaluateActivated := autoEvaluateActivated not.
+	contentModels autoEvaluateActivated: contentModels autoEvaluateActivated not.

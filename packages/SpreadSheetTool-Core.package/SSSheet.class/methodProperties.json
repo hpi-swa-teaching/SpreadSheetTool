@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"cellFactory:rowHeaderFactory:columnHeaderFactory:" : "CT 5/28/2019 18:09" },
+		"cellFactory:rowHeaderFactory:columnHeaderFactory:" : "CT 5/28/2019 18:09",
+		"newWithTool:" : "AN 6/26/2019 16:05" },
 	"instance" : {
 		"allContents" : "CT 6/7/2019 13:32",
 		"anySatisfy:" : "CT 5/29/2019 14:56",
 		"asMatrixWithOrigin:" : "CT 5/29/2019 14:09",
 		"atRow:atColumn:" : "CT 5/6/2019 18:36",
 		"atRow:atColumn:ifPresent:" : "CT 6/21/2019 21:54",
+		"autoEvaluateActivated" : "AN 6/26/2019 15:48",
+		"autoEvaluateActivated:" : "AN 6/26/2019 15:48",
 		"cellFactory" : "CT 5/6/2019 18:09",
 		"cellFactory:" : "CT 5/6/2019 18:10",
 		"cellFactory:rowHeaderFactory:columnHeaderFactory:" : "CT 6/18/2019 11:04",
@@ -15,11 +18,14 @@
 		"columnHeaderAt:" : "CT 5/28/2019 16:19",
 		"columnHeaderFactory" : "CT 5/28/2019 18:08",
 		"columnHeaderFactory:" : "CT 5/28/2019 18:08",
+		"columnLabelAt:" : "AN 6/26/2019 16:13",
 		"initialize" : "CT 5/28/2019 16:21",
 		"rowCount" : "CT 5/28/2019 16:28",
 		"rowCount:columnCount:" : "CT 6/19/2019 08:46",
 		"rowHeaderAt:" : "CT 5/28/2019 16:20",
 		"rowHeaderFactory" : "CT 5/28/2019 18:07",
 		"rowHeaderFactory:" : "CT 5/28/2019 18:07",
+		"rowLabelAt:" : "AN 6/26/2019 16:13",
 		"scale:to:factory:" : "CT 6/15/2019 21:13",
-		"selectElementsBeyondRow:beyondColumn:" : "CT 6/22/2019 18:47" } }
+		"selectElementsBeyondRow:beyondColumn:" : "CT 6/22/2019 18:47",
+		"valueAtRow:atColumn:" : "AN 6/26/2019 16:11" } }
