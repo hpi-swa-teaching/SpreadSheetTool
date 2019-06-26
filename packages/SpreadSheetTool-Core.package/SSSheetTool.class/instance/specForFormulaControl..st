@@ -8,10 +8,11 @@ specForFormulaControl: aBuilder
 		yourself.
 	spec children
 		add: (aBuilder pluggableCheckBoxSpec new
-				model: self;
-				label: #labelForAutoEvaluate;
-				action: #toggleAutoEvaluate;
-				state: #autoEvaluateActivated;
-				frame: 0 @ 0 extent: 1 @ 1;
-				yourself).
+			model: self;
+			label: #labelForAutoEvaluate;
+			action: #toggleAutoEvaluate;
+			state: #autoEvaluateActivated;
+			frame: (LayoutFrame offsets: (0 @ 0.5 corner: 0 @ 0));
+			color: #windowColorToUse;
+			yourself).
 	^ spec
