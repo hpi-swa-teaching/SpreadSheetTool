@@ -1,4 +1,4 @@
 initialize-release
 initialize
 
-	log := OrderedCollection new.
+	log := Set new.
