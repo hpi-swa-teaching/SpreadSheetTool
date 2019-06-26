@@ -3,7 +3,7 @@ testNonReferencedCellDoesAutosave
 	"acceptance test for #48 (Automatic formula evaluation)"
 	
 	| cell |
-	cell := self findAnyCell.
+	cell := self findCellAt: self someNotReferencedCellIndex.
 	
 	cell sendKeys: self someContent.
 	

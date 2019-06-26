@@ -5,4 +5,6 @@ setUp
 	
 	cell := SSCell new.
 	anotherCell := SSCell new.
-	model cell: cell.
+	model
+		cell: cell;
+		parent: SSMockingSheetTool new.
