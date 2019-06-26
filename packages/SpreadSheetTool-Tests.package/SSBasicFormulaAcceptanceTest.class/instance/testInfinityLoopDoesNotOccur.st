@@ -13,7 +13,8 @@ testInfinityLoopDoesNotOccur
 	secondCell sendKeys: '^ self left'.
 	self
 		should: [secondCell sendControlSave]
-		notTakeMoreThan: self defaultTimeout seconds.
+		raise: Error
+		that: [:e | '*reference*' match: e messageText].
 	secondCell releaseFocus.
 	
 	self assert: '' equals: secondCell read.
