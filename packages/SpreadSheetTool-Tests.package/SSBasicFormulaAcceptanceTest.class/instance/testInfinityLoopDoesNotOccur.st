@@ -13,6 +13,6 @@ testInfinityLoopDoesNotOccur
 	self
 		should: [secondCell sendControlSave]
 		notTakeMoreThan: self defaultTimeout seconds.
-	secondCell releaseFocus.	
+	secondCell releaseFocus.
 	
 	self assert: '' equals: secondCell read.

@@ -2,5 +2,5 @@ tools
 disableAutoEvaluate
 
 	self findAutoEvaluateToggle in: [:toggle |
-		toggle isChecked ifTrue: [toggle click]].
+		toggle isOn ifTrue: [toggle click]].
 	self subject redrawDopeyControls.
