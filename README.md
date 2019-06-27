@@ -3,7 +3,7 @@
 SqueakSheet is a spread sheet tool for the Smalltalk environment [Squeak](https://squeak.org/), mainly focusing on the following visions:
 - User-friendly UI;
 - Evaluate Smalltalk formulas in cells; and
-- Inspect dimensional objects in Squeak.
+- Inspect objects in Squeak.
 
 The development process was started in context of the Software Engineering course at HPI (University of Potsdam), by the team No. 10.
 
