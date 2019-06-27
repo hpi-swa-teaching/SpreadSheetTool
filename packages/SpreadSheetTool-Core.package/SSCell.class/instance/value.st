@@ -1,6 +1,7 @@
 accessing
 value
 
+	self clearServers.
 	^ self isFormula
 		ifFalse: [self rawValue]
-		ifTrue: [self formulaValue]
+		ifTrue: [self evaluateFormula]
