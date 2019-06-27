@@ -1,6 +1,9 @@
 accessing sheet
 atRow: aRow atColumn: aColumn
 
+	| cellModel |
 	aColumn @ aRow = (columnIndex @ rowIndex)
 		ifTrue: [self error: 'Formula may not reference itself'].
-	^ (sheet atRow: aRow atColumn: aColumn) value
+	cellModel := sheet atRow: aRow atColumn: aColumn.
+	self addServer: cellModel.
+	^ cellModel value

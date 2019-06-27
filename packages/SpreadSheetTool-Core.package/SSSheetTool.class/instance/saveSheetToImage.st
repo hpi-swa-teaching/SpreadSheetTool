@@ -1,14 +1,10 @@
 interaction
 saveSheetToImage
 
-	| name |	
+	| name |
 	name := UIManager default request: 'Sheet name'.
-	name ifEmpty: [^ self].
-	((self class hasSheetNamed: name) ==> [
-		(UIManager default confirm: 
-'A sheet with this name already exists.
-Overwrite it?')])
+	name ifEmpty: [^self ].
+	(self class hasSheetNamed: name) ==> [self promptOverwriteSheet]
 		ifFalse: [^ self].
-	
 	self class saveSheet: self veryDeepCopy as: name.
 	hasUnsavedChanges := false.

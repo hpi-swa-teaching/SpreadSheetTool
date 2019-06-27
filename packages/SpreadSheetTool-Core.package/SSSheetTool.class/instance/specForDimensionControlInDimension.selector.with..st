@@ -4,7 +4,9 @@ specForDimensionControlInDimension: aDimension selector: aSelector with: aBuilde
 	^ aBuilder pluggablePanelSpec new
 		layout: #horizontal;
 		children: {
-			(self specForLabel: aDimension ssWithFirstCharacterUppercase, $: with: aBuilder).
+			self
+				specForLabel: aDimension ssWithFirstCharacterUppercase, $:
+				with: aBuilder.
 			((SSNumericPropertyFieldModel
 				parent: self
 				getProperty: aSelector

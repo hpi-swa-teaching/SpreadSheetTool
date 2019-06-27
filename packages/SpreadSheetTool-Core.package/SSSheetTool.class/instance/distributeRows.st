@@ -2,5 +2,5 @@ interaction
 distributeRows
 
 	self
-		distributeCellsWithInvariantDimension: #width
-		splitterSelector: #splitsLeftAndRight.
+		distributeCellsInDimension: #height
+		splitterSelector: #splitsTopAndBottom.

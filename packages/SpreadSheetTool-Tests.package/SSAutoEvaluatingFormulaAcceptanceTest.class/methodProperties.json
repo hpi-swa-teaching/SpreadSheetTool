@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"disableAutoEvaluate" : "AN 6/26/2019 18:12",
+		"enableAutoEvaluate" : "AN 6/26/2019 18:35",
+		"findAutoEvaluateToggle" : "AN 6/26/2019 18:12",
+		"setUp" : "CT 6/24/2019 16:43",
+		"someNotReferencedCellIndex" : "AN 6/26/2019 18:43",
+		"testAutoEvaluateOffReferencedCellDoesAutosave" : "GT 6/26/2019 14:30",
+		"testAutoEvaluateToggleExists" : "AN 6/26/2019 18:12",
+		"testFormulaAutoUpdate" : "GT 6/26/2019 14:30",
+		"testFormulaAutoUpdateChainReaction" : "GT 6/26/2019 14:30",
+		"testNonReferencedCellDoesAutosave" : "AN 6/26/2019 18:43",
+		"testOnToggleActivatedFormulasRecompute" : "GT 6/26/2019 14:30",
+		"testReferencedCellDoesNotAutosave" : "GT 6/26/2019 14:31" } }

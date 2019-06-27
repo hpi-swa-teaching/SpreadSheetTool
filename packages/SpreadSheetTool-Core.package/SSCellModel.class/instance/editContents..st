@@ -1,9 +1,11 @@
 interaction
 editContents: aTextOrString
 
+	(self isFormula and: [self editMode not] and: [hasUnacceptedEdits not])
+		ifTrue: [self editMode: true.
+			^ false].
+	self basicEditMode: true.
 	unacceptedContents := aTextOrString asString.
 	hasUnacceptedEdits := true.
-	self isFormula ifTrue: [^ self].
+	self shouldAutoSave ifFalse: [^ self].
 	self saveContents: aTextOrString.
-	latestValue := unacceptedContents.
-	self contentsChanged.

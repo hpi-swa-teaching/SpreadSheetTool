@@ -1,4 +1,4 @@
 interaction
 acceptContents: aTextOrString
 
-	^ self subclassResponsibility
+	^ false

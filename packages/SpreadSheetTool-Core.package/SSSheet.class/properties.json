@@ -11,7 +11,8 @@
 		"columnHeaders",
 		"cellFactory",
 		"rowHeaderFactory",
-		"columnHeaderFactory" ],
+		"columnHeaderFactory",
+		"autoEvaluateActivated" ],
 	"name" : "SSSheet",
 	"pools" : [
 		 ],

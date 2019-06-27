@@ -1,0 +1,4 @@
+toolbuilder
+labelForAutoEvaluate
+
+	^ 'auto evaluate'
