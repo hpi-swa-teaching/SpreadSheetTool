@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"disableAutoEvaluate" : "AN 6/26/2019 18:12",
-		"enableAutoEvaluate" : "AN 6/26/2019 18:35",
-		"findAutoEvaluateToggle" : "AN 6/26/2019 18:12",
+		"disableAutoEvaluate" : "CT 6/27/2019 09:58",
+		"enableAutoEvaluate" : "CT 6/27/2019 09:58",
+		"findAutoEvaluateToggle" : "CT 6/27/2019 10:02",
 		"setUp" : "CT 6/24/2019 16:43",
 		"someNotReferencedCellIndex" : "AN 6/26/2019 18:43",
 		"testAutoEvaluateOffReferencedCellDoesAutosave" : "GT 6/26/2019 14:30",
-		"testAutoEvaluateToggleExists" : "AN 6/26/2019 18:12",
+		"testAutoEvaluateToggleExists" : "CT 6/27/2019 09:58",
 		"testFormulaAutoUpdate" : "GT 6/26/2019 14:30",
 		"testFormulaAutoUpdateChainReaction" : "GT 6/26/2019 14:30",
 		"testNonReferencedCellDoesAutosave" : "AN 6/26/2019 18:43",

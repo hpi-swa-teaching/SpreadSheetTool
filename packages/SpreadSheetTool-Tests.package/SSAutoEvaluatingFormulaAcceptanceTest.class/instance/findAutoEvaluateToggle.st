@@ -1,5 +1,4 @@
 tools
 findAutoEvaluateToggle
 
-	^ (self subject findByClass: PluggableCheckBoxMorph andName: 'auto evaluate')
-		findByKind: ThreePhaseButtonMorph
+	^ self subject findByClass: PluggableButtonMorphPlus andLabel: 'auto evaluate*'

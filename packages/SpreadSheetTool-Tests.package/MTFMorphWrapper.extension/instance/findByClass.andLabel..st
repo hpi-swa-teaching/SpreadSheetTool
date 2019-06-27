@@ -1,5 +1,5 @@
 *SpreadSheetTool-Tests-navigating
-findByClass: aClass andName: aName
+findByClass: aClass andLabel: aLabelFilter
 
 	^self findByClass: aClass andCriteria: [ :curMorph |
-		curMorph label = aName]
+		aLabelFilter match: curMorph label]

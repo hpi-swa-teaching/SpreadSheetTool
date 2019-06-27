@@ -33,7 +33,7 @@
 		"hasContentsBeyondRow:column:" : "CT 6/15/2019 20:57",
 		"hasUnacceptedChanges" : "CT 5/29/2019 15:37",
 		"initialize" : "AN 6/26/2019 16:05",
-		"labelForAutoEvaluate" : "CT 6/24/2019 16:15",
+		"labelForAutoEvaluate" : "CT 6/27/2019 09:56",
 		"maxReasonableNumberOfCells" : "CT 6/15/2019 19:42",
 		"menuBarSpacing" : "CT 5/21/2019 18:30",
 		"menuHeight" : "CT 5/21/2019 16:31",
@@ -61,7 +61,7 @@
 		"specForDistributeColumns:" : "CT 5/23/2019 08:48",
 		"specForDistributeRows:" : "CT 5/23/2019 08:48",
 		"specForDistributionControl:" : "CT 5/23/2019 08:49",
-		"specForFormulaControl:" : "CT 6/27/2019 01:02",
+		"specForFormulaControl:" : "CT 6/27/2019 09:52",
 		"specForLabel:with:" : "CT 6/21/2019 16:29",
 		"specForMainPanel:" : "CT 6/23/2019 18:27",
 		"specForMenuBar:" : "CT 6/27/2019 00:55",
@@ -71,4 +71,4 @@
 		"specForSaveSheetButton:" : "CT 5/23/2019 08:49",
 		"specForSheetManagement:" : "CT 6/11/2019 14:38",
 		"specMatrixForContents:" : "CT 6/23/2019 18:32",
-		"toggleAutoEvaluate" : "AN 6/26/2019 18:50" } }
+		"toggleAutoEvaluate" : "CT 6/27/2019 09:53" } }
