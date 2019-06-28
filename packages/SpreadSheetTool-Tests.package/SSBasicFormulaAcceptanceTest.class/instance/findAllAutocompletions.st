@@ -1,5 +1,5 @@
 tools
 findAllAutocompletions
 
-	^ (({ OMenuMorph. ECMenuMorph } collect: #allInstances) fold: #,)
+	^ ((self autocompletionClasses collect: #allInstances) fold: #,)
 		select: [:morph | morph owner notNil]
