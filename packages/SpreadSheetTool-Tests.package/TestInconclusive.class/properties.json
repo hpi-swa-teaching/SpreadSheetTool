@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"testCase" ],
 	"name" : "TestInconclusive",
 	"pools" : [
 		 ],
-	"super" : "TestFailure",
+	"super" : "Exception",
 	"type" : "normal" }
