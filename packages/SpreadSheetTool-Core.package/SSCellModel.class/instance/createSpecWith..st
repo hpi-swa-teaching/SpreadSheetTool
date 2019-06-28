@@ -1,11 +1,8 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	^ aBuilder pluggableInputFieldSpec new
-		model: self;
-		getText: #contents;
+	^ (super createSpecOfKind: #pluggableTextSpec with: aBuilder)
 		editText: #editContents:;
 		setText: #acceptContents:;
 		softLineWrap: true;
-		minimumExtent: self parent minimumCellExtent;
 		yourself
