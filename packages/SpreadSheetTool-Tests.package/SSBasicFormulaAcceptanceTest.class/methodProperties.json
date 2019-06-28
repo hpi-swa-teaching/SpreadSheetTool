@@ -2,12 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
+		"findAllAutocompletions" : "CT 6/28/2019 16:50",
+		"findAutocompletionsOpenedWhile:" : "CT 6/28/2019 16:34",
+		"shouldShowAutocompletion:" : "CT 6/28/2019 16:52",
+		"shouldntShowAutocompletion:" : "CT 6/28/2019 16:51",
 		"someFormulaWithRuntimeError" : "GT 6/17/2019 19:41",
 		"someFormulaWithSyntaxError" : "GT 6/17/2019 19:31",
+		"testEditedFormulaCellHasAutocompletion" : "CT 6/28/2019 16:52",
 		"testFormulaDisplaysLastComputedValueAfterLooseFocusWithoutChanges" : "CT 6/19/2019 19:59",
 		"testFormulaEvaluation" : "CT 6/19/2019 19:59",
 		"testFormulaReevaluation" : "CT 6/24/2019 16:23",
 		"testFormulaWithRuntimeErrorOpensDebugger" : "JB 6/20/2019 18:17",
 		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "JB 6/20/2019 18:19",
 		"testInfinityLoopDoesNotOccur" : "CT 6/27/2019 00:12",
+		"testNonEditedFormulaCellHasNoAutocompletion" : "CT 6/28/2019 16:27",
+		"testNonFormulaCellHasNoAutocompletion" : "CT 6/28/2019 16:52",
 		"testSyntaxErrorDoesNotReopenWithoutAccept" : "JB 6/20/2019 18:18" } }
