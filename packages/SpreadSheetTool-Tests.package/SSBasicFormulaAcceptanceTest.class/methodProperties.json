@@ -10,6 +10,8 @@
 		"someFormulaWithRuntimeError" : "GT 6/17/2019 19:41",
 		"someFormulaWithSyntaxError" : "GT 6/17/2019 19:31",
 		"testEditedFormulaCellHasAutocompletion" : "CT 6/28/2019 16:52",
+		"testFormulaCellAcceptsPrintIt" : "CT 6/28/2019 21:53",
+		"testFormulaCellAcceptsPrintItWithCrossReferencingFormula" : "CT 6/28/2019 21:53",
 		"testFormulaDisplaysLastComputedValueAfterLooseFocusWithoutChanges" : "CT 6/19/2019 19:59",
 		"testFormulaEvaluation" : "CT 6/19/2019 19:59",
 		"testFormulaReevaluation" : "CT 6/24/2019 16:23",
