@@ -5,4 +5,4 @@ cross: aCollection collect: aBlock
 	combinationCollections := self collect: [:first |
 		aCollection collect: [:second |
 			aBlock value: first value: second]].
-	^ combinationCollections reduce: #,
+	^ combinationCollections collectAll: #yourself
