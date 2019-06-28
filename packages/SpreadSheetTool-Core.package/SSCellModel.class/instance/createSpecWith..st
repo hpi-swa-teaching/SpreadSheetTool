@@ -1,7 +1,7 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	^ (super createSpecOfKind: #pluggableTextSpec with: aBuilder)
+	^ (super createSpecOfKind: #pluggableCodePaneSpec with: aBuilder)
 		editText: #editContents:;
 		setText: #acceptContents:;
 		softLineWrap: true;
