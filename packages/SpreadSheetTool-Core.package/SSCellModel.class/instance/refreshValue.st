@@ -3,6 +3,6 @@ refreshValue
 
 	self
 		editMode: true;
-		evaluate;
+		tryEvaluate;
 		editMode: false;
 		contentsChanged.
