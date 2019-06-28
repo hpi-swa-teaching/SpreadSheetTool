@@ -1,0 +1,4 @@
+accessing
+selectedClassOrMetaClass
+
+	^ self doItReceiver class

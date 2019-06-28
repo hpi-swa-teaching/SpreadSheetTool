@@ -2,7 +2,7 @@
 	"class" : {
 		"parent:sheet:rowIndex:columnIndex:" : "CT 6/21/2019 17:06" },
 	"instance" : {
-		"aboutToStyle:" : "CT 6/28/2019 15:52",
+		"aboutToStyle:" : "CT 6/28/2019 21:21",
 		"acceptContents:" : "AN 6/26/2019 17:42",
 		"addClient:" : "AN 6/26/2019 16:49",
 		"basicEditMode:" : "CT 6/12/2019 12:25",
@@ -14,6 +14,7 @@
 		"contents" : "AN 6/26/2019 18:15",
 		"createSpecWith:" : "CT 6/28/2019 15:38",
 		"displaysFormula" : "CT 6/28/2019 15:53",
+		"doItReceiver" : "CT 6/28/2019 21:03",
 		"editContents:" : "CT 6/28/2019 16:14",
 		"editMode" : "CT 6/4/2019 17:14",
 		"editMode:" : "AN 6/26/2019 18:19",
@@ -23,6 +24,7 @@
 		"refreshValue" : "CT 6/28/2019 17:23",
 		"removeClient:" : "AN 6/26/2019 16:52",
 		"saveContents:" : "AN 6/26/2019 17:53",
+		"selectedClassOrMetaClass" : "CT 6/28/2019 21:26",
 		"shouldAutoSave" : "AN 6/26/2019 17:59",
 		"tryEvaluate" : "CT 6/28/2019 18:03",
 		"unacceptedChanges:" : "CT 6/22/2019 15:05",
