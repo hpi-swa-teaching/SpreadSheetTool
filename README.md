@@ -17,7 +17,7 @@ Metacello new
 	repository: 'github://hpi-swa-teaching/SpreadSheetTool:alpha-release/packages';
 	load
   ```
-If you are interested in getting an insight into our current sprint's dirty implementation, replace `alpha-release` above with `master`. Alternatively, you can use [Squot](https://github.com/hpi-swa/Squot) to clone the repository. 
+If you are interested in getting an insight into our current sprint's dirty implementation, replace `alpha-release` above with `master`. Alternatively, you can use [Squot](https://github.com/hpi-swa/Squot) to clone the repository. Important: If you do not use Metacello, make sure to invoke `SSSheetTool initialize` after cloning the repo!
 
  If you would like to join our project, please feel free to fork and pull-request, and create issues.
 
