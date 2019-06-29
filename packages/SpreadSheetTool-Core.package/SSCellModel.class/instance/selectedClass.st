@@ -1,4 +1,4 @@
 accessing
-selectedClassOrMetaClass
+selectedClass
 
 	^ self doItReceiver class
