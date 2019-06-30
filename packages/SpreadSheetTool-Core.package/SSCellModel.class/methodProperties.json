@@ -10,7 +10,6 @@
 		"beReady" : "CT 6/12/2019 19:35",
 		"cell" : "CT 5/2/2019 15:07",
 		"cell:" : "CT 5/2/2019 15:07",
-		"completionController" : "CT 6/28/2019 15:53",
 		"contents" : "AN 6/26/2019 18:15",
 		"createSpecWith:" : "CT 6/28/2019 15:38",
 		"displaysFormula" : "CT 6/28/2019 15:53",
@@ -29,4 +28,6 @@
 		"shouldAutoSave" : "AN 6/26/2019 17:59",
 		"tryEvaluate" : "CT 6/28/2019 18:03",
 		"update:with:" : "CT 6/28/2019 22:31",
-		"value" : "CT 6/26/2019 20:06" } }
+		"value" : "CT 6/26/2019 20:06",
+		"wantsAutocompletion" : "CT 6/30/2019 17:02",
+		"wantsToCloseAutocompletion" : "CT 6/30/2019 17:10" } }
