@@ -1,5 +1,5 @@
 *SpreadSheetTool-Core-exceptions
-onInterruptDo: aBlock
+onInterruptEnsure: aBlock
 	"Evaluate myself, evaluate aBlock if any error was thrown or the thread is going to be terminated"
 
 	| success result |

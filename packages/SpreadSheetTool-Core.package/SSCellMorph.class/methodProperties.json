@@ -2,9 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"accept" : "JB 7/2/2019 12:52",
-		"basicEditMode:" : "CT 6/12/2019 12:25",
-		"editMode" : "JB 7/2/2019 11:10",
-		"editText:" : "JB 7/2/2019 13:00",
-		"isDisplayingRaw" : "JB 7/2/2019 12:50",
-		"keyboardFocusChange:" : "JB 7/2/2019 12:54" } }
+		"acceptTextInModel" : "CT 7/2/2019 19:34",
+		"beBusy" : "CT 7/2/2019 16:43",
+		"beReady" : "CT 7/2/2019 16:43",
+		"getOutput" : "CT 7/2/2019 18:57",
+		"getText" : "CT 7/2/2019 19:03",
+		"hasEditFocus:" : "CT 7/2/2019 19:43",
+		"initialize" : "CT 7/2/2019 19:31",
+		"intoWorld:" : "CT 7/2/2019 19:44",
+		"isEditing" : "CT 7/2/2019 16:56",
+		"keyStroke:" : "CT 7/2/2019 19:38",
+		"keyboardFocusChange:" : "CT 7/2/2019 19:44",
+		"on:text:edit:output:generator:" : "CT 7/2/2019 19:01",
+		"refreshText" : "CT 7/2/2019 19:43",
+		"textEdited:" : "CT 7/2/2019 19:38" } }

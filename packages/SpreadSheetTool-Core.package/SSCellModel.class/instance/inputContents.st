@@ -1,0 +1,4 @@
+accessing
+inputContents
+
+	^ unacceptedContents

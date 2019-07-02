@@ -7,7 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"editMode",
-		"hasEditFocus" ],
+		"hasEditFocus",
+		"getOutputSelector",
+		"getInputSelector",
+		"generateOutputSelector",
+		"setInputSelector" ],
 	"name" : "SSCellMorph",
 	"pools" : [
 		 ],

@@ -1,0 +1,4 @@
+accessing
+outputContents
+
+	^ latestValue asString

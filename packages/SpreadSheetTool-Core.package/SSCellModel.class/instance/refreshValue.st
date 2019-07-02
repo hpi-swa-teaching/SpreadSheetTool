@@ -2,7 +2,7 @@ evaluation
 refreshValue
 
 	self
-		editMode: true;
+		"editMode: true;"
 		tryEvaluate;
-		editMode: false;
+		"editMode: false;"
 		contentsChanged.

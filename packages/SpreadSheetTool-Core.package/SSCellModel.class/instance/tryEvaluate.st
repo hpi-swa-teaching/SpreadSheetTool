@@ -2,12 +2,12 @@ evaluation
 tryEvaluate
 
 	| oldValue |
-	isBusy ifTrue: [self error: 'Cycling cell reference detected'].
+	isBusy ifTrue: [self error: 'Cyclic cell reference detected'].
 	
 	oldValue := latestValue.
 	[[self beBusy; evaluate]
-		onInterruptDo: [
+		onInterruptEnsure: [
 			latestValue := oldValue.
-			self editMode: true.
-			hasUnacceptedEdits := true]]
+			"self editMode: true.
+			hasUnacceptedEdits := true"]]
 				ensure: [self beReady].

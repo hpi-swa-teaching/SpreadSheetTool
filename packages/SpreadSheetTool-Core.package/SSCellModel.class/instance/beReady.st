@@ -1,5 +1,5 @@
 state
 beReady
 
-	self containingMorphicModels do: [:m | m readOnly: false].
+	morph readOnly: false.
 	isBusy := false.

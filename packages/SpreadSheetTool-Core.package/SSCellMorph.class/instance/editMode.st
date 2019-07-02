@@ -1,4 +1,0 @@
-edit mode
-editMode
-
-	^ editMode

@@ -6,10 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parent",
-		"clients" ],
-	"name" : "SSTextFieldModel",
+		"sheet",
+		"rowIndex",
+		"columnIndex",
+		"model" ],
+	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],
-	"super" : "StringHolder",
+	"super" : "SSTextFieldModel",
 	"type" : "normal" }

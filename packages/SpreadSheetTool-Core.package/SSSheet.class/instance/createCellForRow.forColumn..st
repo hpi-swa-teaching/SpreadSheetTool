@@ -1,4 +1,4 @@
 private
 createCellForRow: aRow forColumn: aColumn
 
-	^ SSCellModel parent: parent sheet: self rowIndex: aRow columnIndex: aColumn
+	^ SSUniversalCellModel parent: parent sheet: self rowIndex: aRow columnIndex: aColumn

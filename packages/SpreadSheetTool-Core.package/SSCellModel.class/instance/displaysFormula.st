@@ -1,4 +1,4 @@
 interaction
 displaysFormula
 
-	^ self editMode and: [self isFormula]
+	^ morph isEditing and: [self isFormula: unacceptedContents]
