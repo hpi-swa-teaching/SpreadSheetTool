@@ -7,6 +7,8 @@ specForAutoEvaluationButton: aBuilder
 		label: #labelForAutoEvaluate;
 		action: #toggleAutoEvaluate;
 		state: #autoEvaluateActivated;
+		help: 'If auto evaluate is on, all formula cells will be always up to date.
+If auto evaluate is off, you will need to manually recompute the formulas.';
 		yourself.
 	morph := ToolBuilder build: spec.
 	morph

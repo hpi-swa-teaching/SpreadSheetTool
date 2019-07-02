@@ -5,4 +5,5 @@ specForNewSheetButton: aBuilder
 		label: 'New sheet';
 		model: self;
 		action: #openNewSheet;
+		help: 'Open a new tool with an empty sheet';
 		yourself
