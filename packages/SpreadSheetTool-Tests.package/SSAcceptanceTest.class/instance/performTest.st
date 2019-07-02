@@ -1,6 +1,9 @@
 running
 performTest
 
-	^ [super performTest]
-		on: TestResult inconclusive
-		do: #signal
+	Preferences
+		setFlag: #openToolsAttachedToMouseCursor
+		toValue: false
+		during: [^ [super performTest]
+			on: TestResult inconclusive
+			do: #signal].
