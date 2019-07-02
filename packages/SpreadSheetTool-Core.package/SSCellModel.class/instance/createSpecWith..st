@@ -3,8 +3,8 @@ createSpecWith: aBuilder
 
 	^ (morph := SSCellMorph new)
 		on: self
-			text: #inputContents
-			edit: #inputContents:
+			text: #contents
+			edit: #editContents:
 			output: #outputContents
 			generator: #saveContents:;
 		minimumExtent: self parent minimumCellExtent;

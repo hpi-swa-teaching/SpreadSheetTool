@@ -1,4 +1,0 @@
-testing
-testHasUnacceptedChangesIsFalseForVirginTool
-
-	self deny: tool hasUnacceptedChanges.

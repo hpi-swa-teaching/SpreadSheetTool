@@ -1,4 +1,4 @@
 interaction
-hasUnacceptedChanges
+hasUnacceptedEdits
 
 	^ self containingMorphicModels anySatisfy: #hasUnacceptedEdits

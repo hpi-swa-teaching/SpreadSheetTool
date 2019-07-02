@@ -1,5 +1,5 @@
 interaction
 okToClose
 
-	^ (hasUnsavedChanges or: [self hasUnacceptedChanges])
+	^ (hasUnsavedChanges or: [self hasUnacceptedEdits])
 		==> [self promptChangesCanBeDiscarded]

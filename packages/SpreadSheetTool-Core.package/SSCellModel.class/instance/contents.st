@@ -1,4 +1,4 @@
 accessing
 contents
 
-	^ latestValue asString
+	^ unacceptedContents

@@ -1,5 +1,5 @@
 accessing
-inputContents: aText
+editContents: aText
 
 	unacceptedContents := aText asString.
 	"self cell rawValue: "
