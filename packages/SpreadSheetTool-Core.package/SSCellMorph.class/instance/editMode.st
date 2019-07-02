@@ -1,4 +1,4 @@
-state
+edit mode
 editMode
 
 	^ editMode
