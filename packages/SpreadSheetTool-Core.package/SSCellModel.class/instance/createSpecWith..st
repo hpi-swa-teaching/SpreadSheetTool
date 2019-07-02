@@ -8,4 +8,5 @@ createSpecWith: aBuilder
 			output: #outputContents
 			generator: #saveContents:;
 		minimumExtent: self parent minimumCellExtent;
+		refreshText;
 		yourself
