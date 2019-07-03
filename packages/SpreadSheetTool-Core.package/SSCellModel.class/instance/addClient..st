@@ -1,4 +1,4 @@
 dependencies
 addClient: aClient
 
-	self addDependent: aClient.
+	clients add: aClient.

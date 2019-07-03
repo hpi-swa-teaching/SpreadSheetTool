@@ -1,0 +1,4 @@
+dependencies
+serverChanged
+
+	self refreshValue.

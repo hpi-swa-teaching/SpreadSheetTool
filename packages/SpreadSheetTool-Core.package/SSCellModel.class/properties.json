@@ -4,9 +4,11 @@
 		"model" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "CT 6/12/2019 15:01",
+	"commentStamp" : "",
 	"instvars" : [
 		"cell",
+		"clients",
+		"servers",
 		"editMode",
 		"unacceptedContents",
 		"hasUnacceptedEdits",

@@ -5,5 +5,5 @@ atRow: aRow atColumn: aColumn
 	aColumn @ aRow = (columnIndex @ rowIndex)
 		ifTrue: [self error: 'Formula may not reference itself'].
 	cellModel := sheet atRow: aRow atColumn: aColumn.
-	self addServer: cellModel.
+	model addServer: cellModel.
 	^ cellModel value
