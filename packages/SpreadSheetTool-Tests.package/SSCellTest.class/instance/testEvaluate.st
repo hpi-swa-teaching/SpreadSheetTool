@@ -2,5 +2,5 @@ testing
 testEvaluate
 	
 	cell rawValue: self someFormula.
-	cell evaluate.
+	cell evaluateSynchronizing: [].
 	self assert: self someFormulaResult equals: cell value.

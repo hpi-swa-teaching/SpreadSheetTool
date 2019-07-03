@@ -8,4 +8,4 @@ setUp
 	model
 		cell: cell;
 		parent: SSMockingSheetTool new;
-		buildWith: ToolBuilder default.
+		createSpecWith: ToolBuilder default.

@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"classUnderTest" : "CT 6/6/2019 01:33",
-		"setUp" : "AN 7/3/2019 17:34",
+		"setUp" : "CT 7/4/2019 00:27",
 		"someFormula" : "CT 6/12/2019 13:14",
 		"someFormulaResult" : "CT 6/12/2019 13:12",
-		"testAcceptContentsChangesCellRawValue" : "AN 7/3/2019 18:41",
-		"testAcceptContentsNotifiesObservers" : "AN 7/3/2019 18:41",
+		"testAcceptContentsChangesCellRawValue" : "CT 7/4/2019 00:26",
+		"testAcceptContentsNotifiesObservers" : "CT 7/4/2019 00:27",
 		"testCell" : "CT 6/12/2019 13:10" } }

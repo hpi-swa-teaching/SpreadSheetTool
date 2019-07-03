@@ -1,8 +1,6 @@
 testing
 testAcceptContentsChangesCellRawValue
 
-	model
-		editContents: self someText;
-		acceptContents.
+	model acceptContents: self someText.
 	
 	self assert: self someText asString equals: cell rawValue.
