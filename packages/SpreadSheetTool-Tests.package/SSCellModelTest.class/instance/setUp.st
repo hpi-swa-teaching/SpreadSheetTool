@@ -7,4 +7,5 @@ setUp
 	anotherCell := SSCell new.
 	model
 		cell: cell;
-		parent: SSMockingSheetTool new.
+		parent: SSMockingSheetTool new;
+		buildWith: ToolBuilder default.
