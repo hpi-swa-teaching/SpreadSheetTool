@@ -1,4 +1,0 @@
-toolbuilder
-value
-
-	^ self contents

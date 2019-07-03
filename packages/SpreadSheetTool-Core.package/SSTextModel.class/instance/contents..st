@@ -1,4 +1,4 @@
-toolbuilder
+accessing
 contents: aTextOrString
 
 	super contents: aTextOrString.

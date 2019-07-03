@@ -1,4 +1,4 @@
 accessing
 outputContents
 
-	^ self cell value asString
+	^ self value asString

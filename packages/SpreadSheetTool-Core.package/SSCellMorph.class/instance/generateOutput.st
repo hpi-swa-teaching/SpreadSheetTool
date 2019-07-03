@@ -1,4 +1,4 @@
 display
 generateOutput
 
-	^ model perform: generateOutputSelector
+	^ self model perform: generateOutputSelector

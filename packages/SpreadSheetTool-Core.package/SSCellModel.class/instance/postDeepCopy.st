@@ -1,0 +1,4 @@
+copying
+postDeepCopy
+
+	morph := nil.

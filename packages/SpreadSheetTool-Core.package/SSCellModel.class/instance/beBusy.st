@@ -1,4 +1,4 @@
-state
+accessing
 beBusy
 
 	isBusy := true.

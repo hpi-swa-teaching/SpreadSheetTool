@@ -1,4 +1,4 @@
 toolbuilder
-buildWith: aBuilder
+createSpecWith: aBuilder
 
 	^ super buildCodePaneWith: aBuilder

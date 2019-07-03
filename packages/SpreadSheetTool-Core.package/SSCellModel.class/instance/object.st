@@ -1,0 +1,4 @@
+evaluation
+object
+
+	^ self value

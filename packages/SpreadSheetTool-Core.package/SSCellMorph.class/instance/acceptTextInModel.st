@@ -1,7 +1,7 @@
 event handling
 acceptTextInModel
 
-	self generateOutput.
+	self acceptContents: self text copy.
 	self
 		hasEditFocus: false;
 		hasUnacceptedEdits: false.
