@@ -1,4 +1,0 @@
-accessing
-buttonHeight
-
-	^ 17
