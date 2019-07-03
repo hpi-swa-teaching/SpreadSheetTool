@@ -1,4 +1,4 @@
 dependencies
 addClient: aCell
 
-	clients add: aCell.
+	self basicAddClient: aCell.

@@ -22,7 +22,6 @@
 		"calculateFrameForItemAtRow:atColumn:" : "AN 6/19/2019 17:32",
 		"columnCount" : "CT 5/29/2019 15:37",
 		"columnCount:" : "CT 6/7/2019 13:40",
-		"contentsChanged" : "CT 5/22/2019 19:10",
 		"defaultCellExtent" : "CT 6/7/2019 13:40",
 		"defaultExtent" : "CT 4/30/2019 12:16",
 		"defaultWindowColor" : "AN 5/22/2019 17:54",
@@ -74,4 +73,5 @@
 		"specForSheetManagement:" : "CT 6/11/2019 14:38",
 		"specMatrixForContents:" : "CT 6/23/2019 18:32",
 		"toggleAutoEvaluate" : "CT 6/27/2019 09:53",
+		"update:" : "CT 7/3/2019 14:13",
 		"veryDeepCopyWith:" : "GT 7/1/2019 19:18" } }

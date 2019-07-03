@@ -3,11 +3,11 @@
 		"models" : "CT 7/2/2019 18:07",
 		"parent:sheet:rowIndex:columnIndex:" : "CT 7/2/2019 18:24" },
 	"instance" : {
-		"addClient:" : "CT 7/3/2019 13:21",
+		"addClient:" : "CT 7/3/2019 14:18",
 		"changeModel" : "CT 7/2/2019 18:15",
 		"contents" : "CT 7/2/2019 20:49",
 		"createSpecWith:" : "CT 7/2/2019 18:30",
-		"hasUnacceptedEdits" : "CT 7/2/2019 20:39",
+		"hasUnacceptedEdits" : "CT 7/3/2019 14:11",
 		"initializeModel:" : "CT 7/3/2019 12:45",
 		"model" : "CT 7/2/2019 18:13",
 		"morphs" : "CT 7/2/2019 17:51",
@@ -15,5 +15,5 @@
 		"removeClient:" : "CT 7/3/2019 13:22",
 		"rowIndex:columnIndex:" : "CT 7/2/2019 18:23",
 		"sheet:" : "CT 7/2/2019 18:23",
-		"update:" : "CT 7/3/2019 13:11",
+		"update:" : "CT 7/3/2019 14:19",
 		"value" : "CT 7/2/2019 21:13" } }

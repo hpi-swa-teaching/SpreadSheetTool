@@ -1,5 +1,5 @@
 as yet unclassified
 update: what
 
-	self changed: what.
+	self halt changed: what.
 	^ super update: what

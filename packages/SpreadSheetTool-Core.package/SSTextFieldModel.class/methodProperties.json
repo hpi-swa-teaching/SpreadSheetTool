@@ -3,7 +3,9 @@
 		"parent:" : "CT 5/29/2019 16:28" },
 	"instance" : {
 		"acceptContents:" : "CT 6/21/2019 17:00",
-		"addClient:" : "AN 6/26/2019 16:49",
+		"addClient:" : "CT 7/3/2019 14:20",
+		"basicAddClient:" : "CT 7/3/2019 14:20",
+		"basicRemoveClient:" : "CT 7/3/2019 14:20",
 		"contents:" : "CT 7/2/2019 20:46",
 		"createSpecOfKind:with:" : "CT 6/27/2019 14:49",
 		"editContents:" : "CT 6/12/2019 17:47",
@@ -12,4 +14,4 @@
 		"initialize" : "CT 7/2/2019 19:11",
 		"parent" : "CT 5/6/2019 17:11",
 		"parent:" : "CT 7/3/2019 13:11",
-		"removeClient:" : "AN 6/26/2019 16:52" } }
+		"removeClient:" : "CT 7/3/2019 14:23" } }
