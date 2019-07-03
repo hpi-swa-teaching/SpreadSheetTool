@@ -1,4 +1,4 @@
-as yet unclassified
+dependencies
 addClient: aClient
 
 	(model class canUnderstand: #addClient:)

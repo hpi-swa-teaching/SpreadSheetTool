@@ -1,10 +1,11 @@
-as yet unclassified
+toolbuilder
 morphs
 
-	| builder view |
+	| builder view frame |
 	builder := ToolBuilder default.
 	view := self model perform: self findBuilderSelector with: builder.
+	frame := LayoutFrame fractions: (0 @ 0 extent: 1 @ 1).
 	(view isKindOf: ToolBuilderSpec)
-		ifTrue: [view frame: 0 @ 0 extent: 1 @ 1]
-		ifFalse: [view layoutFrame: (LayoutFrame fractions: (0 @ 0 extent: 1 @ 1))].
+		ifTrue: [view frame: frame]
+		ifFalse: [view layoutFrame: frame].
 	^ {builder build: view}

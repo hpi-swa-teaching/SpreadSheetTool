@@ -1,4 +1,4 @@
-as yet unclassified
+dependencies
 removeClient: aClient
 
 	(model class canUnderstand: #removeClient:)

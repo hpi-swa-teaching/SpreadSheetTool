@@ -1,4 +1,4 @@
-as yet unclassified
+interaction
 changeModel
 
 	self initializeModel: ((UIManager default

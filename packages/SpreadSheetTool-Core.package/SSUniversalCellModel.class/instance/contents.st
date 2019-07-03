@@ -1,4 +1,5 @@
-as yet unclassified
+forwarding
 contents
 
+	self isThisEverCalled.
 	^ model contents

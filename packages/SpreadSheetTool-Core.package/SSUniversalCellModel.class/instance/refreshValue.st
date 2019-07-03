@@ -1,4 +1,5 @@
-as yet unclassified
+forwarding
 refreshValue
 
-	^ model refreshValue
+	^ (model class canUnderstand: #refreshValue)
+		ifTrue: [model refreshValue]

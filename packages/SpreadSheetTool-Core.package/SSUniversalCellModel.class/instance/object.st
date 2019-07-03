@@ -1,4 +1,4 @@
-as yet unclassified
+forwarding
 object
 
 	(model class canUnderstand: #object)
