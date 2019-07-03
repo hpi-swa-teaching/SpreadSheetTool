@@ -1,4 +1,4 @@
-as yet unclassified
+display
 getOutput
 
 	^ self model perform: getOutputSelector

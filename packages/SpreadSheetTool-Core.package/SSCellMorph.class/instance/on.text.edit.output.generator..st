@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 on: anObject text: getTextSel edit: editTextSel output: getOutputSel generator: generateOutputSel
 
 	self model: anObject.

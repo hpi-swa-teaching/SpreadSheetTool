@@ -1,7 +1,9 @@
-as yet unclassified
+event handling
 acceptTextInModel
 
-	self model perform: generateOutputSelector.
-	self setText: self getOutput.
-	self update: #style.
+	self generateOutput.
+	self
+		hasEditFocus: false;
+		hasUnacceptedEdits: false.
+	self refreshText.
 	^ true

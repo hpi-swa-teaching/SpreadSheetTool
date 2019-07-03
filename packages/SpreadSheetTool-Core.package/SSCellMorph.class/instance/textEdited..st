@@ -1,8 +1,7 @@
-as yet unclassified
+event handling
 textEdited: aText
 
 	hasEditFocus ifFalse: [^ self hasEditFocus: true].
-	self model perform: editTextSelector with: aText.
-	self update: #style.
+	super textEdited: aText.
 	(self model wantsToAutosave: aText asString)
-		ifTrue: [self acceptTextInModel].
+		ifTrue: [self generateOutput].

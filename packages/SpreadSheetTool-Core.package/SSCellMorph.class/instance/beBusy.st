@@ -1,4 +1,4 @@
-as yet unclassified
+display
 beBusy
 
 	self readOnly: true.

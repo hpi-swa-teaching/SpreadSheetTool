@@ -1,4 +1,4 @@
-as yet unclassified
+display
 getText
 
 	^ self isEditing
