@@ -1,6 +1,6 @@
 evaluation
 evaluate
 
-	latestValue := self cell value.
+	self cell evaluate.
 	self parent autoEvaluateActivated ifTrue: [
 		clients do: #serverChanged].

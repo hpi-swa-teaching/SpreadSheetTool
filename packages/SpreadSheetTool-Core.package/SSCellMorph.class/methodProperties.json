@@ -2,16 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptTextInModel" : "CT 7/2/2019 19:34",
+		"acceptTextInModel" : "CT 7/3/2019 13:29",
 		"beBusy" : "CT 7/2/2019 16:43",
+		"beBusyWhile:" : "CT 7/3/2019 13:49",
 		"beReady" : "CT 7/2/2019 16:43",
 		"getOutput" : "CT 7/2/2019 18:57",
 		"getText" : "CT 7/2/2019 19:03",
 		"hasEditFocus:" : "CT 7/2/2019 19:43",
 		"initialize" : "CT 7/2/2019 20:25",
 		"isEditing" : "CT 7/2/2019 16:56",
-		"keyStroke:" : "CT 7/2/2019 19:38",
+		"keyStroke:" : "CT 7/2/2019 21:04",
 		"keyboardFocusChange:" : "CT 7/2/2019 19:44",
 		"on:text:edit:output:generator:" : "CT 7/2/2019 19:01",
 		"refreshText" : "CT 7/2/2019 19:43",
-		"textEdited:" : "CT 7/2/2019 20:10" } }
+		"textEdited:" : "CT 7/2/2019 20:10",
+		"update:" : "CT 7/3/2019 12:44" } }

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"sheet:rowIndex:columnIndex:" : "CT 6/18/2019 11:01" },
+		"sheet:model:rowIndex:columnIndex:" : "CT 7/3/2019 13:17" },
 	"instance" : {
 		"above" : "CT 6/18/2019 11:28",
 		"aboveBy:" : "CT 6/18/2019 11:42",
@@ -16,8 +16,10 @@
 		"belowBy:rightBy:" : "CT 6/18/2019 11:35",
 		"clearServers" : "AN 6/26/2019 16:51",
 		"columnHeader" : "AN 6/26/2019 16:14",
-		"evaluateFormula" : "AN 6/26/2019 16:33",
-		"initialize" : "CT 7/1/2019 20:08",
+		"evaluate" : "CT 7/3/2019 13:46",
+		"evaluateFormula" : "CT 7/3/2019 13:04",
+		"formulaValue" : "CT 7/3/2019 13:46",
+		"initialize" : "CT 7/3/2019 13:06",
 		"isFormula" : "CT 6/12/2019 16:09",
 		"left" : "CT 6/18/2019 11:27",
 		"leftBy:" : "CT 6/18/2019 11:44",
@@ -31,5 +33,6 @@
 		"rightBy:belowBy:" : "CT 6/18/2019 11:44",
 		"rowHeader" : "AN 6/26/2019 16:14",
 		"serverChanged" : "AN 6/26/2019 18:54",
+		"sheet:model:rowIndex:columnIndex:" : "CT 7/3/2019 13:17",
 		"sheet:rowIndex:columnIndex:" : "CT 6/18/2019 11:01",
-		"value" : "CT 6/27/2019 10:53" } }
+		"value" : "CT 7/3/2019 13:01" } }

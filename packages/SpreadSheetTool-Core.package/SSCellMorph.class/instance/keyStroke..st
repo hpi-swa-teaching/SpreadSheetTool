@@ -5,5 +5,5 @@ keyStroke: anEvent
 		(self readOnly not
 			and: [anEvent anyModifierKeyPressed not]
 			and: [self eventCharacterModifiesText: anEvent keyCharacter])
-				ifTrue: [hasEditFocus := true]].
+				ifTrue: [^ self hasEditFocus: true]].
 	^ super keyStroke: anEvent

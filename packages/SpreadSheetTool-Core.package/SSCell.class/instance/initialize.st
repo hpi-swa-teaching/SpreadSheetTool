@@ -2,5 +2,6 @@ initialize-release
 initialize
 
 	super initialize.
-	self rawValue: ''.
+	value := ''.
+	self rawValue: value.
 	servers := Set new.

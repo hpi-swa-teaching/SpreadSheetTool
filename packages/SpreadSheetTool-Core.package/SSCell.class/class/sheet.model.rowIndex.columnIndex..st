@@ -1,8 +1,9 @@
 instance creation
-sheet: aSheet rowIndex: aRowIndex columnIndex: aColumnIndex
+sheet: aSheet model: aModel rowIndex: aRowIndex columnIndex: aColumnIndex
 
 	^ self new
 		sheet: aSheet
+			model: aModel
 			rowIndex: aRowIndex
 			columnIndex: aColumnIndex;
 		yourself

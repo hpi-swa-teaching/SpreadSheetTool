@@ -11,7 +11,8 @@
 		"sheet",
 		"rowIndex",
 		"columnIndex",
-		"servers" ],
+		"servers",
+		"model" ],
 	"name" : "SSCell",
 	"pools" : [
 		 ],

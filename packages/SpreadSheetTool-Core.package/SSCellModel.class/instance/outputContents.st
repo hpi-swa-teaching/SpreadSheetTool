@@ -1,4 +1,4 @@
 accessing
 outputContents
 
-	^ latestValue asString
+	^ self cell value asString
