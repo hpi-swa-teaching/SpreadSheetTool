@@ -1,4 +1,4 @@
-as yet unclassified
+refreshing
 refreshAll
 
 	cells do: #refreshValue.

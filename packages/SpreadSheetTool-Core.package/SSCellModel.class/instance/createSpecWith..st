@@ -6,7 +6,7 @@ createSpecWith: aBuilder
 			text: #contents
 			edit: #editContents:
 			output: #outputContents
-			generator: #acceptContents:;
+			generator: #acceptContents;
 		minimumExtent: self parent minimumCellExtent;
 		refreshText;
 		yourself

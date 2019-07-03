@@ -1,4 +1,4 @@
-accessing
+evaluation
 evaluateFormula
 
 	| compiler result finalSource |

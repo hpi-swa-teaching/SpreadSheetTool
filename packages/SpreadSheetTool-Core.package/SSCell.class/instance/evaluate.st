@@ -1,4 +1,4 @@
-accessing
+evaluation
 evaluate
 
 	value := self isFormula

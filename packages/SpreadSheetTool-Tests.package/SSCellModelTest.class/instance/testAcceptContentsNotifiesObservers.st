@@ -5,6 +5,8 @@ testAcceptContentsNotifiesObservers
 	observer := SSMockingObserver new.
 	model addDependent: observer.
 	
-	model acceptContents: self someText.
+	model
+		editContents: self someText;
+		acceptContents.
 	
 	self assert: #contents equals: observer singleUpdate.
