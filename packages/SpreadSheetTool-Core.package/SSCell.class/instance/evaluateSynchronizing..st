@@ -4,7 +4,7 @@ evaluateSynchronizing: aBlock
 	| oldValue |
 	oldValue := value.
 	[value := self isFormula
-		ifTrue: [self "formulaValue"evaluateFormula]
+		ifTrue: [self evaluateFormula]
 		ifFalse: [self rawValue].
 	aBlock value]
 		onInterruptEnsure: [value := oldValue].
