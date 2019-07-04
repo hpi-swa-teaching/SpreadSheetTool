@@ -10,7 +10,7 @@ The development process was started in context of the Software Engineering cours
 ![Supported versions](/versions.png)
 
  ## Okay, how can I install it?
-**Install our latest alpha-release** by opening any CodeHolder and running the following lines (DoIt): 
+**Install our latest alpha-release** via [Metacello](https://github.com/Metacello/metacello) by opening any code pane and running the following lines (DoIt): 
 ```smalltalk
 Metacello new
 	baseline: 'SpreadSheetTool';
