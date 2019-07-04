@@ -5,4 +5,5 @@ specForDistributeColumns: aBuilder
 		label: 'Distribute columns';
 		model: self;
 		action: #distributeColumns;
+		help: 'Align all columns to an equal width';
 		yourself

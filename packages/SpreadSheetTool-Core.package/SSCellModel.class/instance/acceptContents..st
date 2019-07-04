@@ -1,7 +1,5 @@
 interaction
 acceptContents: aTextOrString
 
-	self
-		saveContents: aTextOrString;
-		editMode: false.
-	^ false
+	self cell rawValue: aTextOrString asString.
+	self refreshValue.

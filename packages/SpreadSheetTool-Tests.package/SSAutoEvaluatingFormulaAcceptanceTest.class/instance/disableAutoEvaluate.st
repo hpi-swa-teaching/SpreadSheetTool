@@ -2,5 +2,5 @@ tools
 disableAutoEvaluate
 
 	self findAutoEvaluateToggle in: [:toggle |
-		toggle isOn ifTrue: [toggle click]].
+		toggle getModelState ifTrue: [toggle click]].
 	self subject redrawDopeyControls.

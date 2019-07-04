@@ -1,6 +1,6 @@
 tools
 findWindowsOpenedWhile: anActionBlock
-	"We cannot use MFT here as we want to test the opening procedure itself"
+	"We cannot use MTF here as we want to test the opening procedure itself"
 
 	| allWindows newWindows|
 	[allWindows := self findAllToolWindows.

@@ -1,4 +1,4 @@
 dependencies
-addClient: aCell
+addClient: aClient
 
-	clients add: aCell.
+	clients add: aClient.

@@ -1,4 +1,7 @@
 accessing sheet
 rowHeader
 
-	^ sheet rowLabelAt: rowIndex
+	| headerModel |
+	headerModel := sheet rowHeaderAt: rowIndex.
+	model addServer: headerModel.
+	^ headerModel label

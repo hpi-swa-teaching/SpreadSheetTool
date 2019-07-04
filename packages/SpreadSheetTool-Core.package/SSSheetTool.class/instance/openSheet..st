@@ -1,7 +1,7 @@
 interaction
 openSheet: aSheet
 
-	^ [aSheet open]
+	^ [aSheet veryDeepCopy open]
 		on: Error
 		do: [:error | (UIManager confirm:
 'The sheet cannot be loaded. Maybe it is corrupted

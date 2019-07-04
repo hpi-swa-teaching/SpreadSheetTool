@@ -1,8 +1,7 @@
 toolbuilder
 createSpecWith: aBuilder helpText: aText
 
-	^ (self createSpecWith: aBuilder)
-		editText: nil;
+	^ (super createSpecOfKind: #pluggableInputFieldSpec with: aBuilder)
 		setText: #contents:notifying:;
 		help: aText;
 		softLineWrap: false;

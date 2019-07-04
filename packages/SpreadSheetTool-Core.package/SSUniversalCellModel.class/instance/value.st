@@ -1,0 +1,4 @@
+forwarding
+value
+
+	^ model value

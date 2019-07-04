@@ -2,8 +2,7 @@ initialize-release
 initialize
 
 	super initialize.
-	self basicEditMode: false.
-	hasUnacceptedEdits := false.
-	latestValue := ''.
 	isBusy := false.
+	unacceptedContents := ''.
 	clients := Set new.
+	servers := Set new.

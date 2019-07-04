@@ -1,0 +1,16 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hasEditFocus",
+		"getOutputSelector",
+		"generateOutputSelector" ],
+	"name" : "SSCellMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorphPlus",
+	"type" : "normal" }

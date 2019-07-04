@@ -1,10 +1,7 @@
 running
 setUp
 
-	sheet := self classUnderTest
-		cellFactory: [:r :c | self cellValueForRow: r forColumn: c]
-		rowHeaderFactory: [:r | self rowHeaderFor: r]
-		columnHeaderFactory: [:c | self columnHeaderFor: c].
+	sheet := self classUnderTest new.
 	sheet
 		rowCount: self rowCount
 		columnCount: self columnCount.

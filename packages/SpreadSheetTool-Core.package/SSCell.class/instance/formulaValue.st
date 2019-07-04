@@ -1,6 +1,7 @@
-accessing
+evaluation
 formulaValue
 
-	^ self
-		clearServers;
-		evaluateFormula
+	| oldValue |
+	oldValue := value.
+	^ [self evaluateFormula]
+		onInterruptEnsure: [value := oldValue].

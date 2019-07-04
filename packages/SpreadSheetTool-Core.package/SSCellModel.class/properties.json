@@ -1,18 +1,20 @@
 {
 	"category" : "SpreadSheetTool-Core",
 	"classinstvars" : [
-		 ],
+		"model" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"cell",
+		"clients",
+		"servers",
 		"editMode",
 		"unacceptedContents",
 		"hasUnacceptedEdits",
 		"isBusy",
 		"latestValue",
-		"clients" ],
+		"morph" ],
 	"name" : "SSCellModel",
 	"pools" : [
 		 ],

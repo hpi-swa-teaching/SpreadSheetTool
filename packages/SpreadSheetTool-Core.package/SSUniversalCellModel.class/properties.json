@@ -1,0 +1,17 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sheet",
+		"rowIndex",
+		"columnIndex",
+		"model" ],
+	"name" : "SSUniversalCellModel",
+	"pools" : [
+		 ],
+	"super" : "SSTextFieldModel",
+	"type" : "normal" }

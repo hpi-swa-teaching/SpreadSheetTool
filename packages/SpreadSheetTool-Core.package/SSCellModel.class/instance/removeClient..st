@@ -1,4 +1,4 @@
 dependencies
-removeClient: aCell
+removeClient: aClient
 
-	clients remove: aCell.
+	clients remove: aClient.

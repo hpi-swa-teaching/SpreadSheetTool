@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testCase" ],
+	"name" : "TestInconclusive",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }

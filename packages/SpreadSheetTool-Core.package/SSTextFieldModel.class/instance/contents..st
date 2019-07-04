@@ -1,4 +1,4 @@
 interaction
 contents: aTextOrString
 
-	^ self shouldNotImplement
+	^ self subclassResponsibility

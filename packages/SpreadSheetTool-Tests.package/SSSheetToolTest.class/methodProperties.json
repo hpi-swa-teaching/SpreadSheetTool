@@ -9,5 +9,5 @@
 		"someColumnIndex" : "CT 6/15/2019 15:17",
 		"someRowIndex" : "CT 6/15/2019 15:17",
 		"testColumnCount" : "CT 5/29/2019 17:29",
-		"testHasUnacceptedChangesIsFalseForVirginTool" : "CT 6/7/2019 14:01",
-		"testRowCount" : "CT 5/29/2019 16:17" } }
+		"testRowCount" : "CT 5/29/2019 16:17",
+		"testVirginToolDoesNotHaveUnacceptedEdits" : "CT 7/2/2019 20:34" } }
