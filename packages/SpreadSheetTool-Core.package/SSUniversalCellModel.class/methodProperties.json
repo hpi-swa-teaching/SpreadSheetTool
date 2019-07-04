@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"models" : "CT 7/3/2019 23:42",
+		"findAllBuilderSelectorsFor:" : "CT 7/4/2019 10:31",
+		"models" : "CT 7/4/2019 10:15",
 		"parent:sheet:rowIndex:columnIndex:" : "CT 7/2/2019 18:24" },
 	"instance" : {
 		"addClient:" : "AN 7/3/2019 16:11",
@@ -8,7 +9,7 @@
 		"changeModel" : "CT 7/2/2019 18:15",
 		"contents" : "CT 7/4/2019 00:29",
 		"createSpecWith:" : "CT 7/4/2019 01:38",
-		"findBuilderSelector" : "CT 7/3/2019 23:42",
+		"findBuilderSelector" : "CT 7/4/2019 10:15",
 		"hasUnacceptedEdits" : "AN 7/3/2019 18:07",
 		"initializeModel:" : "CT 7/3/2019 23:15",
 		"model" : "CT 7/2/2019 18:13",

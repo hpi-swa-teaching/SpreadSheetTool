@@ -4,8 +4,7 @@ findBuilderSelector
 	| selectors |
 	(self model class canUnderstand: #createSpecWith:)
 		ifTrue: [^ #createSpecWith:].
-	selectors := self model class allSelectors asArray
-		select: [:selector | selector numArgs = 1].
+	selectors := self class findAllBuilderSelectorsFor: self model class.
 	^ UIManager default
 		chooseFrom: selectors
 		values: selectors
