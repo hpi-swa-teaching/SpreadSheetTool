@@ -15,8 +15,8 @@ createSpecWith: aBuilder
 				model: self;
 				action: #changeModel;
 				frame: (LayoutFrame
-					fractions: (1 @ 0 corner: 1 @ 0)
-					offsets: (self buttonExtent x negated @ 0 corner: 0 @ self buttonExtent y));
+					fractions: (1 @ 1 corner: 1 @ 1)
+					offsets: (self buttonExtent negated corner: 0 @ 0));
 				yourself
 		};
 		frame: 0 @ 0 extent: 1 @ 1;

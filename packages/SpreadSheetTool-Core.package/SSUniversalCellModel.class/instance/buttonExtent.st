@@ -1,4 +1,4 @@
 accessing
 buttonExtent
 
-	^ 17 @ 17
+	^ 19 @ 17
