@@ -4,4 +4,6 @@ initialize
 	contentModels := SSSheet newWithParent: self.
 	cellMorphs := Dictionary new.
 	
-	contentModels autoEvaluateActivated: true.
+	contentModels
+		rowCount: 1 columnCount: 1;
+		autoEvaluateActivated: true.
