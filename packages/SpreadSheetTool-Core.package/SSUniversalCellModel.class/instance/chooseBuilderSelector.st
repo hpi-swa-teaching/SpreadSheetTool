@@ -1,9 +1,7 @@
 interaction
-findBuilderSelector
+chooseBuilderSelector
 
 	| selectors |
-	(self model class canUnderstand: #createSpecWith:)
-		ifTrue: [^ #createSpecWith:].
 	selectors := self class findAllBuilderSelectorsFor: self model class.
 	^ UIManager default
 		chooseFrom: selectors

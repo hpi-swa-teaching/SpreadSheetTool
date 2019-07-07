@@ -1,13 +1,17 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	self model ifNil: [self initializeModel: SSCellModel].
+	self model ifNil: [self
+		initializeModel: SSCellModel
+		builderSelector: self defaultBuilderSelector].
 	^ aBuilder pluggablePanelSpec new
 		children: {
 			aBuilder pluggablePanelSpec new
 				model: self;
 				children: #morphs;
-				frame: 0 @ 0 extent: 1 @ 1;
+				frame: (LayoutFrame
+					fractions: (0 @ 0 extent: 1 @ 1)
+					offsets: (3 @ 3 corner: -3 @ -3));
 				yourself.
 			aBuilder pluggableButtonSpec new
 				label: 'Model';

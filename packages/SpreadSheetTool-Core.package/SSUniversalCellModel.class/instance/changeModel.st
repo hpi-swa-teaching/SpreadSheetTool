@@ -1,8 +1,9 @@
 interaction
 changeModel
 
-	self initializeModel: ((UIManager default
-		chooseFrom: self class models
-		values: self class models
-		title: 'Change model')
-			ifNil: [^ self]).
+	| modelClass nextSelector |
+	modelClass := self chooseModel ifNil: [^ self].
+	nextSelector := (modelClass canUnderstand: self defaultBuilderSelector)
+		ifTrue: [self defaultBuilderSelector]
+		ifFalse: [self chooseBuilderSelector ifNil: [^ self]].
+	self initializeModel: modelClass builderSelector: nextSelector.

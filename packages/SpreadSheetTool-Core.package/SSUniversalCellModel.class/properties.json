@@ -9,7 +9,8 @@
 		"sheet",
 		"rowIndex",
 		"columnIndex",
-		"model" ],
+		"model",
+		"builderSelector" ],
 	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],

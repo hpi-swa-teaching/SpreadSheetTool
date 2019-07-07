@@ -1,5 +1,5 @@
 initialize-release
-initializeModel: aClass
+initializeModel: aClass builderSelector: aSelector
 
 	model ifNotNil: #release.
 	model := [aClass
@@ -8,4 +8,5 @@ initializeModel: aClass
 			on: MessageNotUnderstood
 			do: [aClass new].
 	model addDependent: self.
+	builderSelector := aSelector.
 	self changed: #morphs.
