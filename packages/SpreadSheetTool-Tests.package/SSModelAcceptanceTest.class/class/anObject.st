@@ -1,0 +1,4 @@
+mocking data
+anObject
+
+	^ anObject

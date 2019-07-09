@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"anObject" : "CT 7/9/2019 12:33",
+		"anObject:" : "CT 7/9/2019 12:34" },
+	"instance" : {
+		"fullWait" : "CT 7/9/2019 12:36",
+		"testChangeFormula" : "CT 7/9/2019 12:37",
+		"testChangeModelButtonExists" : "CT 7/9/2019 12:18",
+		"testFormulaButtonForInspectorModelExists" : "CT 7/9/2019 12:11" } }
