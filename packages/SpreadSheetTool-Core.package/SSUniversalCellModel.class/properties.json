@@ -12,7 +12,9 @@
 		"model",
 		"builderSelector",
 		"getter",
-		"setter" ],
+		"setter",
+		"lastUpdated",
+		"latestObject" ],
 	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],

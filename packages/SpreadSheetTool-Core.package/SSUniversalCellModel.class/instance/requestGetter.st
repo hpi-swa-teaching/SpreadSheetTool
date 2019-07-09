@@ -1,4 +1,4 @@
 interaction
 requestGetter
-	
-	^ UIManager default request: 'getter'
+
+	^ self requestFormulaFor: #getter template: self templateForGetter

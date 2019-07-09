@@ -1,4 +1,4 @@
 interaction
 requestSetter
-	
-	^ UIManager default request: 'setter'
+
+	^ self requestFormulaFor: #setter template: self templateForSetter
