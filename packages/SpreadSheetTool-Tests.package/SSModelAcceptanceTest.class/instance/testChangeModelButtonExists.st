@@ -2,5 +2,5 @@ as yet unclassified
 testChangeModelButtonExists
 
 	| button |
-	button := self findCellAt: self someCellIndex byCriteria: [:m | m isButton and: ['*model*' match: m label]].
+	button := self findButtonAt: self someCellIndex byLabel: 'model'.
 	self assert: button morphs hasSingle.

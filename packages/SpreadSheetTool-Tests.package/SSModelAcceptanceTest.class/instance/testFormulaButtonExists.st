@@ -2,5 +2,5 @@ as yet unclassified
 testFormulaButtonExists
 
 	| button |
-	button := self findCellAt: self someCellIndex byCriteria: [:m | m isButton and: ['*formula*' match: m label]].
+	button := self findButtonAt: self someCellIndex byLabel: 'formula'.
 	self assert: button morphs hasSingle.

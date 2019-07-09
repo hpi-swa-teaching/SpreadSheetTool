@@ -1,12 +1,12 @@
 as yet unclassified
 testChangeFormula
 
-	| button cell |
+	| cell formulaButton |
 	cell := self findCellAt: self someCellIndex.
-	button := self findCellAt: self someCellIndex byCriteria: [:m | m isButton and: ['*formula*' match: m label]].
+	formulaButton := self findButtonAt: self someCellIndex byLabel: 'formula'.
 	self
 		should: [self
-			should: [button click]
+			should: [formulaButton click]
 			notify: 'get*formula'
 			thenAnswer: ('{1} anObject' format: {self class name})]
 		notify: 'set*formula'
