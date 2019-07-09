@@ -5,5 +5,5 @@ specForFormulaButton: aBuilder
 		label: 'Formula';
 		help: 'Define a getter and a setter for this cell';
 		model: self;
-		action: #changeModel;
+		action: #changeFormula;
 		yourself
