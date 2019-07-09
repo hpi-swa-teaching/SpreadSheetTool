@@ -10,7 +10,9 @@
 		"rowIndex",
 		"columnIndex",
 		"model",
-		"builderSelector" ],
+		"builderSelector",
+		"getter",
+		"setter" ],
 	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],
