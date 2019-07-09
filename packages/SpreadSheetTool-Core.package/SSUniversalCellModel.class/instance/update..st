@@ -1,4 +1,4 @@
-initialize-release
+dependencies
 update: what
 
 	(#(object "contents") includes: what) ifTrue: [

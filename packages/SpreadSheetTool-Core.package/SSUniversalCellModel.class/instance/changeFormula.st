@@ -7,6 +7,7 @@ changeFormula
 	setterFormula := self requestSetter ifEmptyOrNil: [^ self].
 	newSetter := Compiler compile: setterFormula for: nil.
 	
-	self 
+	self
 		getter: newGetter;
 		setter: newSetter.
+	latestObject := nil.
