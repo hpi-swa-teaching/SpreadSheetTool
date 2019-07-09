@@ -5,12 +5,12 @@
 		"parent:sheet:rowIndex:columnIndex:" : "CT 7/2/2019 18:24" },
 	"instance" : {
 		"addClient:" : "AN 7/3/2019 16:11",
-		"buttonExtent" : "CT 7/5/2019 20:37",
+		"buttonHeight" : "JB 7/9/2019 16:22",
 		"changeModel" : "CT 7/5/2019 20:56",
 		"chooseBuilderSelector" : "CT 7/5/2019 20:51",
 		"chooseModel" : "CT 7/5/2019 20:55",
 		"contents" : "CT 7/5/2019 21:19",
-		"createSpecWith:" : "CT 7/7/2019 17:46",
+		"createSpecWith:" : "JB 7/9/2019 16:25",
 		"defaultBuilderSelector" : "CT 7/5/2019 21:00",
 		"hasUnacceptedEdits" : "AN 7/3/2019 18:07",
 		"initializeModel:builderSelector:" : "CT 7/5/2019 20:54",
@@ -21,4 +21,8 @@
 		"removeClient:" : "AN 7/3/2019 16:12",
 		"rowIndex:columnIndex:" : "CT 7/2/2019 18:23",
 		"sheet:" : "CT 7/2/2019 18:23",
+		"specForButtonPanel:" : "JB 7/9/2019 16:32",
+		"specForFormulaButton:" : "JB 7/9/2019 16:00",
+		"specForModel:" : "JB 7/9/2019 16:30",
+		"specForModelButton:" : "JB 7/9/2019 16:00",
 		"value" : "CT 7/2/2019 21:13" } }
