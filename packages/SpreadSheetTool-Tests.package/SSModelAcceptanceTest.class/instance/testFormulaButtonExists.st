@@ -1,5 +1,5 @@
 as yet unclassified
-testFormulaButtonForInspectorModelExists
+testFormulaButtonExists
 
 	| button |
 	button := self findCellAt: self someCellIndex byCriteria: [:m | m isButton and: ['*formula*' match: m label]].
