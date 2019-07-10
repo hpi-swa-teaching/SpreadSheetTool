@@ -2,7 +2,7 @@ toolbuilder
 createSpecWith: aBuilder
 
 	self model ifNil: [self 
-		initializeModel: SSCellModel 
+		initializeModel: SSEvaluatorModel 
 		builderSelector: self defaultBuilderSelector].
 	^ aBuilder pluggablePanelSpec new
 		children: {
