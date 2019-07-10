@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSAboutModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

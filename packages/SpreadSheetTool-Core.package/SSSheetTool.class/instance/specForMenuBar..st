@@ -6,7 +6,8 @@ specForMenuBar: aBuilder
 		self specForSheetManagement: aBuilder.
 		self specForDimensionControl: aBuilder.
 		self specForDistributionControl: aBuilder.
-		self specForFormulaControl: aBuilder }.
+		self specForFormulaControl: aBuilder.
+		self specForHelp: aBuilder }.
 	^ aBuilder pluggablePanelSpec new
 		layout: #horizontal;
 		children: children;
