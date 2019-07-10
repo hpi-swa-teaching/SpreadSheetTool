@@ -10,4 +10,3 @@ changeFormula
 	self
 		getter: newGetter;
 		setter: newSetter.
-	latestObject := nil.

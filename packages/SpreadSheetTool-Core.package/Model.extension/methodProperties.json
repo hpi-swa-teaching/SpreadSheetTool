@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"containingMorphicModels" : "CT 5/10/2019 13:07" } }
+		"addClient:" : "CT 7/10/2019 15:58",
+		"containingMorphicModels" : "CT 5/10/2019 13:07",
+		"removeClient:" : "CT 7/10/2019 15:58" } }

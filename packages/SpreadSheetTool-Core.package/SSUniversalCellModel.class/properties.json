@@ -10,11 +10,11 @@
 		"rowIndex",
 		"columnIndex",
 		"model",
-		"builderSelector",
 		"getter",
 		"setter",
 		"lastUpdated",
-		"latestHash" ],
+		"latestHash",
+		"modelConfig" ],
 	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],

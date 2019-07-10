@@ -1,9 +1,7 @@
 interaction
 changeModel
 
-	| modelClass nextSelector |
+	| modelClass |
 	modelClass := self chooseModel ifNil: [^ self].
-	nextSelector := (modelClass canUnderstand: self defaultBuilderSelector)
-		ifTrue: [self defaultBuilderSelector]
-		ifFalse: [self chooseBuilderSelector ifNil: [^ self]].
-	self initializeModel: modelClass builderSelector: nextSelector.
+	self initializeModel: modelClass withConfig: SSModelConfiguration default.
+	"TODO: ModelConfig irgendwo erstellen!"
