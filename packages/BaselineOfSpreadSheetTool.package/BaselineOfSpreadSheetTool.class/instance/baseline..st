@@ -10,6 +10,7 @@ baseline: spec
 			spec
 				package: 'SpreadSheetTool-Core';
 				package: 'SpreadSheetTool-Tests' with: [spec requires: #('SpreadSheetTool-Core' 'Project12')];
+				package: 'SpreadSheetTool-Examples';
 				yourself.
 			spec
 				group: 'default' with: #('SpreadSheetTool-Core');
