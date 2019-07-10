@@ -1,10 +1,9 @@
 stepping
 stepAt: millisecondClockValue
 
-	| newObject |
+	| newObject newHash|
 	newObject := self getter ifNotNil: [self executeMethod: self getter].
-	latestObject = newObject ifFalse: [
-		self object: newObject.
-		latestObject := newObject].
-	
-	self update: #contents.
+	newHash := newObject hash.
+	latestHash = newObject hash ifFalse: [
+		self withoutObservingDo: [self object: newObject].
+		latestHash := newHash].

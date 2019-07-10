@@ -14,7 +14,7 @@
 		"getter",
 		"setter",
 		"lastUpdated",
-		"latestObject" ],
+		"latestHash" ],
 	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],

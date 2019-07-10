@@ -1,4 +1,4 @@
 accessing
 defaultBuilderSelector
 	
-	^ #createSpecWith:
+	^ #buildWith:
