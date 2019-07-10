@@ -5,4 +5,4 @@ initialize
 	savedSheets := savedSheets ifNil: [Dictionary new].
 	self registerInWorldMenu.
 	
-	TextMorphForEditView initialize.
+	{TextMorphForEditView. SSModelConfiguration} do: #initialize.
