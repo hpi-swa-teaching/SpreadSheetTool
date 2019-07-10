@@ -1,0 +1,15 @@
+{
+	"category" : "SpreadSheetTool-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"color",
+		"morph" ],
+	"name" : "SSColorPickerModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

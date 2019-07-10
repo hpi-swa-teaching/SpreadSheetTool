@@ -1,5 +1,6 @@
 OrderedDictionary {
 	'packages\/SpreadSheetTool-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/SpreadSheetTool-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/BaselineOfSpreadSheetTool.package' : #SquotCypressCodeSerializer
+	'packages\/BaselineOfSpreadSheetTool.package' : #SquotCypressCodeSerializer,
+	'packages\/SpreadSheetTool-Examples.package' : #SquotCypressCodeSerializer
 }
