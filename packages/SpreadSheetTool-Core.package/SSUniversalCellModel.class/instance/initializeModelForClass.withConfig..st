@@ -1,5 +1,5 @@
 initialize-release
-initializeModel: aClass withConfig: aConfig
+initializeModelForClass: aClass withConfig: aConfig
 
 	model ifNotNil: #release.
 	World stopStepping: self.
@@ -16,3 +16,4 @@ initializeModel: aClass withConfig: aConfig
 		arguments: #()
 		stepTime: nil].
 	self changed: #morphs.
+	latestHash := nil.

@@ -1,11 +1,13 @@
 {
 	"category" : "SpreadSheetTool-Core",
 	"classinstvars" : [
-		"default" ],
+		"default",
+		"knownConfigurations" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"modelClass",
 		"constructor",
 		"builderSelector",
 		"contentSetter",

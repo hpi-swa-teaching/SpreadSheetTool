@@ -1,7 +1,8 @@
 interaction
 changeModel
 
-	| modelClass |
+	| modelClass config |
 	modelClass := self chooseModel ifNil: [^ self].
-	self initializeModel: modelClass withConfig: SSModelConfiguration default.
-	"TODO: ModelConfig irgendwo erstellen!"
+	config := SSModelConfiguration lookupForClass: modelClass.
+	config ifNil: [^ self].
+	self initializeModelForClass: modelClass withConfig: config.

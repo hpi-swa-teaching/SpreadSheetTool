@@ -2,6 +2,5 @@ interaction
 chooseModel
 
 	^ UIManager default
-		chooseFrom: self class models
-		values: self class models
+		chooseFromValues: (SSModelConfiguration models storeFirst: self model class)
 		title: 'Change model'

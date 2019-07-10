@@ -1,8 +1,31 @@
 {
 	"class" : {
-		"default" : "CT 7/10/2019 16:37" },
+		"addKnownConfigurations" : "CT 7/10/2019 19:28",
+		"initialize" : "CT 7/10/2019 18:45",
+		"lookupForClass:" : "CT 7/10/2019 18:30",
+		"lookupOrDefaultForClass:" : "CT 7/10/2019 19:02",
+		"models" : "CT 7/10/2019 18:54",
+		"newFor:" : "CT 7/10/2019 18:31",
+		"requestConfigurationFor:" : "CT 7/10/2019 18:30",
+		"reset" : "CT 7/10/2019 18:59" },
 	"instance" : {
 		"builderSelector" : "CT 7/10/2019 16:43",
+		"builderSelector:" : "CT 7/10/2019 17:44",
 		"constructor" : "CT 7/10/2019 16:43",
+		"constructor:" : "CT 7/10/2019 17:45",
 		"contentGetter" : "CT 7/10/2019 16:44",
-		"contentSetter" : "CT 7/10/2019 16:44" } }
+		"contentGetter:" : "CT 7/10/2019 17:45",
+		"contentSetter" : "CT 7/10/2019 16:44",
+		"contentSetter:" : "CT 7/10/2019 17:45",
+		"findPossibleBuilderSelectors" : "CT 7/10/2019 17:58",
+		"findPossibleConstructors" : "CT 7/10/2019 18:35",
+		"findPossibleGetters" : "CT 7/10/2019 17:59",
+		"findPossibleSetters" : "CT 7/10/2019 17:59",
+		"findSelectorsWithNumArgs:" : "CT 7/10/2019 18:27",
+		"modelClass" : "CT 7/10/2019 17:50",
+		"modelClass:" : "CT 7/10/2019 17:50",
+		"requestBuilderSelector" : "CT 7/10/2019 18:54",
+		"requestConfiguration" : "CT 7/10/2019 17:43",
+		"requestConstructor" : "CT 7/10/2019 18:55",
+		"requestContentGetter" : "CT 7/10/2019 18:55",
+		"requestContentSetter" : "CT 7/10/2019 18:56" } }
