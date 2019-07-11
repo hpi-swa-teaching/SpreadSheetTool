@@ -7,6 +7,6 @@ tryEvaluate
 		[self beBusy; evaluate]
 			ensure: [self beReady]]]
 		on: Abort
-		doAndPass: [
+		ensure: [
 			"Manifest possible error message written into morph"
 			self editContents: morph text].
