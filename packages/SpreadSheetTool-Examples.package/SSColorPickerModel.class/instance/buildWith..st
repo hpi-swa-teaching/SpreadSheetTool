@@ -1,7 +1,6 @@
 toolbuilder
 buildWith: aBuilder
 
-	^ morph := NewColorPickerMorph
-		on: self
-		originalColor: self color
-		setColorSelector: #privateColor:
+	^ (morph := NewColorPickerMorph new)
+		setTarget: self originalColor: self color setColorSelector: #privateColor:;
+		yourself
