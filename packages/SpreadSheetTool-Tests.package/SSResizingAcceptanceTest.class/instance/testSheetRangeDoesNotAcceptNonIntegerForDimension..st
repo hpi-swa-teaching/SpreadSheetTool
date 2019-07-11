@@ -1,7 +1,7 @@
 testing
 testSheetRangeDoesNotAcceptNonIntegerForDimension: aDimension
 
-	self fixturesForInvalidDimensionValues do: [:value |
+	self withFixtures: self fixturesForInvalidDimensionValues do: [:value |
 		| oldSheetRange |
 		oldSheetRange := self measureRangeFor: aDimension.
 		self

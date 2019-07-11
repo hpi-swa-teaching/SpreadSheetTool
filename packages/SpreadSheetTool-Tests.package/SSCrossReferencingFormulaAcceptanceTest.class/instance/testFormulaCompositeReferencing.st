@@ -2,7 +2,7 @@ testing
 testFormulaCompositeReferencing
 	"Test for #39 (Simple cross-referencing formulas)"
 
-	self fixturesForCompositeReferencingFormulas do: [:fixture |
+	self withFixtures: self fixturesForCompositeReferencingFormulas do: [:fixture |
 		self
 			shouldFormula: fixture first
 			in: fixture second

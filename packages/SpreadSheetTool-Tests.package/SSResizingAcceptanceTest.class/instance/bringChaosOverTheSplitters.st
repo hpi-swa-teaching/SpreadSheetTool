@@ -1,7 +1,7 @@
 tools
 bringChaosOverTheSplitters
 
-	| horizontalSplitters random verticalSplitters |
+	| horizontalSplitters verticalSplitters |
 	verticalSplitters := self
 		findSplittersByCriteria: #splitsTopAndBottom
 		withPositionDeltaForAdjacentCells: 0 @ self splitterThickness.
@@ -9,10 +9,9 @@ bringChaosOverTheSplitters
 		findSplittersByCriteria: #splitsLeftAndRight
 		withPositionDeltaForAdjacentCells: self splitterThickness @ 0.
 	
-	random := self random.
 	verticalSplitters do: [:splitter |
-		splitter repositionBy: (0 @ ((-30 to: 30) atRandom: random))].
+		splitter repositionBy: (0 @ ((-30 to: 30) atRandom: self random))].
 	horizontalSplitters do: [:splitter |
-		splitter repositionBy: ((-30 to: 30) atRandom: random) @ 0].
+		splitter repositionBy: ((-30 to: 30) atRandom: self random) @ 0].
 	
 	self subject redraw.

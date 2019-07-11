@@ -8,7 +8,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"sheetName",
-		"windowHeap" ],
+		"windowHeap",
+		"random" ],
 	"name" : "SSAcceptanceTest",
 	"pools" : [
 		 ],
