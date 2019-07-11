@@ -3,7 +3,7 @@ object: anObject
 
 	model perform: modelConfig contentSetter with: (
 		modelConfig displaysString
-			ifTrue: [latestHash
-				ifNil: ['']
-				ifNotNil: [anObject asString]]
+			ifTrue: [({latestHash. anObject} allSatisfy: #isNil)
+				ifTrue: ['']
+				ifFalse: [anObject asString]]
 			ifFalse: [anObject]).
