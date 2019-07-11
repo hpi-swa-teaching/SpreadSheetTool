@@ -11,7 +11,8 @@
 		"constructor",
 		"builderSelector",
 		"contentSetter",
-		"contentGetter" ],
+		"contentGetter",
+		"displaysString" ],
 	"name" : "SSModelConfiguration",
 	"pools" : [
 		 ],

@@ -2,6 +2,8 @@ forwarding
 object: anObject
 
 	model perform: modelConfig contentSetter with: (
-		modelConfig contentSetter = #contents:
-			ifTrue: [anObject asString]
+		modelConfig displaysString
+			ifTrue: [latestHash
+				ifNil: ['']
+				ifNotNil: [anObject asString]]
 			ifFalse: [anObject]).

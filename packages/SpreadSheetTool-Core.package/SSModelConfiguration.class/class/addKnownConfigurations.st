@@ -7,4 +7,10 @@ addKnownConfigurations
 			builderSelector: #createSpecWith:;
 			contentGetter: #outputContents;
 			contentSetter: #acceptContents:;
+			displaysString: true;
+			yourself);
+		at: SSEvaluatorModel put: ((self newFor: SSEvaluatorModel)
+			contentGetter: #object;
+			contentSetter: #object:;
+			displaysString: true;
 			yourself).
