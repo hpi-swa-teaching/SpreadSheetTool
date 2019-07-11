@@ -1,8 +1,9 @@
-as yet unclassified
+testing
 testChangeFormula
 
 	| cell formulaButton |
-	cell := self findCellAt: self someCellIndex.
+	self chooseTextModelAt: self someCellIndex.
+	
 	formulaButton := self findButtonAt: self someCellIndex byLabel: 'formula'.
 	self
 		should: [self
@@ -11,10 +12,16 @@ testChangeFormula
 			thenAnswer: ('{1} anObject' format: {self class name})]
 		notify: 'set*formula'
 		thenAnswer: ('[:x | {1} anObject: x]' format: {self class name}).
+	self subject wait.	
+	cell := self findCellAt: self someCellIndex.
 	
 	self class anObject: self someContent.
 	self fullWait.	
 	self assert: self class anObject asString equals: cell read.
 	
-	cell sendKeys: self someOtherContent.
+	cell
+		sendClearTextField;
+		sendKeys: self someOtherContent;
+		sendControlSave.
+	cell wait.
 	self assert: self someOtherContent equals: self class anObject asString.

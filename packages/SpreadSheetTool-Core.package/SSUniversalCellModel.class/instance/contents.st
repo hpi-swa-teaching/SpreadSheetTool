@@ -1,4 +1,4 @@
 forwarding
 contents
 
-	self isThisEverCalled.
+	^ self object asString

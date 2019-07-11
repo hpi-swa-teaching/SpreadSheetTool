@@ -3,8 +3,10 @@
 		"anObject" : "CT 7/9/2019 12:33",
 		"anObject:" : "CT 7/9/2019 12:34" },
 	"instance" : {
+		"chooseTextModelAt:" : "CT 7/10/2019 20:42",
 		"findButtonAt:byLabel:" : "CT 7/10/2019 00:34",
-		"fullWait" : "CT 7/9/2019 12:36",
-		"testChangeFormula" : "CT 7/10/2019 00:36",
+		"fullWait" : "CT 7/10/2019 20:57",
+		"testChangeFormula" : "CT 7/11/2019 08:52",
+		"testChangeModel" : "CT 7/10/2019 20:26",
 		"testChangeModelButtonExists" : "CT 7/10/2019 00:34",
 		"testFormulaButtonExists" : "CT 7/10/2019 00:33" } }
