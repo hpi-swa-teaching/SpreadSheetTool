@@ -1,7 +1,6 @@
 tools
 enter: aValue forDimension: aDimension
 
-	(self findDimensionFieldFor: aDimension)
-		sendClearTextField;
-		sendKeys: aValue asString;
-		sendControlSave.
+	self
+		into: (self findDimensionFieldFor: aDimension)
+		put: aValue asString.
