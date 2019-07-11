@@ -1,9 +1,9 @@
-as yet unclassified
+toolbuilder
 specForIllustration: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		model: self;
 		children: {self
-			specForMorph: CTResourceContainer default squeakLogo asMorph
+			specForMorph: (self squeakLogo scaledIntoFormOfSize: self illustrationWidth asPoint) asMorph
 			with: aBuilder};
 		yourself

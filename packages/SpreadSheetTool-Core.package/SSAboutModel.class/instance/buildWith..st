@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWith: aBuilder
 
 	| windowSpec |
@@ -8,9 +8,13 @@ buildWith: aBuilder
 			frame: 0 @ 0 extent: 1 @ (1 / 4);
 			yourself);
 		add: ((self specForInfoBox: aBuilder)
-			frame: 0 @ (1 / 4) extent: 3 @ 3 / 4;
+			frame: (LayoutFrame
+				fractions: (0 @ (1 / 4) extent: 4 @ 3 / 4)
+				offsets: (0 @ 0 extent: self illustrationWidth negated @ 1));
 			yourself);
 		add: ((self specForIllustration: aBuilder)
-			frame: 3 @ 1 / 4 extent: 1 @ 3 / 4;
+			frame: (LayoutFrame
+				fractions: (4 @ 1 / 4 corner: 1 @ 1)
+				offsets: (self illustrationWidth negated @ 0 extent:  1 @ 1));
 			yourself).
 	^ aBuilder build: windowSpec

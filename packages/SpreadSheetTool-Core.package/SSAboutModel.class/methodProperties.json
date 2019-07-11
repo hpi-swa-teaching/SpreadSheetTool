@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applicationName" : "CT 7/9/2019 15:09",
-		"buildWith:" : "CT 7/9/2019 15:10",
+		"applicationName" : "CT 7/11/2019 09:20",
+		"buildWith:" : "CT 7/11/2019 09:00",
 		"defaultExtent" : "CT 7/9/2019 11:31",
-		"infoText" : "CT 7/9/2019 09:55",
+		"illustrationWidth" : "CT 7/11/2019 08:59",
+		"infoText" : "CT 7/11/2019 09:08",
 		"open" : "CT 7/9/2019 09:41",
-		"specForHeader:" : "CT 7/9/2019 15:09",
-		"specForIllustration:" : "CT 7/9/2019 15:17",
-		"specForInfoBox:" : "CT 7/9/2019 09:54",
+		"specForHeader:" : "CT 7/11/2019 09:08",
+		"specForIllustration:" : "CT 7/11/2019 09:03",
+		"specForInfoBox:" : "CT 7/11/2019 09:08",
 		"specForMorph:with:" : "CT 7/9/2019 09:49",
+		"squeakLogo" : "CT 7/11/2019 09:03",
 		"windowTitle" : "CT 7/9/2019 15:07" } }

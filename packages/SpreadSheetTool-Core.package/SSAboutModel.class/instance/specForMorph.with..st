@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 specForMorph: aMorph with: aBuilder
 
 	self flag: #todo. "Duplication!"

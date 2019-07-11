@@ -1,4 +1,4 @@
-as yet unclassified
+contents
 applicationName
 
 	^ SSSheetTool applicationName asText
