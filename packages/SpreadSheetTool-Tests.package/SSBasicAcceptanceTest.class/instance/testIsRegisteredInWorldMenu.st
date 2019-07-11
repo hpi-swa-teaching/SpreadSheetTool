@@ -8,5 +8,5 @@ testIsRegisteredInWorldMenu
 			anEntry first = 'SqueakSheet']
 		ifNone: [self fail: 'SqueakSheet button not found']) second.
 	
-	self assertWindowOpensWhile: [
+	self assertToolWindowOpensWhile: [
 		menuEntry first perform: menuEntry second].
