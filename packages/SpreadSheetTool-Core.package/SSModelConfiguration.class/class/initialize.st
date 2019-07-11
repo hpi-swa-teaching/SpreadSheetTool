@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	knownConfigurations ifNil: [knownConfigurations := Dictionary new].
-	self addKnownConfigurations.
+	self addDefaultConfigurations.

@@ -7,6 +7,7 @@ specForButtonPanel: aBuilder
 			offsets: (0 @ 0 corner: 0 @ self buttonHeight));
 		children: {
 			self specForFormulaButton: aBuilder.
+			self specForConfigurationButton: aBuilder.
 			self specForModelButton: aBuilder. };
 		layout: #horizontal;
 		yourself
