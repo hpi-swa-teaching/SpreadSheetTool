@@ -1,4 +1,4 @@
 as yet unclassified
 illustrationWidth
 
-	^ 200
+	^ 128

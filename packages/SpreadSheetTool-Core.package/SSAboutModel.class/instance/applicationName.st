@@ -1,7 +1,7 @@
 contents
 applicationName
 
-	^ SSSheetTool applicationName asText
+	^ 'The Ultimative SqueakSheet!' asText
 		allBold;
 		addAttribute: TextAlignment centered;
 		yourself

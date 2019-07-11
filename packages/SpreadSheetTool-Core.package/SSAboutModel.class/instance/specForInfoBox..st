@@ -4,6 +4,6 @@ specForInfoBox: aBuilder
 	^ aBuilder pluggableTextSpec new
 		model: self;
 		getText: #infoText;
-		readOnly: true;
+		setText: #easterEgg:;
 		indicateUnacceptedChanges: false;
 		yourself
