@@ -11,7 +11,8 @@ findWindowsOpenedWhile: anActionBlock of: aWindowCollector
 		newWindows := aWindowCollector value
 			copyWithoutAll: allWindows]
 		ensure: ["Cleanup"
-			newWindows ifNotNil: [newWindows do: #hide].
-			windowHeap addAll: newWindows].
+			newWindows ifNotNil: [
+				newWindows do: #hide.
+				windowHeap addAll: newWindows]].
 	
 	^ self subject createWrapperFor: newWindows
