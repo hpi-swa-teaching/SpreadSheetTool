@@ -2,6 +2,6 @@ evaluation
 evaluate
 
 	self clearServers.
-	self cell evaluateSynchronizing: [
+	self cell evaluateNotifying: morph synchronizing: [
 		self parent autoEvaluateActivated ifTrue: [
 			clients do: #serverChanged]].

@@ -1,10 +1,10 @@
 evaluation
-evaluateSynchronizing: aBlock
+evaluateNotifying: aRequestor synchronizing: aBlock
 
 	| oldValue |
 	oldValue := value.
 	[value := self isFormula
-		ifTrue: [self evaluateFormula]
+		ifTrue: [self evaluateFormulaNotifying: aRequestor]
 		ifFalse: [self rawValue].
 	aBlock value]
 		onInterruptEnsure: [value := oldValue].

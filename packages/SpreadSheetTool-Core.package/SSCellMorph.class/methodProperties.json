@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptContents:" : "CT 7/3/2019 20:36",
-		"acceptTextInModel" : "CT 7/3/2019 20:36",
+		"acceptContents:" : "CT 7/11/2019 17:18",
+		"acceptTextInModel" : "CT 7/11/2019 17:17",
 		"basicHasEditFocus:" : "CT 7/3/2019 23:58",
 		"beBusy" : "CT 7/2/2019 16:43",
 		"beBusyWhile:" : "CT 7/3/2019 20:13",
@@ -16,6 +16,7 @@
 		"initialize" : "CT 7/2/2019 20:25",
 		"isEditing" : "CT 7/2/2019 16:56",
 		"keyboardFocusChange:" : "CT 7/3/2019 20:17",
+		"notify:at:in:" : "CT 7/11/2019 17:15",
 		"on:text:edit:accept:output:" : "CT 7/3/2019 22:39",
 		"refreshText" : "AN 7/3/2019 18:47",
 		"textEdited:" : "CT 7/3/2019 22:43" } }
