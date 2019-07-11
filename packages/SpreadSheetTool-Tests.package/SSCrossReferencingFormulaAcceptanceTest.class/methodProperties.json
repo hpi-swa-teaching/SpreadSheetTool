@@ -9,7 +9,6 @@
 		"fixturesForCompositeReferencingShorthandFormulas" : "CT 7/11/2019 11:44",
 		"rowCount" : "GT 6/17/2019 17:37",
 		"setUp" : "CT 7/11/2019 12:04",
-		"shouldFormula:in:evaluateTo:" : "CT 7/11/2019 11:26",
 		"shouldFormula:in:openDebuggerNotifying:" : "CT 6/18/2019 12:19",
 		"testFormulaAbove" : "GT 6/17/2019 19:51",
 		"testFormulaAboveByNegative" : "GT 6/17/2019 19:51",
@@ -44,5 +43,4 @@
 		"testFormulaRightBySelfReference" : "CT 6/18/2019 12:21",
 		"testFormulaRowHeader" : "GT 6/17/2019 19:53",
 		"testFormulaRowHeaderAtPositive" : "CT 7/11/2019 12:07",
-		"testFormulaRowHeaderAtZero" : "CT 7/11/2019 12:09",
-		"testValueReturnsLatestValue" : "CT 7/11/2019 12:15" } }
+		"testFormulaRowHeaderAtZero" : "CT 7/11/2019 12:09" } }
