@@ -1,5 +1,4 @@
-as yet unclassified
+accessing
 color: aColor
 
-	color := aColor.
-	self changed: #object.
+	morph selectedColor: aColor.
