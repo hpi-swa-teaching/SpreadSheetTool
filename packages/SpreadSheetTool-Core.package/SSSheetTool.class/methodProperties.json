@@ -14,7 +14,9 @@
 		"rowCount:columnCount:object:" : "CT 7/10/2019 16:55",
 		"saveSheet:as:" : "CT 6/13/2019 10:16",
 		"savedSheets" : "CT 6/13/2019 10:10",
-		"unregisterFromWorldMenu" : "CT 6/7/2019 13:37" },
+		"unregisterFromWorldMenu" : "CT 6/7/2019 13:37",
+		"useInlineSyntaxErrors" : "CT 7/11/2019 18:18",
+		"useInlineSyntaxErrors:" : "CT 7/11/2019 18:18" },
 	"instance" : {
 		"align:inColumns:" : "CT 6/6/2019 09:58",
 		"autoEvaluateActivated" : "AN 6/26/2019 15:50",

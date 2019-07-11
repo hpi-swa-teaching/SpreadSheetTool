@@ -1,7 +1,8 @@
 {
 	"category" : "SpreadSheetTool-Core",
 	"classinstvars" : [
-		"savedSheets" ],
+		"savedSheets",
+		"useInlineSyntaxErrors" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
