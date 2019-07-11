@@ -5,4 +5,4 @@ testFormulaColumnHeaderAtZero
 	self
 		shouldFormula: '^ self columnHeaderAt: 0'
 		in: 3 @ 3
-		openDebuggerNotifying: 'invalid'
+		openDebuggerNotifying: 'index'

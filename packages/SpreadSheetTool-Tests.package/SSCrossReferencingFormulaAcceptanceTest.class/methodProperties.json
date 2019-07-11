@@ -19,7 +19,7 @@
 		"testFormulaAtColumnAtRowPositiveZero" : "CT 7/11/2019 12:11",
 		"testFormulaAtColumnAtRowSelfReference" : "CT 6/18/2019 12:21",
 		"testFormulaAtColumnAtRowZeroPositive" : "CT 7/11/2019 12:11",
-		"testFormulaAtColumnAtRowZeroZero" : "CT 7/11/2019 12:12",
+		"testFormulaAtColumnAtRowZeroZero" : "CT 7/11/2019 13:15",
 		"testFormulaAtRowAtColumn" : "GT 6/17/2019 19:52",
 		"testFormulaAtRowAtColumnSelfReference" : "CT 6/18/2019 12:21",
 		"testFormulaAtSelfReference" : "CT 6/18/2019 12:21",
@@ -29,7 +29,7 @@
 		"testFormulaBelowBySelfReference" : "CT 6/18/2019 12:21",
 		"testFormulaColumnHeader" : "GT 6/17/2019 19:52",
 		"testFormulaColumnHeaderAtPositive" : "CT 7/11/2019 12:10",
-		"testFormulaColumnHeaderAtZero" : "CT 7/11/2019 12:09",
+		"testFormulaColumnHeaderAtZero" : "CT 7/11/2019 13:20",
 		"testFormulaCompositeReferencing" : "CT 7/11/2019 11:59",
 		"testFormulaCompositeReferencingShorthands" : "CT 7/11/2019 12:02",
 		"testFormulaCompositeSelfReferences" : "CT 7/11/2019 12:03",
@@ -43,4 +43,4 @@
 		"testFormulaRightBySelfReference" : "CT 6/18/2019 12:21",
 		"testFormulaRowHeader" : "GT 6/17/2019 19:53",
 		"testFormulaRowHeaderAtPositive" : "CT 7/11/2019 12:07",
-		"testFormulaRowHeaderAtZero" : "CT 7/11/2019 12:09" } }
+		"testFormulaRowHeaderAtZero" : "CT 7/11/2019 13:19" } }
