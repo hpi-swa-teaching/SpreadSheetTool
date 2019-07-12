@@ -1,4 +1,4 @@
-accessing
+toolbuilder-constants
 minimumExtent
 
 	^ (0 @ self menuHeight)

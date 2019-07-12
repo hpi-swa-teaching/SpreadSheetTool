@@ -1,4 +1,4 @@
-as yet unclassified
+widgets required
 buildPluggableWindow: aSpec
 
 	^ self buildPluggablePanel: aSpec

@@ -1,5 +1,5 @@
 toolbuilder
-morphs
+buildModel
 
 	| builder view frame |
 	builder := SSToolBuilder new.

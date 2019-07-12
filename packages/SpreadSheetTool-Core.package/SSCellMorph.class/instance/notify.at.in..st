@@ -1,4 +1,4 @@
-as yet unclassified
+display
 notify: aString at: anInteger in: aStream
 
 	self readOnly: false.

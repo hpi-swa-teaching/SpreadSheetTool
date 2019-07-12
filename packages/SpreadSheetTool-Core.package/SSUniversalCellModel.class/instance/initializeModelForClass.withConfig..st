@@ -15,5 +15,5 @@ initializeModelForClass: aClass withConfig: aConfig
 		selector: #stepModelAt:
 		arguments: #()
 		stepTime: nil].
-	self changed: #morphs.
+	self changed: #buildModel.
 	latestHash := nil.

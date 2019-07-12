@@ -1,4 +1,4 @@
-toolbuilder
+toolbuilder-constants
 defaultWindowColor
 
 	"light hpi yellow"

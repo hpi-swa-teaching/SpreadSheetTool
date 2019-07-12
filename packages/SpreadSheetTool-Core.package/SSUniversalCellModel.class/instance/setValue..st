@@ -1,4 +1,4 @@
-?
+formula evaluation
 setValue: anObject
 
 	| objectToSet |
