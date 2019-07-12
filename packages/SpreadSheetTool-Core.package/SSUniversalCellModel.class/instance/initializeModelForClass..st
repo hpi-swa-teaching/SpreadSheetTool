@@ -3,4 +3,4 @@ initializeModelForClass: aClass
 
 	self
 		initializeModelForClass: aClass
-		withConfig: (SSModelConfiguration lookupOrDefaultForClass: aClass).
+		withConfig: (SSModelConfiguration lookupOrDefault: aClass).

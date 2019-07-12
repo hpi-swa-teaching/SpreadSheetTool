@@ -1,5 +1,5 @@
 instances
-lookupOrDefaultForClass: aClass 
+lookupOrDefault: aClass 
 
 	^ knownConfigurations
 		at: aClass
