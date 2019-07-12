@@ -5,5 +5,5 @@ evaluate
 	self cell
 		evaluateNotifying: (SSSheetTool useInlineSyntaxErrors ifTrue: morph)
 		synchronizing: [
-		self parent autoEvaluateActivated ifTrue: [
-			clients do: #serverChanged]].
+			self parent autoEvaluateActivated ifTrue: [
+				clients do: #serverChanged]].
