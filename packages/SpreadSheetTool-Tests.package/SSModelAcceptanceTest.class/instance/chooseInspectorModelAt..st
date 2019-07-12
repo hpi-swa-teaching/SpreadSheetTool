@@ -2,7 +2,7 @@ tools
 chooseInspectorModelAt: aPoint
 
 	| button |
-	button := self findButtonAt: self someCellIndex byLabel: 'model'.
+	button := self findModelButtonAt: aPoint.
 	[self
 		should: [button click]
 		notify: 'model'

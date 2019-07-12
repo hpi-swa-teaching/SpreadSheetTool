@@ -3,13 +3,15 @@
 		"anObject" : "CT 7/9/2019 12:33",
 		"anObject:" : "CT 7/9/2019 12:34" },
 	"instance" : {
-		"chooseInspectorModelAt:" : "CT 7/12/2019 17:04",
-		"chooseTextModelAt:" : "CT 7/12/2019 17:03",
+		"chooseInspectorModelAt:" : "CT 7/12/2019 20:39",
+		"chooseTextModelAt:" : "CT 7/12/2019 20:39",
 		"findButtonAt:byLabel:" : "CT 7/10/2019 00:34",
+		"findModelButtonAt:" : "CT 7/12/2019 20:39",
 		"fullWait" : "CT 7/10/2019 20:57",
-		"setFormulaAt:getter:setter:" : "CT 7/11/2019 11:03",
-		"testChangeConfiguration" : "CT 7/12/2019 14:59",
+		"setFormulaAt:getter:setter:" : "CT 7/12/2019 21:28",
+		"testChangeConfiguration" : "CT 7/12/2019 21:04",
 		"testChangeFormula" : "CT 7/11/2019 11:22",
 		"testChangeModel" : "CT 7/11/2019 21:36",
 		"testChangeModelButtonExists" : "CT 7/10/2019 00:34",
-		"testFormulaButtonExists" : "CT 7/10/2019 00:33" } }
+		"testFormulaButtonExists" : "CT 7/10/2019 00:33",
+		"while:giveInterview:" : "CT 7/12/2019 20:47" } }

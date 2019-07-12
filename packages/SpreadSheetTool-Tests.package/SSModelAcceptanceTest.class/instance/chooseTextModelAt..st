@@ -2,7 +2,7 @@ tools
 chooseTextModelAt: aPoint
 
 	| button |
-	button := self findButtonAt: aPoint byLabel: 'model'.
+	button := self findModelButtonAt: aPoint.
 	[self
 		should: [button click]
 		notify: 'model'

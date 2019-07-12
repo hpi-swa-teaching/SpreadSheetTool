@@ -10,6 +10,6 @@ findSplittersByCriteria: aBlock withPositionDeltaForAdjacentCells: aPoint
 			   self subject
 				findByPosition: splitter position + aPoint
 				andCriteria: [:m | m isTextView] }
-			allSatisfy: [:m | m morphs notEmpty and: [
+			allSatisfy: [:m | m isPositive and: [
 					m model isKindOf: SSCellModel orOf: SSHeaderModel]]]])
 		morphs
