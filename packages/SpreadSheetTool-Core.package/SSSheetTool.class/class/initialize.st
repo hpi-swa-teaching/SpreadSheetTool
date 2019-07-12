@@ -5,4 +5,5 @@ initialize
 	savedSheets := savedSheets ifNil: [Dictionary new].
 	self registerInWorldMenu.
 	
-	{TextMorphForEditView. SSModelConfiguration} do: #initialize.
+	{SSModelConfiguration. SmalltalkEditor. TextMorphForEditView}
+		do: #initialize.
