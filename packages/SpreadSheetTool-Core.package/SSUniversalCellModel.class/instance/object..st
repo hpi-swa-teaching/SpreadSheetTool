@@ -3,11 +3,11 @@ object: anObject
 
 	| objectToSet |
 	objectToSet := anObject.
-	objectToSet ifNil: [
-		modelConfig understandsNil ifFalse: [^ self].
-		modelConfig displaysString ifTrue: [
-			objectToSet := latestHash
-				ifNil: ['']
-				ifNotNil: [anObject asString]]].
+	(objectToSet isNil and: [modelConfig understandsNil not])
+		ifTrue: [^ self].
+	modelConfig displaysString ifTrue: [
+		objectToSet := (objectToSet isNil and: [latestHash isNil])
+			ifTrue: ['']
+			ifFalse: [objectToSet asString]].
 	model perform: modelConfig contentSetter with: (
 		objectToSet).
