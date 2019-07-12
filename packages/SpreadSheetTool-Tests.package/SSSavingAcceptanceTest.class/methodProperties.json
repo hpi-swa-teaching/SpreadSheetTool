@@ -35,6 +35,7 @@
 		"testOverwriteSheetMustBeConfirmedAndCanBeCancelled" : "CT 6/13/2019 10:07",
 		"testSaveAndLoadSheetInImage" : "CT 6/6/2019 00:07",
 		"testSaveSheetInImageButton" : "CT 6/5/2019 18:35",
+		"testVirginToolCloses" : "CT 7/12/2019 19:38",
 		"testWindowWithCellThatHasContentCannotBeClosed" : "CT 6/13/2019 08:54",
 		"testWindowWithDimensionFieldThatHasUnacceptedChangesCannotBeClosed" : "CT 6/13/2019 08:54",
 		"testWindowWithDimensionFieldThatWasChangedCannotBeClosed" : "CT 6/13/2019 08:55",
