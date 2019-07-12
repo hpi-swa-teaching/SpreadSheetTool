@@ -11,5 +11,6 @@ chooseInspectorModelAt: aPoint
 				{ '.*constructor.*'. 'new' }.
 				{ '.*build.*'. 'buildWith:' }.
 				{ '.*getter.*'. 'object' }.
-				{ '.*setter.*'. 'object:' }
+				{ '.*setter.*'. 'object:' }.
+				{ '.*set.*default.*'. false }
 			}.

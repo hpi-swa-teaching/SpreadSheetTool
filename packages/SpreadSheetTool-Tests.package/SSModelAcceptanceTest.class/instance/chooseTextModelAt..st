@@ -7,4 +7,6 @@ chooseTextModelAt: aPoint
 		should: [button click]
 		notify: 'model'
 		thenAnswer: SSTextModel asString	]
-			valueSupplyingAnswers: {{ '*'. 1 }}.
+			valueSupplyingAnswers: {
+				{ '.*set.*default.*'. false }.
+				{ '*'. 1 } }.

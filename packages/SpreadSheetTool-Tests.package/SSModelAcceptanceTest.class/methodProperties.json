@@ -3,8 +3,8 @@
 		"anObject" : "CT 7/9/2019 12:33",
 		"anObject:" : "CT 7/9/2019 12:34" },
 	"instance" : {
-		"chooseInspectorModelAt:" : "CT 7/11/2019 21:36",
-		"chooseTextModelAt:" : "CT 7/10/2019 20:42",
+		"chooseInspectorModelAt:" : "CT 7/12/2019 17:04",
+		"chooseTextModelAt:" : "CT 7/12/2019 17:03",
 		"findButtonAt:byLabel:" : "CT 7/10/2019 00:34",
 		"fullWait" : "CT 7/10/2019 20:57",
 		"setFormulaAt:getter:setter:" : "CT 7/11/2019 11:03",
