@@ -6,7 +6,7 @@ specForIllustration: aBuilder
 		children: {self
 			specForMorph: (self squeakLogo
 				scaledIntoFormOfSize: self illustrationWidth asPoint
-					* 5 / 3 "For the special overhanging effect. Squeak is just too wonderful to fit in any regular bounds!")
-					asMorph
+					* 5 / 3 "For the special overhanging effect. Squeak is just too wonderful to fit in any regular bounds!
+					(literally 'herausragend)") asMorph
 			with: aBuilder};
 		yourself
