@@ -1,4 +1,4 @@
 stepping
 wantsSteps
 
-	^ true
+	^ steppingActivated

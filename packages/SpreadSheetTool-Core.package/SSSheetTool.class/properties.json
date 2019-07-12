@@ -11,7 +11,8 @@
 		"hasUnsavedChanges",
 		"cellMorphs",
 		"oldCellMorphs",
-		"object" ],
+		"object",
+		"steppingActivated" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],

@@ -7,5 +7,6 @@ specForFormulaControl: aBuilder
 		children: OrderedCollection new;
 		yourself.
 	spec children
-		add: (self specForAutoEvaluationButton: aBuilder).
+		add: (self specForAutoEvaluationButton: aBuilder);
+		add: (self specForSteppingButton: aBuilder).
 	^ spec
