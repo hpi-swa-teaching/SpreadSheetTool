@@ -6,4 +6,4 @@ shouldShowAutocompletion: aMorph
 		aMorph
 			sendKeys: ' Obje';
 			wait].
-	self assert: completions hasSingle.
+	self assert: completions isPositive.

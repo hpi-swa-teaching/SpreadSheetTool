@@ -4,9 +4,9 @@
 	"instance" : {
 		"autocompletionClasses" : "CT 6/28/2019 17:18",
 		"findAllAutocompletions" : "CT 6/28/2019 17:51",
-		"findAutocompletionsOpenedWhile:" : "CT 6/28/2019 16:34",
-		"shouldShowAutocompletion:" : "CT 6/28/2019 16:52",
-		"shouldntShowAutocompletion:" : "CT 6/28/2019 16:51",
+		"findAutocompletionsOpenedWhile:" : "CT 7/13/2019 15:38",
+		"shouldShowAutocompletion:" : "CT 7/13/2019 16:05",
+		"shouldntShowAutocompletion:" : "CT 7/13/2019 16:05",
 		"someFormulaWithRuntimeError" : "GT 6/17/2019 19:41",
 		"someFormulaWithSyntaxError" : "GT 6/17/2019 19:31",
 		"testEditedFormulaCellHasAutocompletion" : "CT 6/28/2019 16:52",

@@ -6,4 +6,4 @@ setFormulaAt: aPoint getter: aGetter setter: aSetter
 	self while: [formulaButton click] giveInterview: {
 		'get*formula' -> aGetter.
 		'set*formula' -> aSetter }.
-	self subject wait.
+	self fullWait.

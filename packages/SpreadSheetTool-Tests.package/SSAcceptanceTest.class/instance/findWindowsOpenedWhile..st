@@ -1,5 +1,5 @@
 tools
 findWindowsOpenedWhile: anActionBlock
 	
-	^ self findWindowsOpenedWhile: anActionBlock of: [
+	^ self findWindowsOpenedWhile: anActionBlock from: [
 		PluggableSystemWindow allSubInstances select: #isInWorld]

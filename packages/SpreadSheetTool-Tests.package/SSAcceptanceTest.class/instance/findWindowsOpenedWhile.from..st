@@ -1,5 +1,5 @@
 tools
-findWindowsOpenedWhile: anActionBlock of: aWindowCollector
+findWindowsOpenedWhile: anActionBlock from: aWindowCollector
 	"We cannot use MTF here as we want to test the opening procedure itself"
 
 	| allWindows newWindows|
