@@ -1,4 +1,4 @@
 toolbuilder
 minimumWindowExtent
 
-	^ 165 @ 190
+	^ 332 @ 190

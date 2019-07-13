@@ -10,10 +10,10 @@ buildWith: aBuilder
 		(LayoutFrame
 			fractions: (0 @ 0 corner: 1 @ 1)
 			offsets: (0 @ self headerHeight corner: self illustrationWidth negated @ 1))
-				-> [self specForInfoBox: aBuilder].
+				-> [self specForMainPanel: aBuilder].
 		(LayoutFrame
 			fractions: (1 @ 0 corner: 1 @ 1)
-			offsets: (self illustrationWidth negated @ (self headerHeight * 2) extent: 1 @ 1))
+			offsets: (self illustrationWidth negated @ (self headerHeight * 1.5) corner: 1 @ 1))
 				-> [self specForIllustration: aBuilder] }.
 	windowSpec minimumExtent: self minimumWindowExtent.
 	^ aBuilder build: windowSpec

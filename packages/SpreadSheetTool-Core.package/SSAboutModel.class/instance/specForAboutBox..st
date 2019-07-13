@@ -1,9 +1,9 @@
 toolbuilder
-specForInfoBox: aBuilder
+specForAboutBox: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		getText: #infoText;
+		getText: #aboutText;
 		setText: #easterEgg:;
 		indicateUnacceptedChanges: false;
 		yourself

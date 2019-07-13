@@ -1,5 +1,5 @@
 contents
-infoText
+aboutText
 
 	^
 'Development of this project was started in context of Software Engineering course at Hasso Plattner Institute, Potsdam, in summer term 2019.
