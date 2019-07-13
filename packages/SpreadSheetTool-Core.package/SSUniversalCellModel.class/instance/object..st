@@ -9,5 +9,4 @@ object: anObject
 		(objectToSet isNil and: [latestHash isNil])
 			ifTrue: [^ self].
 		objectToSet := objectToSet asString].
-	model perform: modelConfig contentSetter with: (
-		objectToSet).
+	model perform: modelConfig contentSetter with: objectToSet.
