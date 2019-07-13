@@ -10,3 +10,4 @@ chooseTextModelAt: aPoint
 			valueSupplyingAnswers: {
 				{ '.*set.*default.*'. false }.
 				{ '*'. 1 } }.
+	self subject redraw.
