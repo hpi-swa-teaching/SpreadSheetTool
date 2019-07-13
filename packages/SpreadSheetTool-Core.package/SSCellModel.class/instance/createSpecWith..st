@@ -6,7 +6,8 @@ createSpecWith: aBuilder
 			text: #contents
 			edit: #editContents:
 			accept: #acceptContents:
-			output: #outputContents;
+			output: #outputContents
+			menu: #codePaneMenu:shifted:;
 		minimumExtent: self parent minimumCellExtent;
 		refreshText;
 		yourself
