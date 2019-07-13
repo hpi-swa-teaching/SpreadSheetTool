@@ -1,4 +1,4 @@
 toolbuilder-constants
-defaultExtent
+initialExtent
 
 	^ 700 @ 500
