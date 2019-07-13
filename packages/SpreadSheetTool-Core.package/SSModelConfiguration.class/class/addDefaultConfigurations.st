@@ -5,7 +5,7 @@ addDefaultConfigurations
 		addKnownConfiguration: ((self newFor: SSCellModel)
 			constructor: #parent:sheet:rowIndex:columnIndex:;
 			builderSelector: #createSpecWith:;
-			contentGetter: #outputContents;
+			contentGetter: #value;
 			contentSetter: #acceptContents:;
 			displaysString: true;
 			yourself);
