@@ -12,5 +12,5 @@ addDefaultConfigurations
 		addKnownConfiguration: ((self newFor: SSEvaluatorModel)
 			contentGetter: #object;
 			contentSetter: #object:;
-			displaysString: true;
+			understandsNil: false;
 			yourself).

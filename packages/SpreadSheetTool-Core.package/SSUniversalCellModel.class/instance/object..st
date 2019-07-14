@@ -3,7 +3,7 @@ object: anObject
 
 	| objectToSet |
 	objectToSet := anObject.
-	(objectToSet isNil and: [modelConfig understandsNil not])
+	(modelConfig understandsNil not and: [objectToSet isNil] and: [latestHash isNil])
 		ifTrue: [^ self].
 	modelConfig displaysString ifTrue: [
 		(objectToSet isNil and: [latestHash isNil])
