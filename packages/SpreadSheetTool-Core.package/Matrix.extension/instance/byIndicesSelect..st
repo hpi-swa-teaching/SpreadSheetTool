@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core
+*SpreadSheetTool-Core-enumerating
 byIndicesSelect: aBlock
 
 	| selected |
