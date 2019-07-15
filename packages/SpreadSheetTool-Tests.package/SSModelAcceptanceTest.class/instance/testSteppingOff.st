@@ -1,19 +1,4 @@
 testing
 testSteppingOff
 
-	| cell newContent oldContent |
-	(self subject findByLabelFilter: 'Stepping*')
-		assureOff.
-	
-	self chooseTextModelAt: self someCellIndex.
-	self
-		setFormulaAt: self someCellIndex
-		getter: 'Time current'
-		setter: self someSetterFormula.
-	cell := self findCellAt: self someCellIndex.
-	
-	oldContent := cell read.
-	1 second wait.
-	World doOneCycleNow.
-	newContent := cell read.
-	self assert: oldContent equals: newContent.
+	^ self testSteppingActivated: false

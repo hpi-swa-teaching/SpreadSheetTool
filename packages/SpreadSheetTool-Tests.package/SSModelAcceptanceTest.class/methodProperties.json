@@ -12,6 +12,7 @@
 		"testChangeModelButtonExists" : "CT 7/10/2019 00:34",
 		"testFormulaButtonExists" : "CT 7/10/2019 00:33",
 		"testRecursiveToolWithMenuBar" : "CT 7/15/2019 11:54",
+		"testSteppingActivated:" : "CT 7/15/2019 13:24",
 		"testSteppingButtonExists" : "CT 7/15/2019 12:09",
-		"testSteppingOff" : "CT 7/15/2019 12:14",
-		"testSteppingOn" : "CT 7/15/2019 12:11" } }
+		"testSteppingOff" : "CT 7/15/2019 13:25",
+		"testSteppingOn" : "CT 7/15/2019 13:25" } }
