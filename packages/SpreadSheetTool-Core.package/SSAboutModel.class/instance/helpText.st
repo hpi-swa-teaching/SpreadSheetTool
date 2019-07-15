@@ -2,7 +2,7 @@ contents
 helpText
 
 	^
-'You can enter true Smalltalk formulae into any cell. For specifying cross-references between cells, you can use expressions like:
+'You can enter true Smalltalk formulae into any cell. For specifying cross-references between cells, you can use expressions such as:
 
 - self left
 - self rowHeaderAt: 3
