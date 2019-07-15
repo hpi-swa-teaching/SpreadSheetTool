@@ -1,6 +1,4 @@
 tools
 findHeaderFor: dimension at: anIndex
 
-	^ self subject createWrapperFor:
-		((self findHeadersFor: dimension)
-			at: anIndex)
+	^self findHeaderFor: dimension at: anIndex in: self subject
