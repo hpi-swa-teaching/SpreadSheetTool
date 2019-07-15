@@ -4,6 +4,7 @@
 	"instance" : {
 		"deleteSheetByName:" : "CT 6/13/2019 08:50",
 		"deleteSheetLabel" : "AN 6/5/2019 15:02",
+		"expectedFailures" : "CT 7/15/2019 18:00",
 		"generateSheetName:" : "CT 6/19/2019 20:14",
 		"openSheetByName:" : "CT 7/11/2019 17:38",
 		"openSheetLabel" : "AN 6/5/2019 15:02",
@@ -17,7 +18,7 @@
 		"tearDown" : "CT 6/6/2019 00:20",
 		"testCellAutoSavesNonFormulaValue" : "JB 6/10/2019 16:39",
 		"testCellAutoSavesNonFormulaValueAfterBackspace" : "CT 6/12/2019 15:55",
-		"testCellAutoSavesNonFormulaValueAfterPrintIt" : "CT 7/4/2019 13:41",
+		"testCellAutoSavesNonFormulaValueAfterPrintIt" : "CT 7/15/2019 17:56",
 		"testCellDoesNotAutoSaveOrEvaluateFormulaValue" : "CT 6/19/2019 19:59",
 		"testCellKeepsDisplayingUnacceptedFormulaWhenLoosingFocus" : "CT 6/19/2019 19:57",
 		"testChangesAfterReopenDoNotAffectSavedSheet" : "CT 6/6/2019 00:04",
