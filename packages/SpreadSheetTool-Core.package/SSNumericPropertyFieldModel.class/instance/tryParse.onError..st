@@ -6,4 +6,4 @@ tryParse: aString onError: aBlock
 		do: [UIManager default
 				inform: 'You must enter a valid number.'
 				title: 'Invalid number'.
-			aBlock]
+			aBlock value]
