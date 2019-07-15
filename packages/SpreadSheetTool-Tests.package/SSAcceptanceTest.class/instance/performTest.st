@@ -2,9 +2,8 @@ running
 performTest
 
 	Preferences
-		setFlags: { #openToolsAttachedToMouseCursor -> false. }
+		setFlag: #openToolsAttachedToMouseCursor
+		toValue: false
 		during: [
-			SSSheetTool useInlineSyntaxErrors in: [:previous |
-				SSSheetTool useInlineSyntaxErrors: false.
-				[^ super performTest]
-					ensure: [SSSheetTool useInlineSyntaxErrors: previous]]].
+			self setUseInlineSyntaxErrorsTo: false during: [
+				^ super performTest]].
