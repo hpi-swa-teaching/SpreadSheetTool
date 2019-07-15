@@ -2,5 +2,5 @@ testing
 testFormulaButtonExists
 
 	| button |
-	button := self findButtonAt: self someCellIndex byLabel: 'formula'.
+	button := self findFormulaButtonAt: self someCellIndex.
 	self assert: button morphs hasSingle.

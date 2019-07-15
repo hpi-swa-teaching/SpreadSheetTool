@@ -2,5 +2,5 @@ testing
 testChangeModelButtonExists
 
 	| button |
-	button := self findButtonAt: self someCellIndex byLabel: 'model'.
+	button := self findModelButtonAt: self someCellIndex.
 	self assert: button morphs hasSingle.
