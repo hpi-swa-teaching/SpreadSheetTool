@@ -4,8 +4,6 @@
 	"instance" : {
 		"classUnderTest" : "CT 6/6/2019 01:33",
 		"setUp" : "CT 7/4/2019 00:27",
-		"someFormula" : "CT 6/12/2019 13:14",
-		"someFormulaResult" : "CT 6/12/2019 13:12",
 		"testAcceptContentsChangesCellRawValue" : "CT 7/4/2019 00:26",
 		"testAcceptContentsNotifiesObservers" : "CT 7/4/2019 00:27",
 		"testCell" : "CT 6/12/2019 13:10" } }
