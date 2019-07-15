@@ -4,6 +4,7 @@
 		"wantsToTest:" : "CT 6/6/2019 01:46" },
 	"instance" : {
 		"assert:closeTo:" : "CT 7/15/2019 10:45",
+		"deny:equals:" : "CT 7/15/2019 17:34",
 		"inconclusive:" : "CT 6/28/2019 19:24",
 		"should:raise:butHandle:" : "CT 6/12/2019 13:42",
 		"should:raise:that:" : "CT 6/12/2019 13:42",
