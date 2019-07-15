@@ -6,14 +6,15 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 	self bringChaosOverTheSplitters.
 	
 	oldBounds := self subject bounds.
-	oldScales := self findCells morphs
-		collect: [:morph | morph model -> (morph in: anUnchangedDimension)]
+	oldScales := self findCells asOrderedCollection
+		collect: [:morph |
+			morph model -> (morph in: anUnchangedDimension)]
 		as: Dictionary.
 	
 	(self subject findByLabel: 'Distribute ', aDimensionName) click.
 	self subject redraw.
 	
-	newVaryingScales := self findCells morphs
+	newVaryingScales := self findCells
 		collect: aVaryingDimensionSymbol.
 	self
 		assert: [newVaryingScales range < 5]

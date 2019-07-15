@@ -1,4 +1,4 @@
 tools
 findCells
 
-	^ self findCellsIn: self subject
+	^ (self findCellsIn: self subject) morphs
