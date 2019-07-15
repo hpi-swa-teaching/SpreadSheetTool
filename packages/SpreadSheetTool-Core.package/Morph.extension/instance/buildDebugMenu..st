@@ -17,7 +17,7 @@ buildDebugMenu: aHand
 	Smalltalk isMorphic ifFalse:
 		[aMenu add: 'inspect morph (in MVC)' translated action: #inspect].
 	Smalltalk isMorphic ifTrue:
-		[aMenu add: 'inspect with SqueakSheet' action: #squeak].
+		[aMenu add: 'inspect with SqueakSheet' action: #sheet].
 
 	self isMorphicModel ifTrue:
 		[aMenu add: 'inspect model' translated target: self model action: #inspect].

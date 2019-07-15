@@ -1,5 +1,5 @@
 testing
-testSqueakItHotkey
+testSheetItHotkey
 
 	| workspace |
 	workspace := self findWindowOpenedWhile: [Workspace open].

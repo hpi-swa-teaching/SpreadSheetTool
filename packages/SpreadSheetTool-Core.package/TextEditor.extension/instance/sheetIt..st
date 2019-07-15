@@ -1,5 +1,5 @@
 *SpreadSheetTool-Core-editing keys
-squeakIt: aKeyboardEvent
+sheetIt: aKeyboardEvent
 
-	self squeakIt.
+	self sheetIt.
 	^ true

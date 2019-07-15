@@ -1,5 +1,5 @@
 testing
-testSqueakItMenu
+testSheetItMenu
 
 	| workspace menu |
 	workspace := (self findWindowOpenedWhile: [Workspace open])
@@ -10,7 +10,7 @@ testSqueakItMenu
 	menu := self findMenuOpenedWhile: [
 		workspace rightClick].
 	self wantsToTest: (self findToolWindowOpenedWhile: [menu
-		sendKeys: 'squeak it';
+		sendKeys: 'sheet it';
 		sendKey: Character cr]).
 	self setFormulaAt: self someCellIndex getter: 'self identityHash' setter: #default.
 	self assert: World identityHash asString equals: (self findCellAt: self someCellIndex) read.

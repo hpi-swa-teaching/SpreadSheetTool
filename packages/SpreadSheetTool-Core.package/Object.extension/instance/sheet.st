@@ -1,4 +1,4 @@
 *SpreadSheetTool-Core
-squeak
+sheet
 
 	^ SSSheetTool openOn: self
