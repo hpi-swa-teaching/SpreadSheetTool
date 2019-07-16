@@ -15,6 +15,7 @@
 		"assertWindowDeleted:" : "CT 6/7/2019 13:56",
 		"assertWindowNotDeleted:" : "CT 6/7/2019 13:56",
 		"columnCount" : "CT 7/15/2019 21:33",
+		"denyToolWindowOpensWhile:" : "CT 7/16/2019 16:31",
 		"findAllToolWindows" : "CT 7/11/2019 17:35",
 		"findAnyCell" : "CT 5/27/2019 16:45",
 		"findAnyHeader" : "CT 5/27/2019 17:13",
