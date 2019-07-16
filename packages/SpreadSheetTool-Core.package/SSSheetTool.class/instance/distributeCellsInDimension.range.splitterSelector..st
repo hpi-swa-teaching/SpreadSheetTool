@@ -10,5 +10,5 @@ distributeCellsInDimension: dimensionSymbol range: range splitterSelector: split
 		cellPanel
 			resizeHandlesAtSplittersThat: splitterSelector
 			toScales: (((OrderedCollection new: range withAll: cellScale)
-				copyWithFirst: headerScale) "dithered:"collect: #rounded).
+				copyWithFirst: headerScale) dithered: #rounded).
 		cellPanel owner fullBounds].

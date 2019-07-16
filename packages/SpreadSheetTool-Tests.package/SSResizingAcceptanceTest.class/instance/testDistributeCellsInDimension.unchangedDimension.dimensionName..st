@@ -7,8 +7,7 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 	
 	oldBounds := self subject bounds.
 	oldScales := self findCells asOrderedCollection
-		collect: [:morph |
-			morph model -> (morph in: anUnchangedDimension)]
+		collect: [:morph | morph model -> (morph in: anUnchangedDimension)]
 		as: Dictionary.
 	
 	(self subject findByLabel: 'Distribute ', aDimensionName) click.
@@ -17,7 +16,7 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 	newVaryingScales := self findCells
 		collect: aVaryingDimensionSymbol.
 	self
-		assert: [newVaryingScales range < 5]
+		assert: [newVaryingScales range < 12]
 			description: 'All ', aDimensionName, ' should be of equal size';
 		assert: oldBounds equals: self subject bounds
 			description: 'The window size should not change while distributing cells'.
