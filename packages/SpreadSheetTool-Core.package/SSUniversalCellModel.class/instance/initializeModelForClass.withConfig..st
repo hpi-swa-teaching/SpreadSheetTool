@@ -26,6 +26,8 @@ initializeModelForClass: aClass withConfig: aConfig
 				compileGetter: latestFormula;
 				flag: #workaround]
 			ifTrue: [
-				model acceptContents: latestFormula.
+				self withoutObservingDo: [
+					model acceptContents: latestFormula.
+					self flag: #workaround].
 				getterFormula := getterBlock := nil]].
 	latestHash := nil.

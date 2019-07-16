@@ -5,5 +5,6 @@ getter: aFormula compiled: aBlock
 	getterBlock := aBlock.
 	
 	(model isKindOf: SSCellModel) ifTrue: [
-		model acceptContents: aFormula.
-		self flag: #workaround].
+		self withoutObservingDo: [
+			model acceptContents: aFormula.
+			self flag: #workaround]].
