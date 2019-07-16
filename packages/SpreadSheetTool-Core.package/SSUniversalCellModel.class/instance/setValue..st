@@ -2,8 +2,6 @@ formula evaluation
 setValue: anObject
 
 	| objectToSet |
-	self setter ifNil: [^ self].
+	setterBlock ifNil: [^ self].
 	objectToSet := anObject.
-	modelConfig displaysString ifTrue: [
-		objectToSet := objectToSet asString].
-	(self parent object executeMethod: self setter) value: objectToSet.
+	(self parent object executeMethod: setterBlock) value: objectToSet.

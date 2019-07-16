@@ -1,4 +1,4 @@
 formula evaluation
 getValue
 
-	^ self parent object executeMethod: self getter
+	^ self parent object executeMethod: getterBlock

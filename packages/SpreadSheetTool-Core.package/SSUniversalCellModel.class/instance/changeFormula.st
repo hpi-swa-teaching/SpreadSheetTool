@@ -3,10 +3,10 @@ changeFormula
  
 	| getterFormula newGetter newSetter setterFormula |
 	getterFormula := self requestGetter ifEmptyOrNil: [^ self].
-	newGetter := Compiler compile: getterFormula for: nil.
+	newGetter := self compile: getterFormula.
 	setterFormula := self requestSetter ifEmptyOrNil: [^ self].
-	newSetter := Compiler compile: setterFormula for: nil.
+	newSetter := self compile: setterFormula.
 	
 	self
-		getter: newGetter;
-		setter: newSetter.
+		getter: getterFormula compiled: newGetter;
+		setter: setterFormula compiled: newSetter.
