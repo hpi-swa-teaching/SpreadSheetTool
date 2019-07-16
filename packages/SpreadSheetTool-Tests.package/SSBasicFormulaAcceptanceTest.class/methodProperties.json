@@ -17,7 +17,7 @@
 		"testFormulaReevaluation" : "CT 6/24/2019 16:23",
 		"testFormulaWithRuntimeErrorOpensDebugger" : "JB 6/20/2019 18:17",
 		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "JB 6/20/2019 18:19",
-		"testInfinityLoopDoesNotOccur" : "CT 6/27/2019 00:12",
+		"testInfinityLoopDoesNotOccur" : "CT 7/16/2019 16:47",
 		"testInlineSyntaxErrors" : "CT 7/15/2019 13:12",
 		"testNonEditedFormulaCellHasNoAutocompletion" : "CT 6/28/2019 16:27",
 		"testNonFormulaCellHasNoAutocompletion" : "CT 6/28/2019 16:52",
