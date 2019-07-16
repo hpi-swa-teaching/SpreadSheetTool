@@ -1,12 +1,12 @@
 toolbuilder
 specForCell: aCell with: aBuilder atRow: aRow atColumn: aColumn
 
-	| spec |
-	spec := self
+	| morph |
+	morph := self
 		buildCell: aCell
 		with: aBuilder
 		atRow: aRow
 		atColumn: aColumn.
-	^ (self specForMorph: spec with: aBuilder)
+	^ (self specForMorph: morph with: aBuilder)
 		frame: (self calculateFrameForItemAtRow: aRow atColumn: aColumn);
 		yourself
