@@ -1,4 +1,4 @@
 toolbuilder-constants
 defaultWindowColor
 
-	^ Color lightGreen thriceLighter
+	^ (Color r: 0.845 g: 1 b: 0.69)
