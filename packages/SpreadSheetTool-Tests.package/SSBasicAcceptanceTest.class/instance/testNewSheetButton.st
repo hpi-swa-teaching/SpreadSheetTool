@@ -5,4 +5,4 @@ testNewSheetButton
 	| button |
 	button := self subject findUniqueByLabel: 'New sheet'.
 	
-	self assertWindowOpensWhile: [button click].
+	self assertToolWindowOpensWhile: [button click].

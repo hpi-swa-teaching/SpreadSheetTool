@@ -1,4 +1,4 @@
 forwarding
 contents
 
-	^ model contents
+	^ self object asString

@@ -1,4 +1,4 @@
-evaluation
+evaluating
 value
 
 	^ self cell value

@@ -16,10 +16,7 @@ testChangeSheetRangeWithoutDeletedContentFor: dimension to: newRange notChanging
 	(self findCellAt: someIndex) sendKeys: self someContent.
 	
 	self shouldNotChangeRemainingContentsWhile: [
-		dimensionTextField
-			sendClearTextField;
-			sendKeys: newRange asString;
-			sendControlSave.
+		self into: dimensionTextField put: newRange asString.
 		self subject redraw].
 	
 	self

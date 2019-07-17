@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"findMenuOpenedWhile:" : "CT 7/13/2019 15:44",
+		"should:inspect:" : "CT 7/17/2019 10:14",
+		"testSheetIt" : "CT 7/17/2019 10:15",
+		"testSheetItHaloIntegration" : "CT 7/17/2019 10:13",
+		"testSheetItHotkey" : "CT 7/17/2019 10:21",
+		"testSheetItMenu" : "CT 7/17/2019 10:15",
+		"wantsToTest:" : "CT 7/13/2019 15:32" } }

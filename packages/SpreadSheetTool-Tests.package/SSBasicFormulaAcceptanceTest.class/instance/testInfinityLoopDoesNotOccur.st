@@ -1,7 +1,6 @@
 testing
 testInfinityLoopDoesNotOccur
 	"Regression test for #51"
-	<longStage>
 	
 	| firstCell secondCell |
 	firstCell := self findCellAtRow: 1 atColumn: 1.

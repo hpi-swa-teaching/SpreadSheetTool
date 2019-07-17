@@ -34,11 +34,11 @@ fixturesForCompositeReferencingFormulas
 
 		{ '^ self aboveBy: 2 rightBy: 2'. 3 @ 3. 5 @ 1 }.
 		{ '^ self aboveBy: -2 rightBy: 2'. 3 @ 3. 5 @ 5 }.
-		{ '^ self  aboveBy: 2 rightBy: -2'. 3 @ 3. 1 @ 1 }.
-		{ '^ self  aboveBy: -2 rightBy: -2'. 3 @ 3. 1 @ 5 }.
+		{ '^ self aboveBy: 2 rightBy: -2'. 3 @ 3. 1 @ 1 }.
+		{ '^ self aboveBy: -2 rightBy: -2'. 3 @ 3. 1 @ 5 }.
 
-		{ '^ self  belowBy: 2 rightBy: 2'. 3 @ 3. 5 @ 5 }.
-		{ '^ self  belowBy: -2 rightBy: 2'. 3 @ 3. 5 @ 1 }.
-		{ '^ self  belowBy: 2 rightBy: -2'. 3 @ 3. 1 @ 5 }.
-		{ '^ self  belowBy: -2 rightBy: -2'. 3 @ 3. 1 @ 1 }.
+		{ '^ self belowBy: 2 rightBy: 2'. 3 @ 3. 5 @ 5 }.
+		{ '^ self belowBy: -2 rightBy: 2'. 3 @ 3. 5 @ 1 }.
+		{ '^ self belowBy: 2 rightBy: -2'. 3 @ 3. 1 @ 5 }.
+		{ '^ self belowBy: -2 rightBy: -2'. 3 @ 3. 1 @ 1 }.
 	}

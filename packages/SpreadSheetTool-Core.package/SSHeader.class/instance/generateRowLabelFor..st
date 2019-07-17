@@ -1,4 +1,4 @@
 labeling
 generateRowLabelFor: anIndex
 	
-	self label: anIndex asString
+	self label: anIndex asString.

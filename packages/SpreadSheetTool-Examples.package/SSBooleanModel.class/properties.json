@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"state" ],
+	"name" : "SSBooleanModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

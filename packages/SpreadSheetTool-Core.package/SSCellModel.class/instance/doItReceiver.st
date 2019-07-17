@@ -1,4 +1,4 @@
-accessing
+evaluating
 doItReceiver
 
 	^ self cell

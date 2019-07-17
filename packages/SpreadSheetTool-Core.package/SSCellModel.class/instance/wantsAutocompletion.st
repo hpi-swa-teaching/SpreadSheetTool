@@ -1,4 +1,4 @@
-interaction
+testing
 wantsAutocompletion
 
 	^ self displaysFormula

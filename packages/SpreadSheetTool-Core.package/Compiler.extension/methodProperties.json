@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"compile:for:" : "JB 7/9/2019 17:40" },
+	"instance" : {
+		"classForReceiver:context:" : "eem 7/12/2017 16:55",
+		"compile:for:" : "CT 7/9/2019 17:06",
+		"compile:for:notifying:" : "CT 7/9/2019 17:10",
+		"compile:in:to:notifying:ifFail:" : "CT 7/9/2019 17:07",
+		"compileCue:ifFail:" : "CT 7/9/2019 19:56" } }

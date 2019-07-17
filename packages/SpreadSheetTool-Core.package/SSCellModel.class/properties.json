@@ -1,17 +1,15 @@
 {
 	"category" : "SpreadSheetTool-Core",
 	"classinstvars" : [
-		"model" ],
+		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "CT 6/12/2019 15:01",
 	"instvars" : [
 		"cell",
 		"clients",
 		"servers",
-		"editMode",
 		"unacceptedContents",
-		"hasUnacceptedEdits",
 		"isBusy",
 		"latestValue",
 		"morph" ],

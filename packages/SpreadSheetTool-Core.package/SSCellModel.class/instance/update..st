@@ -1,6 +1,6 @@
-interaction
+updating
 update: what
 
-	what = #contents ifTrue: [self refreshValue].
+	what = #object ifTrue: [self serverChanged].
 	what = #rawValue ifTrue: [self editContents: self cell rawValue].
 	^ super update: what

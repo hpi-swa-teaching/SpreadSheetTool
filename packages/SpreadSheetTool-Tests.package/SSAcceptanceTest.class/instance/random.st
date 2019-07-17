@@ -1,4 +1,4 @@
 testing data
 random
 
-	^ Random seed: 42
+	^ random ifNil: [random := Random seed: 42]

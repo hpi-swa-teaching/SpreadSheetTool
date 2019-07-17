@@ -6,17 +6,17 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 	self bringChaosOverTheSplitters.
 	
 	oldBounds := self subject bounds.
-	oldScales := self findCells morphs
+	oldScales := self findCells asOrderedCollection
 		collect: [:morph | morph model -> (morph in: anUnchangedDimension)]
 		as: Dictionary.
 	
 	(self subject findByLabel: 'Distribute ', aDimensionName) click.
 	self subject redraw.
 	
-	newVaryingScales := self findCells morphs
+	newVaryingScales := self findCells
 		collect: aVaryingDimensionSymbol.
 	self
-		assert: [newVaryingScales range < 5]
+		assert: [newVaryingScales range < 12]
 			description: 'All ', aDimensionName, ' should be of equal size';
 		assert: oldBounds equals: self subject bounds
 			description: 'The window size should not change while distributing cells'.

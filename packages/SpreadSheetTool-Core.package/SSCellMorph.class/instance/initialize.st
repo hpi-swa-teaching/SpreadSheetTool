@@ -7,5 +7,6 @@ initialize
 		styler: (SHTextStylerST80 new view: self);
 		wantsWrapBorder: PluggableTextMorph visualWrapBorder;
 		wrapFlag: PluggableTextMorph softLineWrap.
-	self setProperty: #alwaysAccept toValue: true.
-	hasEditFocus := false.
+	self
+		setProperty: #alwaysAccept toValue: true;
+		basicHasEditFocus: false.

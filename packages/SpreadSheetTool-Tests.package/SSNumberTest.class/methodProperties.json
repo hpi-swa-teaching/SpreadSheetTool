@@ -4,6 +4,6 @@
 	"instance" : {
 		"classUnderTest" : "CT 6/11/2019 15:24",
 		"fixturesForDigitsForRadix" : "CT 6/11/2019 15:27",
-		"invalidFixturesForDigitsForRadix" : "CT 6/11/2019 15:27",
+		"invalidFixturesForDigitsForRadix" : "CT 7/11/2019 12:01",
 		"testDigitsForRadix" : "CT 6/11/2019 15:22",
 		"testDigitsForRadixWithInvalidRadices" : "CT 6/11/2019 15:25" } }

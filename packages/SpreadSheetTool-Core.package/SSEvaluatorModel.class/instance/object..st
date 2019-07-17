@@ -2,5 +2,5 @@ accessing
 object: anObject
 
 	object := anObject.
-	super contents: anObject printString.
-	self contentsChanged
+	self contents: anObject printString.
+	self changed: #object; contentsChanged.

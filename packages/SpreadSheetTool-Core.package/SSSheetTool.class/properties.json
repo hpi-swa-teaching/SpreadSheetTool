@@ -1,7 +1,8 @@
 {
 	"category" : "SpreadSheetTool-Core",
 	"classinstvars" : [
-		"savedSheets" ],
+		"savedSheets",
+		"useInlineSyntaxErrors" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -9,7 +10,9 @@
 		"contentModels",
 		"hasUnsavedChanges",
 		"cellMorphs",
-		"oldCellMorphs" ],
+		"oldCellMorphs",
+		"object",
+		"steppingActivated" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],

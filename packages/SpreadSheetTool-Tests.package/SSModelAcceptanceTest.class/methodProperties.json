@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"anObject" : "CT 7/9/2019 12:33",
+		"anObject:" : "CT 7/9/2019 12:34" },
+	"instance" : {
+		"chooseEvaluatorModelAt:" : "CT 7/15/2019 19:14",
+		"chooseInspectorModelAt:" : "CT 7/12/2019 20:39",
+		"findModelButtonAt:" : "CT 7/12/2019 20:39",
+		"setUpRecursiveToolWithBuilder:" : "CT 7/16/2019 08:52",
+		"testChangeConfiguration" : "CT 7/12/2019 21:04",
+		"testChangeFormula" : "CT 7/15/2019 21:27",
+		"testChangeModel" : "CT 7/11/2019 21:36",
+		"testChangeModelButtonExists" : "CT 7/10/2019 00:34",
+		"testFormulaButtonExists" : "CT 7/10/2019 00:33",
+		"testRecursiveToolWithMenuBar" : "CT 7/16/2019 08:52",
+		"testRecursiveToolWithoutMenuBar" : "CT 7/16/2019 08:53",
+		"testSteppingActivated:" : "CT 7/15/2019 19:13",
+		"testSteppingButtonExists" : "CT 7/15/2019 12:09",
+		"testSteppingOff" : "CT 7/15/2019 13:25",
+		"testSteppingOn" : "CT 7/15/2019 13:25" } }

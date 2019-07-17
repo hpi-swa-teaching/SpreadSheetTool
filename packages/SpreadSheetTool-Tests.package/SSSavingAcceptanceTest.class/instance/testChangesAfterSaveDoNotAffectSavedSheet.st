@@ -6,7 +6,6 @@ testChangesAfterSaveDoNotAffectSavedSheet
 	(self findCellAt: self someCellIndex)
 		sendKeys: self someContent.
 	self saveSheetAs: self someSheetName.
-	
 	(self findCellAt: self someCellIndex)
 		sendKeys: self someOtherContent.
 	

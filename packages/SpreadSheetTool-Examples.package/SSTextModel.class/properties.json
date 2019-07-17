@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSTextModel",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

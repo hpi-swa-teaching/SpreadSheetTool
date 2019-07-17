@@ -4,9 +4,9 @@
 	"instance" : {
 		"autocompletionClasses" : "CT 6/28/2019 17:18",
 		"findAllAutocompletions" : "CT 6/28/2019 17:51",
-		"findAutocompletionsOpenedWhile:" : "CT 6/28/2019 16:34",
-		"shouldShowAutocompletion:" : "CT 6/28/2019 16:52",
-		"shouldntShowAutocompletion:" : "CT 6/28/2019 16:51",
+		"findAutocompletionsOpenedWhile:" : "CT 7/13/2019 15:38",
+		"shouldShowAutocompletion:" : "CT 7/13/2019 16:05",
+		"shouldntShowAutocompletion:" : "CT 7/13/2019 16:05",
 		"someFormulaWithRuntimeError" : "GT 6/17/2019 19:41",
 		"someFormulaWithSyntaxError" : "GT 6/17/2019 19:31",
 		"testEditedFormulaCellHasAutocompletion" : "CT 6/28/2019 16:52",
@@ -17,7 +17,8 @@
 		"testFormulaReevaluation" : "CT 6/24/2019 16:23",
 		"testFormulaWithRuntimeErrorOpensDebugger" : "JB 6/20/2019 18:17",
 		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "JB 6/20/2019 18:19",
-		"testInfinityLoopDoesNotOccur" : "CT 6/27/2019 00:12",
+		"testInfinityLoopDoesNotOccur" : "CT 7/16/2019 16:47",
+		"testInlineSyntaxErrors" : "CT 7/15/2019 13:12",
 		"testNonEditedFormulaCellHasNoAutocompletion" : "CT 6/28/2019 16:27",
 		"testNonFormulaCellHasNoAutocompletion" : "CT 6/28/2019 16:52",
 		"testSyntaxErrorDoesNotReopenWithoutAccept" : "JB 6/20/2019 18:18" } }

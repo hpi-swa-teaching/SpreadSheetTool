@@ -1,4 +1,4 @@
-interaction
+testing
 displaysFormula
 
-	^ morph isEditing and: [self isFormula: unacceptedContents]
+	^ morph isEditing and: [cell class isFormula: unacceptedContents]

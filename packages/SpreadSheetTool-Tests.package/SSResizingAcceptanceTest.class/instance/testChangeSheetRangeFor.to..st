@@ -13,10 +13,7 @@ testChangeSheetRangeFor: dimension to: newRange
 		columns: self columnCount
 		tabulate: [:row :column | (self findCellAtRow: row atColumn: column) focusAndRead].
 	
-	dimensionTextField
-		sendClearTextField;
-		sendKeys: newRange asString;
-		sendControlSave.
+	self into: dimensionTextField put: newRange asString.
 	
 	self subject redraw.
 	self

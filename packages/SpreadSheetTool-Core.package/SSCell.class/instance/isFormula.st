@@ -1,4 +1,4 @@
 accessing
 isFormula
 
-	^ self rawValue beginsWith: '^'
+	^ self class isFormula: self rawValue

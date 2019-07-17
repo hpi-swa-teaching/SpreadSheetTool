@@ -1,7 +1,7 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	^ (super createSpecOfKind: #pluggableInputFieldSpec with: aBuilder)
+	^ (self createSpecOfKind: #pluggableInputFieldSpec with: aBuilder)
 		editText: #editContents:;
 		softLineWrap: true;
 		color: #backgroundColor;

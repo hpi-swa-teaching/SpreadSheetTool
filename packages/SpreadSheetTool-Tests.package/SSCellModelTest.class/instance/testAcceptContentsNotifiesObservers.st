@@ -7,4 +7,4 @@ testAcceptContentsNotifiesObservers
 	
 	model acceptContents: self someText.
 	
-	self assert: #contents equals: observer singleUpdate.
+	self assert: (observer logIncludes: #contents).

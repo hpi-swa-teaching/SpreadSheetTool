@@ -1,7 +1,7 @@
 testing
 testWarningForLargeRowNumbersCanBeSkipped
 	"Acceptance test for #21"
-	<timeout: 42 "seconds">
+	<timeout: 90 "seconds">
 	<longStage>
 
 	self testWarningForLargeSheetRangesCanBeSkippedForDimension: 'rows'

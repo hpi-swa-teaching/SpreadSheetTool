@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testIsRegisteredInWorldMenu" : "CT 6/7/2019 13:57",
+		"testAboutWindow" : "CT 7/11/2019 17:42",
+		"testIsRegisteredInWorldMenu" : "CT 7/17/2019 10:27",
 		"testMultilineInput" : "CT 6/28/2019 15:28",
-		"testNewSheetButton" : "CT 6/5/2019 18:33",
-		"testOpenDefault" : "CT 6/7/2019 13:58",
+		"testNewSheetButton" : "CT 7/11/2019 17:38",
+		"testOpenDefault" : "CT 7/11/2019 17:38",
 		"testSheetHasColumnHeaders" : "CT 6/15/2019 21:29",
 		"testSheetHasRowHeaders" : "CT 6/15/2019 21:28",
-		"testWindowContainsCells" : "CT 5/1/2019 23:42" } }
+		"testWindowContainsCells" : "CT 7/15/2019 21:46" } }

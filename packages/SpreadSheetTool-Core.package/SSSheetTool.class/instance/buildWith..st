@@ -5,7 +5,6 @@ buildWith: aBuilder
 	spec := aBuilder pluggableWindowSpec new
 		model: self;
 		label: self class longApplicationName;
-		extent: self defaultExtent;
 		minimumExtent: self minimumExtent;
 		children: {
 			self specForMenuBar: aBuilder.

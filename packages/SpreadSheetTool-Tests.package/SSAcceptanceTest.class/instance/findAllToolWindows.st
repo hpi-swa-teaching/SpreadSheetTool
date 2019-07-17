@@ -1,5 +1,4 @@
 tools
 findAllToolWindows
 
-	^ PluggableSystemWindow allInstances select: [:window |
-		window model class = self toolUnderTest]
+	^ self toolUnderTest allInstances collectAll: #containingWindows

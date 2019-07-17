@@ -1,5 +1,5 @@
-interaction
+testing
 wantsToAutosave: aString
 
-	^ (self isFormula: aString) not and: [
+	^ (cell class isFormula: aString) not and: [
 		self parent autoEvaluateActivated ==> [clients isEmpty]]

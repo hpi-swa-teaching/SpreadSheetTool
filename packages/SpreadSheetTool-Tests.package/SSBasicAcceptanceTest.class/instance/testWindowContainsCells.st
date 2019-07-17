@@ -6,4 +6,4 @@ testWindowContainsCells
 	cells := self findCells.
 	self
 		assert: self rowCount * self columnCount
-		equals: cells morphs size.
+		equals: cells size.

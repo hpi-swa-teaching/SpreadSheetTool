@@ -1,7 +1,4 @@
 running
 performTest
 
-	Preferences
-		setFlag: #openToolsAttachedToMouseCursor
-		toValue: false
-		during: [^ super performTest].
+	^ self changePreferencesDuring: [super performTest]

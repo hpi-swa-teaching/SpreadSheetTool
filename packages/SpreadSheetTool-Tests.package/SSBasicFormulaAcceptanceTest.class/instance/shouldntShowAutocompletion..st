@@ -6,4 +6,4 @@ shouldntShowAutocompletion: aMorph
 		aMorph
 			sendKeys: ' Obje';
 			wait].
-	self deny: completions notEmpty.
+	self deny: completions isPositive.

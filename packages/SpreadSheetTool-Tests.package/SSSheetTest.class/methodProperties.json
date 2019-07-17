@@ -3,15 +3,17 @@
 		 },
 	"instance" : {
 		"classUnderTest" : "CT 6/7/2019 12:45",
-		"columnCount" : "CT 4/30/2019 12:03",
+		"columnCount" : "CT 7/15/2019 21:32",
 		"fixturesForRowCountColumnCount" : "CT 6/19/2019 11:37",
-		"rowCount" : "CT 4/30/2019 15:28",
+		"rowCount" : "CT 7/15/2019 21:32",
 		"setUp" : "CT 7/1/2019 19:54",
 		"someColumnIndex" : "CT 5/28/2019 16:15",
 		"someColumnIndexIn:" : "CT 6/15/2019 15:17",
 		"someRowIndex" : "CT 5/28/2019 16:15",
 		"someRowIndexIn:" : "CT 6/15/2019 15:17",
 		"someValue" : "CT 5/29/2019 14:07",
-		"testAsMatrixWithOrigin" : "CT 6/7/2019 12:46",
+		"testAsMatrixWithOrigin" : "CT 7/17/2019 10:09",
 		"testRowCount:columnCount:" : "CT 6/7/2019 12:46",
-		"testRowCountColumnCount" : "CT 5/29/2019 15:59" } }
+		"testRowCountColumnCount" : "CT 7/15/2019 21:38",
+		"validateContentsIn:" : "CT 7/17/2019 10:09",
+		"validateHeadersIn:" : "CT 7/17/2019 10:09" } }

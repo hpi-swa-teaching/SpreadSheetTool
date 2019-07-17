@@ -9,5 +9,4 @@ testCellKeepsDisplayingUnacceptedFormulaWhenLoosingFocus
 		sendClearTextField;
 		sendKeys: self someFormula;
 		releaseFocus.
-		
 	self assert: self someFormula equals: cell read.
