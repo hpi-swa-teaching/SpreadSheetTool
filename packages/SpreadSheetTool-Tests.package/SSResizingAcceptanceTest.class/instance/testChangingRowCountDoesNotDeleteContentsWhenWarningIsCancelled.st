@@ -3,4 +3,4 @@ testChangingRowCountDoesNotDeleteContentsWhenWarningIsCancelled
 
 	^ self
 		testChangingSheetRangeDoesNotDelete: (self findCellAtRow: self rowCount atColumn: self columnCount)
-		whenWarningIsCancelledForDimension:  'rows'
+		whenWarningIsCancelledForDimension: 'rows'
