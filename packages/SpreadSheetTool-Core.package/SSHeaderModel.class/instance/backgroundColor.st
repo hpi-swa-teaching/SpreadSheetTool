@@ -1,4 +1,4 @@
 accessing
 backgroundColor
 
-	^ Color lightGreen
+	^ Color lightGreen twiceDarker
