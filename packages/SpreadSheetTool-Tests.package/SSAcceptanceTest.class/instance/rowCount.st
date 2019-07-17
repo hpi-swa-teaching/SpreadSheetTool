@@ -1,4 +1,4 @@
 testing data
 rowCount
 
-	^ 3
+	^ 4

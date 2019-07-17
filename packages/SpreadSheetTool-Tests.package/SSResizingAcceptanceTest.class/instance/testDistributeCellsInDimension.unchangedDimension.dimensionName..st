@@ -16,7 +16,7 @@ testDistributeCellsInDimension: aVaryingDimensionSymbol unchangedDimension: anUn
 	newVaryingScales := self findCells
 		collect: aVaryingDimensionSymbol.
 	self
-		assert: [newVaryingScales range < 12]
+		assert: [newVaryingScales range < 2]
 			description: 'All ', aDimensionName, ' should be of equal size';
 		assert: oldBounds equals: self subject bounds
 			description: 'The window size should not change while distributing cells'.
