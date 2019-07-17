@@ -1,6 +1,6 @@
 testing
 testFormulaDisplaysLastComputedValueAfterLooseFocusWithoutChanges
-	"Test for #25"
+	"acceptance test for #25 (Simple formulas)"
 
 	| cell |
 	cell := self findAnyCell.

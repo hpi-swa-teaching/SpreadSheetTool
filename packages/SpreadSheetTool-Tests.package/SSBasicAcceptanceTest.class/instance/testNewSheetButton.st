@@ -1,6 +1,6 @@
 testing
 testNewSheetButton
-	"Test for #10 (Simple Menu)"
+	"accept test for #10 (Simple Menu)"
 
 	| button |
 	button := self subject findUniqueByLabel: 'New sheet'.

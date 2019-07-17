@@ -1,5 +1,6 @@
 testing
 testAlternateGetButton
+	"Acceptance test for #65 (Unify different formula approaches)"
 
 	| getButton setButton |
 	getButton := self findGetFormulaButtonAt: self someCellIndex.

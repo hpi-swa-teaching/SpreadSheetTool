@@ -1,6 +1,6 @@
 testing
 testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected
-	"Test for #25 (Simple formulas)"
+	"acceptance test for #25 (Simple formulas)"
 
 	| cell |
 	cell := self findAnyCell.

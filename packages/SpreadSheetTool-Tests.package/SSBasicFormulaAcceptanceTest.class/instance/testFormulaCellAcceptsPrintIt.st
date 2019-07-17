@@ -1,6 +1,6 @@
 testing
 testFormulaCellAcceptsPrintIt
-	"Acceptance test for #54 (PrintIt & Co. in formula cells)"
+	"acceptance test for #54 (PrintIt & Co. in formula cells)"
 
 	| cell |
 	cell := self findAnyCell.

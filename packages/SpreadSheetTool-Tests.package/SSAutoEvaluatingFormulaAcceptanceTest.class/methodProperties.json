@@ -14,4 +14,4 @@
 		"testNonReferencedCellDoesAutosave" : "AN 6/26/2019 18:43",
 		"testOnToggleActivatedFormulasRecompute" : "GT 6/26/2019 14:30",
 		"testReferencedCellDoesNotAutosave" : "GT 6/26/2019 14:31",
-		"testValueReturnsLatestValue" : "CT 7/11/2019 13:04" } }
+		"testValueReturnsLatestValue" : "CT 7/17/2019 14:35" } }

@@ -1,6 +1,6 @@
 testing
 testFormulaCellAcceptsPrintItWithCrossReferencingFormula
-	"Acceptance test for #54 (PrintIt & Co. in formula cells)"
+	"acceptance test for #54 (PrintIt & Co. in formula cells)"
 
 	| cellIndex cell |
 	cellIndex := self someCellIndex.

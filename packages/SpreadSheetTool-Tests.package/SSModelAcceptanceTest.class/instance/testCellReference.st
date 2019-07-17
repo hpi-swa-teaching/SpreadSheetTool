@@ -1,5 +1,6 @@
 testing
 testCellReference
+	"Acceptance test for #65 (Unify different formula approaches)"
 
 	| cell |
 	cell := self findCellAt: self someCellIndex.

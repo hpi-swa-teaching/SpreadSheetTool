@@ -1,6 +1,6 @@
 testing
 testFormulaReevaluation
-	"Test for #25"
+	"acceptance test for #25 (Simple formulas)"
 
 	| cell sideEffect |
 	cell := self findAnyCell.

@@ -1,5 +1,6 @@
 testing
 testFormulaeAreKeptOnChangeModel
+	"Acceptance test for #65 (Unify different formula approaches)"
 
 	self
 		at: self someCellIndex

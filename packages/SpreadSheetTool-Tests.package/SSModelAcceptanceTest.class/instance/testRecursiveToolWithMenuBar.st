@@ -1,5 +1,6 @@
 testing
 testRecursiveToolWithMenuBar
+	"Acceptance Test for #63 (Recursive SqueakSheet)"
 
 	| recursiveTool |
 	recursiveTool := self setUpRecursiveToolWithBuilder: #buildWith:.
