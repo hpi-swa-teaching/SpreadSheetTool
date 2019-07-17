@@ -5,4 +5,5 @@ into: aPoint putFormula: aFormula button: aButton
 	aButton click.
 	formulaField := self findCellAt: aPoint byCriteria: #isTextView.
 	self into: formulaField put: aFormula.
+	aButton click.
 	self fullWait.
