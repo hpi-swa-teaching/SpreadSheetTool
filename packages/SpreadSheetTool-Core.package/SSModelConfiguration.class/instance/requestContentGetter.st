@@ -2,5 +2,6 @@ interaction
 requestContentGetter
 
 	^ UIManager default
-		chooseFromValues: (self findPossibleGetters storeFirst: self contentGetter)
+		chooseFromValues: (self findPossibleGetters
+			storeFirstIfPresent: self contentGetter)
 		title: 'Choose getter for model'

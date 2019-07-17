@@ -2,5 +2,6 @@ interaction
 requestContentSetter
 
 	^ UIManager default
-		chooseFromValues: (self findPossibleSetters storeFirst: self contentSetter)
+		chooseFromValues: (self findPossibleSetters
+			storeFirstIfPresent: self contentSetter)
 		title: 'Choose setter for model'

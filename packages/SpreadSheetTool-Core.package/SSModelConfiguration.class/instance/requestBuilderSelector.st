@@ -2,5 +2,6 @@ interaction
 requestBuilderSelector
 
 	^ UIManager default
-		chooseFromValues: (self findPossibleBuilderSelectors storeFirst: self builderSelector)
+		chooseFromValues: (self findPossibleBuilderSelectors
+			storeFirstIfPresent: self builderSelector)
 		title: 'Choose toolbuilder method for model'
