@@ -17,6 +17,7 @@
 		"findByModelKind:" : "CT 7/12/2019 20:53",
 		"findByModelKind:andCriteria:" : "CT 7/12/2019 20:54",
 		"findByPosition:andCriteria:" : "CT 5/1/2019 17:12",
+		"findInsideOf:" : "CT 7/15/2019 14:18",
 		"findUniqueByLabel:" : "CT 6/5/2019 18:33",
 		"focusAndRead" : "CT 6/19/2019 19:56",
 		"generateKeyboardEvent:with:buttons:on:" : "CT 4/30/2019 20:02",

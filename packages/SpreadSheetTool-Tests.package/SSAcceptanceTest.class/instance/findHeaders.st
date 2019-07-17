@@ -1,4 +1,4 @@
 tools
 findHeaders
 
-	^ self subject findByModelKind: SSHeaderModel andCriteria: #isTextView
+	^ self findHeadersIn: self subject
