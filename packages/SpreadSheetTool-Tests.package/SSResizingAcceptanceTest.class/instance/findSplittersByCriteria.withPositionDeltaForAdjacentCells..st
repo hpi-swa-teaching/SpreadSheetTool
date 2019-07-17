@@ -4,12 +4,13 @@ findSplittersByCriteria: aBlock withPositionDeltaForAdjacentCells: aPoint
 	^ (self subject
 		findByClass: ProportionalSplitterMorph
 		andCriteria: [:splitter | (aBlock value: splitter) and: [
-			{ self subject
+			| adjacents |
+			adjacents := { self subject
 				findByPosition: splitter position - aPoint
-				andCriteria: [:m | m isTextView].
+				andCriteria: #isTextView.
 			   self subject
 				findByPosition: splitter position + aPoint
-				andCriteria: [:m | m isTextView] }
-			allSatisfy: [:m | m isPositive and: [
-					m model isKindOf: SSCellModel orOf: SSHeaderModel]]]])
+				andCriteria: #isTextView}.
+			(adjacents allSatisfy: #isPositive) and: [
+				(adjacents select: [:m | m model isKindOf: SSHeaderModel]) size = 2]]])
 		morphs
