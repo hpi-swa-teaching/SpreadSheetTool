@@ -2,4 +2,4 @@ testing
 testFormulaModelHasNoFormulaButton
 
 	self chooseFormulaModelAt: self someCellIndex.
-	self assert: (self findFormulaButtonAt: self someCellIndex) isNegative.
+	self assert: (self findButtonAt: self someCellIndex byLabel: 'formula') isNegative.

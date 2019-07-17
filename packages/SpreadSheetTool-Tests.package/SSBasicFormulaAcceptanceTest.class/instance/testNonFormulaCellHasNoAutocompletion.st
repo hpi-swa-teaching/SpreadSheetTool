@@ -4,7 +4,5 @@ testNonFormulaCellHasNoAutocompletion
 
 	| cell |
 	cell := self findAnyCell.
-	
 	cell sendKeys: self someContent.
-	
 	self shouldntShowAutocompletion: cell.

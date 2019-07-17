@@ -1,8 +1,8 @@
 tools
-into: aCell put: aString
+into: aTextMorph put: aString
 
-	aCell
+	aTextMorph
 		sendClearTextField;
 		sendKeys: aString;
 		sendControlSave.
-	aCell wait.
+	aTextMorph wait; flag: #suspicious. "todo: do we need this?"

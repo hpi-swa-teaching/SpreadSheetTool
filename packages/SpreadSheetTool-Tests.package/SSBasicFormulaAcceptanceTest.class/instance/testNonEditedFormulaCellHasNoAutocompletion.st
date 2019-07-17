@@ -4,9 +4,7 @@ testNonEditedFormulaCellHasNoAutocompletion
 
 	| cell |
 	cell := self findAnyCell.
-	
 	cell
 		sendKeys: self someFormula;
 		sendControlSave.
-	
 	self shouldntShowAutocompletion: cell.
