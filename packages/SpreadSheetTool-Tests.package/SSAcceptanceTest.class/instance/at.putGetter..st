@@ -1,7 +1,7 @@
 tools
-into: aPoint putGetter: aGetter
+at: aPoint putGetter: aGetter
 
 	^ self
-		into: aPoint
+		at: aPoint
 		putFormula: aGetter
 		button: (self findGetFormulaButtonAt: aPoint)

@@ -1,5 +1,5 @@
 tools
-into: aPoint putFormula: aFormula button: aButton
+at: aPoint putFormula: aFormula button: aButton
 
 	| formulaField |
 	aButton click.

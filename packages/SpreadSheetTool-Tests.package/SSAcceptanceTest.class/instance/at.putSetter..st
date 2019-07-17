@@ -1,7 +1,7 @@
 tools
-into: aPoint putSetter: aSetter
+at: aPoint putSetter: aSetter
 
 	^ self
-		into: aPoint
+		at: aPoint
 		putFormula: aSetter
 		button: (self findSetFormulaButtonAt: aPoint)

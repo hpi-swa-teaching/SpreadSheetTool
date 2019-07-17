@@ -3,7 +3,7 @@ testChangeSetFormula
 
 	| cell |
 	self
-		into: self someCellIndex
+		at: self someCellIndex
 		putSetter: ('[:x | {1} anObject: x]' format: {self class name}).
 	cell := self findCellAt: self someCellIndex.
 	

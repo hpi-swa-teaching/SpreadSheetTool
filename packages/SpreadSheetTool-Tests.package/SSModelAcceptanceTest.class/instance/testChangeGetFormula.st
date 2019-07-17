@@ -3,7 +3,7 @@ testChangeGetFormula
 
 	| cell |
 	self
-		into: self someCellIndex
+		at: self someCellIndex
 		putGetter: ('{1} anObject identityHash' format: {self class name}).
 	cell := self findCellAt: self someCellIndex.
 	

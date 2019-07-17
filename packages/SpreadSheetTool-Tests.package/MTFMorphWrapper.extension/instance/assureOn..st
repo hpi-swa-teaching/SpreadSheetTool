@@ -2,4 +2,4 @@
 assureOn: aBoolean
 	"For state buttons"
 
-	(self getModelState = aBoolean) ifFalse: [self click].
+	(self isOn = aBoolean) ifFalse: [self click].

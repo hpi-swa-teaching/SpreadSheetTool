@@ -5,7 +5,7 @@
 		"yellowButton" : "CT 7/13/2019 15:56" },
 	"instance" : {
 		"anyOne" : "CT 5/27/2019 17:17",
-		"assureOn:" : "CT 7/15/2019 13:26",
+		"assureOn:" : "CT 7/17/2019 14:22",
 		"closeAutocompletion" : "CT 7/17/2019 09:19",
 		"deleteMorphs" : "CT 5/11/2019 14:46",
 		"findByBalloon:" : "CT 5/7/2019 12:33",
@@ -27,6 +27,8 @@
 		"generateMouseMoveEventWithButton:startPosition:endPosition:" : "CT 5/1/2019 18:13",
 		"hasUnacceptedEdits" : "CT 6/12/2019 12:42",
 		"isNegative" : "CT 7/12/2019 21:03",
+		"isOff" : "CT 7/17/2019 14:22",
+		"isOn" : "CT 7/17/2019 14:22",
 		"isPositive" : "CT 7/12/2019 21:03",
 		"isUnique" : "CT 6/5/2019 18:27",
 		"read" : "CT 6/19/2019 19:56",
