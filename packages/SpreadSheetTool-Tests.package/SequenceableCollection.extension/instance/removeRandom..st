@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-removing
+*SpreadSheetTool-Tests-removing
 removeRandom: aGenerator
 
 	^ self removeAt: (aGenerator nextInt: self size).
