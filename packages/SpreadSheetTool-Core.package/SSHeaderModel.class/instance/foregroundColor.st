@@ -1,4 +1,4 @@
 accessing
 foregroundColor
 
-	^ Color white
+	^ Color black
