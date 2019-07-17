@@ -26,7 +26,7 @@ yellowButtonMenuItems
 		{'debug it (D)' translated.			#debugIt}.		     
 		{'print it (p)' translated.		#printIt}.		     
 		{'inspect it (i)' translated.		#inspectIt}.		     
-		{'sheet it (Q)' translated.		#sheetIt}.
+		{'sheet it (h)' translated.		#sheetIt}.
 		{'explore it (I)' translated.		#exploreIt}.		     
 		{'button for it' translated.			#buttonForIt}.		     
 		{'tally it' translated.			#tallyIt}.

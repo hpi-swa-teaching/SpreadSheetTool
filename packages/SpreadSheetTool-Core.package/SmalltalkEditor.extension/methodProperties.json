@@ -1,5 +1,6 @@
 {
 	"class" : {
-		"initializeShiftCmdKeyShortcuts" : "CT 7/15/2019 17:36" },
+		"initializeCmdKeyShortcuts" : "CT 7/17/2019 09:15",
+		"initializeShiftCmdKeyShortcuts" : "CT 7/17/2019 09:15" },
 	"instance" : {
 		 } }

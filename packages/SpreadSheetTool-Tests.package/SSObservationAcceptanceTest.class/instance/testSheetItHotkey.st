@@ -6,6 +6,7 @@ testSheetItHotkey
 	self wantsToTest: (self findWindowOpenedWhile: [
 		(workspace findByCriteria: #isTextView)
 			sendKeys: 'World';
-			sendControl: $Q]).
+			closeAutocompletion;
+			sendControl: $h]).
 	self setFormulaAt: self someCellIndex getter: 'self identityHash' setter: #default.
 	self assert: World identityHash asString equals: (self findCellAt: self someCellIndex) read.

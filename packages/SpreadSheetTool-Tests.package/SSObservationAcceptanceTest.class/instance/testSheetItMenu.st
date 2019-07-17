@@ -6,7 +6,7 @@ testSheetItMenu
 		findByCriteria: #isTextView.
 	workspace
 		sendKeys: 'World';
-		sendKey: Character end. "close autocompletion"
+		closeAutocompletion.
 	menu := self findMenuOpenedWhile: [
 		workspace rightClick].
 	self wantsToTest: (self findToolWindowOpenedWhile: [menu

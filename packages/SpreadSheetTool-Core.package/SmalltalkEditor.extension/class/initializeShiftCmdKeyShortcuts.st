@@ -12,7 +12,6 @@ initializeShiftCmdKeyShortcuts
 		$f	displayIfFalse:
 		$g	fileItIn:
 		$i	exploreIt:
-		$q	sheetIt:
 		$n	referencesToIt:
 		$s	invokePrettyPrint:
 		$t	displayIfTrue:
