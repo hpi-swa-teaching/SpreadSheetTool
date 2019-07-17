@@ -14,4 +14,5 @@ bringChaosOverTheSplitters
 	horizontalSplitters do: [:splitter |
 		splitter repositionBy: ((-30 to: 30) atRandom: self random) @ 0].
 	
+	self subject extent: self subject extent * 2. "Ensure each morph fits into its cell"
 	self subject redraw.
