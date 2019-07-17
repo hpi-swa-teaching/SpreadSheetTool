@@ -2,7 +2,7 @@ evaluation
 handleFormulaUpdate: aCompiler
 
 	| finalSource |
-	finalSource := aCompiler parser source contents asString.
-	finalSource ~= self rawValue ifTrue: [
-		self rawValue: finalSource.
-		self changed: #rawValue]
+	finalSource := aCompiler parser sourceString.
+	finalSource = self rawValue ifTrue: [^ self].
+	self rawValue: finalSource.
+	self changed: #rawValue.

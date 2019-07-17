@@ -1,10 +1,13 @@
 interaction
 deleteSheetFromImage
 	
+	| selected |
 	self class savedSheets ifEmpty: [
 		UIManager inform: 'There are no sheets to delete'.
 		^ self].
-	(UIManager default chooseFromValues: self class savedSheets keys title: 'Delete sheet')
-		ifNotNil: [:sheetName | 
-			(UIManager default confirm: 'Do you really want to delete ', sheetName, '?') 
-			 	ifTrue: [self class removeSheetNamed: sheetName]].
+	selected := UIManager default
+		chooseFromValues: self class savedSheets keys
+		title: 'Delete sheet'.
+	selected ifNil: [^ self].
+	(self confirm: 'Do you really want to delete {1}?' with: selected) 
+	 	ifTrue: [self class removeSheetNamed: selected].

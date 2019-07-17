@@ -1,11 +1,7 @@
 toolbuilder
 specForHelp: aBuilder
 
-	| spec |
-	spec := aBuilder pluggablePanelSpec new
+	^ aBuilder pluggablePanelSpec new
 		layout: #vertical;
-		children: OrderedCollection new;
-		yourself.
-	spec children
-		add: (self specForAboutButton: aBuilder).
-	^ spec
+		addChild: (self specForAboutButton: aBuilder);
+		yourself

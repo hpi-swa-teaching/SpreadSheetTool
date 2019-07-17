@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"isFormula:" : "CT 7/16/2019 18:36",
 		"sheet:model:rowIndex:columnIndex:" : "CT 7/3/2019 13:17" },
 	"instance" : {
 		"above" : "CT 6/18/2019 11:28",
@@ -21,9 +22,9 @@
 		"columnHeaderAt:" : "CT 7/11/2019 13:14",
 		"evaluateFormulaNotifying:" : "CT 7/11/2019 17:26",
 		"evaluateNotifying:synchronizing:" : "CT 7/11/2019 17:23",
-		"handleFormulaUpdate:" : "CT 7/11/2019 17:26",
+		"handleFormulaUpdate:" : "CT 7/16/2019 17:53",
 		"initialize" : "AN 7/3/2019 16:41",
-		"isFormula" : "CT 6/12/2019 16:09",
+		"isFormula" : "CT 7/16/2019 18:36",
 		"left" : "CT 6/18/2019 11:27",
 		"leftAbove" : "CT 7/11/2019 13:10",
 		"leftBelow" : "CT 7/11/2019 13:11",

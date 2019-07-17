@@ -2,7 +2,7 @@ class initialization
 initialize
 
 	super initialize.
-	savedSheets := savedSheets ifNil: [Dictionary new].
+	savedSheets ifNil: [savedSheets := Dictionary new].
 	self registerInWorldMenu.
 	
 	{SSModelConfiguration. SmalltalkEditor. TextMorphForEditView}

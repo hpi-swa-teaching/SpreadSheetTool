@@ -1,4 +1,4 @@
-interaction
+updating
 update: what
 
 	what = #object ifTrue: [self serverChanged].

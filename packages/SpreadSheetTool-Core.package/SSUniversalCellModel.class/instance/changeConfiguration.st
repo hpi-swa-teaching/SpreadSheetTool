@@ -3,5 +3,5 @@ changeConfiguration
 
 	| config |
 	config := modelConfig requestConfiguration ifNil: [^ self].
-	self offerRegistrationOf: config.
+	self offerToRegister: config.
 	self initializeModelForClass: self model class withConfig: config.

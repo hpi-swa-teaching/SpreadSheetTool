@@ -1,4 +1,4 @@
-evaluation
+testing
 isFormula: aString
 
 	^ aString beginsWith: '^'

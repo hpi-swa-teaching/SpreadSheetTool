@@ -1,4 +1,4 @@
-dependencies
+updating
 update: what with: something
 
 	what = modelConfig contentGetter

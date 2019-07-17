@@ -1,7 +1,6 @@
 {
 	"category" : "SpreadSheetTool-Core",
 	"classinstvars" : [
-		"default",
 		"knownConfigurations" ],
 	"classvars" : [
 		 ],

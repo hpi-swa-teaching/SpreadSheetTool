@@ -1,4 +1,4 @@
-dependencies
+updating
 update: what
 
 	what = modelConfig contentGetter ifTrue: [

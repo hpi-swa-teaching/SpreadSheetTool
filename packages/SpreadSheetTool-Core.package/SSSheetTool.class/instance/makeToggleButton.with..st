@@ -2,7 +2,7 @@ toolbuilder
 makeToggleButton: aButtonSpec with: aBuilder
 
 	| morph |
-	morph := ToolBuilder build: aButtonSpec.
+	morph := aBuilder build: aButtonSpec.
 	morph
 		onColor: (morph offColor) offColor: self defaultWindowColor;
 		hoverColor: (morph onColor mixed: 0.5 with: morph offColor);

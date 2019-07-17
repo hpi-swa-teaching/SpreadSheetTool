@@ -6,4 +6,4 @@ step
 	newHash := newObject hash.
 	latestHash = newObject hash ifFalse: [
 		self withoutObservingDo: [self object: newObject].
-		latestHash := newHash]
+		latestHash := newHash].

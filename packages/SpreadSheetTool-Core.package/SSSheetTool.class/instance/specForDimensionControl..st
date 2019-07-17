@@ -1,18 +1,15 @@
 toolbuilder
 specForDimensionControl: aBuilder
 
-	| spec |
-	spec :=  aBuilder pluggablePanelSpec new
+	^ aBuilder pluggablePanelSpec new
 		layout: #vertical;
-		children: OrderedCollection new;
-		yourself.
-	spec children
-		add: (self
+		addChild: (self
 			specForDimensionControlInDimension: 'rows'
 			selector: #rowCount
 			with: aBuilder);
-		add: (self
+		addChild: (self
 			specForDimensionControlInDimension: 'columns'
 			selector: #columnCount
-			with: aBuilder).
-	^ spec
+			with: aBuilder);
+		layout: #vertical;
+		yourself

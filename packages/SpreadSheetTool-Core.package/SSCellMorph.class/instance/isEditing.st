@@ -1,4 +1,4 @@
 display
 isEditing
 
-	^ self hasUnacceptedEdits or: [hasEditFocus]
+	^ self hasUnacceptedEdits or: [self hasEditFocus]

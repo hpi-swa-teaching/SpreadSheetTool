@@ -1,5 +1,5 @@
 interaction
-offerRegistrationOf: config
+offerToRegister: config
 
 	(UIManager default confirm: (
 'Would you like to set this configuration as default for {1}?'

@@ -1,6 +1,4 @@
 instances
 lookupOrDefault: aClass 
 
-	^ knownConfigurations
-		at: aClass
-		ifAbsent: [self newFor: aClass]
+	^ self lookup: aClass ifAbsent: [self newFor: aClass]
