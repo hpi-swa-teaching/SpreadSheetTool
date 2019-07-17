@@ -1,6 +1,6 @@
 tools
 findCellsIn: aWindow
 
-	^ (1 to: self rowCount) collectAll: [:row |
-		1 to: self columnCount collect: [:column |
+	^ (1 to: (self measureRangeFor: #rows)) collectAll: [:row |
+		1 to: (self measureRangeFor: #columns) collect: [:column |
 			self findCellAt: column @ row in: aWindow]]
