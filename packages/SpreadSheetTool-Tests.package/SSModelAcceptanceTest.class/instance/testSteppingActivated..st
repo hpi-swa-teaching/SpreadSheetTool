@@ -5,7 +5,6 @@ testSteppingActivated: aBoolean
 	(self subject findByLabelFilter: 'Stepping*')
 		assureOn: aBoolean.
 	
-	self chooseEvaluatorModelAt: self someCellIndex.
 	self
 		setFormulaAt: self someCellIndex
 		getter: 'Time current'

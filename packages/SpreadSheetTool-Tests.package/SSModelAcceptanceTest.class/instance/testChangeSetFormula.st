@@ -2,7 +2,6 @@ testing
 testChangeSetFormula
 
 	| cell |
-	self chooseEvaluatorModelAt: self someCellIndex.
 	self
 		into: self someCellIndex
 		putSetter: ('[:x | {1} anObject: x]' format: {self class name}).
