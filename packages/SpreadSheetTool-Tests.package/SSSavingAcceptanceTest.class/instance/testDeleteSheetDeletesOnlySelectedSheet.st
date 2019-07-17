@@ -6,7 +6,6 @@ testDeleteSheetDeletesOnlySelectedSheet
 		saveSheetAs: self someSheetName;
 		saveSheetAs: self someOtherSheetName;
 		deleteSheetByName: self someSheetName.
-	
 	self
 		shouldnt: [self openSheetByName: self someOtherSheetName]
 			raise: Exception;

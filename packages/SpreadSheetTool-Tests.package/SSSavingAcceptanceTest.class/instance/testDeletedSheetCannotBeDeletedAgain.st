@@ -5,7 +5,6 @@ testDeletedSheetCannotBeDeletedAgain
 	self
 		saveSheetAs: self someSheetName;
 		deleteSheetByName: self someSheetName.
-	
 	self
 		should: [self deleteSheetByName: self someSheetName]
 		raise: Exception.

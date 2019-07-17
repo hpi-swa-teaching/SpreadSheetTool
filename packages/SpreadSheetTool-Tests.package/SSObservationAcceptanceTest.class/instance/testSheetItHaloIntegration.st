@@ -1,12 +1,12 @@
 testing
 testSheetItHaloIntegration
 
-	| menu morph |
+	| menu morph window |
 	morph := Morph new.
-	menu := self subject createWrapperFor: (morph buildDebugMenu: self subject hand).
-	self wantsToTest: (self findToolWindowOpenedWhile: [
+	menu := self subject createWrapperFor:
+		(morph buildDebugMenu: self subject hand).
+	window := self findToolWindowOpenedWhile: [
 		menu
 			sendKeys: 'SqueakSheet';
-			sendKey: Character cr]).
-	self setFormulaAt: self someCellIndex getter: 'self identityHash' setter: #default.
-	self assert: morph identityHash asString equals: (self findCellAt: self someCellIndex) read.
+			sendKey: Character cr].
+	self should: window inspect: morph.

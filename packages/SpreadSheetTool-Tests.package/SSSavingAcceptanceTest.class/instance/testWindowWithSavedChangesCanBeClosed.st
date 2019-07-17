@@ -4,9 +4,7 @@ testWindowWithSavedChangesCanBeClosed
 
 	(self findCellAt: self someCellIndex)
 		sendKeys: self someContent.
-	
 	self saveSheetAs: self someSheetName.
-	
 	self
 		shouldntNotify: [self subject delete];
 		assertWindowDeleted: self subject.

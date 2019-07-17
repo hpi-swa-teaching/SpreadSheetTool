@@ -6,7 +6,6 @@ testChangesAfterReopenDoNotAffectSavedSheet
 	(self findCellAt: self someCellIndex)
 		sendKeys: self someContent.
 	self saveSheetAs: self someSheetName.
-	
 	secondWindow := self openSheetByName: self someSheetName.
 	(self findCellAt: self someCellIndex in: secondWindow)
 		sendKeys: self someOtherContent.

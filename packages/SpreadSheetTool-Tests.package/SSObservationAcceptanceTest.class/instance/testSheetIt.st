@@ -1,8 +1,7 @@
 testing
 testSheetIt
 
-	| anObject |
+	| anObject window |
 	anObject := Object new.
-	self wantsToTest: (self findToolWindowOpenedWhile: [anObject sheet]).
-	self setFormulaAt: self someCellIndex getter: 'self identityHash' setter: #default.
-	self assert: anObject identityHash asString equals: (self findCellAt: self someCellIndex) read.
+	window := self findToolWindowOpenedWhile: [anObject sheet].
+	self should: window inspect: anObject.

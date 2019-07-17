@@ -9,7 +9,6 @@ testOverwriteSheetMustAndCanBeConfirmed
 	self findAnyCell
 		sendClearTextField;
 		sendKeys: self someOtherContent.
-	
 	self
 		should: [self saveSheetAs: self someSheetName]
 		notify: 'overwrite'

@@ -6,10 +6,4 @@ testWindowWithCellThatHasFormulaCannotBeClosed
 		setFormulaAt: self someCellIndex
 		getter: self someGetterFormula
 		setter: self someSetterFormula.
-	
-	self
-		should: [self subject delete]
-		notify: 'changes'
-		thenAnswer: false.
-	
-	self assertWindowNotDeleted: self subject.
+	self assertWindowCannotBeClosed.

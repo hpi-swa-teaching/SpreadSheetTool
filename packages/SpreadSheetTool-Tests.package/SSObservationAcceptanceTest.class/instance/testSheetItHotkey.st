@@ -1,12 +1,11 @@
 testing
 testSheetItHotkey
 
-	| workspace |
+	| workspace window |
 	workspace := self findWindowOpenedWhile: [Workspace open].
-	self wantsToTest: (self findWindowOpenedWhile: [
+	window := self findToolWindowOpenedWhile: [
 		(workspace findByCriteria: #isTextView)
 			sendKeys: 'World';
 			closeAutocompletion;
-			sendControl: $h]).
-	self setFormulaAt: self someCellIndex getter: 'self identityHash' setter: #default.
-	self assert: World identityHash asString equals: (self findCellAt: self someCellIndex) read.
+			sendControl: $h].
+	self should: window inspect: World.

@@ -1,5 +1,5 @@
 testing
-testWarningForLargeSheetRangesCanBeCancelledForDimension: aDimension
+testWarningForLargeSheetRangesCanBeCancelled: aDimension
 	"Acceptance test for #21"
 
 	| oldSheetRange |

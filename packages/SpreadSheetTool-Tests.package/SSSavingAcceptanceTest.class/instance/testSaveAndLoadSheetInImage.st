@@ -8,7 +8,6 @@ testSaveAndLoadSheetInImage
 	self saveSheetAs: self someSheetName.
 	
 	newWindow := self openSheetByName: self someSheetName.
-	
 	self
 		assert: self someContent
 		equals: (self findCellAt: self someCellIndex in: newWindow) focusAndRead.

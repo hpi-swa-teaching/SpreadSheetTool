@@ -5,10 +5,4 @@ testWindowWithDimensionFieldThatWasChangedCannotBeClosed
 	self findAnyCell
 		sendKeys: self someContent;
 		sendControlSave.
-	
-	self
-		should: [self subject delete]
-		notify: 'changes'
-		thenAnswer: false.
-	
-	self assertWindowNotDeleted: self subject.
+	self assertWindowCannotBeClosed.
