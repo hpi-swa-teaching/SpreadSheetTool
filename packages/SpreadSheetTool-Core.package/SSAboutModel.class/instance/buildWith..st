@@ -13,7 +13,7 @@ buildWith: aBuilder
 				-> [self specForMainPanel: aBuilder].
 		(LayoutFrame
 			fractions: (1 @ 0 corner: 1 @ 1)
-			offsets: (self illustrationWidth negated @ (self headerHeight * 1.5) corner: 1 @ 1))
+			offsets: (self illustrationWidth negated @ (self headerHeight * 1.5) corner: 0 @ 0))
 				-> [self specForIllustration: aBuilder] }.
 	windowSpec minimumExtent: self minimumWindowExtent.
 	^ aBuilder build: windowSpec
