@@ -11,5 +11,6 @@ keyStroke: evt
 	view scrollSelectionIntoView.
 	
 	"Make a cheap check and guess editing. (Alternative would be to copy the old contents and then compare them against the new ones. Maybe add a better hook in the TextEditor."
-	(self readOnly not and: [evt anyModifierKeyPressed not] and: [self eventCharacterModifiesText: evt keyCharacter])
+	(self readOnly not and: [self eventCharacterModifiesText: evt keyCharacter] and: [evt anyModifierKeyPressed ==> evt keyCharacter ~= $s])
+		flag: #workaround; "See http://forum.world.st/TextMorphForEditView-calls-textEdited-after-every-cmd-action-td5101343.html"
 		ifTrue: [view textEdited: self contents]
