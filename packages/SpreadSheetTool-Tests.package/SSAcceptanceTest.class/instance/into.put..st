@@ -5,4 +5,3 @@ into: aTextMorph put: aString
 		sendClearTextField;
 		sendKeys: aString;
 		sendControlSave.
-	aTextMorph wait; flag: #suspicious. "todo: do we need this?"

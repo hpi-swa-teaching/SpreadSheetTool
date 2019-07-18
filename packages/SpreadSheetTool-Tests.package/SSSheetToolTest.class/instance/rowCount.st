@@ -1,4 +1,4 @@
 accessing
 rowCount
 
-	^ rowCount ifNil: [5]
+	^ 5
