@@ -6,10 +6,10 @@ testInfinityLoopDoesNotOccur
 	firstCell := self findCellAtRow: 1 atColumn: 1.
 	secondCell := self findCellAtRow: 1 atColumn: 2.
 	
-	firstCell sendKeys: '^ self right'.
+	firstCell sendKeys: '^ cell right'.
 	firstCell sendControlSave.
 	
-	secondCell sendKeys: '^ self left'.
+	secondCell sendKeys: '^ cell left'.
 	self
 		should: [secondCell sendControlSave]
 		raise: Error

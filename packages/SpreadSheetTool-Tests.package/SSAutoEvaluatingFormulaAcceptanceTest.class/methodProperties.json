@@ -5,7 +5,7 @@
 		"disableAutoEvaluate" : "CT 7/12/2019 21:04",
 		"enableAutoEvaluate" : "CT 7/12/2019 21:04",
 		"findAutoEvaluateToggle" : "CT 6/27/2019 10:02",
-		"setUp" : "CT 6/24/2019 16:43",
+		"setUp" : "GT 7/19/2019 11:36",
 		"someNotReferencedCellIndex" : "AN 6/26/2019 18:43",
 		"testAutoEvaluateOffReferencedCellDoesAutosave" : "GT 6/26/2019 14:30",
 		"testAutoEvaluateToggleExists" : "CT 6/27/2019 09:58",
@@ -14,4 +14,4 @@
 		"testNonReferencedCellDoesAutosave" : "AN 6/26/2019 18:43",
 		"testOnToggleActivatedFormulasRecompute" : "GT 6/26/2019 14:30",
 		"testReferencedCellDoesNotAutosave" : "GT 6/26/2019 14:31",
-		"testValueReturnsLatestValue" : "CT 7/17/2019 14:35" } }
+		"testValueReturnsLatestValue" : "GT 7/19/2019 11:36" } }

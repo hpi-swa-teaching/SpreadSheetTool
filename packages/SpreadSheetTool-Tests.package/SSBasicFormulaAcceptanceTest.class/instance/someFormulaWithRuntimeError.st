@@ -1,4 +1,4 @@
 testing data
 someFormulaWithRuntimeError
 
-	^ '^ self tryToCallAFunctionThatHopefullyDoesntExistDontYouDareImplementThis'
+	^ '^ cell tryToCallAFunctionThatHopefullyDoesntExistDontYouDareImplementThis'
