@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"addDefaultConfigurations" : "CT 7/14/2019 18:13",
+		"addDefaultConfigurations" : "CT 7/19/2019 13:12",
 		"addKnownConfiguration:" : "CT 7/11/2019 20:01",
+		"at:" : "CT 7/19/2019 13:19",
+		"at:ifAbsent:" : "CT 7/19/2019 13:18",
 		"initialize" : "CT 7/11/2019 20:02",
-		"lookup:ifAbsent:" : "CT 7/12/2019 16:05",
-		"lookupOrDefault:" : "CT 7/16/2019 19:26",
 		"models" : "CT 7/10/2019 18:54",
 		"newFor:" : "CT 7/10/2019 18:31",
 		"requestConfiguration:onCancel:" : "CT 7/12/2019 16:11",

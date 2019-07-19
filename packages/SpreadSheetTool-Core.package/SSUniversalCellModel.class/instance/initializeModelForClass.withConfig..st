@@ -2,7 +2,7 @@ initialize-release
 initializeModelForClass: aClass withConfig: aConfig
 
 	| latestFormula |
-	latestFormula := ((model isKindOf: SSCellModel) and: [getterBlock isNil])
+	latestFormula := ((model isKindOf: SSFormulaModel) and: [getterBlock isNil])
 		ifTrue: [model cell rawValue]
 		ifFalse: [getterFormula].
 	model ifNotNil: #release.
@@ -21,7 +21,7 @@ initializeModelForClass: aClass withConfig: aConfig
 		stepTime: nil].
 	self changed: #buildCell.
 	latestFormula isEmptyOrNil ifFalse: [
-		(model isKindOf: SSCellModel)
+		(model isKindOf: SSFormulaModel)
 			ifFalse: [self
 				compileGetter: latestFormula;
 				flag: #workaround]

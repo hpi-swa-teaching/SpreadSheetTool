@@ -2,7 +2,7 @@ initialize-release
 addDefaultConfigurations
 
 	self
-		addKnownConfiguration: ((self newFor: SSCellModel)
+		addKnownConfiguration: ((self newFor: SSFormulaModel)
 			constructor: #parent:sheet:rowIndex:columnIndex:;
 			builderSelector: #createSpecWith:;
 			contentGetter: #value;

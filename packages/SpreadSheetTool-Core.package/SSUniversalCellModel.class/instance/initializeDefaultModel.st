@@ -1,4 +1,6 @@
 initialize-release
 initializeDefaultModel
 
-	self initializeModelForClass: SSCellModel.
+	self
+		initializeModelForClass: SSFormulaModel
+		withConfig: (SSModelConfiguration at: SSFormulaModel).

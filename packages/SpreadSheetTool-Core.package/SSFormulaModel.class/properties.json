@@ -12,9 +12,10 @@
 		"unacceptedContents",
 		"isBusy",
 		"latestValue",
-		"morph" ],
-	"name" : "SSCellModel",
+		"morph",
+		"parent" ],
+	"name" : "SSFormulaModel",
 	"pools" : [
 		 ],
-	"super" : "SSTextFieldModel",
+	"super" : "StringHolder",
 	"type" : "normal" }

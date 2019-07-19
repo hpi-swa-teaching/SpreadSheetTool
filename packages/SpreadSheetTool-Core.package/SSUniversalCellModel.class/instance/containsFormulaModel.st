@@ -1,4 +1,4 @@
 as yet unclassified
 containsFormulaModel
 
-	^ model isKindOf: SSCellModel
+	^ model isKindOf: SSFormulaModel

@@ -1,7 +1,7 @@
 event handling
 acceptTextInModel
 
-	(self acceptContents: self text copy)
+	(super acceptTextInModel)
 		ifFalse: [^ false].
 	self
 		hasEditFocus: false;

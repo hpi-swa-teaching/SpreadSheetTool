@@ -22,5 +22,5 @@
 		"testInlineSyntaxErrors" : "CT 7/15/2019 13:12",
 		"testNonEditedFormulaCellHasNoAutocompletion" : "CT 7/17/2019 12:33",
 		"testNonFormulaCellHasNoAutocompletion" : "CT 7/17/2019 12:33",
-		"testSetFormulaFieldHasAutocompletion" : "CT 7/17/2019 14:35",
+		"testSetFormulaFieldHasAutocompletion" : "CT 7/19/2019 13:40",
 		"testSyntaxErrorDoesNotReopenWithoutAccept" : "JB 6/20/2019 18:18" } }

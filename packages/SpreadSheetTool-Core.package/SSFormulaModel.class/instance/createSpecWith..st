@@ -1,12 +1,12 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	^ (morph := SSCellMorph new)
+	^ morph := SSCellMorph new
 		on: self
 			text: #contents
-			edit: #editContents:
-			accept: #acceptContents:
+			accept: #contents:
 			output: #outputContents
+			edit: #editContents:
 			menu: #codePaneMenu:shifted:;
 		minimumExtent: self parent minimumCellExtent;
 		refreshText;

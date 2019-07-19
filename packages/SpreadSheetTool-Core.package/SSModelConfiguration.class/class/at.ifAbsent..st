@@ -1,5 +1,5 @@
 instances
-lookup: aClass ifAbsent: aBlock
+at: aClass ifAbsent: aBlock
 
 	^ knownConfigurations
 		at: aClass

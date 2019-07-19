@@ -3,5 +3,5 @@ textEdited: aText
 
 	self hasEditFocus ifFalse: [^ self hasEditFocus: true].
 	super textEdited: aText.
-	(self model wantsToAutosave: aText asString)
+	self model wantsToAutosave
 		ifTrue: [self acceptContents: aText].
