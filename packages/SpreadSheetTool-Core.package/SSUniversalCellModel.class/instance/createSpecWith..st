@@ -3,9 +3,8 @@ createSpecWith: aBuilder
 
 	self model ifNil: [self initializeDefaultModel].
 	^ aBuilder pluggablePanelSpec new
-		children: {
-			(self specForModel: aBuilder).
-			(self specForButtonPanel: aBuilder) };
+		model: self;
+		children: #buildCell;
 		frame: 0 @ 0 extent: 1 @ 1;
 		spacing: 0;
 		yourself

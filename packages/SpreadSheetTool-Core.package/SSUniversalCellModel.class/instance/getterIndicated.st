@@ -1,0 +1,4 @@
+accessing
+getterIndicated
+
+	^ formulaSelection = #getter

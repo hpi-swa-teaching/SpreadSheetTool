@@ -1,13 +1,19 @@
 toolbuilder
 specForButtonPanel: aBuilder
 
-	^ aBuilder pluggablePanelSpec new
+	| spec |
+	spec := aBuilder pluggablePanelSpec new
 		frame: (LayoutFrame
 			fractions: (0 @ 0 corner: 1 @ 0)
 			offsets: (0 @ 0 corner: 0 @ self buttonHeight));
-		children: {
-			self specForFormulaButton: aBuilder.
-			self specForConfigurationButton: aBuilder.
-			self specForModelButton: aBuilder. };
 		layout: #horizontal;
-		yourself
+		yourself.
+	self containsFormulaModel ifFalse: [
+		spec
+			addChild: (self specForGetterButton: aBuilder);
+			addChild: (self specForSetterButton: aBuilder);
+			addChild: (aBuilder pluggableSpacerSpec new)].
+	spec
+		addChild: (self specForConfigurationButton: aBuilder);
+		addChild: (self specForModelButton: aBuilder).
+	^ spec

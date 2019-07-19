@@ -15,7 +15,8 @@
 		"getterFormula",
 		"getterBlock",
 		"setterFormula",
-		"setterBlock" ],
+		"setterBlock",
+		"formulaSelection" ],
 	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],

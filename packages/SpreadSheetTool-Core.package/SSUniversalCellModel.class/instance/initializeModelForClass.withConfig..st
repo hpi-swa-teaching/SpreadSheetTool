@@ -19,7 +19,7 @@ initializeModelForClass: aClass withConfig: aConfig
 		selector: #stepModelAt:
 		arguments: #()
 		stepTime: nil].
-	self changed: #buildModel.
+	self changed: #buildCell.
 	latestFormula isEmptyOrNil ifFalse: [
 		(model isKindOf: SSCellModel)
 			ifFalse: [self
