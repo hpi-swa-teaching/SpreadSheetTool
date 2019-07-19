@@ -3,7 +3,7 @@ specForMainPanel: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		children: {
-			(self specForHelpBox: aBuilder)
+			(self specForInfoBox: aBuilder)
 				frame: (0 @ 0 corner: 1 @ (2 / 5));
 				yourself.
 			(self specForAboutBox: aBuilder)

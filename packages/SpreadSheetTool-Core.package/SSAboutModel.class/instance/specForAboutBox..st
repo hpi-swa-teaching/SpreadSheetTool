@@ -5,5 +5,5 @@ specForAboutBox: aBuilder
 		model: self;
 		getText: #aboutText;
 		setText: #easterEgg:;
-		indicateUnacceptedChanges: false;
+		askBeforeDiscardingEdits: false;
 		yourself

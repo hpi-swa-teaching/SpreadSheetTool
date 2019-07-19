@@ -1,9 +1,9 @@
 toolbuilder
-specForHelpBox: aBuilder
+specForInfoBox: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		children: {
-			(self specForHelpText: aBuilder)
+			(self specForInfoText: aBuilder)
 				frame: (0 @ 0 extent: 2 / 3 @ 1);
 				yourself.
 			(self specForBrowser: aBuilder)

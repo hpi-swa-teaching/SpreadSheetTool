@@ -1,0 +1,4 @@
+toolbuilder
+selectedClass
+
+	^ browser selectedClass

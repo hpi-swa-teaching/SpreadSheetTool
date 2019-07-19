@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"browser",
+		"aboutText",
+		"helpText" ],
 	"name" : "SSAboutModel",
 	"pools" : [
 		 ],
