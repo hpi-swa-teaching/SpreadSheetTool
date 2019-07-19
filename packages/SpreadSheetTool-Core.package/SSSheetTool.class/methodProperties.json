@@ -56,7 +56,6 @@
 		"openNewSheet" : "CT 6/7/2019 13:41",
 		"openSheet:" : "CT 7/11/2019 21:24",
 		"openSheetFromImage" : "GT 7/1/2019 18:45",
-		"postDeepCopy" : "CT 7/11/2019 21:20",
 		"promptChangesCanBeDiscarded" : "CT 5/11/2019 14:48",
 		"promptDecreaseAndDeleteContent" : "CT 6/15/2019 20:10",
 		"promptOverwriteSheet" : "CT 6/21/2019 16:58",
@@ -92,6 +91,6 @@
 		"toggleAutoEvaluate" : "CT 7/12/2019 16:48",
 		"toggleStepping" : "CT 7/12/2019 16:44",
 		"update:" : "CT 7/3/2019 14:13",
-		"veryDeepCopyWith:" : "GT 7/1/2019 19:18",
+		"veryDeepInner:" : "CT 7/19/2019 18:56",
 		"wantsSteps" : "CT 7/12/2019 16:33",
 		"windowIsClosing" : "CT 7/9/2019 19:44" } }
