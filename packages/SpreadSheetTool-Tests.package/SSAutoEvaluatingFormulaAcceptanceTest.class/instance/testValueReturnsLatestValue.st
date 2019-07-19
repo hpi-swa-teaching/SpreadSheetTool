@@ -4,6 +4,6 @@ testValueReturnsLatestValue
 
 	self into: (self findCellAt: self someCellIndex) put: self someContent. 
 	self
-		shouldFormula: '^ self value'
+		shouldFormula: '^ cell value'
 		in: self someCellIndex
 		evaluateTo: self someContent.

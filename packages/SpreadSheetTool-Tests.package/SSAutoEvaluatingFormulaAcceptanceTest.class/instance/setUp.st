@@ -10,10 +10,10 @@ setUp
 	indirectlyReferencingCell := self findCellAt: referencedIndex + (1 @ 1).
 	
 	referencingCell
-		sendKeys: '^self left';
+		sendKeys: '^cell left';
 		sendControlSave.
 	indirectlyReferencingCell
-		sendKeys: '^self above';
+		sendKeys: '^cell above';
 		sendControlSave.
 	
 	self enableAutoEvaluate.
