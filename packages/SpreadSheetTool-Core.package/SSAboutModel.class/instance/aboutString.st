@@ -8,10 +8,10 @@ Issues and contributions on GitHub are highly welcome:
 @https://github.com/hpi-swa-teaching/SpreadSheetTool
 
 #Authors:
-Jannis Bolik
-Andrea Nathansen
-Benedikt Schenkel
-Georg Tennigkeit
-Christoph Thiede
+- Jannis Bolik
+- Andrea Nathansen
+- Benedikt Schenkel
+- Georg Tennigkeit
+- Christoph Thiede
 
 Special thanks to Leon Matthes for his diligent support of our project, and to the Software Architecture Group for their patient and helpful advice!'
