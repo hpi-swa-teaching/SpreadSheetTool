@@ -6,4 +6,4 @@ changePreferencesDuring: aBlock
 		toValue: false
 		during: [
 			self setUseInlineSyntaxErrorsTo: false during: [
-				aBlock value]].
+				aBlock value]]
