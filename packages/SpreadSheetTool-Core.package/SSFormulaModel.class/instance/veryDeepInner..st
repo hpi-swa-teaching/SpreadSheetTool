@@ -4,3 +4,4 @@ veryDeepInner: deepCopier
 
 	super veryDeepInner: deepCopier.
 	morph := nil.
+	cell := cell veryDeepCopyWith: deepCopier.
