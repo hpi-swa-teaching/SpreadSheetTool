@@ -1,4 +1,4 @@
 as yet unclassified
-manipulateModel: anObject
+updateModel: anObject
 
 	 self withoutObservingDo: [self displayAspect: anObject].

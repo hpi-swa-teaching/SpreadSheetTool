@@ -3,5 +3,5 @@ refreshText
 
 	| hadUnacceptedEdits |
 	hadUnacceptedEdits := self hasUnacceptedEdits.
-	self update: self getTextSelector.
+	self setText: self getText.
 	self hasUnacceptedEdits: hadUnacceptedEdits.

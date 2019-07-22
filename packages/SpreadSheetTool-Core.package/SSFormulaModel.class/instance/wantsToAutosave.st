@@ -1,4 +1,4 @@
 testing
 wantsToAutosave
 
-	^ self parent autoEvaluateActivated ==> [formula hasClients not]
+	^ self tool autoEvaluateActivated ==> [formula hasClients not]

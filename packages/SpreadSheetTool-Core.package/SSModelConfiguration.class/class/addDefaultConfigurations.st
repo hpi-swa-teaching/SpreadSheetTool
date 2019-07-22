@@ -3,7 +3,7 @@ addDefaultConfigurations
 
 	self
 		addKnownConfiguration: ((self newFor: SSHybridFormulaModel)
-			constructor: #parent:embeddedFormula:;
+			constructor: #tool:embeddedFormula:;
 			builderSelector: #createSpecWith:;
 			contentGetter: #output;
 			displaysString: true;

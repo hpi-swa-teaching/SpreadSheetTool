@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"parent:embeddedFormula:" : "CT 7/22/2019 13:29" },
+		"tool:embeddedFormula:" : "CT 7/22/2019 17:13" },
 	"instance" : {
 		"aboutToStyle:" : "CT 7/22/2019 12:10",
 		"addClient:" : "CT 7/22/2019 12:09",
@@ -9,7 +9,7 @@
 		"beReady" : "CT 7/20/2019 20:39",
 		"computeOutput" : "CT 7/22/2019 15:16",
 		"contents" : "CT 7/22/2019 14:45",
-		"contents:" : "CT 7/22/2019 13:48",
+		"contents:" : "CT 7/22/2019 17:25",
 		"contentsChanged" : "CT 7/22/2019 11:23",
 		"controller" : "CT 7/20/2019 20:35",
 		"createSpecWith:" : "CT 7/20/2019 20:24",
@@ -20,10 +20,10 @@
 		"hasUnacceptedEdits" : "CT 7/19/2019 13:35",
 		"morph" : "CT 7/20/2019 20:36",
 		"output" : "CT 7/22/2019 15:15",
-		"parent" : "CT 7/19/2019 13:24",
-		"parent:" : "CT 7/19/2019 13:12",
-		"receiver" : "CT 7/20/2019 19:13",
+		"receiver" : "CT 7/22/2019 17:16",
 		"removeClient:" : "CT 7/22/2019 12:09",
-		"update:" : "CT 7/22/2019 15:34",
+		"tool" : "CT 7/22/2019 17:12",
+		"tool:" : "CT 7/22/2019 17:13",
+		"update:" : "CT 7/22/2019 17:25",
 		"veryDeepInner:" : "CT 7/22/2019 12:09",
-		"wantsToAutosave" : "CT 7/22/2019 15:23" } }
+		"wantsToAutosave" : "CT 7/22/2019 17:17" } }

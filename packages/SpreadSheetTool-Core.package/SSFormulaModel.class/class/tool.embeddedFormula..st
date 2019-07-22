@@ -1,8 +1,8 @@
 instance creation
-parent: parent embeddedFormula: formula
+tool: sheetTool embeddedFormula: formula
 
 	| model |
 	^ (model := self new)
-		parent: parent;
+		tool: sheetTool;
 		formula: formula;
 		yourself

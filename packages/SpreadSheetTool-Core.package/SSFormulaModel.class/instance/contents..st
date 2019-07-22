@@ -1,6 +1,6 @@
 interaction
 contents: aTextOrString
 
-	self formula rawValue: aTextOrString asString.
+	self formula input: aTextOrString asString.
 	self contentsChanged.
 	^ true

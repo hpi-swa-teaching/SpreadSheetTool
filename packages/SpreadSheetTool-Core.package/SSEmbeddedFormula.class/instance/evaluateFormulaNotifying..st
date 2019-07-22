@@ -10,6 +10,6 @@ evaluateFormulaNotifying: aController
 		to: self receiver
 		notifying: aController
 		ifFail: [Abort signal]
-		logged: true.
+		logged: "true"false.
 	self checkForInputChange: compiler.
 	^ result

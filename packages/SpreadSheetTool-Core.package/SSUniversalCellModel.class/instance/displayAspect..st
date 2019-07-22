@@ -9,4 +9,4 @@ displayAspect: anObject
 		(objectToSet isNil and: [latestHash isNil])
 			ifTrue: [^ self].
 		objectToSet := objectToSet asString].
-	model perform: modelConfig contentSetter with: objectToSet.
+	self model perform: modelConfig contentSetter with: objectToSet.
