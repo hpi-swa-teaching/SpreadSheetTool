@@ -3,9 +3,9 @@ miniFormat: aString
 
 	| formattedLines textLines styler |
 	textLines := aString lines collect: #asText.
-	styler := SHTextStylerST80 new
+	styler := [SHTextStylerST80 new
 		context: (SSEmbeddedGetterFormula new model: []; context);
-		yourself.
+		yourself] once.
 	formattedLines := textLines collect: [:text |
 		(text at: 1 ifAbsent: [nil])
 			caseOf: {
@@ -14,9 +14,9 @@ miniFormat: aString
 					addAttribute: (TextIndent tabs: 1);
 					yourself].
 				[$@] -> [text allButFirst
-					addAttribute: (PluggableTextAttribute evalBlock: [self tryOpenUrl: text allButFirst])
+					addAttribute: (PluggableTextAttribute evalBlock: [self openUrl: text allButFirst]);
 					yourself].
-				[$§] -> [| styledText |
+				[$`] -> [| styledText |
 					styledText := text allButFirst.
 					styler privateStyle: styledText.
 					styledText addAttribute: (TextIndent tabs: 1).
