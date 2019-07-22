@@ -4,6 +4,6 @@ shouldShowAutocompletion: aMorph
 	| completions |
 	completions := self findAutocompletionsOpenedWhile: [
 		aMorph
-			sendKeys: ' Obje';
+			sendKeys: '. Obje';
 			wait].
 	self assert: completions isPositive.

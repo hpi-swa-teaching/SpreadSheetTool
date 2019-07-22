@@ -9,9 +9,9 @@
 		"someNotReferencedCellIndex" : "AN 6/26/2019 18:43",
 		"testAutoEvaluateOffReferencedCellDoesAutosave" : "GT 6/26/2019 14:30",
 		"testAutoEvaluateToggleExists" : "CT 6/27/2019 09:58",
+		"testCellOutputReturnsLatestValue" : "CT 7/22/2019 17:43",
 		"testFormulaAutoUpdate" : "GT 6/26/2019 14:30",
 		"testFormulaAutoUpdateChainReaction" : "GT 6/26/2019 14:30",
 		"testNonReferencedCellDoesAutosave" : "AN 6/26/2019 18:43",
 		"testOnToggleActivatedFormulasRecompute" : "GT 6/26/2019 14:30",
-		"testReferencedCellDoesNotAutosave" : "GT 6/26/2019 14:31",
-		"testValueReturnsLatestValue" : "GT 7/19/2019 11:36" } }
+		"testReferencedCellDoesNotAutosave" : "GT 6/26/2019 14:31" } }

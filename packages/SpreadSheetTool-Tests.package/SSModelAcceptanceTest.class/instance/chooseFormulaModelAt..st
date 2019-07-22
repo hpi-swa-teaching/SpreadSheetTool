@@ -6,4 +6,4 @@ chooseFormulaModelAt: aPoint
 	self
 		should: [button click]
 		notify: 'model'
-		thenAnswer: SSFormulaModel asString.
+		thenAnswer: SSHybridFormulaModel asString.

@@ -1,6 +1,6 @@
 testing
 testEvaluate
 	
-	cell rawValue: self someFormula.
+	cell input: self someFormula.
 	cell evaluateNotifying: nil.
-	self assert: self someFormulaResult equals: cell value.
+	self assert: self someFormulaResult equals: cell output.

@@ -6,9 +6,9 @@ testSteppingActivated: aBoolean
 		assureOn: aBoolean.
 	
 	self
-		setFormulaAt: self someCellIndex
-		getter: 'Time current'
-		setter: self someSetterFormula.
+		at: self someCellIndex
+		putGetter: 'Time current'
+		putSetter: self someSetterFormula.
 	cell := self findCellAt: self someCellIndex.
 	
 	oldContent := cell read.

@@ -1,5 +1,5 @@
 testing
 testIsFormula
 	
-	cell rawValue: self someFormula.
+	cell input: self someFormula.
 	self assert: cell isFormula.

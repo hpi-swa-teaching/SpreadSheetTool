@@ -1,4 +1,0 @@
-accessing
-rowCount
-
-	^ 5

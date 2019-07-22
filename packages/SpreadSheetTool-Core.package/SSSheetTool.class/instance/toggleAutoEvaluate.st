@@ -1,7 +1,7 @@
 interaction
 toggleAutoEvaluate
 
-	contentModels autoEvaluateActivated: contentModels autoEvaluateActivated not.
+	contentModels toggleAutoEvaluate.
 	self changed: #autoEvaluateActivated; changed: #labelForAutoEvaluate.
 	contentModels autoEvaluateActivated ifTrue: [
-		contentModels refreshAll].
+		self disableSteppingWhile: [contentModels computeAll]].

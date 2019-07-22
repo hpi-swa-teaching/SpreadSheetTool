@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"classUnderTest" : "CT 6/6/2019 01:33",
-		"setUp" : "CT 7/4/2019 00:27",
-		"testAcceptContentsChangesCellRawValue" : "CT 7/22/2019 14:45",
-		"testAcceptContentsNotifiesObservers" : "CT 7/16/2019 10:30",
-		"testCell" : "CT 6/12/2019 13:10" } }

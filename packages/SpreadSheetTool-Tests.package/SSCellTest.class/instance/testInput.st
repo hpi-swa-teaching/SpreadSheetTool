@@ -1,5 +1,5 @@
 testing
-testRawValue
+testInput
 	
-	cell rawValue: self someValue.
+	cell input: self someValue.
 	self assert: self someValue equals: cell input.

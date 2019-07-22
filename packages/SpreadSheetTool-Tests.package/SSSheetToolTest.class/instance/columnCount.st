@@ -1,4 +1,0 @@
-accessing
-columnCount
-
-	^ 7

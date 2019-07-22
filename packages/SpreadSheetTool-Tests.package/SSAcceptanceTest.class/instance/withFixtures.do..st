@@ -4,7 +4,7 @@ withFixtures: aCollection do: aBlock
 	| fixturesToTest |
 	fixturesToTest := self class isLongStage
 		ifTrue: [aCollection]
-		ifFalse: [ | allFixtures |
+		ifFalse: [| allFixtures |
 			allFixtures := OrderedCollection newFrom: aCollection.
 			1 to: (aCollection size / 10) ceiling collect: [:foo |
 				allFixtures removeRandom: self random]].

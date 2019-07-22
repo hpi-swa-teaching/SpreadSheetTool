@@ -1,7 +1,5 @@
 updating
 update: what
 
-	self flag: #caseOf:.
-	what = #input ifTrue: [self editContents: self formula input].
-	"what = #output ifTrue: [self contentsChanged]."
+	"moved input + output to subclass. tell me when an error occurred. ct"
 	^ super update: what

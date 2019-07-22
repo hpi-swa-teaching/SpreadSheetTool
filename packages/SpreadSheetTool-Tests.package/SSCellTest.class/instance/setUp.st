@@ -1,4 +1,5 @@
 running
 setUp
 
-	cell := SSCell new.
+	cell := SSEmbeddedGetterFormula new.
+	cell model: [[]].

@@ -1,4 +1,4 @@
 tools
 findGetFormulaButtonAt: aPoint
 
-	^ self findButtonAt: aPoint byLabel: 'get formula'
+	^ self findButtonAt: aPoint byLabel: 'getter'

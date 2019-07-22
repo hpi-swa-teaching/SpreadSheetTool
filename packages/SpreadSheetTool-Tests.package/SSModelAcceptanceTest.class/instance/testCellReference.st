@@ -5,5 +5,5 @@ testCellReference
 	| cell |
 	cell := self findCellAt: self someCellIndex.
 	self at: self someCellIndex putGetter: 'cell rowHeaderAt: 1'.
-	self assert: '1' equals: cell read.
+	self assert: '1' printString equals: cell read.
 	

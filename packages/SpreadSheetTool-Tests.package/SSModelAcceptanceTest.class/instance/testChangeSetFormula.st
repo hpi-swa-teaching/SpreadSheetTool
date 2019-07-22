@@ -5,7 +5,7 @@ testChangeSetFormula
 	| cell |
 	self
 		at: self someCellIndex
-		putSetter: ('[:x | {1} anObject: x]' format: {self class name}).
+		putSetter: ('{1} anObject: value' format: {self class name}).
 	cell := self findCellAt: self someCellIndex.
 	
 	self into: cell put: ('''{1}''' format: {self someContent}).

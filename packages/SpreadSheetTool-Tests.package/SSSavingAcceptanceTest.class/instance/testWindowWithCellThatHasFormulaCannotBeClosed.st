@@ -3,7 +3,7 @@ testWindowWithCellThatHasFormulaCannotBeClosed
 	"Test for #10 (Simple Menu)"
 
 	self
-		setFormulaAt: self someCellIndex
-		getter: self someGetterFormula
-		setter: self someSetterFormula.
+		at: self someCellIndex
+		putGetter: self someGetterFormula
+		putSetter: self someSetterFormula.
 	self assertWindowCannotBeClosed.
