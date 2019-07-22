@@ -6,14 +6,8 @@
 		 ],
 	"commentStamp" : "CT 6/12/2019 15:01",
 	"instvars" : [
-		"cell",
-		"clients",
-		"servers",
-		"unacceptedContents",
-		"isBusy",
-		"latestValue",
-		"morph",
-		"parent" ],
+		"parent",
+		"formula" ],
 	"name" : "SSFormulaModel",
 	"pools" : [
 		 ],

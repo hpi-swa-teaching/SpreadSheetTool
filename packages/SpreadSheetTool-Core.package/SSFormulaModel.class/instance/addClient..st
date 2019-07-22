@@ -1,4 +1,4 @@
 dependencies
 addClient: aClient
 
-	clients add: aClient.
+	formula addClient: aClient.

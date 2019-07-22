@@ -8,7 +8,7 @@ specForButtonPanel: aBuilder
 			offsets: (0 @ 0 corner: 0 @ self buttonHeight));
 		layout: #horizontal;
 		yourself.
-	self containsFormulaModel ifFalse: [
+	self hasStandaloneModel ifFalse: [
 		spec
 			addChild: (self specForGetterButton: aBuilder);
 			addChild: (self specForSetterButton: aBuilder);

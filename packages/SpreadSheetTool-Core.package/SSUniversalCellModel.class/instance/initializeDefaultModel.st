@@ -2,5 +2,5 @@ initialize-release
 initializeDefaultModel
 
 	self
-		initializeModelForClass: SSFormulaModel
-		withConfig: (SSModelConfiguration at: SSFormulaModel).
+		initializeModelForClass: SSHybridFormulaModel
+		withConfig: (SSModelConfiguration at: SSHybridFormulaModel).

@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	browser := Browser new
-		setClass: SSCell;
+		setClass: SSEmbeddedFormula;
 		selectMessageCategoryNamed: #'accessing sheet';
 		addDependent: self;
 		yourself.

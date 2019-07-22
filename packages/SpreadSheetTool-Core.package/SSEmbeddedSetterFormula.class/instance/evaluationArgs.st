@@ -1,0 +1,4 @@
+accessing
+evaluationArgs
+
+	^ {setterArgument. self}

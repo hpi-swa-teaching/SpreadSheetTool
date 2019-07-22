@@ -1,0 +1,23 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sheet",
+		"rowIndex",
+		"columnIndex",
+		"model",
+		"servers",
+		"isBusy",
+		"context",
+		"isHybrid",
+		"input",
+		"output" ],
+	"name" : "SSEmbeddedFormula",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

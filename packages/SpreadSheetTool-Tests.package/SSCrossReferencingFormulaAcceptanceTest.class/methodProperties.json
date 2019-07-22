@@ -18,7 +18,7 @@
 		"testFormulaAtColumnAtRow" : "GT 7/19/2019 11:43",
 		"testFormulaAtColumnAtRowPositiveZero" : "GT 7/19/2019 11:43",
 		"testFormulaAtColumnAtRowSelfReference" : "GT 7/19/2019 11:43",
-		"testFormulaAtColumnAtRowZeroPositive" : "CT 7/11/2019 12:11",
+		"testFormulaAtColumnAtRowZeroPositive" : "CT 7/20/2019 16:34",
 		"testFormulaAtColumnAtRowZeroZero" : "GT 7/19/2019 11:43",
 		"testFormulaAtRowAtColumn" : "GT 7/19/2019 11:43",
 		"testFormulaAtRowAtColumnSelfReference" : "GT 7/19/2019 11:43",

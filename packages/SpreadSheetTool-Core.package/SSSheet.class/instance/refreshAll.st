@@ -1,4 +1,4 @@
 refreshing
 refreshAll
 
-	cells do: #refreshValue.
+	cells do: #refreshResult.

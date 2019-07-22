@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SSEmbeddedGetterFormula",
+	"pools" : [
+		 ],
+	"super" : "SSEmbeddedFormula",
+	"type" : "normal" }

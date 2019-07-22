@@ -2,4 +2,4 @@ updating
 contentsChanged
 
 	super contentsChanged.
-	self changed: #value.
+	self changed: #result.

@@ -1,0 +1,4 @@
+testing
+isSetterIndicated
+
+	^ formulaSelection = #setter

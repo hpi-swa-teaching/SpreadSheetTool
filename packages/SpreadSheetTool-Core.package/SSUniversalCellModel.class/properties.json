@@ -13,10 +13,10 @@
 		"latestHash",
 		"modelConfig",
 		"getterFormula",
-		"getterBlock",
 		"setterFormula",
-		"setterBlock",
-		"formulaSelection" ],
+		"formulaSelection",
+		"getterModel",
+		"setterModel" ],
 	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],

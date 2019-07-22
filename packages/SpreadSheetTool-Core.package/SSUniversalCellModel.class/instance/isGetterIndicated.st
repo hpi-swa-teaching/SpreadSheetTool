@@ -1,0 +1,4 @@
+testing
+isGetterIndicated
+
+	^ formulaSelection = #getter

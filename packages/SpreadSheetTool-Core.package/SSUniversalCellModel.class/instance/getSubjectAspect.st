@@ -1,0 +1,4 @@
+subject
+getSubjectAspect
+
+	^ getterFormula computeOutput

@@ -1,4 +1,4 @@
 evaluating
 doItReceiver
 
-	^ self cell
+	^ self formula receiver

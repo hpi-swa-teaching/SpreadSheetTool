@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 contents
 
-	^ unacceptedContents
+	^ self formula input

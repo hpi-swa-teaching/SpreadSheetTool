@@ -6,5 +6,5 @@ specForSetterButton: aBuilder
 		help: 'Edit setter for this cell';
 		model: self;
 		action: #switchSetter;
-		state: #setterIndicated;
+		state: #isSetterIndicated;
 		yourself

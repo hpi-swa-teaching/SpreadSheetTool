@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"setterArgument" ],
+	"name" : "SSEmbeddedSetterFormula",
+	"pools" : [
+		 ],
+	"super" : "SSEmbeddedFormula",
+	"type" : "normal" }

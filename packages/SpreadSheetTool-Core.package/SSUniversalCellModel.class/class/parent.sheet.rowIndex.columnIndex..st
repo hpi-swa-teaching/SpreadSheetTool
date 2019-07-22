@@ -1,7 +1,9 @@
-as yet unclassified
+instance creation
 parent: aModel sheet: aSheet rowIndex: aRow columnIndex: aColumn
 
-	^ (self parent: aModel)
+	^ self basicNew
+		parent: aModel;
 		sheet: aSheet;
 		rowIndex: aRow columnIndex: aColumn;
+		initialize;
 		yourself

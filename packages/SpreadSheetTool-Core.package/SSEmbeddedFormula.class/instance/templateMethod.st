@@ -1,0 +1,4 @@
+accessing
+templateMethod
+
+	^ self subclassResponsibility

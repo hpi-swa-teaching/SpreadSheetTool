@@ -1,7 +1,8 @@
 updating
 update: what
 
+	what = #contents ifTrue: [self formulaSelection: nil].
 	what = modelConfig contentGetter ifTrue: [
-		^ self update: what with: self object].
+		^ self modelChanged: self modelContents].
 	
 	^ super update: what

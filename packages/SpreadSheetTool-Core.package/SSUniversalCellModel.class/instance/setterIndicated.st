@@ -1,4 +1,0 @@
-accessing
-setterIndicated
-
-	^ formulaSelection = #setter

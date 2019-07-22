@@ -1,6 +1,7 @@
 instance creation
 parent: aModel
 
-	^ self new
+	^ self basicNew
 		parent: aModel;
+		initialize;
 		yourself

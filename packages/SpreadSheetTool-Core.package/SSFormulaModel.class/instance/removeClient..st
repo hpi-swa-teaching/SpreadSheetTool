@@ -1,4 +1,4 @@
 dependencies
 removeClient: aClient
 
-	clients remove: aClient.
+	formula removeClient: aClient.

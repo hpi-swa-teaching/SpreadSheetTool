@@ -3,7 +3,9 @@
 		"column:parent:" : "CT 6/13/2019 13:09",
 		"row:parent:" : "CT 6/13/2019 13:09" },
 	"instance" : {
+		"addClient:" : "CT 7/20/2019 16:14",
 		"backgroundColor" : "CT 7/17/2019 19:04",
+		"changed:" : "CT 7/20/2019 16:19",
 		"contents" : "CT 5/29/2019 15:23",
 		"contents:" : "CT 7/3/2019 12:32",
 		"createSpecWith:" : "CT 7/16/2019 18:43",
@@ -14,4 +16,5 @@
 		"header" : "CT 5/29/2019 14:37",
 		"header:" : "CT 6/15/2019 20:59",
 		"label" : "CT 6/18/2019 11:49",
+		"object" : "CT 7/20/2019 16:18",
 		"veryDeepInner:" : "CT 7/20/2019 20:03" } }

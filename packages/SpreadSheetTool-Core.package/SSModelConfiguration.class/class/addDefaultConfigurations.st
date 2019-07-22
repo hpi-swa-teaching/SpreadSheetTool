@@ -2,11 +2,10 @@ initialize-release
 addDefaultConfigurations
 
 	self
-		addKnownConfiguration: ((self newFor: SSFormulaModel)
-			constructor: #parent:sheet:rowIndex:columnIndex:;
+		addKnownConfiguration: ((self newFor: SSHybridFormulaModel)
+			constructor: #parent:embeddedFormula:;
 			builderSelector: #createSpecWith:;
-			contentGetter: #value;
-			contentSetter: #acceptContents:;
+			contentGetter: #output;
 			displaysString: true;
 			yourself);
 		addKnownConfiguration: ((self newFor: SSEvaluatorModel)

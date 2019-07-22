@@ -3,4 +3,4 @@ testAcceptContentsChangesCellRawValue
 
 	model acceptContents: self someText.
 	
-	self assert: self someText asString equals: cell rawValue.
+	self assert: self someText asString equals: cell input.

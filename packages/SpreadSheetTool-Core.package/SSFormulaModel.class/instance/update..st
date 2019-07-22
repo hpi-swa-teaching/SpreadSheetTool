@@ -1,6 +1,7 @@
 updating
 update: what
 
-	what = #object ifTrue: [self serverChanged].
-	what = #rawValue ifTrue: [self editContents: self cell rawValue].
+	self flag: #caseOf:.
+	what = #input ifTrue: [self editContents: self formula input].
+	what = #output ifTrue: [self contentsChanged].
 	^ super update: what

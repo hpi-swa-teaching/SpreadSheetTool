@@ -2,19 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"acceptTextInModel" : "CT 7/19/2019 14:18",
-		"basicHasEditFocus:" : "CT 7/3/2019 23:58",
+		"acceptTextInModel" : "CT 7/22/2019 15:28",
+		"basicHasEditFocus:" : "CT 7/22/2019 15:28",
 		"beBusy" : "CT 7/2/2019 16:43",
 		"beBusyWhile:" : "CT 7/3/2019 20:13",
 		"beReady" : "CT 7/2/2019 16:43",
 		"getOutput" : "CT 7/2/2019 18:57",
 		"getText" : "CT 7/2/2019 19:03",
 		"hasEditFocus" : "CT 7/3/2019 23:59",
-		"hasEditFocus:" : "CT 7/3/2019 23:58",
+		"hasEditFocus:" : "CT 7/22/2019 15:27",
+		"hasUnacceptedEdits:" : "CT 7/22/2019 15:30",
 		"initialize" : "CT 7/16/2019 19:12",
 		"isEditing" : "CT 7/16/2019 19:12",
 		"keyboardFocusChange:" : "CT 7/3/2019 20:17",
 		"notify:at:in:" : "CT 7/11/2019 17:15",
 		"on:text:accept:output:edit:menu:" : "CT 7/19/2019 14:40",
-		"refreshText" : "CT 7/16/2019 19:13",
-		"textEdited:" : "CT 7/19/2019 14:33" } }
+		"refreshText" : "CT 7/22/2019 15:27",
+		"textEdited:" : "CT 7/22/2019 15:26" } }

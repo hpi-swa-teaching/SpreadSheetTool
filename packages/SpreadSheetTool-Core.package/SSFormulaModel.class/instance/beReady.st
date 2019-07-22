@@ -1,4 +1,4 @@
 accessing
 beReady
 
-	isBusy := false.
+	self morph ifNotNil: [:m | m readOnly: false].

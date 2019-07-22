@@ -2,6 +2,6 @@ interaction
 switchGetter
 
 	self formulaSelection:
-		(self getterIndicated
+		(self isGetterIndicated
 			ifTrue: [nil]
 			ifFalse: [#getter]).

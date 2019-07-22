@@ -6,5 +6,5 @@ specForGetterButton: aBuilder
 		help: 'Edit getter for this cell';
 		model: self;
 		action: #switchGetter;
-		state: #getterIndicated;
+		state: #isGetterIndicated;
 		yourself

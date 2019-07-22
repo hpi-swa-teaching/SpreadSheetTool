@@ -2,6 +2,6 @@ interaction
 switchSetter
 
 	self formulaSelection:
-		(self setterIndicated
+		(self isSetterIndicated
 			ifTrue: [nil]
 			ifFalse: [#setter]).

@@ -1,8 +1,9 @@
-accessing
+interaction
 formulaSelection: aSymbol
 	
+	aSymbol = formulaSelection ifTrue: [^ self].
 	formulaSelection := aSymbol.
 	self
-		changed: #getterIndicated;
-		changed: #setterIndicated;
+		changed: #isGetterIndicated;
+		changed: #isSetterIndicated;
 		changed: #buildWidget.

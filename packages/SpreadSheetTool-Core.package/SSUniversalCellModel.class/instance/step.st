@@ -1,9 +1,9 @@
 stepping
 step
 
-	| newObject newHash |
-	newObject := getterBlock ifNotNil: [self getValue].
-	newHash := newObject hash.
-	latestHash = newObject hash ifFalse: [
-		self withoutObservingDo: [self object: newObject].
+	| newAspect newHash |
+	newAspect := self getSubjectAspect.
+	newHash := newAspect hash.
+	latestHash = newAspect hash ifFalse: [
+		self subjectChanged: newAspect.
 		latestHash := newHash].

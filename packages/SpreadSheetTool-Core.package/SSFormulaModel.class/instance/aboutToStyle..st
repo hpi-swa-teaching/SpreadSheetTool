@@ -3,5 +3,6 @@ aboutToStyle: aStyler
 
 	aStyler
 		classOrMetaClass: self selectedClass;
-		parseAMethod: false.
-	^ self displaysFormula
+		parseAMethod: false;
+		context: self formula context.
+	^ true
