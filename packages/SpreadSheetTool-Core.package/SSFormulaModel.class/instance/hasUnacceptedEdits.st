@@ -1,4 +1,4 @@
 as yet unclassified
 hasUnacceptedEdits
 
-	^ self containingMorphicModels anySatisfy: #hasUnacceptedEdits
+	^ self morph hasUnacceptedEdits

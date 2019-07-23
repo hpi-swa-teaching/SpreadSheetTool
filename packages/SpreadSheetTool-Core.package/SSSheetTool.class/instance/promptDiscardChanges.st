@@ -1,5 +1,5 @@
 interaction
-promptChangesCanBeDiscarded
+promptDiscardChanges
 
 	^ UIManager default confirm:
 'Changes have not been saved.

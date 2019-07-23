@@ -16,7 +16,8 @@
 		"setterFormula",
 		"formulaSelection",
 		"getterModel",
-		"setterModel" ],
+		"setterModel",
+		"visibleModel" ],
 	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],
