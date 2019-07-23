@@ -12,10 +12,4 @@ initializeModelForClass: aClass withConfig: aConfig
 	model addDependent: self.
 	self changed: #buildCell.
 	latestHash := nil.
-	model wantsSteps ifTrue: [World
-		startStepping: self
-		at: Time millisecondClockValue
-		selector: #stepModelAt:
-		arguments: #()
-		stepTime: nil].
-	
+	self postInitialize.
