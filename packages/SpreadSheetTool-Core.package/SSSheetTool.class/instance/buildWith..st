@@ -11,5 +11,6 @@ buildWith: aBuilder
 			self specForMainPanel: aBuilder };
 		yourself.
 	window := aBuilder build: spec.
+	steppingWindow := window.
 	hasUnsavedChanges := false.
 	^ window
