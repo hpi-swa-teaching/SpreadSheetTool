@@ -7,3 +7,4 @@ veryDeepInner: deepCopier
 	oldCellMorphs := nil.
 	cellMorphs := Dictionary new.
 	object := nil.
+	steppingWindow := nil.

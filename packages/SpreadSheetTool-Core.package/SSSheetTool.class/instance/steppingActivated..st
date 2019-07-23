@@ -3,6 +3,6 @@ steppingActivated: aBoolean
 
 	self basicSteppingActivated: aBoolean.
 	self steppingActivated
-		ifTrue: [self containingWindow startStepping]
-		ifFalse: [self containingWindow stopStepping].
+		ifTrue: [steppingWindow startStepping]
+		ifFalse: [steppingWindow stopStepping].
 	self changed: #steppingActivated; changed: #labelForStepping.
