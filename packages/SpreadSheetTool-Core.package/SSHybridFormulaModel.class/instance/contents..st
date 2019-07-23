@@ -6,4 +6,5 @@ contents: aTextOrString
 	[self tool disableSteppingWhile: [self computeOutput]]
 		on: Abort
 		do: [^ false].
+	tool update: #contents.
 	^ true

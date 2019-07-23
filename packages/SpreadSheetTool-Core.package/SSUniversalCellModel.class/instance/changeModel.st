@@ -11,3 +11,4 @@ changeModel
 		self offerToRegister: newConfig.
 		newConfig].
 	self initializeModelForClass: modelClass withConfig: config.
+	self contentsChanged.
