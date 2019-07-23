@@ -1,4 +1,4 @@
-testing-distributing
+testing
 testDistributeRows
 	"Test for #8 (Distribute rows/columns)"
 
