@@ -6,9 +6,7 @@
 		"sideEffect:" : "JB 6/10/2019 16:59",
 		"wantsToTest:" : "CT 6/1/2019 12:40" },
 	"instance" : {
-		"assertColumnHeadersRegular" : "CT 6/16/2019 16:39",
 		"assertColumnHeadersRegularWithoutFirst:" : "CT 6/22/2019 18:48",
-		"assertRowHeadersRegular" : "CT 6/16/2019 16:45",
 		"assertRowHeadersRegularWithoutFirst:" : "CT 6/19/2019 20:07",
 		"assertToolWindowOpensWhile:" : "CT 7/11/2019 18:24",
 		"assertWindowClosesWhile:" : "CT 5/25/2019 19:14",
