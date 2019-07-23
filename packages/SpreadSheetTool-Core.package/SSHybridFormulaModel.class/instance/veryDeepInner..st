@@ -5,4 +5,5 @@ veryDeepInner: deepCopier.
 	
 	morph := nil.
 	self class instVarNames do: [:name |
-		self instVarNamed: name put: ((self instVarNamed: name) veryDeepCopyWith: deepCopier)].
+		self instVarNamed: name put: (
+			(self instVarNamed: name) veryDeepCopyWith: deepCopier)].
