@@ -2,7 +2,7 @@ accessing
 context
 
 	^ context ifNil: [context :=
-		(Context newForMethod: self templateMethod)
+		(self contextClass newForMethod: self templateMethod)
 			activateMethod: self templateMethod
 			withArgs: self evaluationArgs
 			receiver: self receiver
