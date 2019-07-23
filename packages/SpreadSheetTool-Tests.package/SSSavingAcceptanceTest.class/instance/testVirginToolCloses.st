@@ -1,6 +1,7 @@
 testing-autosave
 testVirginToolCloses
 
+	self fullWait.
 	self
 		shouldnt: [self subject delete]
-		raise: ProvideAnswerNotification.
+		notify: 'save'.
