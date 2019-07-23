@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"hasFormulaFormat:" : "CT 7/22/2019 10:59",
 		"sheet:rowIndex:columnIndex:" : "CT 7/22/2019 12:04" },
 	"instance" : {
 		"above" : "CT 6/18/2019 11:28",
@@ -27,7 +26,7 @@
 		"clearServers" : "AN 6/26/2019 16:51",
 		"columnHeader" : "CT 7/11/2019 13:14",
 		"columnHeaderAt:" : "CT 7/20/2019 16:15",
-		"computeOutput" : "CT 7/22/2019 18:15",
+		"computeOutput" : "CT 7/23/2019 14:14",
 		"context" : "CT 7/22/2019 11:12",
 		"evaluateFormulaNotifying:" : "CT 7/22/2019 16:57",
 		"evaluateNotifying:" : "CT 7/22/2019 16:57",
@@ -38,7 +37,7 @@
 		"input" : "CT 7/22/2019 14:46",
 		"input:" : "CT 7/22/2019 14:45",
 		"isBusy" : "CT 7/20/2019 15:21",
-		"isFormula" : "CT 7/22/2019 14:45",
+		"isFormula" : "CT 7/23/2019 14:25",
 		"isHybrid" : "CT 7/22/2019 13:24",
 		"isHybrid:" : "CT 7/22/2019 13:23",
 		"left" : "CT 6/18/2019 11:27",

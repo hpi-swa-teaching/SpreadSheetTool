@@ -1,4 +1,4 @@
 testing
 displaysFormula
 
-	^ (formula class hasFormulaFormat: unacceptedContents) and: [self morph isEditing]
+	^ (self class hasFormulaFormat: unacceptedContents) and: [self morph isEditing]

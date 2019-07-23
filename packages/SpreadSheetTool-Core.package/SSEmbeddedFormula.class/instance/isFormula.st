@@ -1,4 +1,4 @@
 accessing
 isFormula
 
-	^ self isHybrid ==> [self class hasFormulaFormat: self input]
+	^ self isHybrid ==> [model class hasFormulaFormat: self input]
