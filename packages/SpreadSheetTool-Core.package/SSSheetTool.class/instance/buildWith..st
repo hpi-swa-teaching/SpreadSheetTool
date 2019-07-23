@@ -12,5 +12,6 @@ buildWith: aBuilder
 		yourself.
 	window := aBuilder build: spec.
 	steppingWindow := window.
+	contentModels computeAll.
 	hasUnsavedChanges := false.
 	^ window
