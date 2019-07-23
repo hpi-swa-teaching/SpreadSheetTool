@@ -3,7 +3,7 @@ veryDeepInner: deepCopier
 
 	super veryDeepInner: deepCopier.
 	
-	sheet := sheet veryDeepCopyWith: deepCopier.
-	model := model veryDeepCopyWith: deepCopier.
-	servers := servers veryDeepCopyWith: deepCopier.
 	context := nil.
+	1 to: self class instSize do: [:index |
+		self instVarAt: index put: (
+			(self instVarAt: index) veryDeepCopyWith: deepCopier)].
