@@ -1,4 +1,5 @@
 testing
 testWarningBeforeDiscardingGetterCanBeSkipped
 
-	^ self testWarningBeforeDiscardingFormulaCanBeSkippedFor: (self findGetFormulaButtonAt: self someCellIndex)
+	^ self testWarningBeforeDiscardingFormulaCanBeSkippedFor:
+		(self findGetFormulaButtonAt: self someCellIndex)

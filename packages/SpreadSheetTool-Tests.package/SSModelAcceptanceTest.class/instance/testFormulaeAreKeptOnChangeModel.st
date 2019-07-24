@@ -8,6 +8,7 @@ testFormulaeAreKeptOnChangeModel
 		putSetter: self someSetterFormula.
 	self
 		chooseFormulaModelAt: self someCellIndex;
+		fullWait;
 		chooseEvaluatorModelAt: self someCellIndex.
 	self
 		assert: self someGetterFormula

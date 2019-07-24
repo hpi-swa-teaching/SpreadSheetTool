@@ -7,3 +7,4 @@ chooseFormulaModelAt: aPoint
 		should: [button click]
 		notify: 'model'
 		thenAnswer: SSHybridFormulaModel asString.
+	self subject redraw.

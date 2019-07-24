@@ -10,4 +10,4 @@ testWarningBeforeDiscardingFormulaCanBeCancelledFor: aButton
 		notify: 'changes'
 		thenAnswer: false.
 	visibleField := self findCellAt: self someCellIndex byCriteria: #isTextView.
-	self assert: self someContent equals: visibleField read.
+	self assert: formulaField equals: visibleField.

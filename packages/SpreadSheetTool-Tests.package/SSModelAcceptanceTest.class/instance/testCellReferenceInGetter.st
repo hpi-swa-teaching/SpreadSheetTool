@@ -1,5 +1,5 @@
 testing
-testCellReference
+testCellReferenceInGetter
 	"Acceptance test for #65 (Unify different formula approaches)"
 
 	| cell |

@@ -4,6 +4,6 @@ testNonFormulaModelHasFormulaButtons
 
 	| getButton setButton |
 	getButton := self findGetFormulaButtonAt: self someCellIndex.
-	self assert: getButton isUnique.
 	setButton := self findSetFormulaButtonAt: self someCellIndex.
+	self assert: getButton isUnique.
 	self assert: setButton isUnique.

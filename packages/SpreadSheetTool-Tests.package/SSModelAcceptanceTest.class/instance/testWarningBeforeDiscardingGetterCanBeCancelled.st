@@ -1,4 +1,5 @@
 testing
 testWarningBeforeDiscardingGetterCanBeCancelled
 
-	^ self testWarningBeforeDiscardingFormulaCanBeCancelledFor: (self findGetFormulaButtonAt: self someCellIndex)
+	^ self testWarningBeforeDiscardingFormulaCanBeCancelledFor:
+		(self findGetFormulaButtonAt: self someCellIndex)
