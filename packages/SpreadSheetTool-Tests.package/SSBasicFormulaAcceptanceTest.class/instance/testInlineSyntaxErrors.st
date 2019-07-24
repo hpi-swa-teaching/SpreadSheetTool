@@ -3,7 +3,7 @@ testInlineSyntaxErrors
 
 	| cell |
 	Preferences
-		setFlag: #'SSSheetTool>>setUseInlineSyntaxErrorsTo'
+		setFlag: #'SSSheetTool>>useInlineSyntaxErrors'
 		toValue: true
 		during: [
 			cell := self findAnyCell.
