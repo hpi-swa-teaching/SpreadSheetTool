@@ -19,7 +19,7 @@
 		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "CT 7/17/2019 14:37",
 		"testGetFormulaFieldHasAutocompletion" : "CT 7/22/2019 18:55",
 		"testInfinityLoopDoesNotOccur" : "GT 7/19/2019 11:38",
-		"testInlineSyntaxErrors" : "CT 7/15/2019 13:12",
+		"testInlineSyntaxErrors" : "CT 7/24/2019 16:20",
 		"testNonEditedFormulaCellHasNoAutocompletion" : "CT 7/17/2019 12:33",
 		"testNonFormulaCellHasNoAutocompletion" : "CT 7/17/2019 12:33",
 		"testSetFormulaFieldHasAutocompletion" : "CT 7/19/2019 13:40",
