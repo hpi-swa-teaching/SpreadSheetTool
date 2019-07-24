@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-events
+*SpreadSheetTool-Core-accessing
 anySuccessor
 
 	^ rightOrBottom anyOne
