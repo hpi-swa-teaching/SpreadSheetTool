@@ -10,4 +10,4 @@ testWarningBeforeDiscardingFormulaCanBeSkippedFor: aButton
 		notify: 'changes'
 		thenAnswer: true.
 	visibleField := self findCellAt: self someCellIndex byCriteria: #isTextView.
-	self deny: formulaField equals: visibleField read.
+	self assert: '' equals: visibleField read.
