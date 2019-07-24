@@ -2,4 +2,9 @@ staging
 isLongStage
 
 	^ isLongStage ifNil: [isLongStage :=
-		Smalltalk os platformName ~= 'Win32']
+		Smalltalk globals at: #SmalltalkCI
+			ifPresent: [:sci |
+				| stage |
+				stage := (sci perform: #getEnv: with: 'TRAVIS_BUILD_STAGE_NAME').
+				stage = #Longstage]
+			ifAbsent: [false]]
