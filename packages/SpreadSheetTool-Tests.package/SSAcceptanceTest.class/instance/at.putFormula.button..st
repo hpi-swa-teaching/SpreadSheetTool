@@ -1,4 +1,4 @@
-tools
+tools-interacting
 at: aPoint putFormula: aFormula button: aButton
 
 	| formulaField |

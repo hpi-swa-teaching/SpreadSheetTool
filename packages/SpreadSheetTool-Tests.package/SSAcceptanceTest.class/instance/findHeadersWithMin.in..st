@@ -1,4 +1,4 @@
-tools
+tools-navigating
 findHeadersWithMin: aCoordinate in: aWindow
 
 	| allHeaders minCoordinate |

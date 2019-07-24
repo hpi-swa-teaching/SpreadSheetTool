@@ -1,4 +1,4 @@
-tools
+tools-navigating
 findWindowsOpenedWhile: anActionBlock
 	
 	^ self findWindowsOpenedWhile: anActionBlock from: [

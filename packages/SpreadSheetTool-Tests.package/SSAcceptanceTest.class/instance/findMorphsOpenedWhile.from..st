@@ -1,4 +1,4 @@
-tools
+tools-navigating
 findMorphsOpenedWhile: aBlock from: aMorphCollector
 
 	| allMorphs newMorphs |
@@ -6,5 +6,5 @@ findMorphsOpenedWhile: aBlock from: aMorphCollector
 	aBlock value.
 	newMorphs := aMorphCollector value
 		copyWithoutAll: allMorphs.
-	newMorphs do: #hide.
+	newMorphs do: #hide. "make testing invisible to user"
 	^ self subject createWrapperFor: newMorphs

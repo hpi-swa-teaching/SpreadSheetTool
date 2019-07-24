@@ -1,5 +1,5 @@
 assertions
-assertColumnHeadersRegularWithoutFirst: numberToSkip
+assertColumnHeadersSortedWithoutFirst: numberToSkip
 	
 	| headers |
 	headers := self findHeadersFor: #columns.

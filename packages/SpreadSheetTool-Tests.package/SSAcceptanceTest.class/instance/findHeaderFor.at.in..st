@@ -1,4 +1,4 @@
-tools
+tools-navigating
 findHeaderFor: dimension at: anIndex in: aWindow
 
 	^ aWindow createWrapperFor:

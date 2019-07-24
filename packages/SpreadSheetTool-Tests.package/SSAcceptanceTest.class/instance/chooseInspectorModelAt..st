@@ -1,4 +1,4 @@
-tools
+tools-interacting
 chooseInspectorModelAt: aPoint
 
 	| button |

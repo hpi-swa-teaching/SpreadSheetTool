@@ -1,4 +1,4 @@
-tools
+tools-interacting
 into: aTextMorph put: aString
 
 	aTextMorph
