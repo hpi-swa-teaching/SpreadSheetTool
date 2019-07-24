@@ -16,7 +16,7 @@
 		"isHybrid",
 		"input",
 		"output" ],
-	"name" : "SSEmbeddedFormula",
+	"name" : "SSCellFormula",
 	"pools" : [
 		 ],
 	"super" : "Object",

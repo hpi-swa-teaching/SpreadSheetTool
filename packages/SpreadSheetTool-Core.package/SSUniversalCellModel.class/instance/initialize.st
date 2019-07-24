@@ -2,8 +2,8 @@ initialize-release
 initialize
 
 	super initialize.
-	getterFormula := SSEmbeddedGetterFormula sheet: sheet rowIndex: rowIndex columnIndex: columnIndex.
-	setterFormula := SSEmbeddedSetterFormula sheet: sheet rowIndex: rowIndex columnIndex: columnIndex.
+	getterFormula := SSCellGetterFormula sheet: sheet rowIndex: rowIndex columnIndex: columnIndex.
+	setterFormula := SSCellSetterFormula sheet: sheet rowIndex: rowIndex columnIndex: columnIndex.
 	getterModel := SSFormulaModel tool: self parent embeddedFormula: getterFormula.
 	setterModel := SSFormulaModel tool: self parent embeddedFormula: setterFormula.
 	getterModel addDependent: self.

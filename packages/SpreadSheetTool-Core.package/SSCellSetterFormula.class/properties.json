@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SSEmbeddedGetterFormula",
+		"setterArgument" ],
+	"name" : "SSCellSetterFormula",
 	"pools" : [
 		 ],
-	"super" : "SSEmbeddedFormula",
+	"super" : "SSCellFormula",
 	"type" : "normal" }

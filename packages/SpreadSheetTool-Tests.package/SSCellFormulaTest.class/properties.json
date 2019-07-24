@@ -1,14 +1,14 @@
 {
-	"category" : "SpreadSheetTool-Core",
+	"category" : "SpreadSheetTool-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"setterArgument" ],
-	"name" : "SSEmbeddedSetterFormula",
+		"cell" ],
+	"name" : "SSCellFormulaTest",
 	"pools" : [
 		 ],
-	"super" : "SSEmbeddedFormula",
+	"super" : "TestCase",
 	"type" : "normal" }

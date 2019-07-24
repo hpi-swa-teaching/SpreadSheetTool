@@ -5,7 +5,7 @@ miniFormat: aString
 	textLines := aString lines collect: #asText.
 	styler := SHTextStylerST80 new.
 	(styler class canUnderstand: #context:) ifTrue: [
-		styler context: (SSEmbeddedGetterFormula new model: []; context)].
+		styler context: (SSCellGetterFormula new model: []; context)].
 	formattedLines := textLines collect: [:text |
 		(text at: 1 ifAbsent: [nil])
 			caseOf: {
