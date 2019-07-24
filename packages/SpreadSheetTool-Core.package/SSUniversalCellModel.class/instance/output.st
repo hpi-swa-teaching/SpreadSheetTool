@@ -1,4 +1,4 @@
 forwarding
 output
 
-	^ getterFormula output
+	^ self modelContents
