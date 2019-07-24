@@ -9,5 +9,5 @@ You can either download and install Scamper into your image,
 or open this URL by using a regular web browser
 from the great darkness outside of Squeak.'].
 	Scamper new
-		open;
+		openAsMorph;
 		jumpToUrl: aStringOrText asUrl.
