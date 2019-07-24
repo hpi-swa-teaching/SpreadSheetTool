@@ -5,5 +5,6 @@ changePreferencesDuring: aBlock
 		setFlag: #openToolsAttachedToMouseCursor
 		toValue: false
 		during: [
-			self setUseInlineSyntaxErrorsTo: false during: [
-				aBlock value]]
+			self setSmartCharactersTo: false during: [
+				self setUseInlineSyntaxErrorsTo: false during: [
+					aBlock value]]]
