@@ -1,4 +1,4 @@
-tools
+tools-interacting
 at: aPoint putSetter: aSetter
 
 	^ self

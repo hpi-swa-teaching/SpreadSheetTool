@@ -4,4 +4,4 @@ testSheetHasRowHeaders
 
 	self
 		assert: self rowCount equals: (self findHeadersFor: 'rows') size;
-		assertRowHeadersRegularWithoutFirst: 0.
+		assertRowHeadersSortedWithoutFirst: 0.

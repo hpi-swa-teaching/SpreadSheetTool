@@ -1,8 +1,7 @@
-tools
-findHeadersFor: dimension in: aWindow
+tools-navigating
+findHeadersFor: columnsOrRows in: aWindow
 
-	dimension assert: [#(rows columns) includes: dimension].
 	^ self
-		findHeadersWithMin: (
-			dimension = #rows ifTrue: [#x] ifFalse: [#y])
+		findHeadersWithMin: (columnsOrRows caseOf: 
+			{ [#columns] -> [#y]. [#rows] -> [#x] })
 		in: aWindow

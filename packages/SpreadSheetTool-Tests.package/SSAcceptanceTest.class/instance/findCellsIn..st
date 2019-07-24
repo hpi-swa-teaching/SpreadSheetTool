@@ -1,4 +1,4 @@
-tools
+tools-navigating
 findCellsIn: aWindow
 
 	^ (1 to: (self measureRangeFor: #rows)) collectAll: [:row |

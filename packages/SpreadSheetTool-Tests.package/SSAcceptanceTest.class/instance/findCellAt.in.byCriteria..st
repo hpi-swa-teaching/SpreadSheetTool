@@ -1,4 +1,4 @@
-tools
+tools-navigating
 findCellAt: aPoint in: aWindow byCriteria: aSelector
 
 	| horizontal morphs vertical |

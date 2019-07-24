@@ -1,13 +1,10 @@
-tools
+tools-navigating
 findWindowsOpenedWhile: anActionBlock from: aWindowCollector
 	"We cannot use MTF here as we want to test the opening procedure itself"
 
 	| allWindows newWindows|
 	[allWindows := aWindowCollector value.
-		[anActionBlock value]
-			on: ProvideAnswerNotification
-			do: [:notification | (notification messageText asSymbol = #openAsTool)
-				ifTrue: [notification resume: false]].
+		anActionBlock value.
 		newWindows := aWindowCollector value
 			copyWithoutAll: allWindows]
 		ensure: ["Cleanup"

@@ -1,4 +1,4 @@
-tools
+tools-navigating
 findButtonAt: aPoint byLabel: aFilter
 
 	^ self findCellAt: aPoint byCriteria: [:m |

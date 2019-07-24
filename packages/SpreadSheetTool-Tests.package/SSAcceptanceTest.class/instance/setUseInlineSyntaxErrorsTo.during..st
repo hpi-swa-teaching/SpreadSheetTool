@@ -3,5 +3,5 @@ setUseInlineSyntaxErrorsTo: value during: aBlock
 
 	SSSheetTool useInlineSyntaxErrors in: [:previous |
 		SSSheetTool useInlineSyntaxErrors: value.
-		[^ aBlock value]
+		^ aBlock
 			ensure: [SSSheetTool useInlineSyntaxErrors: previous]].
