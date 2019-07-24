@@ -1,11 +1,13 @@
 testing
 testSyntaxErrorDoesNotReopenWithoutAccept
-	"Regression test for #44"
+	"Regression test for bug #44"
 	
 	| cell |
 	cell := self findAnyCell.
 	cell sendKeys: self someFormulaWithRuntimeError.
-	self shouldOpenDebugger: [
-		cell sendControlSave; releaseFocus].
-	self shouldnt: [cell click; releaseFocus] raise: Exception.
+	self
+		shouldOpenDebugger: [
+			cell sendControlSave];
+		shouldnt: [cell click; releaseFocus]
+			raise: Exception.
 		

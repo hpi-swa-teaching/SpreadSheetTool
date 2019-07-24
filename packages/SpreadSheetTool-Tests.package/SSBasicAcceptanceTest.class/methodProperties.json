@@ -2,12 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAboutWindow" : "CT 7/11/2019 17:42",
-		"testDefaultModel" : "CT 7/22/2019 19:06",
-		"testIsRegisteredInWorldMenu" : "CT 7/17/2019 14:36",
-		"testMultilineInput" : "CT 7/17/2019 14:36",
-		"testNewSheetButton" : "CT 7/17/2019 14:36",
-		"testOpenDefault" : "CT 7/17/2019 14:36",
-		"testSheetHasColumnHeaders" : "JB 7/24/2019 15:35",
-		"testSheetHasRowHeaders" : "JB 7/24/2019 15:36",
-		"testWindowContainsCells" : "CT 7/17/2019 14:36" } }
+		"assertColumnHeadersOrder" : "CT 7/24/2019 17:23",
+		"assertRowHeadersOrder" : "CT 7/24/2019 17:24",
+		"testAboutWindow" : "CT 7/24/2019 17:20",
+		"testDefaultModel" : "CT 7/24/2019 17:21",
+		"testIsRegisteredInWorldMenu" : "CT 7/24/2019 17:21",
+		"testMultilineInput" : "CT 7/24/2019 17:22",
+		"testNewSheetButton" : "CT 7/24/2019 17:22",
+		"testOpenDefault" : "CT 7/24/2019 17:22",
+		"testSheetHasColumnHeaders" : "CT 7/24/2019 17:26",
+		"testSheetHasRowHeaders" : "CT 7/24/2019 17:26",
+		"testWindowContainsCells" : "CT 7/24/2019 17:26" } }

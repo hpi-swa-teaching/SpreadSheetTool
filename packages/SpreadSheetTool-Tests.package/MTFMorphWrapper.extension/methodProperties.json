@@ -5,6 +5,7 @@
 		"yellowButton" : "CT 7/13/2019 15:56" },
 	"instance" : {
 		"anyOne" : "CT 5/27/2019 17:17",
+		"assureOff" : "CT 7/24/2019 17:20",
 		"assureOn" : "CT 7/22/2019 19:07",
 		"assureOn:" : "CT 7/17/2019 14:22",
 		"closeAutocompletion" : "CT 7/22/2019 19:13",
@@ -19,6 +20,7 @@
 		"findByModelKind:andCriteria:" : "CT 7/12/2019 20:54",
 		"findByPosition:andCriteria:" : "CT 5/1/2019 17:12",
 		"findInsideOf:" : "CT 7/15/2019 14:18",
+		"findIntersecting:byCriteria:" : "CT 7/24/2019 18:11",
 		"findUniqueByLabel:" : "CT 6/5/2019 18:33",
 		"focusAndRead" : "CT 6/19/2019 19:56",
 		"generateKeyboardEvent:with:buttons:on:" : "CT 4/30/2019 20:02",

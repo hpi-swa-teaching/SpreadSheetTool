@@ -2,7 +2,7 @@ testing
 testAboutWindow
 
 	| button window |
-	button := self subject findByLabel: 'About ...'.
+	button := self subject findByLabelFilter: 'About*'.
 	self assert: button isUnique.
 	window := self findWindowOpenedWhile: [button click].
 	self assert: window isUnique.

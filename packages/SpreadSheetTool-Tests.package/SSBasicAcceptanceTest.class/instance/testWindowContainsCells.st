@@ -1,6 +1,6 @@
 testing
 testWindowContainsCells
-	"acceptance test for #1 (The table contains 5 rows and 5 columns)"
+	"Acceptance test for #1 (The table contains {1} rows and {2} columns)"
 
 	| cells |
 	cells := self findCells.

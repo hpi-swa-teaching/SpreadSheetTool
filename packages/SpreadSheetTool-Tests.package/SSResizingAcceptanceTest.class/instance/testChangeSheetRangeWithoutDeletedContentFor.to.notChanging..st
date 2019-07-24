@@ -25,5 +25,5 @@ testChangeSheetRangeWithoutDeletedContentFor: dimension to: newRange notChanging
 	
 	self
 		assert: otherRange equals: (self measureRangeFor: otherDimension);
-		assertRowHeadersSortedWithoutFirst: oldRowCount;
-		assertColumnHeadersSortedWithoutFirst: oldColumnCount.
+		assertRowHeadersOrderWithoutFirst: oldRowCount;
+		assertColumnHeadersOrderWithoutFirst: oldColumnCount.

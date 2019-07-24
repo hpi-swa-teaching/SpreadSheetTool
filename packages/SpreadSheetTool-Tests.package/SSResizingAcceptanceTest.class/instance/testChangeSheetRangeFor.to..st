@@ -24,5 +24,5 @@ testChangeSheetRangeFor: dimension to: newRange
 		self assert: content equals: (self findCellAtRow: row atColumn: column) focusAndRead].
 	self
 		assert: otherRange equals: (self measureRangeFor: otherDimension);
-		assertRowHeadersSortedWithoutFirst: oldContents rowCount;
-		assertColumnHeadersSortedWithoutFirst: oldContents columnCount.
+		assertRowHeadersOrderWithoutFirst: oldContents rowCount;
+		assertColumnHeadersOrderWithoutFirst: oldContents columnCount.

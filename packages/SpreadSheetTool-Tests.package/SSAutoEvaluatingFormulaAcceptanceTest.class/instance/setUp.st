@@ -1,14 +1,11 @@
 running
 setUp
 
-	| referencedIndex |
 	super setUp.
 	
-	referencedIndex := self someCellIndex.
-	referencedCell := self findCellAt: referencedIndex.
-	referencingCell := self findCellAt: referencedIndex + (1 @ 0).
-	indirectlyReferencingCell := self findCellAt: referencedIndex + (1 @ 1).
-	
+	referencedCell := self findCellAt: self someCellIndex.
+	referencingCell := self findCellAt: self someCellIndex + (1 @ 0).
+	indirectlyReferencingCell := self findCellAt: self someCellIndex + (1 @ 1).
 	referencingCell
 		sendKeys: '^cell left';
 		sendControlSave.

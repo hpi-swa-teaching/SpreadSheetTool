@@ -1,6 +1,6 @@
 testing
 testEditedFormulaCellHasAutocompletion
-	"acceptance test for #38 (autocompletion)"
+	"Acceptance test for #38 (autocompletion)"
 
 	| cell |
 	cell := self findAnyCell.

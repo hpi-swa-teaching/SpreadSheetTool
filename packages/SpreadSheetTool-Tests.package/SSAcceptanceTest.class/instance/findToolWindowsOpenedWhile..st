@@ -1,4 +1,4 @@
 tools-navigating
 findToolWindowsOpenedWhile: anActionBlock
 	
-	^ self findWindowsOpenedWhile: anActionBlock from: [self findAllToolWindows]
+	^ self findMorphsOpenedWhile: anActionBlock from: [self findAllToolWindows]
