@@ -1,17 +1,21 @@
 language: smalltalk
 sudo: false
 
-os:
-  - linux
-  - osx
-
-smalltalk:
-  - Squeak-5.2
-  - Squeak-5.1
-
 jobs:
   include:
     - stage: shortstage
       smalltalk_config: .smalltalk.ston
+      os:
+        - linux
+        - osx
+      smalltalk:
+        - Squeak-5.2
+        - Squeak-5.1
     - stage: longstage
       smalltalk_config: .smalltalk.ston
+      os:
+        - linux
+        - osx
+      smalltalk:
+        - Squeak-5.2
+        - Squeak-5.1
