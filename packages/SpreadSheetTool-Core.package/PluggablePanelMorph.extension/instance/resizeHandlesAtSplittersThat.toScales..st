@@ -16,8 +16,3 @@ resizeHandlesAtSplittersThat: aSplitterSelector toScales: scales
 	splitterShifts do: [:splitterShift |
 		splitterShift key repositionBy: splitterShift value].
 	self owner fullBounds.
-	self assert: [| splitter |
-		splitter := splitters last.
-		scales last = (splitter splitsLeftAndRight
-			ifTrue: [splitter anySuccessor width]
-			ifFalse: [splitter anySuccessor height])].
