@@ -9,7 +9,7 @@
 		"hasEditFocus",
 		"getOutputSelector",
 		"latestEditor" ],
-	"name" : "SSCellMorph",
+	"name" : "SSHybridTextMorph",
 	"pools" : [
 		 ],
 	"super" : "PluggableTextMorphPlus",
