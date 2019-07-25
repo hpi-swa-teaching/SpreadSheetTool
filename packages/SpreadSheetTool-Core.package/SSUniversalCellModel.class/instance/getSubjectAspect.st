@@ -1,4 +1,4 @@
 subject
 getSubjectAspect
 
-	^ getterFormula computeOutput
+	^ self getterFormula computeOutput

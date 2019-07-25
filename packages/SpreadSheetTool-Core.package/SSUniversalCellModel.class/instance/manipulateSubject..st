@@ -1,4 +1,4 @@
 subject
 manipulateSubject: anAspect
 
-	setterFormula computeOutputWith: anAspect.
+	self setterFormula computeOutputWith: anAspect.
