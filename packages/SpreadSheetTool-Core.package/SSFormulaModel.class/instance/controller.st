@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 controller
 
 	^ SSSheetTool useInlineSyntaxErrors ifTrue: [self morph]

@@ -1,4 +1,4 @@
-as yet unclassified
+interaction
 update: what
 
 	what = #input ifTrue: [self editContents: self formula input].

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 hasUnacceptedEdits
 
 	^ self morph hasUnacceptedEdits

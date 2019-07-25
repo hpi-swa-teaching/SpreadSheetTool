@@ -1,4 +1,4 @@
-as yet unclassified
+interaction
 contents: aTextOrString
 
 	self editContents: aTextOrString.

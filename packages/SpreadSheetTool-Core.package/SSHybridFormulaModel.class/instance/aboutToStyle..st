@@ -1,4 +1,4 @@
-testing
+Tools
 aboutToStyle: aStyler
 
 	^ self displaysFormula and: [
