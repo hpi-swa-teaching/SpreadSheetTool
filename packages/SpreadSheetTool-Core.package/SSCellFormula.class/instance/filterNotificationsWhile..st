@@ -14,6 +14,8 @@ filterNotificationsWhile: aBlock
 					chooseFrom: goodLines
 					lines: (labels copyWithoutIndices: badIndices)
 					title: caption.
-				labels indexOf: (choice isString
-					ifTrue: [choice]
-					ifFalse: [goodLines at: choice])]]
+				(#(0 '' nil) includes: choice)
+					ifFalse: [labels indexOf: (choice isString
+						ifTrue: [choice]
+						ifFalse: [goodLines at: choice])]
+					ifTrue: [0]]]
