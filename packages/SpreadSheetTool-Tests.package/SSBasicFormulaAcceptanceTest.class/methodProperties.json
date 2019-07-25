@@ -4,6 +4,7 @@
 	"instance" : {
 		"autocompletionClasses" : "CT 6/28/2019 17:18",
 		"enticeAutocompletionFor:" : "CT 7/24/2019 17:43",
+		"expectedFailures" : "CT 7/25/2019 15:53",
 		"findAllAutocompletions" : "CT 7/24/2019 17:42",
 		"findAutocompletionsOpenedWhile:" : "CT 7/13/2019 15:38",
 		"shouldOpenAutocompletionWhile:" : "CT 7/25/2019 14:56",
