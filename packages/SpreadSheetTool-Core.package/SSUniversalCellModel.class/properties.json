@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"parent",
 		"sheet",
 		"rowIndex",
 		"columnIndex",
@@ -21,5 +22,5 @@
 	"name" : "SSUniversalCellModel",
 	"pools" : [
 		 ],
-	"super" : "SSTextFieldModel",
+	"super" : "Model",
 	"type" : "normal" }

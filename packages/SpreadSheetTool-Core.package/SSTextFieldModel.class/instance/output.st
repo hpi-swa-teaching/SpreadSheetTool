@@ -1,4 +1,0 @@
-accessing
-output
-
-	^ self subclassResponsibility

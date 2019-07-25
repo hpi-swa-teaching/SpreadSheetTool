@@ -1,4 +1,0 @@
-interaction
-acceptContents: aTextOrString
-
-	^ false
