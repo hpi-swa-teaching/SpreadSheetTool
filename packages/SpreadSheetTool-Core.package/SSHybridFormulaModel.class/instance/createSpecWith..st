@@ -8,6 +8,5 @@ createSpecWith: aBuilder
 			output: #outputContents
 			edit: #editContents:
 			menu: #codePaneMenu:shifted:;
-		"minimumExtent: self tool minimumCellExtent;"
 		refreshText;
 		yourself

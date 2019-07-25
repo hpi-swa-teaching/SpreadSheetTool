@@ -6,7 +6,6 @@ createSpecWith: aBuilder
 		getText: #contents;
 		setText: #contents:;
 		editText: #contents:;
-		softLineWrap: true;
 		color: #backgroundColor;
 		textColor: #foregroundColor;
 		font: self font;

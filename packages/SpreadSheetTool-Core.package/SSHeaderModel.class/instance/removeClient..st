@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-dependents
+dependencies
 removeClient: aClient
 
 	self removeDependent: aClient.
