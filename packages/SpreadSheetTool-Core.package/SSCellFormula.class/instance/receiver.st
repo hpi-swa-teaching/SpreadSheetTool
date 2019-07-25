@@ -1,4 +1,4 @@
 accessing
 receiver
 
-	^ model receiver
+	^ model ifNotNil: #subject

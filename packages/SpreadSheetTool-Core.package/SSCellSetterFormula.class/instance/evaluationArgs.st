@@ -1,4 +1,4 @@
 accessing
 evaluationArgs
 
-	^ {setterArgument. self}
+	^ { setterArgument. self }

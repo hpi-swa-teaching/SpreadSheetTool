@@ -1,8 +1,8 @@
 instance creation
-rowCount: aRowCount columnCount: aColumnCount object: anObject
+rowCount: aRowCount columnCount: aColumnCount subject: anObject
 
 	^ self new
 		rowCount: aRowCount
 		columnCount: aColumnCount;
-		object: anObject;
+		subject: anObject;
 		yourself

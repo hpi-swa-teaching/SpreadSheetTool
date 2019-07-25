@@ -7,8 +7,8 @@ setUpRecursiveToolWithBuilder: builderSelector
 		'model' -> self toolUnderTest.
 		'constructor' -> #new.
 		'build' -> builderSelector.
-		'getter' -> #object.
-		'setter' -> #object:.
+		'getter' -> #subject.
+		'setter' -> #subject:.
 		'set*default' -> false }.
 	recursiveTools := (self subject
 		findByModelKind: self toolUnderTest

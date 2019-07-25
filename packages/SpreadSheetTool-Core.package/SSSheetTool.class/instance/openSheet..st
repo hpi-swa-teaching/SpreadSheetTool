@@ -1,8 +1,8 @@
 interaction
 openSheet: aSheet
 
-	^ [aSheet veryDeepCopy
-			object: self object;
+	^ [	aSheet veryDeepCopy
+			subject: self subject;
 			open]
 		on: Error
 		do: [:error | (UIManager confirm:

@@ -1,7 +1,7 @@
 evaluation
 input: aString notifying: aController ifFail: aBlock
 
-	^ (self isHybrid ==> [model class hasFormulaFormat: aString])
+	^ (self isFormula: aString)
 		ifFalse: [
 			input := aString.
 			isFormula := false]

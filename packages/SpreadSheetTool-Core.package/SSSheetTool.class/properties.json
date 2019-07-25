@@ -13,7 +13,8 @@
 		"oldCellMorphs",
 		"object",
 		"steppingActivated",
-		"steppingWindow" ],
+		"steppingWindow",
+		"subject" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],
