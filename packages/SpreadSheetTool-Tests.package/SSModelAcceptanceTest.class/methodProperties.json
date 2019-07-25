@@ -19,6 +19,7 @@
 		"testChangeGetter" : "CT 7/24/2019 19:44",
 		"testChangeModel" : "CT 7/17/2019 14:33",
 		"testChangeModelButtonExists" : "CT 7/24/2019 19:44",
+		"testChangeModelHidesGetter" : "CT 7/25/2019 13:53",
 		"testChangeSetter" : "CT 7/24/2019 19:44",
 		"testClickButtonAgain:" : "AN 7/17/2019 13:16",
 		"testClickGetterButtonAgain" : "CT 7/24/2019 19:46",

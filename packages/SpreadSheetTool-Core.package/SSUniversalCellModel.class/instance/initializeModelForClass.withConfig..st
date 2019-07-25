@@ -1,6 +1,7 @@
 initialize-release
 initializeModelForClass: aClass withConfig: aConfig
 
+	(self setFormulaSelection: nil) ifFalse: [^ self].
 	model ifNotNil: #release.
 	World stopStepping: self.
 	
