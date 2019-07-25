@@ -1,4 +1,0 @@
-testing
-testChangingRowCountDoesNotDiscardChanges
-	
-	^ self testChangingSheetRangeDoesNotDiscardChangesForDimension: 'rows'

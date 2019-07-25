@@ -2,6 +2,6 @@ tools
 deleteSheetByName: aName
 
 	^ self
-		should: [self performSheetAction: self deleteSheetLabel byName: aName]
+		should: [self tryDeleteSheetByName: aName]
 		notify: 'delete'
 		thenAnswer: true

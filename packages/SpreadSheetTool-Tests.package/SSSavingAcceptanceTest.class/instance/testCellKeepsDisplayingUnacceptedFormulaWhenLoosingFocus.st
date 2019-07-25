@@ -1,6 +1,6 @@
 testing-autosave
 testCellKeepsDisplayingUnacceptedFormulaWhenLoosingFocus
-	"Regression test for #50"
+	"Regression test for bug #50 (Entered formula is lost)"
 
 	| cell |
 	cell := self findAnyCell.

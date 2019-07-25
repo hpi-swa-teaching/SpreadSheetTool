@@ -7,4 +7,4 @@ setUp
 	model := self toolUnderTest rowCount: self rowCount columnCount: self columnCount.
 	self wantsToTest: (model buildWith: ToolBuilder default).
 	self placeSubjectInWorld.
-	windowHeap := Set new.
+	windowHeap := WeakSet new.

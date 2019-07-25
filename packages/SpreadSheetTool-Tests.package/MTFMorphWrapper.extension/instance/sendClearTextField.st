@@ -2,7 +2,5 @@
 sendClearTextField
 
 	self
-		sendKeyEvent: #keystroke
-			character: $a
-			buttons: self class commandModifier;
+		selectAll;
 		sendKey: Character backspace.
