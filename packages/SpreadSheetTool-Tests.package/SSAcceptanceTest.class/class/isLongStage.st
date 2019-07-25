@@ -3,9 +3,6 @@ isLongStage
 
 	^ isLongStage ifNil: [isLongStage :=
 		Smalltalk globals at: #SmalltalkCI
-			ifPresent: [:sci |
-				| ci |
-				ci := (sci perform: #getEnv: with: 'CONTINUOUS_INTEGRATION').
-				Transcript showln: ci class.
-				ci = #true]
+			ifPresent: [:sci | (sci
+				perform: #getEnv: with: 'CONTINUOUS_INTEGRATION') = #true]
 			ifAbsent: [false]]
