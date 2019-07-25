@@ -3,9 +3,9 @@ miniFormat: aString
 
 	| formattedLines textLines styler |
 	textLines := aString lines collect: #asText.
-	styler := SHTextStylerST80 new.
-	(styler class canUnderstand: #context:) ifTrue: [
-		styler context: (SSCellGetterFormula new context)].
+	styler := SHTextStylerST80 new
+		ssContext: (SSCellGetterFormula new context);
+		yourself.
 	formattedLines := textLines collect: [:text |
 		(text at: 1 ifAbsent: [nil])
 			caseOf: {

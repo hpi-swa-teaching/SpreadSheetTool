@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"inClass:inContext:withCode:doitFlag:errorMessage:location:" : "CT 7/22/2019 09:06" },
+	"instance" : {
+		"errorContext" : "CT 7/22/2019 09:09",
+		"reparse:notifying:ifFail:" : "CT 7/26/2019 00:55",
+		"setClass:context:code:doitFlag:errorMessage:location:" : "CT 7/22/2019 09:07" } }

@@ -3,7 +3,6 @@ aboutToStyle: aStyler
 
 	aStyler
 		classOrMetaClass: self selectedClass;
+		ssContext: self formula context;
 		parseAMethod: false.
-	(aStyler class canUnderstand: #context:)
-		ifTrue: [aStyler context: self formula context].
 	^ true
