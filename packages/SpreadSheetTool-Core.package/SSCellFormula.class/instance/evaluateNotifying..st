@@ -1,6 +1,5 @@
 evaluation
 evaluateNotifying: aController
-	"private"
 
 	| oldOutput |
 	oldOutput := output.
