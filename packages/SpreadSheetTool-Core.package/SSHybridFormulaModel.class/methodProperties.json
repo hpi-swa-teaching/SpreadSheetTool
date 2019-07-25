@@ -1,13 +1,14 @@
 {
 	"class" : {
-		"hasFormulaFormat:" : "CT 7/23/2019 14:25" },
+		 },
 	"instance" : {
 		"aboutToStyle:" : "CT 7/20/2019 20:21",
 		"contents" : "CT 7/2/2019 20:45",
 		"contents:" : "CT 7/25/2019 19:09",
 		"createSpecWith:" : "CT 7/25/2019 17:38",
-		"displaysFormula" : "CT 7/23/2019 14:25",
+		"displaysFormula" : "AN 7/25/2019 22:28",
 		"editContents:" : "AN 7/3/2019 17:09",
+		"hasFormulaFormat:" : "AN 7/25/2019 22:28",
 		"initialize" : "CT 7/20/2019 20:32",
 		"morph" : "CT 7/20/2019 20:39",
 		"outputContents" : "CT 7/22/2019 15:14",
