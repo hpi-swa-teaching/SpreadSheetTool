@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"asIndexDictionary" : "CT 7/25/2019 18:20",
+		"byIndexReject:" : "CT 7/25/2019 18:22",
+		"byIndexSelect:" : "CT 7/25/2019 18:22",
+		"copyWithoutIndices:" : "CT 7/25/2019 18:22",
 		"dithered:" : "CT 7/15/2019 10:23" } }

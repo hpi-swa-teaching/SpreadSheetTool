@@ -15,7 +15,10 @@
 		"context",
 		"isHybrid",
 		"input",
-		"output" ],
+		"output",
+		"compiledMethod",
+		"compiler",
+		"isFormula" ],
 	"name" : "SSCellFormula",
 	"pools" : [
 		 ],

@@ -1,5 +1,5 @@
-*SpreadSheetTool-Tests-enumerating
-selectByIndex: aBlock
+*SpreadSheetTool-Core-enumerating
+byIndexSelect: aBlock
 	
 	| selected |
 	selected := self species new.

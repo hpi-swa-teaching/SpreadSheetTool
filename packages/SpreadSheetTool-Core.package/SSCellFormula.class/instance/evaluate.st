@@ -1,11 +1,11 @@
 evaluation
-evaluateNotifying: aController
+evaluate
 
 	| oldOutput |
 	oldOutput := output.
 	self clearServers.
-	[output := self isFormula
-		ifTrue: [self evaluateFormulaNotifying: aController]
+	[output := isFormula
+		ifTrue: [self evaluateFormula]
 		ifFalse: [self input].
 	self changed]
 		onInterruptEnsure: [output := oldOutput].
