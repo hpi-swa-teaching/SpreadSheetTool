@@ -1,4 +1,4 @@
-toolbuilder
+interaction
 update: what
 
 	what = #messageListIndex ifTrue: [self contentsChanged].

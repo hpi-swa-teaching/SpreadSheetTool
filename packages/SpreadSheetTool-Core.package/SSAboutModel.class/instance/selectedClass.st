@@ -1,4 +1,4 @@
-toolbuilder
+interaction
 selectedClass
 
 	^ browser selectedClass

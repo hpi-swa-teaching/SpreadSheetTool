@@ -1,4 +1,4 @@
-toolbuilder
+interaction
 doItReceiver
 
 	^ self selectedClass

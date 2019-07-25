@@ -1,4 +1,4 @@
-toolbuilder
+interaction
 aboutToStyle: aStyler forMorph: aMorph
 
 	(aMorph knownName = #infoText) ifFalse: [^ false].
