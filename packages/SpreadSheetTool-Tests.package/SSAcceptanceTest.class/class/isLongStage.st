@@ -6,6 +6,6 @@ isLongStage
 			ifPresent: [:sci |
 				| ci |
 				ci := (sci perform: #getEnv: with: 'CONTINUOUS_INTEGRATION').
-				Transcript showln: ci.
-				ci = true]
+				Transcript showln: ci class.
+				ci = #true]
 			ifAbsent: [false]]
