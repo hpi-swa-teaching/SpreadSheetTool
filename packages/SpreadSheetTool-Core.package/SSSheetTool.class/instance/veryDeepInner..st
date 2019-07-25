@@ -5,5 +5,5 @@ veryDeepInner: deepCopier
 	contentModels := contentModels veryDeepCopyWith: deepCopier.
 	cellMorphs := Dictionary new.
 	oldCellMorphs := nil.
-	object := nil.
+	subject := nil.
 	steppingWindow := nil.
