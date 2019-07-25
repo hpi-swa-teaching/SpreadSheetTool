@@ -1,18 +1,19 @@
 language: smalltalk
 sudo: false
 
-aliases:
-  - &configs
-    os:
-      - linux
-      - osx
-    smalltalk:
-      - Squeak-5.2
-      - Squeak-5.1
-
 jobs:
   include:
     - stage: shortstage
-      <<: *configs
+      os:
+        - linux
+        - osx
+    - smalltalk:
+        - Squeak-5.2
+        - Squeak-5.1
     - stage: longstage
-      <<: *configs
+      os:
+        - linux
+        - osx
+    - smalltalk:
+        - Squeak-5.2
+        - Squeak-5.1
