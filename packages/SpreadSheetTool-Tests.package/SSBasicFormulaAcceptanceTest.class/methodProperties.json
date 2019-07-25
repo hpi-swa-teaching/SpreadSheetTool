@@ -21,7 +21,7 @@
 		"testFormulaReevaluation" : "CT 7/24/2019 17:30",
 		"testFormulaWithRuntimeErrorOpensDebugger" : "CT 7/24/2019 17:30",
 		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCancelled" : "CT 7/24/2019 17:31",
-		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "CT 7/24/2019 17:31",
+		"testFormulaWithSyntaxErrorOpensSyntaxErrorThatCanBeCorrected" : "CT 7/26/2019 00:49",
 		"testGetFormulaFieldHasAutocompletion" : "CT 7/22/2019 18:55",
 		"testInfinityLoopDoesNotOccur" : "CT 7/24/2019 17:34",
 		"testInlineSyntaxErrors" : "CT 7/25/2019 13:32",
