@@ -1,7 +1,7 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	^ (morph := SSCellMorph new)
+	^ (morph := SSHybridTextMorph new)
 		on: self
 			text: #contents
 			accept: #contents:
