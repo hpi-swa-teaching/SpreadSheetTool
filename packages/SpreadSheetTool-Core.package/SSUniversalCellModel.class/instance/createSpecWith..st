@@ -7,4 +7,5 @@ createSpecWith: aBuilder
 		children: #buildCell;
 		frame: 0 @ 0 extent: 1 @ 1;
 		spacing: 0;
+		minimumExtent: self parent minimumCellExtent;
 		yourself

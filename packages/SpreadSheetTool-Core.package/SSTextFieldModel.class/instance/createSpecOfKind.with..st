@@ -5,5 +5,4 @@ createSpecOfKind: aKind with: aBuilder
 		model: self;
 		getText: #contents;
 		setText: #contents:;
-		minimumExtent: self parent minimumCellExtent;
 		yourself
