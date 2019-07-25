@@ -9,4 +9,5 @@ getOutputAtRow: aRow atColumn: aColumn for: aClient
 			[aColumn = 0] -> [self rowHeaderAt: aRow].
 			[aRow = 0] -> [self columnHeaderAt: aColumn] }
 		otherwise: [self atRow: aRow atColumn: aColumn].
-	^ target getOutputFor: aClient
+	aClient addServer: target.
+	^ target output

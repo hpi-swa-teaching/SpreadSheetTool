@@ -7,5 +7,5 @@ evaluate
 	[output := isFormula
 		ifTrue: [self evaluateFormula]
 		ifFalse: [self input].
-	self changed]
+	self changed: #server with: self]
 		onInterruptEnsure: [output := oldOutput].

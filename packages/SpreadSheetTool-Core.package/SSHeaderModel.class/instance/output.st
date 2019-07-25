@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 output
 
-	^ self label
+	^ self contents

@@ -1,8 +1,11 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	^ (self createSpecOfKind: #pluggableInputFieldSpec with: aBuilder)
-		editText: #editContents:;
+	^ aBuilder pluggableInputFieldSpec new
+		model: self;
+		getText: #contents;
+		setText: #contents:;
+		editText: #contents:;
 		softLineWrap: true;
 		color: #backgroundColor;
 		textColor: #foregroundColor;

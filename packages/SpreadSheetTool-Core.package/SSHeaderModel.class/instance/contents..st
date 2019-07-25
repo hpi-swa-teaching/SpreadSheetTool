@@ -1,5 +1,5 @@
-interaction
+accessing
 contents: aTextOrString
 
-	self header label: aTextOrString asString.
-	self contentsChanged.
+	super contents: aTextOrString.
+	self "halt" contentsChanged.

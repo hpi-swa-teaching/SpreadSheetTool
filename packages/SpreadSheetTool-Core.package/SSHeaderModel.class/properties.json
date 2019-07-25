@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"header",
-		"originalContents" ],
+		"originalContents",
+		"parent" ],
 	"name" : "SSHeaderModel",
 	"pools" : [
 		 ],
-	"super" : "SSTextFieldModel",
+	"super" : "StringHolder",
 	"type" : "normal" }

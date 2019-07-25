@@ -1,4 +1,4 @@
 accessing
 parent: aModel
 
-	parent := aModel.
+	parent := aModel

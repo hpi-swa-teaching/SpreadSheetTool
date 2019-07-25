@@ -1,4 +1,4 @@
-as yet unclassified
+copying
 veryDeepInner: deepCopier
 
 	super veryDeepInner: deepCopier.

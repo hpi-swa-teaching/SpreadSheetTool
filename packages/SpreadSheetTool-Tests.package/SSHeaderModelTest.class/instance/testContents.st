@@ -1,5 +1,5 @@
 testing
-testGetContents
+testContents
 
-	header label: self someString.
+	model contents: self someString.
 	self assert: self someString equals: model contents.

@@ -1,4 +1,4 @@
 testing
-hasUnacceptedEdits
+hasUnacceptedChanges
 
 	^ contentModels anySatisfy: #hasUnacceptedEdits

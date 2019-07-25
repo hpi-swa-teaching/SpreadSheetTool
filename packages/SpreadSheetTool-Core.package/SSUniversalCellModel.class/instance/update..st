@@ -1,7 +1,7 @@
 updating
 update: what
 
-	what = modelConfig contentGetter ifTrue: [
+	what = (modelConfig ifNotNil: #contentGetter) ifTrue: [
 		^ self modelChanged: self modelContents].
 	
 	^ super update: what

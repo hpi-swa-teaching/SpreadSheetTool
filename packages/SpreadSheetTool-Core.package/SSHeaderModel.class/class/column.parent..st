@@ -1,6 +1,7 @@
 instance creation
 column: aColumnIndex parent: aModel
 
-	^ (self parent: aModel)
-		header: (SSHeader columnHeaderFor: aColumnIndex);
+	^ self new
+		parent: aModel;
+		generateColumnLabelFor: aColumnIndex;
 		yourself
