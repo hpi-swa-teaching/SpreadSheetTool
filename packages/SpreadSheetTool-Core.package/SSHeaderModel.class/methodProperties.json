@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"column:parent:" : "CT 7/25/2019 22:09",
-		"row:parent:" : "CT 7/25/2019 22:10" },
+		"column:" : "CT 7/26/2019 01:12",
+		"row:" : "CT 7/26/2019 01:12" },
 	"instance" : {
 		"addClient:" : "CT 7/25/2019 22:28",
 		"backgroundColor" : "CT 7/17/2019 19:04",
@@ -15,6 +15,4 @@
 		"hasContents" : "CT 6/15/2019 20:59",
 		"initializeLabel:" : "CT 7/25/2019 22:04",
 		"output" : "CT 7/25/2019 22:11",
-		"parent" : "CT 7/25/2019 22:09",
-		"parent:" : "CT 7/25/2019 22:09",
 		"removeClient:" : "CT 7/26/2019 00:23" } }

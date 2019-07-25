@@ -1,4 +1,0 @@
-interaction
-selectedClass
-
-	^ browser selectedClass

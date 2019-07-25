@@ -1,4 +1,0 @@
-interaction
-doItReceiver
-
-	^ self selectedClass

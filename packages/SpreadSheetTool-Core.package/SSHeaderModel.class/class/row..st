@@ -1,7 +1,6 @@
 instance creation
-row: aRowIndex parent: aModel
+row: aRowIndex
 
 	^ self new
-		parent: aModel;
 		generateRowLabelFor: aRowIndex;
 		yourself

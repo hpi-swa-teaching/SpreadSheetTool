@@ -1,7 +1,6 @@
 instance creation
-column: aColumnIndex parent: aModel
+column: aColumnIndex
 
 	^ self new
-		parent: aModel;
 		generateColumnLabelFor: aColumnIndex;
 		yourself
