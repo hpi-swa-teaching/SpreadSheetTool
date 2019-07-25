@@ -5,4 +5,5 @@ createSpecWith: aBuilder
 		model: self;
 		getText: #contents;
 		setText: #contents:;
+		color: #color;
 		yourself
