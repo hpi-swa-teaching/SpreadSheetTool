@@ -2,7 +2,6 @@ testing
 invalidFixturesForAcceptContents
 
 	^ {
-		{ '' }.
 		{ '0' }.
 		{ '0x5e' }.
 		{ '42a' }.

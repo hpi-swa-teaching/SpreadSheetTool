@@ -1,7 +1,8 @@
 instance creation
 parent: aModel getProperty: aGetter setProperty: aSetter
 
-	^ (self parent: aModel)
+	^ self new
+		parent: aModel;
 		getProperty: aGetter;
 		setProperty: aSetter;
 		yourself

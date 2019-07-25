@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"classUnderTest" : "CT 6/18/2019 19:44",
-		"invalidFixturesForAcceptContents" : "CT 6/12/2019 13:40",
+		"invalidFixturesForAcceptContents" : "CT 7/26/2019 00:03",
 		"setUp" : "CT 6/6/2019 01:50",
 		"someGetterSymbol" : "CT 5/29/2019 16:26",
 		"someSetterSymbol" : "CT 5/29/2019 16:26",

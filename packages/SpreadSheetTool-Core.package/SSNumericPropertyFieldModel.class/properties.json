@@ -4,12 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "CT 6/13/2019 22:05",
+	"commentStamp" : "",
 	"instvars" : [
+		"parent",
 		"getterSymbol",
 		"setterSymbol" ],
 	"name" : "SSNumericPropertyFieldModel",
 	"pools" : [
 		 ],
-	"super" : "SSTextFieldModel",
+	"super" : "StringHolder",
 	"type" : "normal" }

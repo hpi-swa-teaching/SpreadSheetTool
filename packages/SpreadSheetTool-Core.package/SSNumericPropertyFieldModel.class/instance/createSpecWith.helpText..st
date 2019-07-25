@@ -1,7 +1,9 @@
 toolbuilder
 createSpecWith: aBuilder helpText: aText
 
-	^ (self createSpecOfKind: #pluggableInputFieldSpec with: aBuilder)
+	^ aBuilder pluggableInputFieldSpec new
+		model: self;
+		getText: #contents;
 		setText: #contents:notifying:;
 		help: aText;
 		softLineWrap: false;
