@@ -1,6 +1,7 @@
 testing
 testFormulaCompositeReferencing
 	"Test for #39 (Simple cross-referencing formulas)"
+	<timeout: 20 "seconds">
 
 	self
 		withFixtures: self fixturesForCompositeReferencingFormulas
