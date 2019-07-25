@@ -16,4 +16,4 @@ filterNotificationsWhile: aBlock
 					title: caption.
 				labels indexOf: (choice isString
 					ifTrue: [choice]
-					ifFalse: (goodLines at: choice))]]
+					ifFalse: [goodLines at: choice])]]
