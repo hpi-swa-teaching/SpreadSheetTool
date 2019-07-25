@@ -1,0 +1,4 @@
+accessing sheet
+columnIndex
+
+	^ columnIndex
