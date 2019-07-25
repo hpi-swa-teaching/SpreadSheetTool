@@ -30,6 +30,7 @@
 		"testFormulaColumnHeader" : "GT 7/19/2019 11:46",
 		"testFormulaColumnHeaderAtPositive" : "GT 7/19/2019 11:46",
 		"testFormulaColumnHeaderAtZero" : "GT 7/19/2019 11:46",
+		"testFormulaColumnIndex" : "CT 7/26/2019 01:50",
 		"testFormulaCompositeReferencing" : "CT 7/25/2019 20:50",
 		"testFormulaCompositeReferencingShorthands" : "CT 7/24/2019 17:49",
 		"testFormulaCompositeSelfReferences" : "CT 7/24/2019 17:49",
@@ -43,4 +44,5 @@
 		"testFormulaRightBySelfReference" : "GT 7/19/2019 11:47",
 		"testFormulaRowHeader" : "GT 7/19/2019 11:47",
 		"testFormulaRowHeaderAtPositive" : "GT 7/19/2019 11:47",
-		"testFormulaRowHeaderAtZero" : "GT 7/19/2019 11:47" } }
+		"testFormulaRowHeaderAtZero" : "GT 7/19/2019 11:47",
+		"testFormulaRowIndex" : "CT 7/26/2019 01:50" } }
