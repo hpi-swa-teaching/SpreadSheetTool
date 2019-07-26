@@ -1,5 +1,5 @@
 initialize-release
 migrateModel
 
-	(self hasStandaloneModel ifTrue: [model] ifFalse: [getterModel])
+	(self hasStandaloneModel ifTrue: [model] ifFalse: [self getterModel])
 		adoptFormula.
