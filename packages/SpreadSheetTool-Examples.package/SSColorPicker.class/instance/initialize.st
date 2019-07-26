@@ -1,4 +1,4 @@
 initialize-release
 initialize
 
-	color := Color new
+	color := Color new.

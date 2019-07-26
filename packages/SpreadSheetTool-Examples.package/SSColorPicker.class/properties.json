@@ -8,7 +8,7 @@
 	"instvars" : [
 		"color",
 		"morph" ],
-	"name" : "SSColorPickerModel",
+	"name" : "SSColorPicker",
 	"pools" : [
 		 ],
 	"super" : "Model",
