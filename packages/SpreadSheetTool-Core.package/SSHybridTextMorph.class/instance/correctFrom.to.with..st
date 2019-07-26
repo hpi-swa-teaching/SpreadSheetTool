@@ -1,4 +1,4 @@
-display
+interactive error protocol
 correctFrom: start to: stop with: aString
 
 	| return |

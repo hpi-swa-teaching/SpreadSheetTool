@@ -1,4 +1,4 @@
-contents
+toolbuilder
 miniFormat: aString
 
 	| formattedLines textLines styler |

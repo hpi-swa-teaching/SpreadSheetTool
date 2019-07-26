@@ -2,4 +2,4 @@ state
 beBusy
 
 	isBusy := true.
-	model beBusy.
+	model ifNotNil: #beBusy.

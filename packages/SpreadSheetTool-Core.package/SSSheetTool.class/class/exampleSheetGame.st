@@ -5,7 +5,7 @@ exampleSheetGame
 	| tool sheet |
 	tool := self rowCount: 2 columnCount: 5.
 	tool buildWith: ToolBuilder default; steppingActivated: false.
-	sheet := tool instVarNamed: #contentModels.
+	sheet := tool instVarNamed: #contentSheet.
 	(('The SqueakSheet Game' splitOn: ' ') forceTo: 5 paddingWith: '') withIndexDo: [:word :index |
 		(sheet columnHeaderAt: index) contents: word].
 	(sheet rowHeaderAt: 1) contents: 'CHALLENGE:'.

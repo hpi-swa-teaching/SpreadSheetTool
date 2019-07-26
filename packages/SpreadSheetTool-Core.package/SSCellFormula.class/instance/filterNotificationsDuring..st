@@ -1,21 +1,21 @@
 evaluation
-filterNotificationsWhile: aBlock
+filterNotificationsDuring: aBlock
 
 	self isHybrid ifFalse: [^ aBlock value].
 	^ aBlock
 		on: UndeclaredVariable
 		do: [:notification | notification
 			openMenuIn: [:labels :lines :caption |
-				| badIndices goodLines choice |
-				badIndices := (labels asIndexDictionary
-					select: [:label | 'declare*' match: label]) keys.
-				goodLines := labels copyWithoutIndices: badIndices.
+				| goodIndices goodLabels choice |
+				goodIndices := (labels asIndexDictionary
+					reject: [:label | 'declare*' match: label]) keys.
+				goodLabels := labels copyAtIndices: goodIndices.
 				choice := UIManager default
-					chooseFrom: goodLines
-					lines: (labels copyWithoutIndices: badIndices)
+					chooseFrom: goodLabels
+					lines: (labels copyAtIndices: goodIndices)
 					title: caption.
 				(#(0 '' nil) includes: choice)
 					ifFalse: [labels indexOf: (choice isString
 						ifTrue: [choice]
-						ifFalse: [goodLines at: choice])]
+						ifFalse: [goodLabels at: choice])]
 					ifTrue: [0]]]

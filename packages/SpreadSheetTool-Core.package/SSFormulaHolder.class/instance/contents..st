@@ -1,5 +1,6 @@
 interaction
 contents: aTextOrString
+	"Compile the input and inform our model of the change"
 
 	self formula
 		input: aTextOrString asString

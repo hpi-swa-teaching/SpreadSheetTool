@@ -2,7 +2,7 @@ evaluation
 compile: aString notifying: aController ifFail: aBlock
 
 	| newSource |
-	compiledMethod := self filterNotificationsWhile: [
+	compiledMethod := self filterNotificationsDuring: [
 		self compiler
 			compile: (ReadStream on: aString)
 			in: self context

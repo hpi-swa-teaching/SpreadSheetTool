@@ -1,4 +1,4 @@
-contents
+interaction
 openUrl: aStringOrText
 
 	(Smalltalk hasClassNamed: #Scamper)

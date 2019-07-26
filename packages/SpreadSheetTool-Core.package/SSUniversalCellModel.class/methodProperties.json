@@ -2,7 +2,7 @@
 	"class" : {
 		"tool:sheet:rowIndex:columnIndex:" : "CT 7/26/2019 17:08" },
 	"instance" : {
-		"addClient:" : "CT 7/26/2019 19:16",
+		"addClient:" : "CT 7/26/2019 22:14",
 		"buildCell" : "CT 7/19/2019 12:38",
 		"buildFormulaField" : "CT 7/26/2019 19:35",
 		"buildModel" : "CT 7/26/2019 19:25",
@@ -15,8 +15,8 @@
 		"contents" : "CT 7/22/2019 17:44",
 		"createSpecWith:" : "CT 7/26/2019 19:20",
 		"displayAspect:" : "CT 7/26/2019 19:26",
-		"fakeWindow" : "CT 7/12/2019 20:28",
-		"formulaSelection" : "CT 7/26/2019 13:27",
+		"fakeWindow" : "CT 7/26/2019 22:18",
+		"formulaSelection" : "CT 7/26/2019 22:12",
 		"formulaSelection:" : "CT 7/25/2019 13:46",
 		"getSubjectAspect" : "CT 7/26/2019 01:44",
 		"getterFormula" : "CT 7/26/2019 01:45",
@@ -37,11 +37,11 @@
 		"modelConfig" : "CT 7/26/2019 19:26",
 		"modelContents" : "CT 7/26/2019 19:26",
 		"morphIsClosing" : "CT 7/26/2019 19:28",
-		"offerToRegister:" : "CT 7/16/2019 18:30",
+		"offerToRegister:" : "CT 7/26/2019 22:15",
 		"okToSwitchSelection" : "CT 7/26/2019 17:10",
 		"output" : "CT 7/24/2019 12:44",
 		"postInitialize" : "CT 7/23/2019 19:46",
-		"removeClient:" : "CT 7/26/2019 19:16",
+		"removeClient:" : "CT 7/26/2019 22:14",
 		"rowIndex:columnIndex:" : "CT 7/2/2019 18:23",
 		"setFormulaSelection:" : "CT 7/25/2019 13:50",
 		"setterFormula" : "CT 7/26/2019 01:48",
@@ -69,4 +69,4 @@
 		"update:with:" : "CT 7/26/2019 15:18",
 		"updateModel:" : "CT 7/26/2019 14:27",
 		"wantsSteps" : "CT 7/9/2019 17:51",
-		"withoutObservingDo:" : "CT 7/26/2019 14:04" } }
+		"withoutObservingDo:" : "CT 7/26/2019 22:15" } }

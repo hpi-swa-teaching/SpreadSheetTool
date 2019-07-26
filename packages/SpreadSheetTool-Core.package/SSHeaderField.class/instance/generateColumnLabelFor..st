@@ -1,5 +1,6 @@
 labeling
 generateColumnLabelFor: anIndex
+	"Adopted from Excel"
 
 	| number label |
 	label := OrderedCollection new.
