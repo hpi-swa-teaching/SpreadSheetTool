@@ -1,0 +1,1 @@
+I am the BaselineOf the SqueakSheet project. After installation, I initialize the SqueakSheet package.
