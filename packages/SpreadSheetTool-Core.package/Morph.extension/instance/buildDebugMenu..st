@@ -1,6 +1,7 @@
 *SpreadSheetTool-Core-*ToolBuilder-Morphic-opening
 buildDebugMenu: aHand
 	"Answer a debugging menu for the receiver.  The hand argument is seemingly historical and plays no role presently"
+	"SqueakSheet: Add our menu point here. We need a better hook"
 
 	| aMenu aPlayer |
 	aMenu := MenuMorph new defaultTarget: self.

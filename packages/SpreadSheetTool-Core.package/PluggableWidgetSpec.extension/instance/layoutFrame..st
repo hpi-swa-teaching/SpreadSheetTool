@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-accessing
+*SpreadSheetTool-Core-compatibility-accessing
 layoutFrame: aLayoutFrame
 	"For polymorphism"
 

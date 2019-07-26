@@ -1,6 +1,7 @@
 *SpreadSheetTool-Core-*Tools-yellow button menu
 yellowButtonMenuItems
 	"Returns the standard yellow button menu items"
+	"SqueakSheet: Add our menu item here (we need a better hook)"
 	^{
 			#-.
 			{'set font... (k)' translated.				#offerFontMenu}.

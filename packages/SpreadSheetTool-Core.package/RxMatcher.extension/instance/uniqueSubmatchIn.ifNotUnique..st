@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-match enumeration
+*SpreadSheetTool-Core-compatibility-match enumeration
 uniqueSubmatchIn: aString ifNotUnique: aBlock
 
 	| submatches |

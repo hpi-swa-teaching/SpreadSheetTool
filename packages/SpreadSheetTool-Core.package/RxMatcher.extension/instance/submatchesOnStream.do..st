@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-match enumeration
+*SpreadSheetTool-Core-compatibility-match enumeration
 submatchesOnStream: aStream do: aBlock
 	[self searchStream: aStream] whileTrue:
 		[aBlock value: self subexpressions]

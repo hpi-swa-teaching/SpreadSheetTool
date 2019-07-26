@@ -8,5 +8,5 @@ alignChildrenInColumns: columns
 	1 to: columns do: [:column |
 		1 to: rows do: [:row |
 			(self children at: (index := index + 1))
-				frame: column @ row - 1 * extent
-				extent: extent]].
+				frame: (column @ row - 1 * extent
+					extent: extent)]].

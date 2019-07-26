@@ -6,5 +6,5 @@ specForHeader: aBuilder
 		getText: #applicationName;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		frame: 0 @ 0 extent: 1 @ 1;
+		frame: (0 @ 0 extent: 1 @ 1);
 		yourself

@@ -1,5 +1,7 @@
 *SpreadSheetTool-Core-error handling
 notify: string at: location
+	"SqueakSheet: pass context here"
+
 	cue requestor isNil
 		ifTrue: [| notification |
 			(encoder == self or: [encoder isNil]) ifTrue: [^ self fail  "failure setting up syntax error"].

@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-private
+*SpreadSheetTool-Core-compatibility-private
 classForReceiver: receiver context: contextOrNil
 	"Answer the class to compile in for a receiver and aContext.
 	 If aContext is non-nil use its receiver's class (if we use the context's
