@@ -1,6 +1,6 @@
 toolbuilder
 buildWidget
 
-	^ formulaSelection
+	^ self formulaSelection
 		ifNil: [self buildModel]
 		ifNotNil: [self buildFormulaField]

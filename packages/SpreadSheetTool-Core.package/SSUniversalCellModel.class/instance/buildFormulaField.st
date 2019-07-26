@@ -3,7 +3,7 @@ buildFormulaField
 
 	| builder spec formulaModel |
 	builder := ToolBuilder default.
-	formulaModel := formulaSelection caseOf: {
+	formulaModel := self formulaSelection caseOf: {
 		[#getter] -> [getterModel].
 		[#setter] -> [setterModel] }.
 	spec := (formulaModel createSpecWith: builder)

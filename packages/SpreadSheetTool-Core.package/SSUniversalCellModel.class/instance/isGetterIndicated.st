@@ -1,4 +1,4 @@
 testing
 isGetterIndicated
 
-	^ formulaSelection = #getter
+	^ self formulaSelection = #getter

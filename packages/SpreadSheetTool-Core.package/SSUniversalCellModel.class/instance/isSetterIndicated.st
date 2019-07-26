@@ -1,4 +1,4 @@
 testing
 isSetterIndicated
 
-	^ formulaSelection = #setter
+	^ self formulaSelection = #setter
