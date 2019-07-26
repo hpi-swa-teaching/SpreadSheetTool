@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: aBuilder
 
-	^ aBuilder pluggableCheckBoxSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: #label;
 		action: #toggle;
