@@ -3,7 +3,7 @@ getOutputAtRow: aRow atColumn: aColumn for: aClient
 
 	| target |
 	aColumn @ aRow = (0 @ 0)
-		ifTrue: [self error: 'Index out of range'].
+		ifTrue: [self errorSubscriptBounds: aColumn @ aRow].
 	target := true
 		caseOf: {
 			[aColumn = 0] -> [self rowHeaderAt: aRow].

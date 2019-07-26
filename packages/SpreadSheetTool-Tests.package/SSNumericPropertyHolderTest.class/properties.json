@@ -1,0 +1,15 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"mock" ],
+	"name" : "SSNumericPropertyHolderTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

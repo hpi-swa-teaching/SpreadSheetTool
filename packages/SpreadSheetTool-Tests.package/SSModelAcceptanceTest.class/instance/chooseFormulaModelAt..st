@@ -6,5 +6,5 @@ chooseFormulaModelAt: aPoint
 	self
 		should: [button click]
 		notify: 'model'
-		thenAnswer: SSHybridFormulaModel asString.
+		thenAnswer: SSHybridFormulaHolder asString.
 	self subject redraw.

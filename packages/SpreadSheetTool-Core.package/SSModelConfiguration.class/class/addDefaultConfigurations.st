@@ -2,13 +2,13 @@ initialize-release
 addDefaultConfigurations
 
 	self
-		addKnownConfiguration: ((self newFor: SSHybridFormulaModel)
+		addKnownConfiguration: ((self newFor: SSHybridFormulaHolder)
 			constructor: #tool:embeddedFormula:;
 			builderSelector: #createSpecWith:;
 			contentGetter: #output;
 			displaysString: true;
 			yourself);
-		addKnownConfiguration: ((self newFor: SSEvaluatorModel)
+		addKnownConfiguration: ((self newFor: SSEvaluator)
 			contentGetter: #object;
 			contentSetter: #object:;
 			yourself).

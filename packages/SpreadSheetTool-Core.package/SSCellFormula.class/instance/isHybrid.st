@@ -1,4 +1,4 @@
 accessing
 isHybrid
 
-	^ model isKindOf: SSHybridFormulaModel
+	^ model isKindOf: SSHybridFormulaHolder

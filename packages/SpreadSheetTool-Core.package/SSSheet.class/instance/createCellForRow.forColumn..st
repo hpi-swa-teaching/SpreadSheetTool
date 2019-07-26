@@ -1,6 +1,10 @@
 private
 createCellForRow: aRow forColumn: aColumn
 
-	^ (SSUniversalCellModel parent: parent sheet: self rowIndex: aRow columnIndex: aColumn)
-		addDependent: parent;
-		yourself
+	^ (SSUniversalCellModel
+		tool: self tool
+		sheet: self
+		rowIndex: aRow
+		columnIndex: aColumn)
+			addDependent: self tool;
+			yourself

@@ -1,6 +1,6 @@
 private
 createHeaderForColumn: aColumn
 
-	^ (SSHeaderModel column: aColumn)
-		addDependent: parent;
+	^ (SSHeaderField column: aColumn)
+		addDependent: self tool;
 		yourself

@@ -5,4 +5,4 @@ testFormulaAtColumnAtRowZeroZero
 	self
 		shouldFormula: '^ cell atColumn: 0 atRow: 0'
 		in: 3 @ 3
-		openDebuggerNotifying: 'out of range'.
+		openDebuggerNotifying: 'out of bounds'.

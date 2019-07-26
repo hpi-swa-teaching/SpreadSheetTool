@@ -8,7 +8,7 @@ initializeModelForClass: aClass withConfig: aConfig
 	modelConfig := aConfig.
 	model := aClass
 		perform: modelConfig constructor
-		withEnoughArguments: {self parent. self getterFormula}.
+		withEnoughArguments: {self tool. self getterFormula}.
 	self migrateModel.
 	model addDependent: self.
 	self changed: #buildCell.

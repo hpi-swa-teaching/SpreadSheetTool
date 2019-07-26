@@ -3,14 +3,13 @@ specForDimensionControlInDimension: aDimension selector: aSelector with: aBuilde
 
 	^ aBuilder pluggablePanelSpec new
 		layout: #horizontal;
-		children: {
-			self
-				specForLabel: aDimension ssWithFirstCharacterUppercase, $:
-				with: aBuilder.
-			((SSNumericPropertyFieldModel
-				parent: self
-				getProperty: aSelector
-				setProperty: (aSelector , ':') asSymbol)
-					createSpecWith: aBuilder
-					helpText: 'Number of ', aDimension) };
+		addChild: (self
+			specForLabel: aDimension ssWithFirstCharacterUppercase, $:
+			with: aBuilder);
+		addChild: ((SSNumericPropertyHolder
+			owner: self
+			getProperty: aSelector
+			setProperty: (aSelector , ':') asSymbol)
+				createSpecWith: aBuilder
+				helpText: 'Number of ', aDimension);
 		yourself

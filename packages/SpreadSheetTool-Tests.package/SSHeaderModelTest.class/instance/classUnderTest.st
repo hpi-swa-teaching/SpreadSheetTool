@@ -1,4 +1,0 @@
-accessing
-classUnderTest
-
-	^ SSHeaderModel

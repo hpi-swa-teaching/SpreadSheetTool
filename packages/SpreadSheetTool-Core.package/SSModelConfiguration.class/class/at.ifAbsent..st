@@ -1,4 +1,4 @@
-instances
+accessing
 at: aClass ifAbsent: aBlock
 
 	^ knownConfigurations

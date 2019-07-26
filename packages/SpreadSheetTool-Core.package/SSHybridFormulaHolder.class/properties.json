@@ -1,0 +1,15 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph",
+		"unacceptedContents" ],
+	"name" : "SSHybridFormulaHolder",
+	"pools" : [
+		 ],
+	"super" : "SSFormulaHolder",
+	"type" : "normal" }

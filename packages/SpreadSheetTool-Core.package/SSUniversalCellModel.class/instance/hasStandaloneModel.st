@@ -1,4 +1,4 @@
 testing
 hasStandaloneModel
 
-	^ model isKindOf: SSFormulaModel
+	^ model isKindOf: SSFormulaHolder

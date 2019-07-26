@@ -1,0 +1,15 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"object",
+		"compiler" ],
+	"name" : "SSEvaluator",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

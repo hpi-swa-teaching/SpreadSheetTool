@@ -1,4 +1,4 @@
 initialize-release
 initializeDefaultModel
 
-	^ self initializeDefaultModelFor: SSHybridFormulaModel
+	^ self initializeDefaultModelFor: SSHybridFormulaHolder

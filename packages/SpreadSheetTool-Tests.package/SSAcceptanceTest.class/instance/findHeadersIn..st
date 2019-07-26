@@ -1,4 +1,4 @@
 tools-navigating
 findHeadersIn: aWindow
 
-	^ aWindow findByModelKind: SSHeaderModel andCriteria: #isTextView
+	^ aWindow findByModelKind: SSHeaderField andCriteria: #isTextView

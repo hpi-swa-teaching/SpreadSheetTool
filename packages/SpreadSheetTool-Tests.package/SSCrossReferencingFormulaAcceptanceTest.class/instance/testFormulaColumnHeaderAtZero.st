@@ -5,4 +5,4 @@ testFormulaColumnHeaderAtZero
 	self
 		shouldFormula: '^ cell columnHeaderAt: 0'
 		in: 3 @ 3
-		openDebuggerNotifying: 'index'
+		openDebuggerNotifying: 'subscript'

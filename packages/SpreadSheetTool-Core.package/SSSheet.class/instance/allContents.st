@@ -1,4 +1,4 @@
 private
 allContents
 
-	^ rowHeaders, columnHeaders, cells asOrderedCollection
+	^ cells asSet, rowHeaders, columnHeaders

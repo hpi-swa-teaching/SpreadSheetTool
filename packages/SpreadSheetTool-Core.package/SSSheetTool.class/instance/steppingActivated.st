@@ -1,4 +1,4 @@
 accessing
 steppingActivated
 
-	^ steppingActivated
+	^ contentModels steppingActivated

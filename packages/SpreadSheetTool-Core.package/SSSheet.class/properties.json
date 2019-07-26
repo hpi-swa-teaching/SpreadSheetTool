@@ -10,7 +10,8 @@
 		"rowHeaders",
 		"columnHeaders",
 		"autoEvaluateActivated",
-		"parent" ],
+		"steppingActivated",
+		"tool" ],
 	"name" : "SSSheet",
 	"pools" : [
 		 ],

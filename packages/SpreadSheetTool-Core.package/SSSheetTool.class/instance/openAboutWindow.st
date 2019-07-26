@@ -1,4 +1,4 @@
 interaction
 openAboutWindow
 
-	SSAboutModel new open.
+	SSAboutBrowser new open.

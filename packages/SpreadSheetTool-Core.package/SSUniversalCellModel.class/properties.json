@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parent",
+		"tool",
 		"sheet",
 		"rowIndex",
 		"columnIndex",

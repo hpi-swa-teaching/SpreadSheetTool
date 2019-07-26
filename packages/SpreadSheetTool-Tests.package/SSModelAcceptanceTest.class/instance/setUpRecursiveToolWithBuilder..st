@@ -14,7 +14,7 @@ setUpRecursiveToolWithBuilder: builderSelector
 		findByModelKind: self toolUnderTest
 		andCriteria: [:morph | (morph isKindOf: PluggablePanelMorph) and: [
 			((self subject createWrapperFor: morph)
-				findByModelKind: SSHybridFormulaModel) isPositive]]) morphs.
+				findByModelKind: SSHybridFormulaHolder) isPositive]]) morphs.
 	recursiveTool := self subject createWrapperFor: (
 		recursiveTools reject: [:morph | morph allOwners includesAnyOf: recursiveTools]).
 	self assert: recursiveTool isUnique.

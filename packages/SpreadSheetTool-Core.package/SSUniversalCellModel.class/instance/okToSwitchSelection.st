@@ -1,4 +1,4 @@
 interaction
 okToSwitchSelection
 
-	^ visibleModel hasUnacceptedEdits ==> [self parent promptDiscardChanges]
+	^ visibleModel hasUnacceptedEdits ==> [self tool promptDiscardChanges]
