@@ -1,0 +1,1 @@
+I represent a true Smalltalk formula of a SqueakSheet cell. I am executed in the context of templateMethod which provides access to the subject (self) as well as other cells of my containing sheet (cell). I support automatic evaluation of all my clients whenever I changed. I can be compiled and evaluated separately, but I am also capable of holding a pure string.

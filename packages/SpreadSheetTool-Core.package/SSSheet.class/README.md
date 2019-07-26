@@ -1,0 +1,1 @@
+I represent the data interface of a 2D sheet. I consist of a matrix of cells plus headers for each row and column. I also provide the current display settings for auto evaluation and stepping.

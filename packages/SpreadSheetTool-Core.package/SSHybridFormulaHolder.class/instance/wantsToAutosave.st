@@ -2,4 +2,4 @@ testing
 wantsToAutosave
 
 	^ self displaysFormula not and: [
-		super wantsToAutosave]
+		self tool autoEvaluateActivated ==> [formula hasClients not]]

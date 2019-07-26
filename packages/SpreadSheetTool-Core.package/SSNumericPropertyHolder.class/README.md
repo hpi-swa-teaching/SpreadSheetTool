@@ -1,0 +1,1 @@
+I display a numeric property for a tool. When the entered value is accepted, I try to parse it and synchronize it with the specified tool's selector.
