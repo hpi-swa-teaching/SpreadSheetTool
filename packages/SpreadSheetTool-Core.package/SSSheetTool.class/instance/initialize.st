@@ -1,10 +1,10 @@
 initialize-release
 initialize
 
-	contentModels := SSSheet tool: self.
+	contentSheet := SSSheet tool: self.
 	cellMorphs := Dictionary new.
 	
-	contentModels
+	contentSheet
 		rowCount: 1 columnCount: 1;
 		autoEvaluateActivated: true;
 		steppingActivated: true.

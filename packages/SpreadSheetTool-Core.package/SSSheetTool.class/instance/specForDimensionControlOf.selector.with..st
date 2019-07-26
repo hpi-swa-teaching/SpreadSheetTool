@@ -1,15 +1,15 @@
 toolbuilder
-specForDimensionControlInDimension: aDimension selector: aSelector with: aBuilder
+specForDimensionControlOf: rowsOrColumns selector: aSelector with: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
 		layout: #horizontal;
 		addChild: (self
-			specForLabel: aDimension ssWithFirstCharacterUppercase, $:
+			specForLabel: rowsOrColumns ssWithFirstCharacterUppercase, $:
 			with: aBuilder);
 		addChild: ((SSNumericPropertyHolder
 			owner: self
 			getProperty: aSelector
 			setProperty: (aSelector , ':') asSymbol)
 				createSpecWith: aBuilder
-				helpText: 'Number of ', aDimension);
+				helpText: 'Number of ', rowsOrColumns);
 		yourself

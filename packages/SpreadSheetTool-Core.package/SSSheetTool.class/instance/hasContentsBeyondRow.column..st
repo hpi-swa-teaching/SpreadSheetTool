@@ -1,7 +1,7 @@
 testing
 hasContentsBeyondRow: aRow column: aColumn
 	
-	^ (contentModels
+	^ (contentSheet
 		selectElementsBeyondRow: aRow
 		beyondColumn: aColumn)
 			anySatisfy: #hasContents

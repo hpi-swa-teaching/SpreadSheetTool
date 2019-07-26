@@ -1,4 +1,4 @@
 testing
 hasUnacceptedChanges
 
-	^ contentModels anySatisfy: #hasUnacceptedEdits
+	^ contentSheet anySatisfy: #hasUnacceptedEdits

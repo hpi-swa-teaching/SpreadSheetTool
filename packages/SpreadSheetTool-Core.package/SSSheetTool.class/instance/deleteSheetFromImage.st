@@ -3,8 +3,7 @@ deleteSheetFromImage
 	
 	| selected |
 	self class savedSheets ifEmpty: [
-		UIManager inform: 'There are no sheets to delete'.
-		^ self].
+		^ UIManager inform: 'There are no sheets to delete'].
 	selected := UIManager default
 		chooseFromValues: self class savedSheets keys
 		title: 'Delete sheet'.

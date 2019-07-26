@@ -1,4 +1,4 @@
-initialize-release
+dependents
 postInitialize
 
-	contentModels cellsDo: #postInitialize.
+	contentSheet cellsDo: #postInitialize.

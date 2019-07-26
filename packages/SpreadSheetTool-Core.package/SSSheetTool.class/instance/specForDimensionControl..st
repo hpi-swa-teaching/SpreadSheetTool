@@ -2,13 +2,12 @@ toolbuilder
 specForDimensionControl: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
-		layout: #vertical;
 		addChild: (self
-			specForDimensionControlInDimension: 'rows'
+			specForDimensionControlOf: #rows
 			selector: #rowCount
 			with: aBuilder);
 		addChild: (self
-			specForDimensionControlInDimension: 'columns'
+			specForDimensionControlOf: #columns
 			selector: #columnCount
 			with: aBuilder);
 		layout: #vertical;

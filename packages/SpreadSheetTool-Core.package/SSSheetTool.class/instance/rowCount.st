@@ -1,4 +1,4 @@
 accessing
 rowCount
 
-	^ contentModels rowCount
+	^ contentSheet rowCount

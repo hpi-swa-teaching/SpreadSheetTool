@@ -1,4 +1,4 @@
 toolbuilder-constants
-defaultCellExtent
+defaultCellFraction
 
 	^ (self columnCount @ self rowCount + 1) reciprocal
