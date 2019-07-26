@@ -1,0 +1,1 @@
+I test some extensions of the String class.

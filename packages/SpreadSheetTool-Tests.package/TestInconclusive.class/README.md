@@ -1,0 +1,1 @@
+I am signalled in case a test cannot be run because the environment is unsuitable. When unhandled, I write a message to the Transcript but do not abort the whole test suite. smalltalkCI is aware of my meaning.

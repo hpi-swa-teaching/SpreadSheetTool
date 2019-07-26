@@ -4,9 +4,8 @@
 		"sideEffect" ],
 	"classvars" : [
 		"IsLongStage" ],
-	"commentStamp" : "",
+	"commentStamp" : "CT 7/26/2019 21:01",
 	"instvars" : [
-		"sheetName",
 		"windowHeap",
 		"random" ],
 	"name" : "SSAcceptanceTest",

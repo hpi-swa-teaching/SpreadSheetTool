@@ -3,7 +3,7 @@ setUp
 
 	super setUp.
 	
-	mock := SSMockingModel new.
+	mock := SSMockingTool new.
 	model := self classUnderTest
 		owner: mock
 		getProperty: #value
