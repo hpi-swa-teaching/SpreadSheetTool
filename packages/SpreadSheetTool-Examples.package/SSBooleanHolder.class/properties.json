@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "CT 7/26/2019 21:19",
 	"instvars" : [
 		"state" ],
 	"name" : "SSBooleanHolder",
