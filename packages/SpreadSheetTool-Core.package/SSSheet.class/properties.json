@@ -9,9 +9,9 @@
 		"cells",
 		"rowHeaders",
 		"columnHeaders",
+		"tool",
 		"autoEvaluateActivated",
-		"steppingActivated",
-		"tool" ],
+		"steppingActivated" ],
 	"name" : "SSSheet",
 	"pools" : [
 		 ],

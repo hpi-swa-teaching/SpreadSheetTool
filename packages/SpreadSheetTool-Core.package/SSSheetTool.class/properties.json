@@ -9,9 +9,9 @@
 	"instvars" : [
 		"subject",
 		"contentSheet",
-		"hasUnsavedChanges",
 		"cellMorphs",
 		"oldCellMorphs",
+		"hasUnsavedChanges",
 		"steppingWindow" ],
 	"name" : "SSSheetTool",
 	"pools" : [

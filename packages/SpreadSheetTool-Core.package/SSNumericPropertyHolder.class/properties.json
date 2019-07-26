@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "CT 7/26/2019 19:54",
 	"instvars" : [
+		"owner",
 		"getterSymbol",
-		"setterSymbol",
-		"owner" ],
+		"setterSymbol" ],
 	"name" : "SSNumericPropertyHolder",
 	"pools" : [
 		 ],
