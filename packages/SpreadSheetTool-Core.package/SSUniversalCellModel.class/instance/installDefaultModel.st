@@ -1,4 +1,4 @@
 nested model
 installDefaultModel
 
-	^ self initializeDefaultModelOfKind: SSHybridFormulaHolder
+	^ self installModelOfKind: SSHybridFormulaHolder

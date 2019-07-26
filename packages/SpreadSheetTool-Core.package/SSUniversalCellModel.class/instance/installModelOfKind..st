@@ -1,6 +1,4 @@
 nested model
 installModelOfKind: aClass
 
-	self
-		installModelOfKind: aClass
-		withConfig: (SSModelConfiguration at: aClass).
+	self installModelOfKind: aClass with: (SSModelConfiguration at: aClass).
