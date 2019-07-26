@@ -13,3 +13,14 @@ addDefaultConfigurations
 			contentGetter: #object;
 			contentSetter: #object:;
 			yourself).
+	self
+		addKnownConfiguration: ((self newFor: Inspector)
+			constructor: #new;
+			builderSelector: #buildWith:;
+			contentGetter: #ouput;
+			contentSetter: #output:);
+		addKnownConfiguration: ((self newFor: ObjectExplorer)
+			constructor: #new;
+			builderSelector: #buildWith;
+			contentGetter: #selectedObject;
+			contentSetter: #object:).
