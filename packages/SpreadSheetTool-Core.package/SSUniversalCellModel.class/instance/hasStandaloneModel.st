@@ -1,4 +1,4 @@
 testing
 hasStandaloneModel
 
-	^ self model isKindOf: SSFormulaHolder
+	^ self modelConfig isFormulaManager

@@ -7,6 +7,7 @@ addDefaultConfigurations
 			builderSelector: #createSpecWith:;
 			contentGetter: #output;
 			displaysString: true;
+			isFormulaManager: true;
 			yourself);
 		addKnownConfiguration: ((self newFor: SSEvaluator)
 			contentGetter: #object;
