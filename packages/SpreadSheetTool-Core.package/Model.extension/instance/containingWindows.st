@@ -1,4 +1,4 @@
-*SpreadSheetTool-Tests-dependents
+*SpreadSheetTool-Core-dependents
 containingWindows
 	"Answer the windows that hold the receiver."
 
