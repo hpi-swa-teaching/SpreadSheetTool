@@ -3,7 +3,7 @@ specForSetterButton: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		label: 'Setter';
-		help: 'Edit setter for this cell';
+		help: 'Edit the setter formula for this cell';
 		model: self;
 		action: #switchSetter;
 		state: #isSetterIndicated;

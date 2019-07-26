@@ -1,6 +1,6 @@
 dependencies
 addClient: aClient
 
-	(model class canUnderstand: #addClient:)
-		ifTrue: [model addClient: aClient]
-		ifFalse: [self addDependent: aClient].
+	^ (self model class canUnderstand: #addClient:)
+		ifTrue: [self model addClient: aClient]
+		ifFalse: [self addDependent: aClient]

@@ -1,8 +1,8 @@
-initialize-release
-initializeModelForClass: aClass withConfig: aConfig
+nested model
+installModelOfKind: aClass with: aConfig
 
 	(self setFormulaSelection: nil) ifFalse: [^ self].
-	model ifNotNil: #release.
+	self model ifNotNil: #release.
 	World stopStepping: self.
 	
 	modelConfig := aConfig.

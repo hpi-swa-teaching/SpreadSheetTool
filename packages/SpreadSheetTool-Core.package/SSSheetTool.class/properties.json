@@ -7,13 +7,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"subject",
+		"contentSheet",
 		"hasUnsavedChanges",
 		"cellMorphs",
 		"oldCellMorphs",
-		"steppingActivated",
-		"steppingWindow",
-		"subject",
-		"contentSheet" ],
+		"steppingWindow" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],

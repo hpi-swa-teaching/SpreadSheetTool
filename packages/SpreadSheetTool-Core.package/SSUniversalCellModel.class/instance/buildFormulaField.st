@@ -10,4 +10,4 @@ buildFormulaField
 		frame: (0 @ 0 extent: 1 @ 1);
 		yourself.
 	visibleModel := formulaModel.
-	^ {spec buildWith: builder}
+	^ { spec buildWith: builder }

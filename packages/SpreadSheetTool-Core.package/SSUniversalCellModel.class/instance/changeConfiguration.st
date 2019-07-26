@@ -2,6 +2,6 @@ interaction
 changeConfiguration
 
 	| config |
-	config := modelConfig requestConfiguration ifNil: [^ self].
+	config := self modelConfig requestConfiguration ifNil: [^ self].
 	self offerToRegister: config.
-	self initializeModelForClass: self model class withConfig: config.
+	self installModelOfKind: self model class with: config.

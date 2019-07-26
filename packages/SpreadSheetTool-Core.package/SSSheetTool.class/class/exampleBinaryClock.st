@@ -17,5 +17,5 @@ exampleBinaryClock
 			compile: ('^((cell at: 1 @ {1}) bitAnd: (cell aboveBy: {1} - 1)) strictlyPositive'
 				format: {row})
 			notifying: nil ifFail: [].
-		(sheet atRow: row atColumn: column + 1) initializeModelForClass: SSBooleanModel withConfig: boolean]].
+		(sheet atRow: row atColumn: column + 1) installModelOfKind: SSBooleanModel with: boolean]].
 	^ tool

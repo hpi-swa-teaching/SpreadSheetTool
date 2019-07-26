@@ -10,13 +10,13 @@ exampleSheetGame
 		(sheet columnHeaderAt: index) contents: word].
 	(sheet rowHeaderAt: 1) contents: 'CHALLENGE:'.
 	(sheet atRow: 1 atColumn: 1) in: [:display |
-		display initializeDefaultModelFor: SSHybridFormulaHolder.
+		display installModelOfKind: SSHybridFormulaHolder.
 		display model contents: 'Create a cyclic reference in this sheet! You only may enter a sequence of inputs into the right next cell. Press <cmd>S to accept each input.\-->' withCRs].
 	(sheet atRow: 1 atColumn: 2) in: [:display |
-		display initializeDefaultModelFor: SSHybridFormulaHolder.
+		display installModelOfKind: SSHybridFormulaHolder.
 		display model contents: 'Type here'].
 	(sheet atRow: 1 atColumn: 3) in: [:display |
-		display initializeDefaultModelFor: SSEvaluator.
+		display installModelOfKind: SSEvaluator.
 		display getterModel contents: 'cell left "just to get updates".\^(cell output ifEmptyOrNil: [-1])+1' withCRs].
 	(sheet atRow: 1 atColumn: 4) getterModel contents: '^cell right'.
 	(sheet atRow: 1 atColumn: 5) getterModel contents: '^(cell below sameAs: #POOL reverse) ifTrue: [cell notify: ''Congratulations!''; left] ifFalse: [''Good luck!'']'.

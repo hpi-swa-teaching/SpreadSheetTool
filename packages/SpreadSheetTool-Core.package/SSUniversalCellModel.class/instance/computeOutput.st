@@ -1,5 +1,5 @@
 forwarding
 computeOutput
 
-	^ (model class canUnderstand: #computeOutput)
-		ifTrue: [model computeOutput]
+	^ (self model class canUnderstand: #computeOutput)
+		ifTrue: [self model computeOutput]

@@ -10,5 +10,5 @@ changeModel
 			onCancel: [^ self].
 		self offerToRegister: newConfig.
 		newConfig].
-	self initializeModelForClass: modelClass withConfig: config.
+	self installModelOfKind: modelClass with: config.
 	self contentsChanged.

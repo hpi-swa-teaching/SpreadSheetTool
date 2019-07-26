@@ -1,4 +1,0 @@
-initialize-release
-initializeDefaultModel
-
-	^ self initializeDefaultModelFor: SSHybridFormulaHolder

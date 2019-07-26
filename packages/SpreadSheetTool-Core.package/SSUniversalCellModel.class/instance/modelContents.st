@@ -1,4 +1,4 @@
 nested model
 modelContents
 
-	^ model perform: modelConfig contentGetter 
+	^ self model perform: self modelConfig contentGetter 

@@ -1,7 +1,7 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	self model ifNil: [self initializeDefaultModel].
+	self model ifNil: [self installDefaultModel].
 	^ aBuilder pluggablePanelSpec new
 		model: self;
 		children: #buildCell;

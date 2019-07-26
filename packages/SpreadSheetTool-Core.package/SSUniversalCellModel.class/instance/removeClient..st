@@ -1,6 +1,6 @@
 dependencies
 removeClient: aClient
 
-	(model class canUnderstand: #addClient:)
-		ifTrue: [model removeClient: aClient]
-		ifFalse: [self removeDependent: aClient].
+	^ (self model class canUnderstand: #addClient:)
+		ifTrue: [self model removeClient: aClient]
+		ifFalse: [self removeDependent: aClient]
