@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"anotherHeader" ],
+		"model" ],
 	"name" : "SSHeaderModelTest",
 	"pools" : [
 		 ],
-	"super" : "SSTextFieldModelTest",
+	"super" : "TestCase",
 	"type" : "normal" }

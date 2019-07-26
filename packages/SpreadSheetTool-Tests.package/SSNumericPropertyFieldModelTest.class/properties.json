@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"model",
 		"mock" ],
 	"name" : "SSNumericPropertyFieldModelTest",
 	"pools" : [
 		 ],
-	"super" : "SSTextFieldModelTest",
+	"super" : "TestCase",
 	"type" : "normal" }

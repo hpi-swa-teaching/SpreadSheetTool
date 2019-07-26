@@ -4,7 +4,9 @@
 	"instance" : {
 		"classUnderTest" : "CT 6/6/2019 01:33",
 		"fixturesForLabel" : "CT 7/25/2019 23:38",
+		"setUp" : "CT 7/26/2019 16:13",
+		"someString" : "CT 7/26/2019 16:22",
 		"testContents" : "CT 7/25/2019 23:23",
 		"testGenerateColumnLabelFor" : "CT 7/25/2019 23:39",
 		"testGenerateRowLabelFor" : "CT 7/25/2019 23:39",
-		"testSetContentsNotifiesObservers" : "CT 7/25/2019 23:23" } }
+		"testSetContentsNotifiesObservers" : "CT 7/26/2019 16:15" } }
