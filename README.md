@@ -25,11 +25,11 @@ Any contribution to SqueakSheet is highly welcome! If you would like to join the
 ## Impressions
 ### Inspecting a morph
 
-![Inspecting a morph](/img/inspecting a morph.png)
+![Inspecting a morph](/img/inspecting%20a%20morph.png)
 
 ### Supported versions (archive screenshot)
 
-![Supported versions](/img/supported versions.png)
+![Supported versions](/img/supported%20versions.png)
 
 ## Credits
 
