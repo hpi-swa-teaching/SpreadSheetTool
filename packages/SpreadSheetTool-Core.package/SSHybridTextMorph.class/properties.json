@@ -1,0 +1,16 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 20:06",
+	"instvars" : [
+		"getOutputSelector",
+		"hasEditFocus",
+		"latestEditor" ],
+	"name" : "SSHybridTextMorph",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextMorphPlus",
+	"type" : "normal" }

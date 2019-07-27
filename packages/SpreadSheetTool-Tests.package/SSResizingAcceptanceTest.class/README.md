@@ -1,0 +1,1 @@
+I test the resizing features of a SqueakSheet window. Resizing means changing the number of rows or columns of a sheet.

@@ -1,0 +1,4 @@
+forwarding
+output
+
+	^ self modelContents

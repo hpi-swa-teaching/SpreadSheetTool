@@ -1,0 +1,1 @@
+I test the observation/manipulation features of a SqueakSheet.

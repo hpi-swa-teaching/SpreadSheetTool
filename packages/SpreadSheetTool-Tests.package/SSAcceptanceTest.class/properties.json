@@ -1,0 +1,15 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		"sideEffect" ],
+	"classvars" : [
+		"IsLongStage" ],
+	"commentStamp" : "CT 7/27/2019 16:45",
+	"instvars" : [
+		"windowHeap",
+		"random" ],
+	"name" : "SSAcceptanceTest",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

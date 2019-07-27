@@ -1,0 +1,4 @@
+toolbuilder
+illustrationWidth
+
+	^ 128

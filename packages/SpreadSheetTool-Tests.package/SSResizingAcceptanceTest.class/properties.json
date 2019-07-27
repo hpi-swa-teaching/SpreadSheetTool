@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 20:51",
+	"instvars" : [
+		 ],
+	"name" : "SSResizingAcceptanceTest",
+	"pools" : [
+		 ],
+	"super" : "SSAcceptanceTest",
+	"type" : "normal" }

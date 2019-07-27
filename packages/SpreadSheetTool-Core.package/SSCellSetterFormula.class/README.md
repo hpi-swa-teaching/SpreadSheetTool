@@ -1,0 +1,1 @@
+I represent a SqueakSheet SSCellFormula that is used by a SSUniversalCellModel for setting the value of my subject. My context includes the argument value to be set. Therefore, I refuse #computeOutput but provide #computeOutputWith:.

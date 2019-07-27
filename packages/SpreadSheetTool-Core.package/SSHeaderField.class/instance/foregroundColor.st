@@ -1,0 +1,4 @@
+toolbuilder
+foregroundColor
+
+	^ Color black

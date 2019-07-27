@@ -1,0 +1,1 @@
+I test the general UI of a SqueakSheet.

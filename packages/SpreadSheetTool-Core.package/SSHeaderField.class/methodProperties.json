@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"column:" : "CT 7/26/2019 01:12",
+		"row:" : "CT 7/26/2019 01:12" },
+	"instance" : {
+		"addClient:" : "CT 7/26/2019 21:51",
+		"backgroundColor" : "CT 7/17/2019 19:04",
+		"changed:" : "CT 7/25/2019 22:16",
+		"contents:" : "CT 7/25/2019 23:34",
+		"createSpecWith:" : "CT 7/26/2019 00:24",
+		"font" : "CT 6/7/2019 13:43",
+		"foregroundColor" : "CT 7/17/2019 17:53",
+		"generateColumnLabelFor:" : "CT 7/26/2019 22:22",
+		"generateRowLabelFor:" : "CT 7/25/2019 22:06",
+		"hasContents" : "CT 6/15/2019 20:59",
+		"initializeLabel:" : "CT 7/25/2019 22:04",
+		"output" : "CT 7/25/2019 22:11",
+		"removeClient:" : "CT 7/26/2019 21:51" } }

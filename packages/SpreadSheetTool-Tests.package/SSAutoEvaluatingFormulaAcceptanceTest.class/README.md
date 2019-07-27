@@ -1,0 +1,1 @@
+I test features of a SqueakSheet that have to do with auto evaluation/autosave of cells.

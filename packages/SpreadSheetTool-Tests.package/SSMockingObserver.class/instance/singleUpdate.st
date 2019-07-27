@@ -1,0 +1,4 @@
+accessing
+singleUpdate
+
+	^ log singleOne

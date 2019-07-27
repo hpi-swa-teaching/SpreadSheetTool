@@ -1,0 +1,1 @@
+I display a numeric property for a tool. When the entered value is accepted, I try to parse it and synchronize it with the specified tool's selector. My special feature is to accept number in radix format (16rbeef), so I have to extend the regular NumberParser.

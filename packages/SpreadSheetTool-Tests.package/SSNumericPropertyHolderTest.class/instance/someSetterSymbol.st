@@ -1,0 +1,4 @@
+testing data
+someSetterSymbol
+
+	^ #pleaseDoNotSetMeToValue:

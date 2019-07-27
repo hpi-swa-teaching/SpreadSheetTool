@@ -1,0 +1,1 @@
+I test the capatibility of a SqueakSheet to exchange each cell's model and define custom getter/setter formulae. I also test the stepping functionality.

@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 19:59",
+	"instvars" : [
+		"originalContents" ],
+	"name" : "SSHeaderField",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

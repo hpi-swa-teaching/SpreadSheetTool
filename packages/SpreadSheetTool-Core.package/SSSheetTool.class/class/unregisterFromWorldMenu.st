@@ -1,0 +1,4 @@
+setup
+unregisterFromWorldMenu
+
+	TheWorldMenu unregisterOpenCommand: self applicationName.

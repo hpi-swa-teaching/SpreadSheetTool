@@ -1,0 +1,16 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 22:05",
+	"instvars" : [
+		"owner",
+		"getterSymbol",
+		"setterSymbol" ],
+	"name" : "SSNumericPropertyHolder",
+	"pools" : [
+		 ],
+	"super" : "StringHolder",
+	"type" : "normal" }

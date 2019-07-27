@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"classUnderTest" : "CT 6/11/2019 15:24",
+		"fixturesForDigitsForRadix" : "CT 7/26/2019 16:06",
+		"invalidFixturesForDigitsForRadix" : "CT 7/11/2019 12:01",
+		"testDigitsForRadix" : "CT 6/11/2019 15:22",
+		"testDigitsForRadixWithInvalidRadices" : "CT 6/11/2019 15:25" } }

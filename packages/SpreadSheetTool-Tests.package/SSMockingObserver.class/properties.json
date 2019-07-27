@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"log" ],
+	"name" : "SSMockingObserver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+stepping
+wantsSteps
+
+	^ self steppingActivated

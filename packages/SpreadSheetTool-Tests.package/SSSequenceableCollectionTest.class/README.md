@@ -1,0 +1,1 @@
+I test the behavior of some extension methods to the SequenceableCollection class.

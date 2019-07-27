@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"owner:getProperty:setProperty:" : "CT 7/26/2019 17:10" },
+	"instance" : {
+		"acceptContents:" : "CT 7/25/2019 23:51",
+		"contents" : "CT 7/26/2019 17:11",
+		"contents:" : "CT 7/26/2019 17:12",
+		"createSpecWith:helpText:" : "CT 7/25/2019 23:49",
+		"ensureFormat:onError:" : "CT 7/16/2019 17:54",
+		"ensureNatural:onError:" : "CT 7/16/2019 17:55",
+		"ensureNonZero:onError:" : "CT 7/16/2019 17:55",
+		"getProperty" : "CT 5/7/2019 11:09",
+		"getProperty:" : "CT 5/6/2019 16:48",
+		"owner" : "CT 7/26/2019 17:11",
+		"owner:" : "CT 7/26/2019 17:11",
+		"setProperty" : "CT 5/6/2019 16:48",
+		"setProperty:" : "CT 5/6/2019 16:48",
+		"tryParse:onError:" : "CT 7/15/2019 21:21",
+		"wantsAutocompletion" : "CT 7/9/2019 16:34" } }

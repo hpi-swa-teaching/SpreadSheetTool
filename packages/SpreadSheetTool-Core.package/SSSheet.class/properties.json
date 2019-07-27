@@ -1,0 +1,19 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 19:52",
+	"instvars" : [
+		"cells",
+		"rowHeaders",
+		"columnHeaders",
+		"tool",
+		"autoEvaluateActivated",
+		"steppingActivated" ],
+	"name" : "SSSheet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

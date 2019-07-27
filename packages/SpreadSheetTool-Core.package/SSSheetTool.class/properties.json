@@ -1,0 +1,20 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		"savedSheets",
+		"useInlineSyntaxErrors" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 19:51",
+	"instvars" : [
+		"subject",
+		"contentSheet",
+		"cellMorphs",
+		"oldCellMorphs",
+		"hasUnsavedChanges",
+		"steppingWindow" ],
+	"name" : "SSSheetTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

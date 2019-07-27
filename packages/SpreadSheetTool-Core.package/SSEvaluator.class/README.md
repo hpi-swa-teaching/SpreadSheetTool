@@ -1,0 +1,1 @@
+I am a StringHolder which implements a simple object access. I display the string representation of my object. I you accept an expression into me, I compile it and set my object to the result. You might know my behavior from the value pane of an Inspector.

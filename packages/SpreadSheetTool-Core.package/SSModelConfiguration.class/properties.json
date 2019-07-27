@@ -1,0 +1,21 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		"knownConfigurations" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 19:56",
+	"instvars" : [
+		"modelClass",
+		"constructor",
+		"builderSelector",
+		"contentGetter",
+		"contentSetter",
+		"displaysString",
+		"isFormulaManager",
+		"understandsNil" ],
+	"name" : "SSModelConfiguration",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
