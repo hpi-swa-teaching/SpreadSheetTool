@@ -24,7 +24,7 @@ For a complete documentation of the cross-refencing protocol, please take a look
 Use the ''auto evaluation'' button to control whether referenced cells should be automatically updated. Use the ''stepping'' button to control whether all formulae should be evaluated constantly.
 
 #Exchange the model
-If you are tired of text representations, you are free to choose another model for a cell. To do so, click the Model button and choose another model. If the model is unknown, fill in the configuration formular by specifying the appropriate selectors. By clicking the getter/setter button you can edit the corresponding formula. For example, you can choose the `SSEvaluator` model that allows you to enter another expression to be set. In the setter formula. use `value` to refer to the new value. If you want back the classical model, click the Model button again and choose SSHybridFormulaHolder.
+If you are tired of text representations, you are free to choose another model for a cell. To do so, click the Model button and choose another model. If the model is unknown, fill in the configuration formular by specifying the appropriate selectors. By clicking the getter/setter button you can edit the corresponding formula. For example, you can choose the `SSEvaluator` model that allows you to enter another expression to be set. In the setter formula, use `value` to refer to the new value. If you want back the classical model, click the Model button again and choose SSHybridFormulaHolder.
 
 The requirements to a model that can be used in SqueakSheet are the following:
 - Each a selector for getting and setting the aspect to display/manipulate exists
