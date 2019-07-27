@@ -6,7 +6,7 @@ findMorphsOpenedWhile: aBlock from: aMorphCollector
 	[	allMorphs := aMorphCollector value.
 		aBlock value.
 		newMorphs := aMorphCollector value
-		copyWithoutAll: allMorphs]
+			copyWithoutAll: allMorphs]
 	ensure: [
 		newMorphs ifNotNil: [
 			newMorphs do: #hide. "make testing invisible to user"
