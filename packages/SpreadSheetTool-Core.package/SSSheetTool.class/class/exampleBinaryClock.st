@@ -4,7 +4,7 @@ exampleBinaryClock
 
 	| tool sheet boolean |
 	tool := self rowCount: 4 columnCount: 7.
-	sheet := tool instVarNamed: #contentSheet.
+	sheet := tool contentSheet.
 	(sheet atRow: 1 atColumn: 1) getterFormula compile: '#littleEndian' notifying: nil ifFail: [].
 	(sheet atRow: 2 atColumn: 1) getterFormula compile: '^Time current seconds' notifying: nil ifFail: [].
 	(sheet atRow: 3 atColumn: 1) getterFormula compile: '^Time current minutes' notifying: nil ifFail: [].

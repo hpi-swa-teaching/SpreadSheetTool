@@ -4,4 +4,4 @@ stepIn: aWindow
 	self steppingActivated ifFalse: [^ self].
 	steppingWindow := aWindow.
 	self disableSteppingWhile: [
-		contentSheet cellsDo: #step].
+		self contentSheet cellsDo: #step].

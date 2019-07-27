@@ -1,4 +1,4 @@
 accessing
 columnCount
 
-	^ contentSheet columnCount
+	^ self contentSheet columnCount

@@ -1,4 +1,4 @@
 accessing
 steppingActivated
 
-	^ contentSheet steppingActivated
+	^ self contentSheet steppingActivated

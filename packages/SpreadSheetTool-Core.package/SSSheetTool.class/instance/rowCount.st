@@ -1,4 +1,4 @@
 accessing
 rowCount
 
-	^ contentSheet rowCount
+	^ self contentSheet rowCount

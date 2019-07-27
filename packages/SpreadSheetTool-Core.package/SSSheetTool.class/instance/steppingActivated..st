@@ -1,5 +1,5 @@
 accessing
 steppingActivated: aBoolean
 
-	contentSheet steppingActivated: aBoolean.
+	self contentSheet steppingActivated: aBoolean.
 	self changed: #steppingActivated.

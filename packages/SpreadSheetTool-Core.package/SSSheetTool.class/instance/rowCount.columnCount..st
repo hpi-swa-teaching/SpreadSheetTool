@@ -4,7 +4,7 @@ rowCount: aRowCount columnCount: aColumnCount
 	(self okToChangeRowCount: aRowCount columnCount: aColumnCount)
 		ifFalse: [^ self].
 	
-	contentSheet
+	self contentSheet
 		rowCount: aRowCount
 		columnCount: aColumnCount.
 	self containingWindows do: [:window | window

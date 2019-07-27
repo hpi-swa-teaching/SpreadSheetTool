@@ -1,4 +1,4 @@
 testing
 hasUnacceptedChanges
 
-	^ contentSheet anySatisfy: #hasUnacceptedEdits
+	^ self contentSheet anySatisfy: #hasUnacceptedEdits
