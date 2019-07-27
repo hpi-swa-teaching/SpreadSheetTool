@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertDistribute:doesNotChange:" : "CT 7/24/2019 18:49",
+		"assertEqualSizeOf:" : "CT 7/24/2019 18:37",
+		"bringChaosOverTheSplitters" : "CT 7/24/2019 18:19",
+		"dimensionsDo:" : "CT 7/24/2019 18:35",
+		"distribute:" : "CT 7/24/2019 18:32",
+		"findSplittersByCriteria:adjacentDelta:" : "CT 7/24/2019 18:10",
+		"setUp" : "CT 7/24/2019 18:24",
+		"splitterThickness" : "CT 7/24/2019 18:18",
+		"testCellsAreResizable" : "CT 7/24/2019 18:17",
+		"testDistributeColumnsDoesNotResizeWindow" : "CT 7/24/2019 18:24",
+		"testDistributeDoesNotChangeInvariantScales" : "CT 7/24/2019 18:50",
+		"testDistributeNotResizeWindow" : "CT 7/24/2019 18:39",
+		"testDistributeYieldsEqualSize" : "CT 7/24/2019 18:35" } }

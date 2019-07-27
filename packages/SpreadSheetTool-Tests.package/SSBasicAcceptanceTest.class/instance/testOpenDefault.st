@@ -1,5 +1,5 @@
 testing
 testOpenDefault
-	"Test for #1 (I can open a Table Morph)"
+	"Acceptance test for #1 (I can open a Table Morph)"
 	
 	self assertToolWindowOpensWhile: [self toolUnderTest openDefault].

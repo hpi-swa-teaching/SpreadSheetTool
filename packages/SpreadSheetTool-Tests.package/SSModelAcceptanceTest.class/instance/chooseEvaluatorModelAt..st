@@ -6,5 +6,5 @@ chooseEvaluatorModelAt: aPoint
 	self
 		should: [button click]
 		notify: 'model'
-		thenAnswer: SSEvaluatorModel asString.
+		thenAnswer: SSEvaluator asString.
 	self subject redraw.

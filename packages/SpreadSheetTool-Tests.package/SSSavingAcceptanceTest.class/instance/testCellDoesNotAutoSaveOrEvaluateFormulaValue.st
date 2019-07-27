@@ -1,12 +1,12 @@
 testing-autosave
 testCellDoesNotAutoSaveOrEvaluateFormulaValue
-	"Test for #25"
+	"Acceptance test for #25 (Simple formulas)"
 
 	| cell |
 	cell := self findAnyCell.
 	cell
 		sendKeys: self someFormula;
-		keyboardFocusChange: false.
+		releaseFocus.
 	self
-		assert: self someFormula equals: cell read;
-		assert: cell hasUnacceptedEdits.
+		assert: cell hasUnacceptedEdits;
+		assert: self someFormula equals: cell read.

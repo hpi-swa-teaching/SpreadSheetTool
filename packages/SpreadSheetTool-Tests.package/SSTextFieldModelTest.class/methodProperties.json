@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"isAbstract" : "CT 6/6/2019 01:41" },
-	"instance" : {
-		"classUnderTest" : "CT 6/6/2019 01:32",
-		"setUp" : "CT 6/6/2019 01:34",
-		"someString" : "CT 6/6/2019 01:37",
-		"someText" : "CT 6/6/2019 01:36" } }

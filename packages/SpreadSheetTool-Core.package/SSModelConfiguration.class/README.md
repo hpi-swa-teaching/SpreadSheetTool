@@ -1,0 +1,1 @@
+I represent the configuration of a Model class for embedding it into a SqueakSheet. I specify the selectors used for passing and fetching the contents to display from the model. I provide some UI for creating a manipulated copy of me.

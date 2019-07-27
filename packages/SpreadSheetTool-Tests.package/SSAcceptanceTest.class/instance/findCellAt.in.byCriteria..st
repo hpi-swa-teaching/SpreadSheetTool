@@ -1,14 +1,8 @@
-tools
+tools-navigating
 findCellAt: aPoint in: aWindow byCriteria: aSelector
 
-	| rows hits |
-	hits := Set new.
-	rows := (((aWindow findByCriteria: aSelector) morphs
-		groupBy: [:aCell | aCell position y]) as: OrderedDictionary) sort.
-	rows doWithIndex: [:cells :rowIndex | | row |
-		row := ((cells groupByUniqueKey: [:aCell | aCell position x])
-			as: OrderedDictionary) sort.
-		row doWithIndex: [:cell :columnIndex |
-			columnIndex @ rowIndex = aPoint ifTrue: [
-				hits add: cell]]].
-	^ self subject createWrapperFor: hits
+	| horizontal morphs vertical |
+	horizontal := (self findHeaderFor: #columns at: aPoint x in: aWindow) rangeFor: #x.
+	vertical := (self findHeaderFor: #rows at: aPoint y in: aWindow) rangeFor: #y.
+	morphs := aWindow findInsideOf: horizontal @ vertical.
+	^ morphs findByCriteria: aSelector

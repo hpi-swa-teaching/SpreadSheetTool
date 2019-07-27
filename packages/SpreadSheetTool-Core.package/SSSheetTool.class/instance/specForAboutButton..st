@@ -5,4 +5,5 @@ specForAboutButton: aBuilder
 		label: 'About ...';
 		model: self;
 		action: #openAboutWindow;
+		help: 'Carpe Squeak!'
 		yourself

@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-accessing
+*SpreadSheetTool-Core-compatibility-accessing
 subexpressions
 	| result |
 	result := Array new: self subexpressionCount.

@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-match enumeration
+*SpreadSheetTool-Core-compatibility-match enumeration
 submatchesIn: aString
 	"Search aString repeatedly for the matches of the receiver.  Answer an OrderedCollection with an array of subexpressions per match."
 	| result |

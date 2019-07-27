@@ -1,0 +1,1 @@
+I test the cross-referencing formula protocol of a SqueakSheet. I set up my subject window with unique data to allow tests to identify the cell adressed by an operation.

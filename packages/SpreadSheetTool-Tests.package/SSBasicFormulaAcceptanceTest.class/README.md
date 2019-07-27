@@ -1,0 +1,1 @@
+I test the general formula functionality of a SqueakSheet.

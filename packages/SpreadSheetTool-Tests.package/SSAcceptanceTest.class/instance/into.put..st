@@ -1,8 +1,8 @@
-tools
-into: aCell put: aString
+tools-interacting
+into: aTextMorph put: aString
 
-	aCell
+	aTextMorph
+		click;
 		sendClearTextField;
 		sendKeys: aString;
 		sendControlSave.
-	aCell wait.

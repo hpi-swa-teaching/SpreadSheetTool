@@ -1,4 +1,4 @@
 *SpreadSheetTool-Tests-enumerating
 byIndexReject: aBlock
 	
-	^ self selectByIndex: [:index | (aBlock value: index) not]
+	^ self byIndexSelect: [:index | (aBlock value: index) not]

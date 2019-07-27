@@ -1,4 +1,4 @@
 testing data
 someSetterFormula
 
-	^ '[:x | "do nothing"]'
+	^ '"do nothing"'

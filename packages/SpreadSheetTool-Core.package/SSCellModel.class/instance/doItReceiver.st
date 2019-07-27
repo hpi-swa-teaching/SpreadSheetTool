@@ -1,4 +1,0 @@
-evaluating
-doItReceiver
-
-	^ self cell

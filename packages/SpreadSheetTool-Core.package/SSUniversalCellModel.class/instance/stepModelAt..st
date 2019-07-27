@@ -1,4 +1,4 @@
 stepping
 stepModelAt: millisecondClockValue
 
-	^ model stepAt: millisecondClockValue in: self fakeWindow
+	^ self model stepAt: millisecondClockValue in: self fakeWindow

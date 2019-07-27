@@ -1,4 +1,4 @@
 forwarding
 contents
 
-	^ self object asString
+	^ self output asString

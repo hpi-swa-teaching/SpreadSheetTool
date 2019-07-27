@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-toolbuilder
+*SpreadSheetTool-Core-compatibility-toolbuilder
 buildWindowWith: builder specs: specs
 	| windowSpec |
 	windowSpec := self buildWindowWith: builder.

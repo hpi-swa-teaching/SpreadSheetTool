@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"disableAutoEvaluate" : "CT 7/12/2019 21:04",
-		"enableAutoEvaluate" : "CT 7/12/2019 21:04",
+		"disableAutoEvaluate" : "CT 7/24/2019 17:20",
+		"enableAutoEvaluate" : "CT 7/24/2019 17:20",
 		"findAutoEvaluateToggle" : "CT 6/27/2019 10:02",
-		"setUp" : "CT 6/24/2019 16:43",
+		"setUp" : "CT 7/24/2019 17:15",
 		"someNotReferencedCellIndex" : "AN 6/26/2019 18:43",
-		"testAutoEvaluateOffReferencedCellDoesAutosave" : "GT 6/26/2019 14:30",
-		"testAutoEvaluateToggleExists" : "CT 6/27/2019 09:58",
-		"testFormulaAutoUpdate" : "GT 6/26/2019 14:30",
-		"testFormulaAutoUpdateChainReaction" : "GT 6/26/2019 14:30",
-		"testNonReferencedCellDoesAutosave" : "AN 6/26/2019 18:43",
-		"testOnToggleActivatedFormulasRecompute" : "GT 6/26/2019 14:30",
-		"testReferencedCellDoesNotAutosave" : "GT 6/26/2019 14:31",
-		"testValueReturnsLatestValue" : "CT 7/11/2019 13:04" } }
+		"testAutoEvaluateOffReferencedCellDoesAutosave" : "CT 7/24/2019 17:15",
+		"testAutoEvaluateToggleExists" : "CT 7/24/2019 17:15",
+		"testCellOutputReturnsLatestValue" : "CT 7/24/2019 17:17",
+		"testFormulaAutoUpdate" : "CT 7/24/2019 17:17",
+		"testFormulaAutoUpdateChainReaction" : "CT 7/24/2019 17:18",
+		"testNonReferencedCellDoesAutosave" : "CT 7/24/2019 17:18",
+		"testOnToggleActivatedFormulasRecompute" : "CT 7/24/2019 17:18",
+		"testReferencedCellDoesNotAutosave" : "CT 7/24/2019 17:18" } }

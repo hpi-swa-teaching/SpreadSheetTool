@@ -1,4 +1,4 @@
 toolbuilder-constants
 minimumCellExtent
 
-	^ 16 @ 27
+	^ 45 @ 25

@@ -1,6 +1,6 @@
 testing
 testMultilineInput
-	"Test for #60 (Multi-line formulae)"
+	"Acceptance test for #60 (Multi-line formulae)"
 
 	| cell |
 	cell := self findAnyCell.

@@ -4,9 +4,7 @@ testFormulaCellAcceptsPrintIt
 
 	| cell |
 	cell := self findAnyCell.
-	
 	cell
 		sendKeys: self someFormula;
 		sendControl: $p.
-	
 	self assert: self someFormulaResult equals: cell selectedString allButFirst.

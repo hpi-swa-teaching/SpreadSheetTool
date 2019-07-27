@@ -1,13 +1,10 @@
 toolbuilder
 specForSheetManagement: aBuilder
 
-	| children |
-	children := { 
-		self specForNewSheetButton: aBuilder.
-		self specForOpenSheetButton: aBuilder.
-		self specForSaveSheetButton: aBuilder.
-		self specForDeleteSheetButton: aBuilder }.
-	self align: children inColumns: 2.
 	^ aBuilder pluggablePanelSpec new
-		children: children;
+		addChild: (self specForNewSheetButton: aBuilder);
+		addChild: (self specForOpenSheetButton: aBuilder);
+		addChild: (self specForSaveSheetButton: aBuilder);
+		addChild: (self specForDeleteSheetButton: aBuilder);
+		alignChildrenInColumns: 2;
 		yourself

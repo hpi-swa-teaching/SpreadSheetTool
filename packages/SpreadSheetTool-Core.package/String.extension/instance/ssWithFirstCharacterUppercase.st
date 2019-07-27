@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-converting
+*SpreadSheetTool-Core-compatibility-converting
 ssWithFirstCharacterUppercase
 
 	| answer |

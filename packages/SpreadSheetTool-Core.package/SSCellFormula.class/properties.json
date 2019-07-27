@@ -1,0 +1,26 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 21:39",
+	"instvars" : [
+		"sheet",
+		"rowIndex",
+		"columnIndex",
+		"model",
+		"input",
+		"output",
+		"isHybrid",
+		"isFormula",
+		"compiler",
+		"context",
+		"compiledMethod",
+		"isBusy",
+		"servers" ],
+	"name" : "SSCellFormula",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

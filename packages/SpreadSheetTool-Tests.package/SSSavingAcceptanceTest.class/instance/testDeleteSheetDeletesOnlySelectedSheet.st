@@ -1,6 +1,6 @@
 testing
 testDeleteSheetDeletesOnlySelectedSheet
-	"Acceptance test for #27"
+	"Acceptance test for #27 (Delete saved sheets)"
 	
 	self
 		saveSheetAs: self someSheetName;

@@ -1,13 +1,11 @@
 {
 	"category" : "SpreadSheetTool-Tests",
 	"classinstvars" : [
-		"isLongStage",
 		"sideEffect" ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "",
+		"IsLongStage" ],
+	"commentStamp" : "CT 7/27/2019 16:45",
 	"instvars" : [
-		"sheetName",
 		"windowHeap",
 		"random" ],
 	"name" : "SSAcceptanceTest",

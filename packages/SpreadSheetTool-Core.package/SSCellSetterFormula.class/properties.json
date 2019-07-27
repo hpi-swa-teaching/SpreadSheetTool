@@ -1,0 +1,14 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 20:22",
+	"instvars" : [
+		"setterArgument" ],
+	"name" : "SSCellSetterFormula",
+	"pools" : [
+		 ],
+	"super" : "SSCellFormula",
+	"type" : "normal" }

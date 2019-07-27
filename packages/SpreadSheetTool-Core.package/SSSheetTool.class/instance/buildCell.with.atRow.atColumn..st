@@ -1,5 +1,6 @@
 toolbuilder
 buildCell: aCell with: aBuilder atRow: aRow atColumn: aColumn
+	"Recycle morphs. Keeps unaccepted edits and any custom (halo-based) modifications of them ..."
 
 	| morph |
 	morph := oldCellMorphs at: aCell ifAbsent: nil.

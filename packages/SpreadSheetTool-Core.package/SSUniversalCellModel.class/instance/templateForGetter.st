@@ -1,4 +1,0 @@
-interaction
-templateForGetter
-
-	^ '^ self shouldBeImplemented'

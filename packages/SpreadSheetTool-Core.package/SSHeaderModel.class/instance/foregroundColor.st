@@ -1,4 +1,0 @@
-accessing
-foregroundColor
-
-	^ Color white

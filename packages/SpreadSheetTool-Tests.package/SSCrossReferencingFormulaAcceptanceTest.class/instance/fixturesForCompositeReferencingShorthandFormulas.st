@@ -2,12 +2,12 @@ testing data
 fixturesForCompositeReferencingShorthandFormulas
 
 	^ {
-		{ '^ self leftAbove'. 3 @ 3. 2 @ 2 }.
-		{ '^ self aboveLeft'. 3 @ 3. 2 @ 2 }.
-		{ '^ self leftBelow'. 3 @ 3. 2 @ 4 }.
-		{ '^ self belowLeft'. 3 @ 3. 2 @ 4 }.
-		{ '^ self rightAbove'. 3 @ 3. 4 @ 2 }.
-		{ '^ self aboveRight'. 3 @ 3. 4 @ 2 }.
-		{ '^ self rightBelow'. 3 @ 3. 4 @ 4 }.
-		{ '^ self belowRight'. 3 @ 3. 4 @ 4 }.
+		{ '^ cell leftAbove'. 3 @ 3. 2 @ 2 }.
+		{ '^ cell aboveLeft'. 3 @ 3. 2 @ 2 }.
+		{ '^ cell leftBelow'. 3 @ 3. 2 @ 4 }.
+		{ '^ cell belowLeft'. 3 @ 3. 2 @ 4 }.
+		{ '^ cell rightAbove'. 3 @ 3. 4 @ 2 }.
+		{ '^ cell aboveRight'. 3 @ 3. 4 @ 2 }.
+		{ '^ cell rightBelow'. 3 @ 3. 4 @ 4 }.
+		{ '^ cell belowRight'. 3 @ 3. 4 @ 4 }.
 	}

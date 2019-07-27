@@ -1,11 +1,11 @@
 toolbuilder
 createSpecWith: aBuilder
 
-	self model ifNil: [self initializeDefaultModel].
+	self model ifNil: [self installDefaultModel].
 	^ aBuilder pluggablePanelSpec new
-		children: {
-			(self specForModel: aBuilder).
-			(self specForButtonPanel: aBuilder) };
-		frame: 0 @ 0 extent: 1 @ 1;
+		model: self;
+		children: #buildCell;
+		frame: (0 @ 0 extent: 1 @ 1);
 		spacing: 0;
+		minimumExtent: self tool minimumCellExtent;
 		yourself

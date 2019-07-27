@@ -1,5 +1,5 @@
 initialize-release
 reset
 
-	knownConfigurations := Dictionary new.
+	knownConfigurations := nil.
 	self initialize.

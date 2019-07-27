@@ -1,11 +1,11 @@
 toolbuilder
 specForSteppingButton: aBuilder
 
-	| spec |
-	spec := aBuilder pluggableButtonSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: #labelForStepping;
 		action: #toggleStepping;
 		state: #steppingActivated;
-		yourself.
-	^ self makeToggleButton: spec with: aBuilder
+		help: 
+'If stepping is enabled, all getter formulas will be evaluated periodically.\If stepping is disabled, they will be only reevaluated when autoevaluation is enabled, or when your manually accept them.' withCRs;
+		yourself

@@ -1,4 +1,7 @@
 dependencies
 removeClient: aClient
+	"See class comment in SSCellFormula"
 
-	model removeClient: aClient.
+	^ (self model class canUnderstand: #addClient:)
+		ifTrue: [self model removeClient: aClient]
+		ifFalse: [self removeDependent: aClient]

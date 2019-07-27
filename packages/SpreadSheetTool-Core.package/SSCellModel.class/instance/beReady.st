@@ -1,4 +1,0 @@
-accessing
-beReady
-
-	isBusy := false.

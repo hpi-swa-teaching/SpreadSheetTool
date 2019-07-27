@@ -1,4 +1,4 @@
 accessing
 autoEvaluateActivated
 
-	^ contentModels autoEvaluateActivated
+	^ self contentSheet autoEvaluateActivated

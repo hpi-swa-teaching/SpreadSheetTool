@@ -7,6 +7,6 @@ specForCell: aCell with: aBuilder atRow: aRow atColumn: aColumn
 		with: aBuilder
 		atRow: aRow
 		atColumn: aColumn.
-	^ (self specForMorph: morph with: aBuilder)
+	^ (aBuilder specForMorph: morph)
 		frame: (self calculateFrameForItemAtRow: aRow atColumn: aColumn);
 		yourself

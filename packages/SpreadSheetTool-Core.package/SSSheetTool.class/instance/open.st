@@ -1,6 +1,8 @@
 toolbuilder
 open
 
-	| builder |
+	| builder window |
 	builder := ToolBuilder default. 
-	builder open: (self buildWith: builder).
+	window := builder open: (self buildWith: builder).
+	self postInitialize.
+	^ window

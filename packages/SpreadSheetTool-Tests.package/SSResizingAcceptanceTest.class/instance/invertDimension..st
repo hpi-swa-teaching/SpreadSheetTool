@@ -1,6 +1,6 @@
 tools
-invertDimension: aString 
+invertDimension: dimension
 	
-	('row*' match: aString) ifTrue: [^ 'columns'].
-	('column*' match: aString) ifTrue: [^ 'rows'].
-	self error: 'Invalid dimension'.
+	^ dimension caseOf: {
+		[#rows] -> [#columns].
+		[#columns] -> [#rows] }

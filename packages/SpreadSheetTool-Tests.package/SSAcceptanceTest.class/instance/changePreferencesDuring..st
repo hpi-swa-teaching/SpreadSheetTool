@@ -2,8 +2,10 @@ running
 changePreferencesDuring: aBlock
 
 	^ Preferences
-		setFlag: #openToolsAttachedToMouseCursor
-		toValue: false
-		during: [
-			self setUseInlineSyntaxErrorsTo: false during: [
-				aBlock value]].
+		setFlags:
+		{	#openToolsAttachedToMouseCursor -> false.
+			#'SSSheetTool>>useInlineSyntaxErrors' -> false	},
+				((Smalltalk hasClassNamed: #ECMenuMorph)
+					ifTrue: [{ #'ECPreferences>>smartCharacters' -> false }]
+					ifFalse: [#()])
+		during: aBlock

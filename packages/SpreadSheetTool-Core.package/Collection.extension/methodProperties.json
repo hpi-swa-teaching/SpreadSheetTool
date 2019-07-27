@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asDictionaryByValue:" : "CT 5/21/2019 12:34",
-		"groupByUniqueKey:" : "CT 5/18/2019 12:16",
+		"hasMany" : "CT 7/20/2019 20:37",
 		"hasSingle" : "CT 2/8/2019 11:55",
 		"ifEmptyOrNil:" : "CT 7/9/2019 18:21",
 		"singleOne" : "CT 5/25/2019 18:59",
-		"sortedBy:" : "CT 5/17/2019 18:58",
+		"singleOrNil" : "CT 7/20/2019 20:38",
+		"sortedBy:" : "CT 7/26/2019 22:25",
 		"storeFirst:" : "CT 7/10/2019 18:51",
 		"storeFirstAll:" : "CT 7/10/2019 18:35",
 		"storeFirstIfPresent:" : "CT 7/17/2019 09:23" } }

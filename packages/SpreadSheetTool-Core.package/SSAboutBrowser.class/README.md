@@ -1,0 +1,1 @@
+I display some documentation and background information about the SqueakSheet project. I want to express the greatness of Squeak and thus contain a System Browser as a reference of the formula protocol. I also have implemented some other hidden features which are waiting to be discovered by you!

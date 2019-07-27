@@ -5,14 +5,14 @@
 		"useInlineSyntaxErrors" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "CT 7/26/2019 19:51",
 	"instvars" : [
-		"contentModels",
-		"hasUnsavedChanges",
+		"subject",
+		"contentSheet",
 		"cellMorphs",
 		"oldCellMorphs",
-		"object",
-		"steppingActivated" ],
+		"hasUnsavedChanges",
+		"steppingWindow" ],
 	"name" : "SSSheetTool",
 	"pools" : [
 		 ],

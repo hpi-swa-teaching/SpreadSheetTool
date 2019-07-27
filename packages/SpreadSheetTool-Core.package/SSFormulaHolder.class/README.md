@@ -1,0 +1,1 @@
+I display a Smalltalk formula for a SqueakSheet, providing as much convenience as provided by the Squeak toolset.

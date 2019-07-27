@@ -1,0 +1,1 @@
+I display one header of SqueakSheet. I can generate unique default labels and I have some fancy theme.

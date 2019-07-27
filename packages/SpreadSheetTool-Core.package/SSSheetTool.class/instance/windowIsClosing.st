@@ -1,5 +1,5 @@
-interaction
+dependents
 windowIsClosing
 
-	contentModels cellsDo: [:cell | cell morphIsClosing].
+	self contentSheet cellsDo: [:cell | cell morphIsClosing].
 	^ super windowIsClosing

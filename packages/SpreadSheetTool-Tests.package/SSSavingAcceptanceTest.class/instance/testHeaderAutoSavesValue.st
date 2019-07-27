@@ -1,6 +1,6 @@
 testing-autosave
 testHeaderAutoSavesValue
-	"Test for #17"
+	"Acceptance test for #17 (Automatic cell saving)"
 
 	| header |
 	header := self findAnyHeader.
@@ -8,5 +8,5 @@ testHeaderAutoSavesValue
 		sendClearTextField;
 		sendKeys: self someContent.
 	self
-		assert: self someContent equals: header read;
-		deny: header hasUnacceptedEdits.
+		deny: header hasUnacceptedEdits;
+		assert: self someContent equals: header read.

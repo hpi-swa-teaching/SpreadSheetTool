@@ -1,0 +1,1 @@
+I test the 'distribute rows/columns' feature of a SqueakSheet.

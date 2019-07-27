@@ -1,10 +1,10 @@
 toolbuilder
 buildModel
 
-	| builder view frame |
-	builder := SSToolBuilder new.
+	| builder view |
+	builder := SSEmbeddingToolBuilder new.
 	view := self withoutObservingDo: [
-		self model perform: modelConfig builderSelector with: builder].
-	frame := LayoutFrame fractions: (0 @ 0 extent: 1 @ 1).
-	view layoutFrame: frame.
-	^ {builder build: view}
+		self model perform: self modelConfig builderSelector with: builder].
+	view layoutFrame: (LayoutFrame fractions: (0 @ 0 extent: 1 @ 1)).
+	visibleModel := self model.
+	^ { builder build: view }

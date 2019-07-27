@@ -7,9 +7,10 @@ keyStroke: evt
 	view := editView.  "Copy into temp for case of a self-mutating doit"
 	(acceptOnCR and: [evt keyCharacter = Character cr])
 		ifTrue: [^ self editor accept].
+	
+	hasUnacceptedEditsSinceKeystroke := false.
 	super keyStroke: evt.
 	view scrollSelectionIntoView.
 	
-	"Make a cheap check and guess editing. (Alternative would be to copy the old contents and then compare them against the new ones. Maybe add a better hook in the TextEditor."
-	(self readOnly not and: [evt anyModifierKeyPressed not] and: [self eventCharacterModifiesText: evt keyCharacter])
+	(self readOnly not and: hasUnacceptedEditsSinceKeystroke)
 		ifTrue: [view textEdited: self contents]

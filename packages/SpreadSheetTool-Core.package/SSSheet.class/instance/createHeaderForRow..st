@@ -1,4 +1,6 @@
 private
 createHeaderForRow: aRow
 
-	^ SSHeaderModel row: aRow parent: parent
+	^ (SSHeaderField row: aRow)
+		addDependent: self tool;
+		yourself

@@ -1,0 +1,16 @@
+{
+	"category" : "SpreadSheetTool-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CT 7/26/2019 20:13",
+	"instvars" : [
+		"browser",
+		"helpText",
+		"aboutText" ],
+	"name" : "SSAboutBrowser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 stepping
 stepTime
 
-	^ model stepTimeIn: self fakeWindow
+	^ self model stepTimeIn: self fakeWindow

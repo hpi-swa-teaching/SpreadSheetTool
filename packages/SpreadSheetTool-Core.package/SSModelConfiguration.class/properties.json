@@ -4,14 +4,15 @@
 		"knownConfigurations" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "CT 7/26/2019 19:56",
 	"instvars" : [
 		"modelClass",
 		"constructor",
 		"builderSelector",
-		"contentSetter",
 		"contentGetter",
+		"contentSetter",
 		"displaysString",
+		"isFormulaManager",
 		"understandsNil" ],
 	"name" : "SSModelConfiguration",
 	"pools" : [

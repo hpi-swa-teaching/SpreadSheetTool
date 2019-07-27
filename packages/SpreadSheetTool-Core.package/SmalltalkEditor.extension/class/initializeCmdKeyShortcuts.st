@@ -3,6 +3,7 @@ initializeCmdKeyShortcuts
 	"Initialize the (unshifted) command-key (or alt-key) shortcut table."
 	"NOTE: if you don't know what your keyboard generates, use Sensor kbdTest"
 	"SmalltalkEditor initialize"
+	"SqueakSheet: add our menu entry here (we need a better hook)"
 	| cmds |
 	super initializeCmdKeyShortcuts.
 	cmds := #($b #browseIt: $d #doIt: $h #sheetIt: $i #inspectIt: $l #cancel: $m #implementorsOfIt: $n #sendersOfIt: $o #spawnIt: $p #printIt: $q #querySymbol: $s #save: ).

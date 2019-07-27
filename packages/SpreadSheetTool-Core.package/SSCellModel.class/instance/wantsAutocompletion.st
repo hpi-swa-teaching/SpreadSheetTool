@@ -1,4 +1,0 @@
-testing
-wantsAutocompletion
-
-	^ self displaysFormula

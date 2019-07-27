@@ -1,9 +1,6 @@
 tools
 shouldntShowAutocompletion: aMorph
 
-	| completions |
-	completions := self findAutocompletionsOpenedWhile: [
-		aMorph
-			sendKeys: ' Obje';
-			wait].
-	self deny: completions isPositive.
+	| completion |
+	completion := self enticeAutocompletionFor: aMorph.
+	self deny: completion isPositive

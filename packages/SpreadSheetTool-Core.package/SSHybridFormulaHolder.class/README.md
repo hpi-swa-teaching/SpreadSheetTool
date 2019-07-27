@@ -1,0 +1,1 @@
+I can display a SqueakSheet formula like my base class, but I also accept regular strings. To decide which of these, I check whether the input has a special formula format. I use a SSHybridTextMorph to display both the entered formula and its result. I can autosave my input.

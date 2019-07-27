@@ -1,6 +1,7 @@
 testing
 testChangeModelButtonExists
+	"Acceptance test for #64 (Access object model)"
 
 	| button |
-	button := self findButtonAt: self someCellIndex byLabel: 'model'.
-	self assert: button morphs hasSingle.
+	button := self findModelButtonAt: self someCellIndex.
+	self assert: button isUnique.

@@ -1,5 +1,7 @@
 testing
 testSheetHasRowHeaders
-	"Test for #7 (Row and column header)"
+	"Acceptance test for #7 (Row and column header)"
 
-	self assertRowHeadersRegular.
+	self
+		assert: self rowCount equals: (self findHeadersFor: #rows) size;
+		assertRowHeadersOrder.

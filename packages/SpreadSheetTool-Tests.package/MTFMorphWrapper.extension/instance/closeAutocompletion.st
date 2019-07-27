@@ -1,4 +1,4 @@
 *SpreadSheetTool-Tests-interacting
 closeAutocompletion
 
-	self sendKey: Character end.
+	self sendKey: Character arrowLeft.

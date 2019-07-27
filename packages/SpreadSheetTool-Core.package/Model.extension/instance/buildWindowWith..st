@@ -1,4 +1,4 @@
-*SpreadSheetTool-Core-toolbuilder
+*SpreadSheetTool-Core-compatibility-toolbuilder
 buildWindowWith: builder
 	| windowSpec |
 	windowSpec := builder pluggableWindowSpec new.

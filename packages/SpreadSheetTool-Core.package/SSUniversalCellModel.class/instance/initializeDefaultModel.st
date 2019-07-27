@@ -1,4 +1,0 @@
-initialize-release
-initializeDefaultModel
-
-	self initializeModelForClass: SSCellModel.

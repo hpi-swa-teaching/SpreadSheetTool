@@ -1,0 +1,1 @@
+I represent a SqueakSheet SSCellFormula that is used for computing a value.

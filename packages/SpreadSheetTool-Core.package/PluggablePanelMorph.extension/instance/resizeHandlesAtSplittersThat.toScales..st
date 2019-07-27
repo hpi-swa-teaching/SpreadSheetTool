@@ -1,17 +1,18 @@
 *SpreadSheetTool-Core-resizing
-resizeHandlesAtSplittersThat: aSplitterSelector toScales: aScaleCollection
+resizeHandlesAtSplittersThat: aSplitterSelector toScales: scales
 
-	| splitters shift splitterShifts scaleIndex |
+	| splitters shift splitterShifts |
 	splitters := (self splitters select: aSplitterSelector)
 		sortedBy: [:m | m position r].
 	shift := 0.
-	scaleIndex := 0.
-	splitterShifts := splitters collect: [:splitter | | delta |
-		splitter inAnyPredecessor: [:morph | | scale |
-			scale := aScaleCollection at: (scaleIndex := scaleIndex + 1).
+	splitterShifts := splitters
+		with: scales allButLast
+		collect: [:splitter :scale | | morph delta |
+			morph := splitter anyPredecessor.
 			delta := splitter splitsLeftAndRight
 				ifTrue: [(scale - morph width) @ 0]
-				ifFalse: [0 @ (scale - morph height)]].
-		splitter -> (shift := shift + delta)].
+				ifFalse: [0 @ (scale - morph height)].
+			splitter -> (shift := shift + delta)].
 	splitterShifts do: [:splitterShift |
-		splitterShift key repositionBy: splitterShift value]
+		splitterShift key repositionBy: splitterShift value].
+	self owner fullBounds.

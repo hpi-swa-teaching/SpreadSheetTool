@@ -1,4 +1,4 @@
 accessing
 columnCount
 
-	^ contentModels columnCount
+	^ self contentSheet columnCount

@@ -1,20 +1,19 @@
 testing
 testFormulaReevaluation
-	"Test for #25"
+	"Acceptance test for #25 (Simple formulas)"
 
 	| cell sideEffect |
 	cell := self findAnyCell.
 	sideEffect := 1.
-	
 	cell
 		sendKeys: self someFormula;
 		sendControlSave.
-		
 	self class sideEffect: sideEffect.
 	
 	cell
-		keyboardFocusChange: true;
+		click;
 		sendControlSave;
-		keyboardFocusChange: false.
-	
-	self assert: (self someFormulaResult asInteger + sideEffect) asString equals: cell read.
+		releaseFocus.
+	self
+		assert: (self someFormulaResult asInteger + sideEffect) asString
+		equals: cell read.

@@ -5,9 +5,9 @@ testFormulaCellAcceptsPrintItWithCrossReferencingFormula
 	| cellIndex cell |
 	cellIndex := self someCellIndex.
 	cell := self findCellAt: cellIndex.
-	
 	cell
-		sendKeys:  '^self rowHeader';
+		sendKeys:  '^cell rowHeader';
 		sendControl: $p.
-	
-	self assert: cellIndex y asString printString equals: cell selectedString allButFirst.
+	self
+		assert: cellIndex y asString printString
+		equals: cell selectedString allButFirst.

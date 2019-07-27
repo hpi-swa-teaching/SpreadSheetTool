@@ -1,6 +1,6 @@
 testing
 testIsRegisteredInWorldMenu
-	"Test for #13 (Button to open a SqueakSheet)"
+	"Acceptance test for #13 (Button to open a SqueakSheet)"
 
 	| menuEntry |
 	menuEntry := (TheWorldMenu registry

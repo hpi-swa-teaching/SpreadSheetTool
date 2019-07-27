@@ -1,4 +1,0 @@
-copying
-postDeepCopy
-
-	morph := nil.

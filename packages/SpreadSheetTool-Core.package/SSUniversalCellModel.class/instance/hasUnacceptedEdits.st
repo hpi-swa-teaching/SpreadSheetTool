@@ -1,4 +1,6 @@
 forwarding
 hasUnacceptedEdits
 
-	^ self withoutObservingDo: [self model hasUnacceptedEdits]
+	^ self withoutObservingDo: [
+		{self model. self getterModel. self setterModel}
+			anySatisfy: #hasUnacceptedEdits]
