@@ -1,16 +1,21 @@
 toolbuilder
 miniFormat: aString
 
-	| formattedLines textLines styler |
+	| formattedLines styledLines styler |
 	styler := SHTextStylerST80 new
-		ssContext: (SSCellSetterFormula new context);
+		ssContext: SSCellSetterFormula new context;
 		yourself.
-	textLines := aString lines collect: [:line | ((line splitOn: '`') withIndexCollect: [:segment :index |
-		| text |
-		text := segment asText.
-		index even ifTrue: [styler privateStyle: text].
-		text]) ifNotEmpty: [:t | t reduce: #,] ifEmpty: ['']].
-	formattedLines := textLines collect: [:text |
+	styledLines := aString lines collect: [:line |
+		| segments |
+		segments := (line splitOn: '`') withIndexCollect: [:segment :index |
+			| text |
+			text := segment asText.
+			index even ifTrue: [styler privateStyle: text].
+			text].
+		segments
+			ifNotEmpty: [:t | t reduce: #,]
+			ifEmpty: ['']].
+	formattedLines := styledLines collect: [:text |
 		(text at: 1 ifAbsent: [nil])
 			caseOf: {
 				[$#] -> [text allButFirst allBold].
