@@ -21,6 +21,6 @@ addDefaultConfigurations
 			contentSetter: #object:);
 		addKnownConfiguration: ((self newFor: ObjectExplorer)
 			constructor: #new;
-			builderSelector: #buildWith:;
-			contentGetter: #object;
-			contentSetter: #rootObject:).
+			builderSelector: #buildWith;
+			contentGetter: #selectedObject;
+			contentSetter: #object:).
