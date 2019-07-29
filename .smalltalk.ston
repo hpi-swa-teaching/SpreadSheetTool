@@ -6,5 +6,11 @@ SmalltalkCISpec {
       #directory : 'packages',
       #load : [ 'tests' ]
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #packages : [ 'SpreadSheetTool*' ],
+      #categories : [ '*SpreadSheetTool-*' ]
+    }
+  }
 }
