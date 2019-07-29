@@ -20,7 +20,7 @@ You can start the tool via TheWorldMainDockingBar. To inspect an object, select 
 
 ## Contributing
 
-Any contribution to SqueakSheet is highly welcome! If you would like to join the regular development of this project, please don’t hesitate to contact us – we will be happy to give you an overview about the current state and design thoughts of the project (see [Credits](#Credits)).
+Any contribution to SqueakSheet is highly welcome! Please feel free to fork and pull-request, and create issues. If you would like to join the regular development of this project, please don’t hesitate to contact us – we will be happy to give you an overview about the current state and design thoughts of the project (contact: Christoph Thiede, see [Credits](#Credits). If you're at HPI, just send me an email via OWA).
 
 ## Impressions
 ### Inspecting a morph
@@ -41,7 +41,5 @@ The development process was started in context of the Software Engineering cours
 - [Christoph Thiede](https://github.com/LinqLover)
 
 Also thank [Leon Matthes](https://github.com/MrModder) for his diligent support!
-
-If you would like to join our project, please feel free to fork and pull-request, and create issues. We're always happy about any requests!
 
 Carpe Squeak!
