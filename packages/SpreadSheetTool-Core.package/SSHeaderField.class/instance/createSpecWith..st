@@ -6,7 +6,6 @@ createSpecWith: aBuilder
 		getText: #contents;
 		setText: #contents:;
 		editText: #contents:;
-		selection: #contentsSelection; 
 		menu: #codePaneMenu:shifted:;
 		color: #backgroundColor;
 		textColor: #foregroundColor;
