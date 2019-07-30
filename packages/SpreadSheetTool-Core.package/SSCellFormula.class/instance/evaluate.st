@@ -8,4 +8,4 @@ evaluate
 		ifTrue: [self evaluateFormula]
 		ifFalse: [self input].
 	self changed: #server with: self]
-		onInterruptEnsure: [output := oldOutput].
+		ifCurtailed: [output := oldOutput].
