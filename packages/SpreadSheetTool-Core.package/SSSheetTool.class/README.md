@@ -4,7 +4,7 @@ First, initialize the package using
 	SSSheetTool initialize.
 
 Open an instance of me using TheWorldMainDockingBar, or evaluate one of these:
-	SSSheetTool open.
+	SSSheetTool openDefault.
 	SSSheetTool openOn: anObject.
 	anObject sheet.
 You can also activate me using the context menu of any code and choosing 'sheet it'. Or open the debugging menu of a halo and select 'Inspect with SqueakSheet'.
