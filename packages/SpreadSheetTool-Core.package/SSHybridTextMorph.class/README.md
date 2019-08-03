@@ -1,1 +1,1 @@
-I am a pluggable text morph which is manages two strings, one for input and one for output. When I get the keyboard focus, I display the input text, when I loose the focus and do not have unaccepted edits, I display the output text.
+I am a pluggable text morph which manages two strings, one for input and one for output. When I get the keyboard focus, I display the input text, when I loose the focus and do not have unaccepted edits, I display the output text.
