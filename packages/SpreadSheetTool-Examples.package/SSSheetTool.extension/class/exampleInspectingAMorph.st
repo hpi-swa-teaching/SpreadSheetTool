@@ -1,4 +1,4 @@
-examples
+*SpreadSheetTool-Examples
 exampleInspectingAMorph
 	"SSSheetTool exampleInspectingAMorph"
 

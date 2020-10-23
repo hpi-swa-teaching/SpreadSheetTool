@@ -1,4 +1,4 @@
-examples
+*SpreadSheetTool-Examples
 exampleBinaryClock
 	"SSSheetTool exampleBinaryClock open"
 

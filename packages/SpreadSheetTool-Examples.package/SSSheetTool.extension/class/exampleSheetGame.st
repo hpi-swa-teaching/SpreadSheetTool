@@ -1,4 +1,4 @@
-examples
+*SpreadSheetTool-Examples
 exampleSheetGame
 	"SSSheetTool exampleSheetGame"
 
