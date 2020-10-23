@@ -6,5 +6,11 @@ os:
   - osx
 
 smalltalk:
+  - Squeak-Trunk
+  - Squeak-5.3
   - Squeak-5.2
   - Squeak-5.1
+
+notifications:
+  email:
+    if: type = cron
