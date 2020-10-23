@@ -5,4 +5,4 @@ should: aBlock raise: anExceptionalEvent that: aSelectorBlock
 		should: aBlock
 		raise: anExceptionalEvent
 		that: aSelectorBlock
-		butHandle: [:e]
+		butHandle: [:e |]
