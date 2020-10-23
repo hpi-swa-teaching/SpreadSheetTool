@@ -11,7 +11,7 @@ baseline: spec
 				package: 'SpreadSheetTool-Tests' with: [spec requires: #('SpreadSheetTool-Core' 'Project12')];
 				package: 'SpreadSheetTool-Examples'.
 			spec
-				group: 'default' with: #('SpreadSheetTool-Core');
+				group: 'default' with: #('SpreadSheetTool-Core' 'SpreadSheetTool-Examples');
 				group: 'tests' with: #('SpreadSheetTool-Tests')].
 	spec
 		postLoadDoIt: #postLoad.
