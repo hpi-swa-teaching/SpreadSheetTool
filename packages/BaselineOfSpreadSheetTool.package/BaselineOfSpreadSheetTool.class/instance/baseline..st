@@ -9,7 +9,7 @@ baseline: spec
 			spec
 				package: 'SpreadSheetTool-Core';
 				package: 'SpreadSheetTool-Tests' with: [
-					spec requires: #default];
+					spec requires: #(default 'MorphicTestingFramework')];
 				package: 'SpreadSheetTool-Examples'.
 			spec
 				group: 'default' with: #('SpreadSheetTool-Core' 'SpreadSheetTool-Examples');
