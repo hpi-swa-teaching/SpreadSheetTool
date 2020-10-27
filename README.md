@@ -22,6 +22,18 @@ You can start the tool via TheWorldMainDockingBar. To inspect an object, select 
 
 Any contribution to SqueakSheet is highly welcome! Please feel free to fork and pull-request, and create issues. If you would like to join the regular development of this project, please don’t hesitate to contact us – we will be happy to give you an overview about the current state and design thoughts of the project (contact: Christoph Thiede, see [Credits](#Credits). If you're at HPI, just send me an email via OWA).
 
+Source code is organized using [Squot](https://github.com/hpi-swa/Squot/). To submit a PR, this would be your usual workflow:
+
+1. In the Git Browser, clone the repository using Squot and check out the latest master
+2. On GitHub, fork the repository
+3. In the Git Browser, add your fork as new remote to the repository (yellow button menu on the repository > "Add remote")
+4. Create a new local branch (e.g. `feat-awesome`) based on `origin/master`
+5. Commit your awesome changes!
+6. Push the new branch to your fork
+7. On GitHub, create a pull request from `fork/feat-awesome` against `origin/master`
+
+For information how to use Squot, please read their [usage instructions](https://github.com/hpi-swa/Squot/#usage-instructions) or create an issue.
+
 ## Impressions
 ### Inspecting a morph
 
